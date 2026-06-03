@@ -117,10 +117,11 @@ class SnapshotTests(unittest.TestCase):
             self.assertIn("site-map.html", names)
             self.assertIn("rendered-mirror/index.html", names)
             self.assertIn("rendered-mirror/_site-map.html", names)
-            self.assertIn("rendered-mirror/missing/index.html", names)
+            placeholder_names = [name for name in names if name.startswith("rendered-mirror/_not-captured/")]
+            self.assertEqual(len(placeholder_names), 1)
             rendered_index = archive.read("rendered-mirror/index.html").decode("utf-8")
         self.assertIn('href="about-us/index.html"', rendered_index)
-        self.assertIn('href="missing/index.html"', rendered_index)
+        self.assertIn('href="_not-captured/', rendered_index)
         self.assertIn('href="https://external.example/"', rendered_index)
         archives = json.loads((snapshot_dir / "manifest" / "snapshot-archives.json").read_text(encoding="utf-8"))
         self.assertEqual(archives["complete_snapshot_zip"], full_zip.name)

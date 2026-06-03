@@ -1,3 +1,4 @@
+import hashlib
 import html
 import json
 import re
@@ -81,6 +82,11 @@ def not_captured_page(url: str, sitemap_link: str) -> str:
     )
 
 
+def not_captured_page_path(mirror_root: Path, url: str) -> Path:
+    digest = hashlib.sha256(url.encode("utf-8")).hexdigest()[:16]
+    return mirror_root / "_not-captured" / f"{digest}.html"
+
+
 def rewrite_anchor_links_for_offline(
     text: str,
     current_path: Path,
@@ -103,6 +109,7 @@ def rewrite_anchor_links_for_offline(
             return match.group(0)
         target_path = local_page_path(mirror_root, absolute)
         if not target_path.exists():
+            target_path = not_captured_page_path(mirror_root, absolute)
             placeholders.setdefault(target_path, absolute)
         return f"{prefix}{quote_char}{relative_link(current_path, target_path)}{quote_char}"
 
