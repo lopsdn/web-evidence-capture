@@ -9,8 +9,7 @@ The standard capture process is staged:
 5. Render selected pages to screenshots and PDFs.
 6. Inspect privacy behavior through summary-only browser network and cookie metadata.
 7. Optionally export SingleFile HTML when the CLI is available.
-8. Package WARC into WACZ and validate it.
+8. Generate an explicit WACZ page index from captured pages, package WARC into WACZ, and validate it.
 9. Generate hashes, validation evidence, and human-readable reports.
 
 The methodology forbids authentication, account creation, and form submission.
-

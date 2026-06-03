@@ -52,6 +52,24 @@ class ValidationTests(unittest.TestCase):
             self.assertNotIn("mirror_body_empty_or_too_short", result["failures"])
             self.assertEqual(result["checks"]["mirror_meaningful_body_source"], "rendered")
 
+    def test_incomplete_wacz_page_index_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.make_run(root)
+            write_json(
+                root / "manifest" / "wacz-result.json",
+                {
+                    "wacz_path": "artifacts/wacz/example.wacz",
+                    "validate_exit_code": 0,
+                    "pages_detected": 1,
+                    "pages_input_count": 2,
+                    "invalid_passed_pages_count": 0,
+                },
+            )
+            config = config_from_dict({"target_url": "https://example.org/", "case_slug": "example"})
+            result = validate_run(config, root)
+            self.assertIn("wacz_page_index_incomplete", result["failures"])
+
 
 if __name__ == "__main__":
     unittest.main()

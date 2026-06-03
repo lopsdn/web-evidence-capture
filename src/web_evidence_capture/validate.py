@@ -58,6 +58,8 @@ def validate_run(config: CaptureConfig, run_dir: Path, write_hash_manifest: bool
         "wacz_exists": wacz_path.exists() if wacz.get("wacz_path") else False,
         "wacz_validate_exit_code": wacz.get("validate_exit_code"),
         "wacz_pages_detected": wacz.get("pages_detected"),
+        "wacz_pages_input_count": wacz.get("pages_input_count"),
+        "wacz_invalid_passed_pages_count": wacz.get("invalid_passed_pages_count"),
         "screenshots_count": len(screenshots),
         "pdf_count": len(pdfs),
         "render_result_count": len(render),
@@ -81,6 +83,13 @@ def validate_run(config: CaptureConfig, run_dir: Path, write_hash_manifest: bool
         failures.append("wacz_missing")
     if checks["wacz_validate_exit_code"] not in (0, None):
         failures.append("wacz_validation_failed")
+    if checks["wacz_pages_input_count"] and checks["wacz_pages_detected"] is None:
+        failures.append("wacz_page_index_missing")
+    if checks["wacz_pages_input_count"] and checks["wacz_pages_detected"] is not None:
+        if checks["wacz_pages_detected"] < checks["wacz_pages_input_count"]:
+            failures.append("wacz_page_index_incomplete")
+    if checks["wacz_invalid_passed_pages_count"]:
+        failures.append("wacz_pages_unmatched_to_warc")
     if checks["wacz_pages_detected"] == 0:
         if config.wacz_zero_pages_policy == "fail":
             failures.append("wacz_zero_pages_detected")

@@ -258,7 +258,7 @@ def write_snapshot_readmes(config: CaptureConfig, run_dir: Path, context: Dict[s
         "pdf": ("PDFs", "PDF renderings from the browser renderer. Forensic value: provides printable visual records for selected pages."),
         "singlefile": ("SingleFile Exports", "Self-contained HTML exports when the SingleFile CLI succeeds. Forensic value: provides an additional replay/review format independent from the mirror."),
         "warc": ("WARC", "Compressed WARC created from public HTTP responses. Forensic value: preserves HTTP response payloads and headers in a standard web-archive format."),
-        "wacz": ("WACZ", "WACZ package built from WARC output. Forensic value: provides a packaged web-archive format suitable for replay tooling when page indexing succeeds."),
+        "wacz": ("WACZ", "WACZ package built from WARC output with an explicit page index derived from captured pages. Forensic value: provides a packaged web-archive format suitable for replay tooling when index validation succeeds."),
         "privacy": ("Browser Network And Cookie Evidence", "Browser-observed cookies, storage state, network events, headers, query values, console events, and page errors. Forensic value: records client-side behavior observed during public browsing from the runner."),
         "downloads": ("Downloads", "Public downloaded files discovered during capture, when any exist. Forensic value: preserves linked public documents or assets separately from page HTML."),
     }

@@ -5,8 +5,7 @@ This tool cannot prove that a website has no other public content. It captures t
 Known limitations:
 
 - Dynamic applications can render differently across browser sessions.
-- WACZ validation can pass even when page index detection is incomplete; this is reported separately.
+- WACZ validation can pass even when page index completeness is incomplete; the tool generates an explicit WACZ page index and reports indexed page count separately.
 - Static mirrors are review aids, not replacements for WARC/WACZ.
 - Browser screenshots and PDFs depend on viewport, browser version, fonts, and network timing.
 - Privacy summaries avoid raw values by default and may omit details that require specialized forensic tooling.
-
