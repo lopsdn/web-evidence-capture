@@ -1,0 +1,96 @@
+import json
+import os
+import tempfile
+import unittest
+import zipfile
+from pathlib import Path
+
+from web_evidence_capture.config import config_from_dict, ensure_run_dirs
+from web_evidence_capture.snapshot import publish_snapshot
+
+
+class SnapshotTests(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.previous_cwd = Path.cwd()
+        os.chdir(self.tmp.name)
+        self.config = config_from_dict(
+            {
+                "target_url": "https://www.example.org/",
+                "case_slug": "example-org",
+                "allowed_domains": ["www.example.org"],
+                "max_pages": 3,
+            }
+        )
+        self.run_dir = Path("cases/example-org/runs/2026-01-01-1200")
+        ensure_run_dirs(self.run_dir)
+        (self.run_dir / "manifest" / "package-metadata.json").write_text(
+            json.dumps({"target_url": self.config.target_url, "case_slug": self.config.case_slug}),
+            encoding="utf-8",
+        )
+        (self.run_dir / "logs" / "capture.jsonl").write_text('{"message":"captured"}\n', encoding="utf-8")
+
+    def tearDown(self):
+        os.chdir(self.previous_cwd)
+        self.tmp.cleanup()
+
+    def test_partial_snapshot_writes_status_and_hashes(self):
+        result = publish_snapshot(self.config, self.run_dir, "capture")
+        snapshot_dir = Path(result["snapshot_dir"])
+        self.assertTrue((snapshot_dir / "SNAPSHOT-STATUS.md").exists())
+        status = json.loads((snapshot_dir / "manifest" / "snapshot-status.json").read_text(encoding="utf-8"))
+        self.assertFalse(status["final"])
+        self.assertEqual(status["stage"], "capture")
+        self.assertIn("inventory", status["completed_stages"])
+        self.assertFalse((snapshot_dir / "www.example.org-2026-01-01-1200.zip").exists())
+        manifest = json.loads((snapshot_dir / "manifest" / "file-manifest.json").read_text(encoding="utf-8"))
+        paths = {row["path"] for row in manifest}
+        self.assertNotIn("manifest/file-manifest.json", paths)
+        self.assertNotIn("hashes/files.sha256", paths)
+        self.assertEqual((snapshot_dir.parent / "latest.txt").read_text(encoding="utf-8"), "2026-01-01-1200\n")
+
+    def test_final_snapshot_creates_archives(self):
+        mirror = self.run_dir / "artifacts" / "mirror"
+        rendered = self.run_dir / "artifacts" / "rendered-mirror"
+        singlefile = self.run_dir / "artifacts" / "singlefile"
+        mirror.mkdir(parents=True)
+        rendered.mkdir(parents=True)
+        singlefile.mkdir(parents=True)
+        (mirror / "index.html").write_text("<h1>Static</h1>", encoding="utf-8")
+        (rendered / "index.html").write_text("<h1>Rendered</h1>", encoding="utf-8")
+        (singlefile / "001.singlefile.html").write_text("<h1>SingleFile</h1>", encoding="utf-8")
+        (self.run_dir / "manifest" / "singlefile-result.json").write_text(
+            json.dumps(
+                [
+                    {
+                        "exists": True,
+                        "output": str(self.run_dir / "artifacts" / "singlefile" / "001.singlefile.html"),
+                        "url": self.config.target_url,
+                    }
+                ]
+            ),
+            encoding="utf-8",
+        )
+        result = publish_snapshot(self.config, self.run_dir, "final", final=True)
+        snapshot_dir = Path(result["snapshot_dir"])
+        full_zip = snapshot_dir / "www.example.org-2026-01-01-1200.zip"
+        website_zip = snapshot_dir / "www.example.org-2026-01-01-1200-website-html.zip"
+        self.assertTrue(full_zip.exists())
+        self.assertTrue(website_zip.exists())
+        with zipfile.ZipFile(full_zip) as archive:
+            full_names = set(archive.namelist())
+        self.assertIn("hashes/files.sha256", full_names)
+        self.assertIn("manifest/file-manifest.json", full_names)
+        self.assertIn(website_zip.name, full_names)
+        with zipfile.ZipFile(website_zip) as archive:
+            names = set(archive.namelist())
+        self.assertIn("README.md", names)
+        self.assertIn("open-rendered-mirror.html", names)
+        self.assertIn("rendered-mirror/index.html", names)
+        archives = json.loads((snapshot_dir / "manifest" / "snapshot-archives.json").read_text(encoding="utf-8"))
+        self.assertEqual(archives["complete_snapshot_zip"], full_zip.name)
+        self.assertEqual(archives["website_html_zip"], website_zip.name)
+
+
+if __name__ == "__main__":
+    unittest.main()

@@ -8,7 +8,7 @@ GitHub Actions captures are durable by design: the workflow uploads a private ar
 snapshots/<site>/<YYYY-MM-DD-HHMM>/
 ```
 
-The committed snapshot is intended to remain available after the GitHub Actions run and its native logs expire.
+The committed snapshot is intended to remain available after the GitHub Actions run and its native logs expire. The workflow commits the same snapshot path progressively after each major job, so a reviewer can inspect partial output before the final job completes.
 
 Each snapshot should include:
 
@@ -21,6 +21,6 @@ Each snapshot should include:
 - GitHub Actions run/job metadata and workflow logs when GitHub exposes them during the final job.
 - Raw public-runner browser observations such as cookies, storage state, request/response headers, query values, request bodies, console events, and page errors.
 
-For ordinary review, open `START-HERE.md` first, then `report/report.md`. To navigate preserved HTML locally, download `<site>-<run>-website-html.zip`, unzip it, and open `open-rendered-mirror.html`. If the rendered mirror is unavailable or not useful, open `open-static-mirror.html`. For self-contained individual page exports, open `singlefile-index.html` when available.
+For ordinary review, open `SNAPSHOT-STATUS.md` first if the workflow is still running. Then open `START-HERE.md` and `report/report.md` when they exist. To navigate preserved HTML locally after the final job, download `<site>-<run>-website-html.zip`, unzip it, and open `open-rendered-mirror.html`. If the rendered mirror is unavailable or not useful, open `open-static-mirror.html`. For self-contained individual page exports, open `singlefile-index.html` when available.
 
 Future versions may add explicit redacted publication modes, but they are intentionally not included in v1.

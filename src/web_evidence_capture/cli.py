@@ -12,6 +12,7 @@ from .privacy import run_privacy
 from .report import generate_report
 from .render import run_render
 from .singlefile import run_singlefile
+from .snapshot import publish_snapshot
 from .validate import validate_run
 from .wacz import run_wacz
 
@@ -123,6 +124,13 @@ def command_report(args: argparse.Namespace) -> None:
     print(json.dumps(result, sort_keys=True))
 
 
+def command_snapshot(args: argparse.Namespace) -> None:
+    config = resolve_config(args)
+    run_dir = resolve_run_dir(args, config)
+    result = publish_snapshot(config, run_dir, args.stage, final=args.final)
+    print(json.dumps(result, sort_keys=True))
+
+
 def command_run(args: argparse.Namespace) -> None:
     config = resolve_config(args)
     run_dir = resolve_run_dir(args, config, create=True)
@@ -151,11 +159,15 @@ def build_parser() -> argparse.ArgumentParser:
         "hash": command_hash,
         "validate": command_validate,
         "report": command_report,
+        "snapshot": command_snapshot,
         "run": command_run,
     }
     for name, handler in commands.items():
         sub = subparsers.add_parser(name)
         add_common(sub)
+        if name == "snapshot":
+            sub.add_argument("--stage", required=True)
+            sub.add_argument("--final", action="store_true")
         sub.set_defaults(handler=handler)
     return parser
 
@@ -168,4 +180,3 @@ def main(argv: Optional[list] = None) -> None:
 
 if __name__ == "__main__":
     main()
-

@@ -13,6 +13,8 @@ When the workflow captures a website, it does so from a GitHub-hosted runner. Re
 
 Workflow logs are structured and should not expose repository secrets or GitHub token values. Target-site cookies, public-runner browser storage, request/response headers, query values, and request bodies may be captured as evidence because they describe the public browsing session created by the workflow.
 
+After each major job, the workflow commits the current snapshot state under `snapshots/<site>/<run>/`. Open `SNAPSHOT-STATUS.md` to see which stage has completed. This progressive commit model is intended for live review during long captures.
+
 The workflow persists GitHub Actions run/job metadata and text logs into the snapshot under:
 
 ```text

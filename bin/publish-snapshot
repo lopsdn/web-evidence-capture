@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+if [[ $# -lt 2 ]]; then
+  echo "usage: bin/publish-snapshot <stage> <run-dir> [--final]" >&2
+  exit 2
+fi
+
+STAGE="$1"
+RUN_DIR="$2"
+FINAL_OPTION="${3:-}"
+
+SNAPSHOT_ARGS=(snapshot --config capture-config.json --run-dir "$RUN_DIR" --stage "$STAGE")
+if [[ "$FINAL_OPTION" == "--final" ]]; then
+  SNAPSHOT_ARGS+=(--final)
+elif [[ -n "$FINAL_OPTION" ]]; then
+  echo "unknown option: $FINAL_OPTION" >&2
+  exit 2
+fi
+
+web-evidence "${SNAPSHOT_ARGS[@]}"
+
+git config user.name "github-actions[bot]"
+git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+git add -f snapshots
+if git diff --cached --quiet; then
+  echo "No snapshot changes to commit."
+  exit 0
+fi
+
+git commit -m "Update snapshot after ${STAGE}: ${RUN_DIR}"
+git pull --rebase origin main
+git push origin HEAD:main
