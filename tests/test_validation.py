@@ -70,6 +70,22 @@ class ValidationTests(unittest.TestCase):
             result = validate_run(config, root)
             self.assertIn("wacz_page_index_incomplete", result["failures"])
 
+    def test_private_sensitive_patterns_are_recorded_without_failure(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.make_run(root)
+            privacy_dir = root / "artifacts" / "privacy"
+            privacy_dir.mkdir(parents=True, exist_ok=True)
+            (privacy_dir / "network-events.jsonl").write_text(
+                "Authorization: Bearer " + ("A" * 24),
+                encoding="utf-8",
+            )
+            config = config_from_dict({"target_url": "https://example.org/", "case_slug": "example"})
+            result = validate_run(config, root)
+            self.assertNotIn("sensitive_patterns_detected", result["failures"])
+            self.assertIn("private_sensitive_patterns_recorded", result["warnings"])
+            self.assertEqual(result["status"], "completed_with_warnings")
+
 
 if __name__ == "__main__":
     unittest.main()

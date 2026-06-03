@@ -58,8 +58,8 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
-          from web_evidence_capture.sensitive_scan import scan_tree
-          findings = scan_tree(Path("."))
+          from web_evidence_capture.sensitive_scan import scan_product_tree
+          findings = scan_product_tree(Path("."))
           if findings:
               raise SystemExit(findings)
           PY

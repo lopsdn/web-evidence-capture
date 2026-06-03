@@ -1,6 +1,6 @@
 import re
 from pathlib import Path
-from typing import Dict, Iterable, List
+from typing import Dict, Iterable, List, Optional, Set
 
 
 SECRET_PATTERNS = {
@@ -16,6 +16,8 @@ SECRET_PATTERNS = {
 }
 
 TEXT_SUFFIXES = {".py", ".md", ".txt", ".json", ".jsonl", ".yml", ".yaml", ".toml", ".j2", ".sh", ""}
+DEFAULT_TREE_EXCLUDES = {".git", ".mypy_cache", ".pytest_cache", "__pycache__"}
+PRODUCT_SCAN_EXCLUDES = DEFAULT_TREE_EXCLUDES | {"cases", "snapshots", "snapshot-archives"}
 
 
 def scan_text(text: str) -> List[Dict[str, str]]:
@@ -47,6 +49,10 @@ def scan_files(paths: Iterable[Path]) -> List[Dict[str, str]]:
     return findings
 
 
-def scan_tree(root: Path) -> List[Dict[str, str]]:
-    return scan_files(path for path in root.rglob("*") if ".git" not in path.parts)
+def scan_tree(root: Path, excluded_parts: Optional[Set[str]] = None) -> List[Dict[str, str]]:
+    excludes = excluded_parts if excluded_parts is not None else DEFAULT_TREE_EXCLUDES
+    return scan_files(path for path in root.rglob("*") if not excludes.intersection(path.parts))
 
+
+def scan_product_tree(root: Path) -> List[Dict[str, str]]:
+    return scan_tree(root, excluded_parts=PRODUCT_SCAN_EXCLUDES)

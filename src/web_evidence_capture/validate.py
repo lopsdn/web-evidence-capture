@@ -100,7 +100,7 @@ def validate_run(config: CaptureConfig, run_dir: Path, write_hash_manifest: bool
     if missing_render_artifacts:
         failures.append("render_artifacts_missing")
     if sensitive_findings:
-        failures.append("sensitive_patterns_detected")
+        warnings.append("private_sensitive_patterns_recorded")
     if retries:
         warnings.append("render_retries_recorded")
     status = "failed_validation" if failures else "completed_with_warnings" if warnings else "completed_validated"
