@@ -30,3 +30,7 @@ network-requests.jsonl
 cookies-*.json
 storage-*.json
 
+# Remote workflow snapshots are intentionally committed in this private
+# repository for per-site, per-run review.
+!snapshots/
+!snapshots/**

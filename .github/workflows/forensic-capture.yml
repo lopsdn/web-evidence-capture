@@ -30,7 +30,7 @@ on:
           - deny
 
 permissions:
-  contents: read
+  contents: write
   actions: read
 
 env:
@@ -323,6 +323,9 @@ jobs:
     needs: [scope, generate_report]
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - uses: actions/download-artifact@v8
         with:
           name: case-state
@@ -336,4 +339,42 @@ jobs:
           path: cases/
           retention-days: 30
           include-hidden-files: true
+      - name: Commit snapshot to repository
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import re
+          import shutil
+          from pathlib import Path
+          from urllib.parse import urlparse
 
+          run_dir = Path(os.environ["RUN_DIR"])
+          metadata_path = run_dir / "manifest" / "package-metadata.json"
+          metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+          target_url = metadata["target_url"]
+          host = urlparse(target_url).netloc.lower() or metadata["case_slug"]
+          site = re.sub(r"[^a-z0-9.-]+", "-", host).strip("-") or metadata["case_slug"]
+          run_stamp = run_dir.name
+          snapshot_dir = Path("snapshots") / site / run_stamp
+          snapshot_dir.parent.mkdir(parents=True, exist_ok=True)
+          if snapshot_dir.exists():
+              shutil.rmtree(snapshot_dir)
+          shutil.copytree(run_dir, snapshot_dir)
+          pointer = snapshot_dir.parent / "latest.txt"
+          pointer.write_text(f"{run_stamp}\n", encoding="utf-8")
+          print(f"snapshot_dir={snapshot_dir}")
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f snapshots
+          if git diff --cached --quiet; then
+            echo "No snapshot changes to commit."
+            exit 0
+          fi
+          git commit -m "Add snapshot for ${{ inputs.case_slug }} ${{ needs.scope.outputs.run_dir }}"
+          git pull --rebase origin main
+          git push origin HEAD:main
+        env:
+          RUN_DIR: ${{ needs.scope.outputs.run_dir }}
