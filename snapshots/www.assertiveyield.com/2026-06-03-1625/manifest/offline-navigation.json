@@ -1,0 +1,14 @@
+{
+  "mirrors": {
+    "mirror": {
+      "captured_pages_listed": 124,
+      "placeholder_pages_created": 0,
+      "site_map": "artifacts/mirror/_site-map.html"
+    },
+    "rendered-mirror": {
+      "captured_pages_listed": 124,
+      "placeholder_pages_created": 31,
+      "site_map": "artifacts/rendered-mirror/_site-map.html"
+    }
+  }
+}

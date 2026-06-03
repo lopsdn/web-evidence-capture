@@ -1,23 +1,23 @@
 [
   {
     "path": "ARCHIVES.md",
-    "sha256": "b14f11fce7c03c3e35b2a8aa1d3fb8547ef98db5ca7ad8aa8252d6d02d9e9101",
+    "sha256": "18bfb8bcc0176cbb814c5d0f654accb260b7c3be2b032c549bc71bea4dad672d",
     "size_bytes": 1088
   },
   {
     "path": "README.md",
-    "sha256": "c87f63389546554cc2311da1bd38a526a6e0b9b4720886049dd365a77d9a2b79",
+    "sha256": "34140c14a237e69791782009ea898078c95e480fe56d01bce6521e1bebad2243",
     "size_bytes": 1224
   },
   {
     "path": "SNAPSHOT-STATUS.md",
-    "sha256": "c5d18bca166190fbbc546944cccc084fefe865d0b339be238d723f37913fcbd1",
+    "sha256": "22d944fa071b18a392aa7cf7d365d0b0a7d58c0455191fda19fb69f5bf46098d",
     "size_bytes": 625
   },
   {
     "path": "START-HERE.md",
-    "sha256": "39be7baa9dcde01d05bbc2e1e56694341b0f1a72c371f4568123b75a868fba0f",
-    "size_bytes": 1986
+    "sha256": "8e36e21b6de72d8635dcedcc576654f38b9bb921aff2e79026a601a3fa56f7d8",
+    "size_bytes": 2171
   },
   {
     "path": "artifacts/README.md",
@@ -53,6 +53,11 @@
     "path": "artifacts/mirror/README.md",
     "sha256": "cd5e17473eeb3e73b752d62ae6443945f52e43be812cda9cd498df383dbff397",
     "size_bytes": 187
+  },
+  {
+    "path": "artifacts/mirror/_site-map.html",
+    "sha256": "e83086a3c9d1818e9e6d661ce8972db5fa21c02e3aea8a6998a16ed18d253a18",
+    "size_bytes": 25582
   },
   {
     "path": "artifacts/mirror/about-us/index.html",
@@ -1365,624 +1370,784 @@
     "size_bytes": 182
   },
   {
+    "path": "artifacts/rendered-mirror/_site-map.html",
+    "sha256": "da8cd8e9c242a2683f1e881d9659384ea65d0c38b85c027145c909530561448e",
+    "size_bytes": 25587
+  },
+  {
     "path": "artifacts/rendered-mirror/about-us/index.html",
-    "sha256": "ce96da149758aed86ed2e527ab25f04ab1cfc99140d21686d002321584a7ca80",
-    "size_bytes": 743355
+    "sha256": "79ad8f86c24e29a6ccb0daa4d85f9f707eac0c8f55b317f3c2a2f26a970b673e",
+    "size_bytes": 743637
   },
   {
     "path": "artifacts/rendered-mirror/ailayouts/index.html",
-    "sha256": "09b045d5af161a74cb66a50c123e6c97f462212d1f706109fb6b752036cc70f5",
-    "size_bytes": 617586
+    "sha256": "92da7792b11a6e3a5f3d6a46ac92ae99feb0a5d65f9231115ad3af33f4dcd8ae",
+    "size_bytes": 617753
   },
   {
     "path": "artifacts/rendered-mirror/all-revenue-source/index.html",
-    "sha256": "700e4d072bcd667783c2db7cda59d0aa1e65cff851789fd9893b39a1c562d07a",
-    "size_bytes": 884997
+    "sha256": "abf9039f49cdd335d70f1244fbc53620b9f85ecde3d425f66873f80d5a75d83c",
+    "size_bytes": 885934
+  },
+  {
+    "path": "artifacts/rendered-mirror/apply/backend-engineer-golang/index.html",
+    "sha256": "fd8e9953dfceae2be1f3c712a2fe1caf80449d4d920affba7eec7bed809a690f",
+    "size_bytes": 757
+  },
+  {
+    "path": "artifacts/rendered-mirror/apply/index.html",
+    "sha256": "323da7ae962b20312acb26d67955b5963f3b5d188fe84b7043f2ec32e8b57d4d",
+    "size_bytes": 730
+  },
+  {
+    "path": "artifacts/rendered-mirror/apply/sales-engineer-publisher-ad-tech/index.html",
+    "sha256": "949e8f7ba2a55461037511cd940a09ed4932ccdd456387c6b887063137d02b44",
+    "size_bytes": 766
+  },
+  {
+    "path": "artifacts/rendered-mirror/apply/sales-executive-amer/index.html",
+    "sha256": "e9dc731d0017bdb91ea043f3fd0fbcf83d104192c824cfefb293d1dbb5ff8fd6",
+    "size_bytes": 754
+  },
+  {
+    "path": "artifacts/rendered-mirror/apply/senior-devops-engineer/index.html",
+    "sha256": "667fd1ff889ef849c9502c21c4a87360aed3168c7ed1aea4e9b1195b13b1dac6",
+    "size_bytes": 756
   },
   {
     "path": "artifacts/rendered-mirror/apps-and-integrations/index.html",
-    "sha256": "ba9ebe3a1bd716ff0c88d3d5c3b372c4c7c1f4246651b72b2022db46b377eeec",
-    "size_bytes": 911583
+    "sha256": "4dd047296932d7d23450aece07718b010730e3e6c6cf897d00748d1030273046",
+    "size_bytes": 912408
   },
   {
     "path": "artifacts/rendered-mirror/ay-glossary/index.html",
-    "sha256": "af516c9adbc732d4a5a909e520a273e7e84f9fc5204e4e782a856f463525412a",
-    "size_bytes": 600763
+    "sha256": "7dc869741d9f9b9efafc7d2e7d1250482c4dc4b26bd90baa64e9a376d801ce33",
+    "size_bytes": 600994
   },
   {
     "path": "artifacts/rendered-mirror/ay_prebidserver/index.html",
-    "sha256": "e1b01084bb9d40bfd120753b1554fb7bb33a4fbfcfabc598b859a17fa55d66d1",
-    "size_bytes": 805293
+    "sha256": "0f741b9b3a58a95beda648ac2edf5e56dfdd71f9b9558922d885443aa2619820",
+    "size_bytes": 806065
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-01-09-green-advertising-what-are-publishers-and-ssps-roles/index.html",
+    "sha256": "241f9452aca2d650ba44e5cba48392c6b67115b738bea6a16ffb6bdf54fa7e6f",
+    "size_bytes": 796
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-01-12-qps-optimization-explained-greener-traffic-lower-costs/index.html",
+    "sha256": "024a2694641bdf2c013bfdac47909dcce1d1a449d11bcbfb3019e6fa09303003",
+    "size_bytes": 798
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-02-20-how-ssps-can-overcome-ad-spending-slowdown-in-2023/index.html",
+    "sha256": "b78179cf7a0c58afb8d69594a3b015b400893531a384d5742127b66fb27413d1",
+    "size_bytes": 794
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-03-13-google-has-added-confirmed-click-to-some-of-your-ads-what-you-need-to-know/index.html",
+    "sha256": "694d676df7c415b472af43ccee7df9e47802a84f098a61c03b024d821eda972c",
+    "size_bytes": 818
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-05-10-what-is-header-bidding-and-how-does-it-work/index.html",
+    "sha256": "3ec69d9c090d72718a9dfd33947adbc5e3b6db70d4e2de495a559534cb7e82e9",
+    "size_bytes": 787
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-07-18-optimize-your-monetization-strategy-with-ay-industry-insight/index.html",
+    "sha256": "6f1a531801c026d8500753247eb973b7903d1bea9b67749919b87ed179f33489",
+    "size_bytes": 804
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-08-07-google-optimize-alternatives-for-publishers-a-b-testing-and-monetization-solutions/index.html",
+    "sha256": "8aba8b2e4b1e3face5a6935080bff421baf9abda282fa56f15e0598a02758bed",
+    "size_bytes": 826
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-08-11-exploring-new-effective-alternatives-to-cookieless-browsers-for-publishers/index.html",
+    "sha256": "345fd3a7d29d8372f90cc670eb1a876e3b59fb0731cf2f96f0ebbe22071f396a",
+    "size_bytes": 818
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-08-11-implications-of-a-cookieless-world-why-publishers-aren’t-too-excited-about-it/index.html",
+    "sha256": "7dc54139e72398ba446cadabf3796fe45cdcdf2d9151e223f77c9628d5cbd848",
+    "size_bytes": 829
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-09-01-maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/index.html",
+    "sha256": "a175db848b5c30e7ff297edd48bc573cefca0eed76935e451b0cdea48e6937e1",
+    "size_bytes": 814
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-09-04-5-reasons-you-should-be-looking-beyond-viewability-others-to-maximize-publisher-revenue/index.html",
+    "sha256": "63c6d86892612d45126c014e6cdb45f89222ceb450faa5d986d2cbd62005244b",
+    "size_bytes": 831
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-09-08-challenges-publishers-should-overcome-with-a-b-testing-to-recover-from-ad-spend-slowdown-in-2023/index.html",
+    "sha256": "7cf9392ece761fe298460cfb1a98e507401b2d9c2e354036328fd6b6c4ede246",
+    "size_bytes": 840
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/2023-09-08-what-is-a-b-n-testing-for-publishers-and-5-reasons-why-you-should-a-b-n-test/index.html",
+    "sha256": "8d7cc4989bf5c31fc49a5a62ab9d802f891737a58a6cdfd3f3023f331bec3fa9",
+    "size_bytes": 820
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/Ultimate-Solution-to-AMP-Frustrations/index.html",
+    "sha256": "702c9c90cc09f745cadb36b1a14b4e62c94c1a69b564d928f37bd3026f5c3708",
+    "size_bytes": 770
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/WHAT-IS-COST-PER-MILLE/index.html",
+    "sha256": "236133a4e2c4bdb1c283deb0cc25f89e157d2e4478166603fe7da4cdd7cae674",
+    "size_bytes": 755
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/What-is-viewability/index.html",
+    "sha256": "4f0bc28c5497c9264e02ac797f1bfd7afc2a04abc9cb707ea018aeb972b7ddc1",
+    "size_bytes": 752
   },
   {
     "path": "artifacts/rendered-mirror/blog/ab-testing-publishers/index.html",
-    "sha256": "5b6fad2ed220241bad8691ade46b12fa2af9159c68adbac877b9c5ed5d4450a0",
-    "size_bytes": 685554
+    "sha256": "f0027e5a92b24eb013867f96a81905427893f6f56284d5aedb13234e19bc8eac",
+    "size_bytes": 685758
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/abn-testing/assertiveyield.com.html",
+    "sha256": "d1591c615673c7c2cad385d4c6194b1b93910bf967598f79c3f6e56c03b589c2",
+    "size_bytes": 762
   },
   {
     "path": "artifacts/rendered-mirror/blog/abn-testing/index.html",
-    "sha256": "60de117951dc5282242cc985cc265c0bb050d99eff958d950b26fbf2f6503204",
-    "size_bytes": 688794
+    "sha256": "97963231c4ef78d4107e289366d3eeccce4f50dfb77e94ca96b7d480cd09fb6a",
+    "size_bytes": 689066
   },
   {
     "path": "artifacts/rendered-mirror/blog/ai-programmatic-advertising/index.html",
-    "sha256": "989b5ffa2277aa573b2f55c67dde68e29fe354d99dcbbbe4bf2470ac92bf819c",
-    "size_bytes": 685219
+    "sha256": "0c1194ec294458aab2d9e9030e4b4ecd829f6cf788e530a5317770ecc1a6a729",
+    "size_bytes": 685501
   },
   {
     "path": "artifacts/rendered-mirror/blog/all/index.html",
-    "sha256": "bb200daeef348fe52a94124d01d0b56e614a4bc0982992692d90cc153c62ce20",
-    "size_bytes": 870891
+    "sha256": "b4344e36bac994e8722be9ca580b0959cc22ddfa4d6b58cf2edd504f711abd67",
+    "size_bytes": 871383
   },
   {
     "path": "artifacts/rendered-mirror/blog/alternatives-to-third-party-cookies/index.html",
-    "sha256": "e108025b628f823f48ccdc6b3c2a8b8267aa3f23006bfe6728c1af7d4e89aa79",
-    "size_bytes": 697077
+    "sha256": "322455628956997a3f3f37dff96c294fb962247e31f16275dc985ac2b6b92226",
+    "size_bytes": 697389
   },
   {
     "path": "artifacts/rendered-mirror/blog/analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue/index.html",
-    "sha256": "38e04b9f78ab6b2bb560c0dbcadcfd6a9102f75618da7c0ea507dfcec141158d",
-    "size_bytes": 686968
+    "sha256": "5d81efa198633d25a8f1bebf601c4c199f4fc5ac4bf641697894258222153d59",
+    "size_bytes": 687063
   },
   {
     "path": "artifacts/rendered-mirror/blog/analyzing-optimizing-your-impression-revenue-per-mille-rpm/index.html",
-    "sha256": "96f602f6af9818835adda8913a8ec8e30d236639467a843493e1e2e0ea3c8cfc",
-    "size_bytes": 681951
+    "sha256": "5d712392435191e083a090063526361c48d887f26f1fa41dddded2f6a27c2b50",
+    "size_bytes": 682195
   },
   {
     "path": "artifacts/rendered-mirror/blog/ay-industry-insight-second-quarter-report-yield-management-in-programmatic/index.html",
-    "sha256": "1e62395b4c8199dc7ae7646fb8728bededa6f1168685e44f52835e6aeab68d48",
-    "size_bytes": 684436
+    "sha256": "565e275519b59e34bf417ffe672a0a28af4da07f124d909d26b2207a822fefd3",
+    "size_bytes": 684626
   },
   {
     "path": "artifacts/rendered-mirror/blog/ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue/index.html",
-    "sha256": "9d5f7b4334b0919c80ee88a9e371711faf10f23634264d74f624d17e372e8437",
-    "size_bytes": 683339
+    "sha256": "0c5744c7cadfe7c35d75cdb63e867793439f289916bd26b3dfc7082ce5690983",
+    "size_bytes": 683524
   },
   {
     "path": "artifacts/rendered-mirror/blog/ay-industry-insights-report-q2’25-publisher-trends-in-global-programmatic-ad-revenue/index.html",
-    "sha256": "c10de19ba6b53ae9cef2d52e63e5b55e5d6270a8f3649b09b8b3f70ab59cd1e5",
-    "size_bytes": 680318
+    "sha256": "4cdaae10c43b931bd9ae0bb0b7bfd380a78635a5548fffd28e50e166ad163805",
+    "size_bytes": 680588
   },
   {
     "path": "artifacts/rendered-mirror/blog/ay-product-updates-in-h1’24-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more/index.html",
-    "sha256": "e7205a083bdf053be6f2cb18efbe974b22744ff9e4ad1227d9b8526a405b59b7",
-    "size_bytes": 699717
+    "sha256": "e94390731bd1d663d62689625594b1203720cf613053d4a98a84f6ac13deec7f",
+    "size_bytes": 699774
   },
   {
     "path": "artifacts/rendered-mirror/blog/beyond-predictions-how-publishers-should-actually-focus-heading-into-2026/index.html",
-    "sha256": "475dad00835203bc200cdf30a31c553fa7168fbcf3cbbd2ffe4085628e54940a",
-    "size_bytes": 677723
+    "sha256": "f8d1a5e5abd6219fa3b8f41923f048aeeb7471ebd44f89dc204a7f4e37e545ea",
+    "size_bytes": 677893
   },
   {
     "path": "artifacts/rendered-mirror/blog/bid-shading/index.html",
-    "sha256": "df4cbad737d1fc5610917c73f15f9d661809e5b968b759f4df35c5b3a577ec08",
-    "size_bytes": 692043
+    "sha256": "8178101df55b595d0ba591b9d3a1fe11c3b0407484715d89e4fe9fefb63b08f8",
+    "size_bytes": 692281
   },
   {
     "path": "artifacts/rendered-mirror/blog/boosting-your-ad-revenue-per-mille-ad-rpm-in-2025/index.html",
-    "sha256": "0ad8c1e2ddc327262f968d68b380bfcad48e19b5cea3111ca81b58b6660f5481",
-    "size_bytes": 681269
+    "sha256": "5f0ce9d58fab888ef492a556cfb33033b97d02876c7053530db2aad55d74d8b1",
+    "size_bytes": 681507
   },
   {
     "path": "artifacts/rendered-mirror/blog/confirmed-click-penalty/index.html",
-    "sha256": "251af84a19c679f55b94c1bb03664300821961dd6afccdfb188dd13e2928a332",
-    "size_bytes": 684533
+    "sha256": "ba99764ed45f4379cbeb4ea55ce8d4c64cf058b97e2ebdd63725741d7b58efad",
+    "size_bytes": 684827
   },
   {
     "path": "artifacts/rendered-mirror/blog/cookieless-tracking-publishers/index.html",
-    "sha256": "cf79dd4eb7ba1210b587d7b431224995aa59c10f47a7d20e0538196b32cdab66",
-    "size_bytes": 683683
+    "sha256": "f817a4971bdb3a94211ae4397630cfa53cd326c0124cbc626ed3c86f200e2131",
+    "size_bytes": 684007
   },
   {
     "path": "artifacts/rendered-mirror/blog/demand-path-optimization-empowering-publishers-for-profitable-paths/index.html",
-    "sha256": "86617a910b1e0dc6aa9e9002b7a66fe34a6d34de2de67c0d0e6dac67c689f278",
-    "size_bytes": 693690
+    "sha256": "41be2df5bdf76b68558b5a47447db502dfd5ab45a6e80c1fd8128e2e2ce00726",
+    "size_bytes": 693928
   },
   {
     "path": "artifacts/rendered-mirror/blog/dynamic-flooring-programmatic/index.html",
-    "sha256": "0efb38655a95565bcf9249d230d8f0833a37936b9ecdd37f0c629d2b52288fd6",
-    "size_bytes": 687524
+    "sha256": "206158fa4722ab04cdd5e0490d138307df2fd299e40dfbe9e05bc1dfba994713",
+    "size_bytes": 687797
   },
   {
     "path": "artifacts/rendered-mirror/blog/exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape/index.html",
-    "sha256": "ab61bfa5990d5cc448ff72d1e0248785a840bd5db3ad9fa2dd6d74e860136b52",
-    "size_bytes": 684454
+    "sha256": "2d85145d690b4c6b8aece24200a781b635e2d15cc598d60270b69e2e1049ee36",
+    "size_bytes": 684672
   },
   {
     "path": "artifacts/rendered-mirror/blog/getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher/index.html",
-    "sha256": "77b078951f7466a2867789edb1b7c95855b344c44917e73543f7252f7cc5ce76",
-    "size_bytes": 680301
+    "sha256": "b755167a4a3e8762d4a8a4d9d07d27bf42e34cfd26683d05664d2467d522dcb8",
+    "size_bytes": 680521
   },
   {
     "path": "artifacts/rendered-mirror/blog/google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do/index.html",
-    "sha256": "f8602b499ee543846dae5f3713f5ca530d5f599bdcc1fb9b6afe38258b77f744",
-    "size_bytes": 666953
+    "sha256": "a473dc5659521ac29549c5a271e5b5c1dc8adf328eabaf78abde42e9bac065b6",
+    "size_bytes": 667199
   },
   {
     "path": "artifacts/rendered-mirror/blog/google-optimize-alternatives/index.html",
-    "sha256": "5100c6fa6a0eae150d1a5d7d5a83d4a0ac7d4e856728b7cd15e9379dffca4f1e",
-    "size_bytes": 699335
+    "sha256": "07fec312ea34ac886495e28fcfb89a1f3b625ce5c7eba8f5d8d02894ff95c772",
+    "size_bytes": 699519
   },
   {
     "path": "artifacts/rendered-mirror/blog/green-advertising-what-are-publishers-and-ssps-roles/index.html",
-    "sha256": "2b80ea2ed97c6d4d40080836c307440a5abda19b77cd07162c31ce327f81a074",
-    "size_bytes": 683891
+    "sha256": "1b5d2a651c62d09e4eeff7749bfd42e6ca095ed048f19fdc8ce3753972980261",
+    "size_bytes": 684144
   },
   {
     "path": "artifacts/rendered-mirror/blog/green-programmatic-advertising-explained/index.html",
-    "sha256": "b2427c6c09d7d6175987006544c96bbf02db973f6c13975bed9e7b49e76f769c",
-    "size_bytes": 689441
+    "sha256": "7cf076062e8ced70a465d0bc5b17aed9eca3684af74fdfe14d4328f9ef9e8e25",
+    "size_bytes": 689645
   },
   {
     "path": "artifacts/rendered-mirror/blog/h2’24-ay-product-updates-new-features-and-improvements/index.html",
-    "sha256": "29f36a00e2041b91118507f2ebb74b81bb87d54892d75e5190eca9eb48cc2408",
-    "size_bytes": 681045
+    "sha256": "e7ca5e0e9927670cf72ef5a1d94f530b969a6f58949d63652e80377828f0904e",
+    "size_bytes": 681317
   },
   {
     "path": "artifacts/rendered-mirror/blog/header-bidding/index.html",
-    "sha256": "6dcfe146f14a87217072bd4fb5ec0e00e7a9e4894575ac35176a9f1d28f74223",
-    "size_bytes": 688712
+    "sha256": "e46aad66ccec8c565488a3415c90649e449370d0ec8600abaee18feaf75a94a4",
+    "size_bytes": 688999
   },
   {
     "path": "artifacts/rendered-mirror/blog/how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025/index.html",
-    "sha256": "e4c79d816ef2ab1325ac6eb228d2c51621d054c5902230fda318e83014bd2665",
-    "size_bytes": 670326
+    "sha256": "81731d8c33120e776067d289c731b64a6af728d7b957d4c07838489d863b13fd",
+    "size_bytes": 670553
   },
   {
     "path": "artifacts/rendered-mirror/blog/how-publishers-should-prepare-their-ad-stack-for-black-friday/index.html",
-    "sha256": "7b19d96d4c9b399ecad916ba05ecd1ad6a5b392c03c6977fda1a908cfa8f938a",
-    "size_bytes": 687027
+    "sha256": "a0ac9fcad9367597217212fd1afe8603c9c123d1931a0701aa7106d548cd83f1",
+    "size_bytes": 687110
   },
   {
     "path": "artifacts/rendered-mirror/blog/how-ssps-can-overcome-ad-spending-slowdown/index.html",
-    "sha256": "a083efba734b265d351b3021fce1716875c3a6f8cd9590b0b1ecc899782c5a5b",
-    "size_bytes": 682060
+    "sha256": "35ec71eec35d076980e24cab2f0db4682ceed098290c99a8b670e9bb48580c3a",
+    "size_bytes": 682263
   },
   {
     "path": "artifacts/rendered-mirror/blog/how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers/index.html",
-    "sha256": "426934109b0b87cf43e2bac66cf35d4b5ce2b1e40f28464c886e79678e2b21a5",
-    "size_bytes": 684929
+    "sha256": "09c231f372962e8286383ec6dca550f5eb98e88ccbbd1260e39a65417b1719ce",
+    "size_bytes": 685136
   },
   {
     "path": "artifacts/rendered-mirror/blog/implications-of-a-cookieless-world-publishers/index.html",
-    "sha256": "9956a5731013e6edac81f2dc1918cfa2edbab910d01a5b1924f5f0db8c265621",
-    "size_bytes": 689820
+    "sha256": "b69561c8df48246127fcdbd3ec7aca005c5876063ae0673f54d2302751069378",
+    "size_bytes": 690061
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/in-house-vs-third-party-ad-management-platform-for-publishers/index.html",
+    "sha256": "3fb7ca1dbbf2c8ed627890da99a6f914988f78c8e2bdc52f48cf24b80d910c23",
+    "size_bytes": 794
   },
   {
     "path": "artifacts/rendered-mirror/blog/index.html",
-    "sha256": "1c6a56e2633cdffe1b41295923942241f5666098b02c8545a925605035e08f23",
-    "size_bytes": 849753
+    "sha256": "aa719a4a246efb90fe62e161e023dc4520b968aa24810be218946d09a1998719",
+    "size_bytes": 850386
   },
   {
     "path": "artifacts/rendered-mirror/blog/leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue/index.html",
-    "sha256": "64e2e172d29a8c7dd01eb1d2b894fc936535ed689fff8c36c011301ee228b91f",
-    "size_bytes": 683055
+    "sha256": "2b09082199593baa5456910d465304ed30456a63a51f2cc79c8b941c77d3467c",
+    "size_bytes": 683306
   },
   {
     "path": "artifacts/rendered-mirror/blog/maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/index.html",
-    "sha256": "f57027923d711ab4b5aa0aa48a9b15c00cad34a3796acc9fe706baff80bb9491",
-    "size_bytes": 701366
+    "sha256": "4029af8e6c668e8a6aa6b8c39d711270c251d5fe54c55e83f941f6f6306719bd",
+    "size_bytes": 701560
   },
   {
     "path": "artifacts/rendered-mirror/blog/maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers/index.html",
-    "sha256": "db26746f09f149871bd5786ec770687bc2c0f466e7d4e023a9c0f7bbbf89e634",
-    "size_bytes": 684787
+    "sha256": "c71c08febaaa80aa7abbf0da76e7794ee3cee9389568fe15d01fbe946379a37c",
+    "size_bytes": 685002
   },
   {
     "path": "artifacts/rendered-mirror/blog/microsoft-xandr-prebid-cache-deprecation-a-publisher’s-guide-to-a-safe-migration/index.html",
-    "sha256": "f37ba8a34c119d8faf9754a8a170eaf0334f9d7d76280e89ad4bf403d932f6e9",
-    "size_bytes": 676919
+    "sha256": "27caba4865cddb7bf0ead371f96aaea21fb4969ddfd3fce17ea599c448098239",
+    "size_bytes": 677126
   },
   {
     "path": "artifacts/rendered-mirror/blog/navigating-the-future-of-programmatic-advertising-in-2024/index.html",
-    "sha256": "f22257f5d18cd616aa3a7e010c17b43d750050274ccbd99cb6b9ce62e231aec5",
-    "size_bytes": 683976
+    "sha256": "2d9f9bdf11a28f68005c1613efbec4e8d6c8dbb313a033bce7ced1044a72c6e9",
+    "size_bytes": 684176
   },
   {
     "path": "artifacts/rendered-mirror/blog/new-ay-product-updates-h1-2023/index.html",
-    "sha256": "18ec24efecd826a58cad1a1fa91e8e1d3186c4bad7e599c8c3053cb2def11576",
-    "size_bytes": 683867
+    "sha256": "9011eb0530bb6e7802ca9809a010f09eb0985152e2fa80b9ddcb00742ca24204",
+    "size_bytes": 684162
   },
   {
     "path": "artifacts/rendered-mirror/blog/optimal-adstack-for-publishers/index.html",
-    "sha256": "9d855312b2a2b30cba3a151f034802ac8179e161a73392b1be189550e61e9fd8",
-    "size_bytes": 696152
+    "sha256": "9543a64fadec171454283229ce27b875169fe21691b54e8c1b2eafb181898c6d",
+    "size_bytes": 696195
   },
   {
     "path": "artifacts/rendered-mirror/blog/optimize-your-monetization-strategy-with-ay-industry-insight/index.html",
-    "sha256": "45f7a924d96bf0da66e8251315d7db303611fc1a1248fe2f08968eae47aba2b8",
-    "size_bytes": 678028
+    "sha256": "f88088cba62e15993029bfbaf8e6591d9883c27822e96a22a94461d28eb00bd3",
+    "size_bytes": 678285
   },
   {
     "path": "artifacts/rendered-mirror/blog/optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers/index.html",
-    "sha256": "07f8cd1a07e9387255a3fbcb1a5037e326a59636fee72aaf4d55b6a7cc650c00",
-    "size_bytes": 682141
+    "sha256": "61efe8b1343b14bc6e71046b120ed9620fcbb095ebb35bd25b4ed8e5e180fabc",
+    "size_bytes": 682358
   },
   {
     "path": "artifacts/rendered-mirror/blog/product-updates-q1-2024/index.html",
-    "sha256": "397510084d05a9204d413e86215623af01845b11647ed9d3b2f9a8d9ea4e1c71",
-    "size_bytes": 689272
+    "sha256": "a9a949aed9e35fca5b1f5583bb41f0d44382cafaac9937d845c7d6d60666acda",
+    "size_bytes": 689505
   },
   {
     "path": "artifacts/rendered-mirror/blog/programmatic-insights/index.html",
-    "sha256": "74d1e3338e0d64faee1a56d709c0b994c103429e4a687c47a085360df1eb192f",
-    "size_bytes": 680977
+    "sha256": "ddbaa9e79ba5bb0f1c118c9847b90082d5222aa48170acc4f5981d2f985dde56",
+    "size_bytes": 681236
   },
   {
     "path": "artifacts/rendered-mirror/blog/publisher-metrics/index.html",
-    "sha256": "88503526a4e7e671564b6ae87eb05e577f5766ef84c26f33fd24e020969ac0ef",
-    "size_bytes": 697308
+    "sha256": "287c9baf0165804f96b2c0366d66530455fa3b67b2e086dee7ef3109b4aed275",
+    "size_bytes": 697516
   },
   {
     "path": "artifacts/rendered-mirror/blog/publisher-monetization-challenges/index.html",
-    "sha256": "6da7b178dc3009a88276a59f7dfc1ddbc6d77d79b4e0319558b969ed0bf4d8b7",
-    "size_bytes": 694412
+    "sha256": "7cf1b4ae37d33ebf01db702bc6b9ebac3ab617eb8cded2cc3780381492dec013",
+    "size_bytes": 694635
   },
   {
     "path": "artifacts/rendered-mirror/blog/q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue/index.html",
-    "sha256": "fd8e2d8826934d7497240d365fd40c82b14f22be2dcd422f93d0061696d14297",
-    "size_bytes": 683604
+    "sha256": "4306b7a0fe20e40b1cf3ef124cbc0a400e05552716de7c8f702d611004507790",
+    "size_bytes": 683811
   },
   {
     "path": "artifacts/rendered-mirror/blog/qps-optimization-explained-greener-traffic-lower-costs/index.html",
-    "sha256": "e7f0e5b47ce4e08866ea10a267a48f7a9da0b40b411907ec6434b2d2558f09ed",
-    "size_bytes": 686814
+    "sha256": "cd1b9812cb58539fa19032a8d6d514e10850cc3445c22f895fb0a5a16975eb98",
+    "size_bytes": 687058
   },
   {
     "path": "artifacts/rendered-mirror/blog/reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site/index.html",
-    "sha256": "eed6f3accce6dcf939972baed89f59c464d90e587af91da2e496153194ccb2a2",
-    "size_bytes": 681742
+    "sha256": "b1d0ae965e72fef626c23b7b311afc01f56d37ab1c18c34e8aa7d71a614e44a5",
+    "size_bytes": 681999
   },
   {
     "path": "artifacts/rendered-mirror/blog/shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions/index.html",
-    "sha256": "66b1d59879b26d830f7897fe89544ab1755eb9bcf2d28024bf11fc35269b449c",
-    "size_bytes": 679803
+    "sha256": "db0db4ed27e0df42520a522c708ee0581819c43b56d7eb909bf912874e4dfcd1",
+    "size_bytes": 680022
   },
   {
     "path": "artifacts/rendered-mirror/blog/tag/ad-revenue-management-tag/index.html",
-    "sha256": "01eff7d2f628a723b82e8a4d446e1b350ec578e1085e9ba91ee02e82e18bedb9",
-    "size_bytes": 675945
+    "sha256": "17fb8d6e414bff83656dd8f17f9037a0fe553b008259b49c4154a007b4623284",
+    "size_bytes": 676335
   },
   {
     "path": "artifacts/rendered-mirror/blog/tag/ai-optimization-tag/index.html",
-    "sha256": "89ea8f8e2fbf8825ff07cbbb56d97b7ef6428afb73f3982cf764676dd8985fa3",
-    "size_bytes": 659465
+    "sha256": "f2a1c99edd3da66bfba7cae9abc4109daa2ba5792a6dddf753cffc4537f5b96a",
+    "size_bytes": 659861
   },
   {
     "path": "artifacts/rendered-mirror/blog/tag/data-intelligence-tag/index.html",
-    "sha256": "ab371539bf50d81a1d4eee2205992482191f97e10451111975762eeab94cf0ef",
-    "size_bytes": 710427
+    "sha256": "2f58f9c5e1a48d45c9d56a2aaa2fc3ccf4f479a07faced9f417a7ad87c9bca4c",
+    "size_bytes": 710821
   },
   {
     "path": "artifacts/rendered-mirror/blog/tag/efficiency-&-sustainability-tag/index.html",
-    "sha256": "ba487583468dddac718f1b283b47bbfe09289bd77b69f363e94a842b1698fe64",
-    "size_bytes": 670449
+    "sha256": "595ec6400239fa55b83c40842eaa3f2edee6ba40b86af0064efc70325e96daa3",
+    "size_bytes": 670829
   },
   {
     "path": "artifacts/rendered-mirror/blog/tag/programmatic-trends-tag/index.html",
-    "sha256": "fa95e15a58b770d237c357a6e9d78005e5b7fad3a71b622dfed767e939c4d07d",
-    "size_bytes": 689655
+    "sha256": "efa171365f1b8a6d68f6b8d90addf6c05af6586178cc74323d97e1fa409aafae",
+    "size_bytes": 690047
   },
   {
     "path": "artifacts/rendered-mirror/blog/the-publishing-dynamics-why-90-of-publishers’-inventory-is-hidden-from-demand-partners/index.html",
-    "sha256": "aadcd7d046ae9322be95aa0a8c0fd6c4cfeccf1f4587809b4c3d49c7d5565ef2",
-    "size_bytes": 685420
+    "sha256": "2abf58d9485aefd1bdcc93f5b4951e95aa6821f9faba046591cd3e6acaf7a68d",
+    "size_bytes": 685594
   },
   {
     "path": "artifacts/rendered-mirror/blog/top-five-2023-trends-in-programmatic-advertising/index.html",
-    "sha256": "29c6d262d413845687340f052dc2f818ffb0f57c2dea17867fa0a8993f1840f1",
-    "size_bytes": 682004
+    "sha256": "cb77756fa0d15ece59cfbf30de0206f4ab92970e31f0463725745bcd9c0a66c3",
+    "size_bytes": 682251
   },
   {
     "path": "artifacts/rendered-mirror/blog/tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page/index.html",
-    "sha256": "7575ee6afe1a9fae6ce61bdd9f5e3191b5fcc62298ddbedb2f65e9ee6849dbe9",
-    "size_bytes": 684657
+    "sha256": "fbfb268843ad38591c007787a42e3544e63640d9d0e52672105e9efe4cf96aad",
+    "size_bytes": 684897
   },
   {
     "path": "artifacts/rendered-mirror/blog/ultimate-solution-to-amp-frustrations/index.html",
-    "sha256": "8d21ddb95ccbe4f104c0ac5a4aa5b6769c3cd5548838976f5049c07153c9f069",
-    "size_bytes": 694286
+    "sha256": "af8e5ecd8c8ac1b6158b8cef69498713cd419026f5484412804f745fb33687d1",
+    "size_bytes": 694553
   },
   {
     "path": "artifacts/rendered-mirror/blog/unlocking-the-potential-of-a-360°-panorama-dashboard-for-publisher-monetization/index.html",
-    "sha256": "14204c9e5d180656870258985f6054c6f04fab76ba7f358a93bd548004849c20",
-    "size_bytes": 679907
+    "sha256": "5732f105fe7b409276c0c3b6a4a3bede89db0a436db3f4436874765962360ce0",
+    "size_bytes": 680155
   },
   {
     "path": "artifacts/rendered-mirror/blog/what-are-the-challenges-programmatic-ssps-are-facing-in-2023/index.html",
-    "sha256": "60d8fedf82ab8a22746065c088a81a346ea347fb7085895b51de2df53f3a5e92",
-    "size_bytes": 693392
+    "sha256": "bafdedda07f5be5ce4a07fdad9f1d861cfeeef7778e24f0dd25c53d4ab25d280",
+    "size_bytes": 693568
   },
   {
     "path": "artifacts/rendered-mirror/blog/what-is-click-through-rate/index.html",
-    "sha256": "3a24b2d2a39a004619a93ccdd45b51d79d2fccfcd38c46b6c084b8400d0a99a6",
-    "size_bytes": 682752
+    "sha256": "beaf27cd240339153bed80e02b86bc58965f455dfb7c6f527626675f40af63f4",
+    "size_bytes": 683058
   },
   {
     "path": "artifacts/rendered-mirror/blog/what-is-cost-per-mille/index.html",
-    "sha256": "7d270b677edba5162b697816909ba17f32bb0328cb052337a1a39f7c5baa0c12",
-    "size_bytes": 684498
+    "sha256": "51f514b9ac1af34f8a4e8760c128c4d04c0cb7e8eaece8c3125600b5ade2dc52",
+    "size_bytes": 684811
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/what-is-header-bidding-and-how-does-it-work/index.html",
+    "sha256": "c5dd22b1ef7c68f65a9a0592f9846b9efb7b9cbf52151f2af625d61902ab80a1",
+    "size_bytes": 776
   },
   {
     "path": "artifacts/rendered-mirror/blog/what-is-inp/index.html",
-    "sha256": "8c1f79a72751fc708e433ce1ca6d207a77a42854bf7dcd38f49d724543a240da",
-    "size_bytes": 689215
+    "sha256": "a3a7708fc0b491fe6f46b7831e8221a257bbd11af60d0ba39b2f44788f28d6c9",
+    "size_bytes": 689542
   },
   {
     "path": "artifacts/rendered-mirror/blog/what-is-viewability/index.html",
-    "sha256": "f51fff86074a0dc6ec5d7014887fcbd5e7eea074e577f0e7d2d78c4abfd78c5a",
-    "size_bytes": 682339
+    "sha256": "b2b05bf571bc2912a37e421bbfb4a802309d1eca2c29b0a943f2bade04c726db",
+    "size_bytes": 682667
   },
   {
     "path": "artifacts/rendered-mirror/blog/why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now/index.html",
-    "sha256": "cde9f3a4ab89c0edcf2c3cfebbea5001c2c3e743e4df6911b7ce8a661c0fdb98",
-    "size_bytes": 684329
+    "sha256": "49d585d520d1ec4d09ab48af88dbc142284646eebccf0aecf74b4685fa8980f4",
+    "size_bytes": 684543
   },
   {
     "path": "artifacts/rendered-mirror/by-company-type-publishers/index.html",
-    "sha256": "d7e318f3e15202c727a8acc2033f920004103dbb027812bb6c5a8911825b22d0",
-    "size_bytes": 751719
+    "sha256": "90d096ec6e16e7342f28ab101696bad31460bb912f7c51caa3a45201f51cab5a",
+    "size_bytes": 752231
   },
   {
     "path": "artifacts/rendered-mirror/by-company-type-ssp/index.html",
-    "sha256": "f6ed6c3f3a213932c827e0658a4ecdab2bca2a93b3d54eabce8858ebd4bb8932",
-    "size_bytes": 732620
+    "sha256": "ab3ddf9b86a7071861a4b99c44acd2af346608b9764ce6e9cde6b900d792dd35",
+    "size_bytes": 733074
+  },
+  {
+    "path": "artifacts/rendered-mirror/by-company-type-supply-side-platforms/index.html",
+    "sha256": "1267c917eb58ac10177c04f1e93789843786b8ecf26b523c6d99661852c101af",
+    "size_bytes": 761
   },
   {
     "path": "artifacts/rendered-mirror/by-team-type-ad-operations-yield/index.html",
-    "sha256": "a2e3bc6eb8f7516cbbe12bdbc43918159cf533fa0278c6ba6c51d4244bc5ebd3",
-    "size_bytes": 745794
+    "sha256": "e598a08b96dc511f3c67e51432c64959f40cbfde9d9075f10d5c6041e52336e6",
+    "size_bytes": 746294
   },
   {
     "path": "artifacts/rendered-mirror/by-team-type-audience-development/index.html",
-    "sha256": "fa8f88fc3fead08ffa1bd4adecfd66cb0ba91ecda0b64749aff2cc45bcc61307",
-    "size_bytes": 734848
+    "sha256": "f872a6e57ec92ac067c39c0f1066b1a5bdae3ef6c605262a8015765c9e2cd53c",
+    "size_bytes": 735383
   },
   {
     "path": "artifacts/rendered-mirror/by-team-type-management-finance/index.html",
-    "sha256": "f1fada30edb3f1da075cc2230681ea9136e480e6d869dc95f8da79ccd565d777",
-    "size_bytes": 726030
+    "sha256": "efd9dad7991f154cd910441b81d84565a0eb4daf11e1c6112914fc1764e1b0ae",
+    "size_bytes": 726531
   },
   {
     "path": "artifacts/rendered-mirror/by-team-type-media-buying/index.html",
-    "sha256": "45701de2ac7851983e683e07579663728cef82374b5e0d731575160db92a804c",
-    "size_bytes": 725294
+    "sha256": "95a28719bab7c7acc0e45086381e262d4523000eca9aa53ad659420c1d2dffa2",
+    "size_bytes": 725801
   },
   {
     "path": "artifacts/rendered-mirror/by-team-type-product-teams/index.html",
-    "sha256": "c0030e9960b46f8c686277b78301cd348e794d05ef7da05a5c96a6b84567856f",
-    "size_bytes": 725594
+    "sha256": "47bab1c680060dd29fbdc0b15b627ab7e42cb2caadd42ca2a8a6df780bb52347",
+    "size_bytes": 726100
   },
   {
     "path": "artifacts/rendered-mirror/by-team-type-sales/index.html",
-    "sha256": "fa9701b4efefcc041066789fd45ed2c34823fa75a37f47fde53c6ddee8844fe0",
-    "size_bytes": 725799
+    "sha256": "e8b7cc58de6a7d657bdd4204d658621d4b984a1207b7ba87bae6e2134e598907",
+    "size_bytes": 726313
   },
   {
     "path": "artifacts/rendered-mirror/career-success/index.html",
-    "sha256": "74fd6e138815845e8c8c7e4a07ff56ec0e60ac3bff2428d1c0c66b9e1f10dcf7",
-    "size_bytes": 588038
+    "sha256": "997d65bf5dc726ed46579f0cf105a3fb9bbd36433bf19b722a5941f5a8c765d8",
+    "size_bytes": 588290
   },
   {
     "path": "artifacts/rendered-mirror/careers/backend-engineer-golang/index.html",
-    "sha256": "6bbfa9d9440afa9e2de7237894ff1e55941543f02963a8b5b070027dec64bfb6",
-    "size_bytes": 590991
+    "sha256": "3fa1d5d86a29d0698c14c0d06b0c26b6bebc09dd1a28f177c87fba0c3c6f5f45",
+    "size_bytes": 591272
   },
   {
     "path": "artifacts/rendered-mirror/careers/index.html",
-    "sha256": "3069b65df09c8f6afc0c6ed00eb019835878ea8ac1c0171f308af0f9a80e1e10",
-    "size_bytes": 679755
+    "sha256": "f0e15e5381fd088c34361a41106958686193640ef33a188dd8c0ba356d9c0ad5",
+    "size_bytes": 679971
   },
   {
     "path": "artifacts/rendered-mirror/careers/sales-engineer-publisher-ad-tech/index.html",
-    "sha256": "c7b705e6b3c820c368ecf722824a09929ca4903d6fef446cca728ab3f163dc2c",
-    "size_bytes": 591405
+    "sha256": "6926adf5e0907217a276cefa353cde75a5bfad9a1e745209cc60830128476126",
+    "size_bytes": 591677
   },
   {
     "path": "artifacts/rendered-mirror/careers/sales-executive-amer/index.html",
-    "sha256": "e3f2b9e477f734baddc02717518015eb065283e7252bd536b443be1906d562f7",
-    "size_bytes": 590269
+    "sha256": "04ed8fef2d10e2b88883eea3133cb7ee278c32f57e159d332bccd410a7759b0c",
+    "size_bytes": 590553
   },
   {
     "path": "artifacts/rendered-mirror/careers/senior-devops-engineer/index.html",
-    "sha256": "2ede8592576c99f75527be8a6622b844e9840da4b5d6d3919a154637ee6b42b7",
-    "size_bytes": 589732
+    "sha256": "1b7868ba8674ea4afc10c1fafdec61aacd404fac9a629e4c161356e229d9969c",
+    "size_bytes": 590014
   },
   {
     "path": "artifacts/rendered-mirror/contact-us/index.html",
-    "sha256": "7da6e7626e9eae678e3566d8eaa08f3adeb894eb94e9d81f624be2901b9e459e",
-    "size_bytes": 644058
+    "sha256": "4e284ff34a39d430b913978e4d42df778b9c7f798095ad624f5f227164d6e0e0",
+    "size_bytes": 644252
   },
   {
     "path": "artifacts/rendered-mirror/dashboards/index.html",
-    "sha256": "4e5416e80017a57bad9ba6281014b49c605617365af2864560907486ef7f25f0",
-    "size_bytes": 882014
+    "sha256": "b4997b6fb4f6473f8738003a5df021f638d3224bc6b4fc04cf2fa38171f97dc8",
+    "size_bytes": 882947
+  },
+  {
+    "path": "artifacts/rendered-mirror/disclaimer/index.html",
+    "sha256": "c8bc4a62cc7486f23983920fa12ad4bb23fc0fdf8a127f8edc1672400810acf4",
+    "size_bytes": 735
   },
   {
     "path": "artifacts/rendered-mirror/ebooks/all/index.html",
-    "sha256": "a5f744a827472e7b226eb2c33db1de0c86abc31369cf7889d100e807a5ad2ba6",
-    "size_bytes": 677963
+    "sha256": "a160fde4ec9fa16189a1b964ecd2ffd99311677877c41958c1c830fdb576e07b",
+    "size_bytes": 678229
   },
   {
     "path": "artifacts/rendered-mirror/help-center/academy/index.html",
-    "sha256": "0c00007a794ad35c262b8a0c0da3d159f0999f9aa38b8e321bf0658f148bdb01",
-    "size_bytes": 784474
+    "sha256": "9b94400ca4c64b94915310c33d7832d3956f669be2b8f3405ab0a87dfc29d4e9",
+    "size_bytes": 784692
   },
   {
     "path": "artifacts/rendered-mirror/help-center/ay-glossary/index.html",
-    "sha256": "ed6dea41a43146ab4e33027cce5574bf63f6b816b0839587120610166c696a46",
-    "size_bytes": 665951
+    "sha256": "0caaf741bcba371b27d07b3a8030cee54678a26fce53a0f725553a657513483b",
+    "size_bytes": 666221
   },
   {
     "path": "artifacts/rendered-mirror/help-center/ay-support/index.html",
-    "sha256": "ea34982eea8f4919e22389347faf874ff488b074587ea9cfe539d1def87f794c",
-    "size_bytes": 661884
+    "sha256": "a2e24be02d4d6a3ee149d5e7d5d9f32f083d1109188a2e605f5558d0bc0cd13e",
+    "size_bytes": 662097
   },
   {
     "path": "artifacts/rendered-mirror/help-center/index.html",
-    "sha256": "dad480c2797dac6b03120190786de7b089f0a86fba7f0af12710475a27fe762e",
-    "size_bytes": 659883
+    "sha256": "adce1bd1c460a76c5f234af569a60e1a179ee08df5bd1a77ce86dc2dc60eb143",
+    "size_bytes": 660063
   },
   {
     "path": "artifacts/rendered-mirror/hits/all/index.html",
-    "sha256": "953172cd54119ebca809c85246adc6d5c5c888d31282981755bfbde26a0dbdcd",
-    "size_bytes": 709082
+    "sha256": "35e5fa51f9d73982cbc9aaeacb939705c515c9bbd5762267c7da4d93bbe4369b",
+    "size_bytes": 709367
   },
   {
     "path": "artifacts/rendered-mirror/index.html",
-    "sha256": "8e3ed0e20363f576b0f4fd0a186a0834cf9e29431bd46255635be3e69dc0396a",
-    "size_bytes": 1284852
+    "sha256": "13c5a46d9c9c39f590d81390c3fb607f53e467aae5f5ca97ffd2e4de21f32ba1",
+    "size_bytes": 1285838
   },
   {
     "path": "artifacts/rendered-mirror/industry-insights/index.html",
-    "sha256": "f2d74b0f167994cd0207b5018d2ecec2dd87c3e9054c1e5b191155d7eaef8764",
-    "size_bytes": 881042
+    "sha256": "29472bf909356048e63af78eed92985253ae480caeb1ddf532b278adf3126e92",
+    "size_bytes": 881992
   },
   {
     "path": "artifacts/rendered-mirror/news/all/index.html",
-    "sha256": "44ad2330dd5b7a0c6d5b3acb7feff1a682088d609be8f035f74f3a52074c21e4",
-    "size_bytes": 742818
+    "sha256": "97807b45ffc701945732c49679acb4a31f7ca6e97893c0fd14ffeab1b25e8f25",
+    "size_bytes": 743088
   },
   {
     "path": "artifacts/rendered-mirror/podcasts/all/index.html",
-    "sha256": "852bef52e6c7220a1ea69d1f489f8179896b6083ed0ae072e6ebf75a86416898",
-    "size_bytes": 669796
+    "sha256": "49727e2531b500e5691310daac11b17e3e4fcf1d5124bac8084cc9a1e779abd1",
+    "size_bytes": 670077
   },
   {
     "path": "artifacts/rendered-mirror/pricing/index.html",
-    "sha256": "36b752d29ebc37dd8d2a158e4cef3faaa97281dbce48eb1260a709a7a9f5a243",
-    "size_bytes": 576224
+    "sha256": "2d8cb310754fb7f13472eec7f4afc9d024e352b6e5834a5e391deffac14e7e7c",
+    "size_bytes": 576485
   },
   {
     "path": "artifacts/rendered-mirror/pricing-update/index.html",
-    "sha256": "4d9a239fe9e117d2bdf91b1109be8bd6f8f314047e1488fc58c6c25ae9f71b3b",
-    "size_bytes": 621717
+    "sha256": "c58a76c6c8ca0fd13ab04bbceb5e0d8bd41f51b1031dec963eed1636cfdfd7bc",
+    "size_bytes": 621921
+  },
+  {
+    "path": "artifacts/rendered-mirror/privacy/index.html",
+    "sha256": "5cde9b31bba17876924ff63715dd2693bd22a91b532f9af9eb18657c5fef8c73",
+    "size_bytes": 732
   },
   {
     "path": "artifacts/rendered-mirror/product-updates/all/index.html",
-    "sha256": "0b13da572f01c3083de2a84f191c5412c8d649933291d2bee157e2b891f2e9a7",
-    "size_bytes": 638975
+    "sha256": "15861b087002a1d21a2f5111b6964a7ef22849f8a7af9985a7e5ed342e2af093",
+    "size_bytes": 639249
   },
   {
     "path": "artifacts/rendered-mirror/real-time-alerts/index.html",
-    "sha256": "67e88f68a1c39ba464c025cf7583872ac292ad9ce7c17d765fd79cdc886b4af7",
-    "size_bytes": 879637
+    "sha256": "b34af9ebfa1adf93714e64ab3ef86103079683928e4f2af05b174ad4da41e597",
+    "size_bytes": 880588
+  },
+  {
+    "path": "artifacts/rendered-mirror/schedule-meeting/index.html",
+    "sha256": "110f0b851ff2383f70de426f4bec3d4618a4d8d8563ac4575af6caa265085ed1",
+    "size_bytes": 741
   },
   {
     "path": "artifacts/rendered-mirror/slice-and-dice/index.html",
-    "sha256": "7b2c784f2497cb7492324c281a5a314b1a8ea70845b07b12979e004eac152a7b",
-    "size_bytes": 887890
+    "sha256": "88895f13faa5a5d382c1248729c1ebc4889b8dff2c2cc425fd96a654d5807a62",
+    "size_bytes": 888795
   },
   {
     "path": "artifacts/rendered-mirror/soc2-request/index.html",
-    "sha256": "b3ddd1a543fbce18c3efb346694093e446a57180932a78fd48de4be1fc1c02e8",
-    "size_bytes": 575869
+    "sha256": "328f982405f2468466626249b0465ae0af061d5f40e3dd1b7023583826775880",
+    "size_bytes": 576075
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/9gag/index.html",
-    "sha256": "33e4f66f23fe89a5432f1dfbef71693c4fc26944aa48a4c560652d8c4955d097",
-    "size_bytes": 813494
+    "sha256": "a2069bed213fcd2f92805c1a27757f18fb50c5265246e7e556e40e3c8a9340f9",
+    "size_bytes": 813335
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/apartment-therapy/index.html",
-    "sha256": "210ef486ddc6d2acaa2ada619c148aeab4f079c0014eb77938ad683d450a00ea",
-    "size_bytes": 811513
+    "sha256": "9ce2b4bf1bff61cf63bbf912196b1df608c40898d59fd0a5399080f0d31059c0",
+    "size_bytes": 811262
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/bauer-media-group/index.html",
-    "sha256": "1a6499bbb4a1d41df85c24570b2de041ee826447cb8696cc2e72e8cb8f929f48",
-    "size_bytes": 807290
+    "sha256": "b5d3adacf3d66939d9249981f212c16db3c02fe707a5912006a2a1db442d3d63",
+    "size_bytes": 807204
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/boons/index.html",
-    "sha256": "ad61066a5ad066718f4d473c1fa1b69e25a583163044f3f53727b39563e8dbcf",
-    "size_bytes": 810382
+    "sha256": "75750013773d35d31284910971ce4a4d7e000d122480ae5c1d2fc2c027b51588",
+    "size_bytes": 810354
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/cambium-media/index.html",
-    "sha256": "74de805b025241a56769a74e39d3f16e365bb191bafe38821cc3453f4885615b",
-    "size_bytes": 810871
+    "sha256": "b085486eea23db112e3cb75c27d62a6a8d6171768d18434e30c71db3118c6f6c",
+    "size_bytes": 810841
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/connatix/index.html",
-    "sha256": "81a48364d0172f36adc307db3141b55dbceba1fdc508b6d185183e857cdf04e5",
-    "size_bytes": 811630
+    "sha256": "4ee699fd7d24a7073f2013727bd355938f468cddc999b57fbf7d49a9dc7f4a21",
+    "size_bytes": 811530
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/gumgum-inc/index.html",
-    "sha256": "0d329d1d30885b780ac78ff6b71b8144cb48a612c1421613c15a3456aaaad11c",
-    "size_bytes": 808718
+    "sha256": "d44e5257f656d6ea5485a53d7d4921f61e5f817d989dfc71cbe035a06036a4ce",
+    "size_bytes": 808670
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/hitopic/index.html",
-    "sha256": "6a983ba50c5133a7b28904ed390c1eee5cdaa7525ad407865b6f3954078c9534",
-    "size_bytes": 810784
+    "sha256": "6e7d2a12d5d94d53c20f0784306424cd0da467a5b5ecda663bbbaf2deb69d5eb",
+    "size_bytes": 810703
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/index.html",
-    "sha256": "f69222d822b6f98e692e133cdfd2c1324b8c07955a5e92b907d0fd0f2de279d8",
-    "size_bytes": 706333
+    "sha256": "1cf0ea3618f8a30df12b70e80ca2e7fb04e0541b62a7625c70d08e08150eab63",
+    "size_bytes": 706474
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/krone/index.html",
-    "sha256": "1fd8213736ef9e1caf09782409b344494242337a2efb3d636d6002ac6101d473",
-    "size_bytes": 811363
+    "sha256": "bd6c4ff35713d961251ac294e946b3197059eeb6727eeba91a4ee4610ddf1312",
+    "size_bytes": 811202
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/kurier-media-house/index.html",
-    "sha256": "e5cda1f98014981dd75c6fdfbab261f052bf63fb2221f66410a1846687fffd1a",
-    "size_bytes": 811405
+    "sha256": "47dd5d526223cc9cf90edf071c02ee68a63e96b61c9b2a2bb597400b6931f8fb",
+    "size_bytes": 811270
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/kurier-media-house/kurier.at.html",
+    "sha256": "fbf5928a561920a628d691e68942e6f90357642cf72fd7f7dc7fd4dcea530f3d",
+    "size_bytes": 771
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/nativo/index.html",
-    "sha256": "8bb319f5d979d1a3e899731e201bb3a719a5dd05c45ec2b0fb02b1e41a447e0a",
-    "size_bytes": 813492
+    "sha256": "20dfdc6cc9373a467b503992a513ab133e7ec51e781f332d003c28b23304deac",
+    "size_bytes": 813445
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/shinez/assertiveyield.com.html",
+    "sha256": "6e751439ace6e4077c4e07030211e933c1a522dc8ddd9d2d8e8c464f3da2f000",
+    "size_bytes": 768
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/shinez/index.html",
-    "sha256": "90ddcd364d7af9774062e84141cdea4cc853d9525089ac782511129a31c13112",
-    "size_bytes": 809681
+    "sha256": "1b9b2a4bd044099f9248296eab7bb0b8f8312c73dd876a4cef41b6d4af58bf38",
+    "size_bytes": 809594
   },
   {
     "path": "artifacts/rendered-mirror/success-stories/world-history-encyclopedia/index.html",
-    "sha256": "d3776838d28ef74e27b0a82bbad55f09a8d165d3b6c505191b39e4362ac4b36b",
-    "size_bytes": 814740
+    "sha256": "6fe7e0b96abd9d6326e055394a7de7eb9f884a037406ecb1c674c1dd9b5e0310",
+    "size_bytes": 814568
+  },
+  {
+    "path": "artifacts/rendered-mirror/terms/index.html",
+    "sha256": "c2ebcb6c6f6bb5b9a9af38e7a02467b51e48e7eea1dd691431291d776a0be517",
+    "size_bytes": 730
   },
   {
     "path": "artifacts/rendered-mirror/traffic-acquisition/index.html",
-    "sha256": "465387c0c60cf3f69dfe3ffed7135d4e86d63e53bd6e73475cdde09f429ae190",
-    "size_bytes": 868489
+    "sha256": "24d4bce50939c5e435969e81776b1dc0e13bd8bc64539bd18cddc1b37a65217d",
+    "size_bytes": 869392
   },
   {
     "path": "artifacts/rendered-mirror/traffic-shaping/index.html",
-    "sha256": "c8ec33bdba8f351224ef19cb8bb8460279676d222db6feddf8c9381db97fa51b",
-    "size_bytes": 1097836
+    "sha256": "27c16005523bacb0a6fc344ab2c038066dff2fe8e82b09dc27e5467f8948d8f5",
+    "size_bytes": 1098721
   },
   {
     "path": "artifacts/rendered-mirror/traffic-shaping-for-publishers/index.html",
-    "sha256": "186ef83abe9e3f9cd816548b31f6f2feaa4a787840024167d1036cb0596f2be1",
-    "size_bytes": 796399
+    "sha256": "c314d23f1636de63a99031186efe09eb75bcc5f5874aa5727775e6ffa884b7ed",
+    "size_bytes": 797103
   },
   {
     "path": "artifacts/rendered-mirror/videos/all/index.html",
-    "sha256": "fd852b074072234d91bc8719601dec70dec955f74a6731d120936654920ae7af",
-    "size_bytes": 676390
+    "sha256": "18337e6d03adff1c7247c59fa3aa65634eeef5454f93a20049a87cf995c4eaae",
+    "size_bytes": 676673
   },
   {
     "path": "artifacts/rendered-mirror/yield-intelligence/index.html",
-    "sha256": "8d31b314f2eeb056484de8113d3af37e6584f4109dfd9effa805dc81e3cb37ac",
-    "size_bytes": 704391
+    "sha256": "776e6b5548ace77aa8063c299255f1269b53eeff7cc72b1ae9ce392ccf2d2c24",
+    "size_bytes": 704626
   },
   {
     "path": "artifacts/rendered-mirror/yield-manager/index.html",
-    "sha256": "0c3597f61a6c7e4f268196e36c24728c19c9a43fc34467712f940d5e659c5e61",
-    "size_bytes": 967364
+    "sha256": "c0078153df46628a9f09372becca1b4e81d9d0113003e2623831a5ca8bc0a1fe",
+    "size_bytes": 967501
   },
   {
     "path": "artifacts/rendered-mirror/yield-optimizer/index.html",
-    "sha256": "51ae20b04a9be66d21dce4669f3291a33f78bae1648f679f382ec9e1f375c06f",
-    "size_bytes": 736939
+    "sha256": "e2431ba83cb191842dfbab0f3da6cd8a6e1b5478c2e115d127a51b0873cb4143",
+    "size_bytes": 737180
   },
   {
     "path": "artifacts/screenshots/001-www.assertiveyield.com.png",
@@ -3261,7 +3426,7 @@
   },
   {
     "path": "hashes/snapshot-archive.sha256",
-    "sha256": "e38c95f93671048b16deedd076021ad099229a4a6bf9e1d46ef9079d36bb503a",
+    "sha256": "94905ff0699cbba60a0aa6d9d79dc8ac71e12221ccb9eddaf0cff99ab610e266",
     "size_bytes": 231
   },
   {
@@ -3966,7 +4131,7 @@
   },
   {
     "path": "logs/validate.jsonl",
-    "sha256": "6cc5b5c4b57072adce140f588097d31551143ac7dee147509f907f0bb36b32b7",
+    "sha256": "a808e0e99653f0f44da1dc4d21982598967290f764289547bbb0b018dd3f62af",
     "size_bytes": 526
   },
   {
@@ -3990,8 +4155,13 @@
     "size_bytes": 333
   },
   {
+    "path": "manifest/offline-navigation.json",
+    "sha256": "93a8a50d5852c166845117d86b24288fedb48112ca72525a186ae34a37b15849",
+    "size_bytes": 338
+  },
+  {
     "path": "manifest/package-metadata.json",
-    "sha256": "47262428e6ec6d431f6067eb0cfc1c2c6fcfab34d324e3b185f116d8ee9cb07b",
+    "sha256": "2e1100d32f5ea5b5c4e886fdcb1fd162dcf1ee8946e9765583f9f693060ad73e",
     "size_bytes": 1551
   },
   {
@@ -4006,7 +4176,7 @@
   },
   {
     "path": "manifest/report-result.json",
-    "sha256": "5b621f906168bd5b36e87686ecf8589e3d251c6955c4a41e85dffcdb40c116cf",
+    "sha256": "68d465faaafce7c98980b6a0319ca080596bb5afa87348066cf9957f941398d3",
     "size_bytes": 528
   },
   {
@@ -4016,12 +4186,12 @@
   },
   {
     "path": "manifest/snapshot-archives.json",
-    "sha256": "6d6211e1768eafa0dfb2fccbdd11c7f24bee5ca273d53651e8fea542667dcf9d",
+    "sha256": "73290db00b3d5074d7d7b51a40c2a56bd37580c5b2d26d5ec7bcd592dc5c7f11",
     "size_bytes": 2363
   },
   {
     "path": "manifest/snapshot-status.json",
-    "sha256": "045ded21ad1a58c4cbc16b2f225a10f02e1f06d4772a913a3acd410014da1c76",
+    "sha256": "ca9464f2736ccf6259d07710039bbfe1961e5a495b051f7e74d41fd44c26d444",
     "size_bytes": 486
   },
   {
@@ -4031,7 +4201,7 @@
   },
   {
     "path": "manifest/validation.json",
-    "sha256": "51d41ff00e76835b4159d8f91aa47435dcc7ab565adddeea86bd1cec11dc4e3d",
+    "sha256": "c28c4fd49a02273da3030c7bd7ea50a54f3c7981f2f752d871a7908f5eb2c607",
     "size_bytes": 87972
   },
   {
@@ -4061,7 +4231,7 @@
   },
   {
     "path": "report/executive-summary.md",
-    "sha256": "63120f3d968e33c39c9d81871baf70a0f0ce6ccf74a9a2bfdd11d8fc0d3b04ea",
+    "sha256": "b3fc4a5d4304034bbbbd646206cf8eaf1aff8d1dee4abfb28a46ae80adf2d198",
     "size_bytes": 675
   },
   {
@@ -4086,7 +4256,7 @@
   },
   {
     "path": "report/report.md",
-    "sha256": "90b003d03c3ce2e62c626536e9ce8dc51dcb26a3940eff779f3306e8967ba1fc",
+    "sha256": "63e81e2ff8237df3e9afbf7752b07bb8ef885ab3faa98d53edd7efbb48c2face",
     "size_bytes": 30053
   },
   {
@@ -4096,7 +4266,7 @@
   },
   {
     "path": "validation/validation.json",
-    "sha256": "51d41ff00e76835b4159d8f91aa47435dcc7ab565adddeea86bd1cec11dc4e3d",
+    "sha256": "c28c4fd49a02273da3030c7bd7ea50a54f3c7981f2f752d871a7908f5eb2c607",
     "size_bytes": 87972
   }
 ]
