@@ -6,8 +6,8 @@
   },
   {
     "path": "SNAPSHOT-STATUS.md",
-    "sha256": "23386ec9bf12a8fc197f24196e1bff1cae50ffd5cae0498b82acb3b2b09462fc",
-    "size_bytes": 470
+    "sha256": "5ab0689eb01c9e8519ec0d6d9eee4c38e5409b93f5d467ad6db5a28a9501bce7",
+    "size_bytes": 488
   },
   {
     "path": "START-HERE.md",
@@ -20,6 +20,21 @@
     "size_bytes": 176
   },
   {
+    "path": "artifacts/control/robots.txt",
+    "sha256": "2129749146f50ecc29b95a08409cabe2a3fdf6555e948d5205b9e8f42c0688ff",
+    "size_bytes": 355
+  },
+  {
+    "path": "artifacts/control/sitemap-001.xml",
+    "sha256": "b2a3a0e8e81f6a46336b86b0471777ba7ed467a1a9d176ac647ff031119d1f94",
+    "size_bytes": 193
+  },
+  {
+    "path": "artifacts/control/sitemap-002.xml",
+    "sha256": "12caee475a1737f2373c83145073b3a6ccfc1884ef46b380b62d61f8113c64b3",
+    "size_bytes": 19284
+  },
+  {
     "path": "hashes/README.md",
     "sha256": "27f3843e7aeca68462d71e26cb587aec0b78d3fe52196ae2ae9491544ddcfc3c",
     "size_bytes": 130
@@ -28,6 +43,11 @@
     "path": "logs/README.md",
     "sha256": "41367b0328a2bcdd46d3ce382b0912d1fef9ebdd9b7efc85872a21202a03a865",
     "size_bytes": 148
+  },
+  {
+    "path": "logs/inventory.jsonl",
+    "sha256": "5f467b0f70497d5f4ef034d536c513bfa847d81c37ec8c77fc7fc8361940eb3c",
+    "size_bytes": 33820
   },
   {
     "path": "manifest/README.md",
@@ -46,8 +66,13 @@
   },
   {
     "path": "manifest/snapshot-status.json",
-    "sha256": "98a486372f14466f96ddcb3cd4a43f265de143c9740db57a6de50401b438aa1c",
-    "size_bytes": 305
+    "sha256": "761eb0504b213507f9714c21160118969dff3eaf2c3db70e7d91a6add81d6d3d",
+    "size_bytes": 326
+  },
+  {
+    "path": "manifest/url-inventory.json",
+    "sha256": "f40773d8d3d87132cb8d5f9c75b26a6fd2539cbb8e58f751ad894746a89cc8b5",
+    "size_bytes": 62918
   },
   {
     "path": "report/README.md",

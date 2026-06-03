@@ -1,12 +1,13 @@
 {
   "archives_created": false,
   "completed_stages": [
-    "scope"
+    "scope",
+    "inventory"
   ],
   "final": false,
   "run": "2026-06-03-1625",
   "snapshot_dir": "snapshots/www.assertiveyield.com/2026-06-03-1625",
-  "stage": "scope",
+  "stage": "inventory",
   "target_url": "https://www.assertiveyield.com/",
-  "updated_utc": "2026-06-03T16:25:56+00:00"
+  "updated_utc": "2026-06-03T16:29:58+00:00"
 }
