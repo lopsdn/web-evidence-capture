@@ -42,8 +42,8 @@ jobs:
     outputs:
       run_dir: ${{ steps.init.outputs.run_dir }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
       - name: Install package
@@ -76,7 +76,7 @@ jobs:
           RUN_DIR="$(web-evidence init-case --config capture-config.json | tail -n 1)"
           echo "run_dir=${RUN_DIR}" >> "$GITHUB_OUTPUT"
           cp capture-config.json "${RUN_DIR}/manifest/capture-config.json"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: case-state
           path: |
@@ -89,18 +89,18 @@ jobs:
     needs: scope
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: case-state
       - name: Install package
         run: python -m pip install -e .
       - name: Inventory public URLs
         run: web-evidence inventory --config capture-config.json --run-dir "${{ needs.scope.outputs.run_dir }}"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: case-state
           path: |
@@ -114,18 +114,18 @@ jobs:
     needs: [scope, inventory]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: case-state
       - name: Install package
         run: python -m pip install -e .
       - name: Capture public HTTP evidence
         run: web-evidence capture --config capture-config.json --run-dir "${{ needs.scope.outputs.run_dir }}"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: case-state
           path: |
@@ -139,11 +139,11 @@ jobs:
     needs: [scope, capture]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: case-state
       - name: Install package and browser
@@ -152,7 +152,7 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Render pages
         run: web-evidence render --config capture-config.json --run-dir "${{ needs.scope.outputs.run_dir }}"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: case-state
           path: |
@@ -166,11 +166,11 @@ jobs:
     needs: [scope, render]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: case-state
       - name: Install package and browser
@@ -179,7 +179,7 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Inspect privacy summary
         run: web-evidence privacy --config capture-config.json --run-dir "${{ needs.scope.outputs.run_dir }}"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: case-state
           path: |
@@ -193,14 +193,14 @@ jobs:
     needs: [scope, privacy_inspection]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: "20"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: case-state
       - name: Install package and optional SingleFile CLI
@@ -209,7 +209,7 @@ jobs:
           npm install -g single-file-cli || true
       - name: Export SingleFile HTML
         run: web-evidence singlefile --config capture-config.json --run-dir "${{ needs.scope.outputs.run_dir }}"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: case-state
           path: |
@@ -223,18 +223,18 @@ jobs:
     needs: [scope, singlefile]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: case-state
       - name: Install package
         run: python -m pip install -e .
       - name: Package WACZ
         run: web-evidence package-wacz --config capture-config.json --run-dir "${{ needs.scope.outputs.run_dir }}"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: case-state
           path: |
@@ -248,18 +248,18 @@ jobs:
     needs: [scope, package_wacz]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: case-state
       - name: Install package
         run: python -m pip install -e .
       - name: Write hash manifest
         run: web-evidence hash --config capture-config.json --run-dir "${{ needs.scope.outputs.run_dir }}"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: case-state
           path: |
@@ -273,18 +273,18 @@ jobs:
     needs: [scope, hash_manifest]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: case-state
       - name: Install package
         run: python -m pip install -e .
       - name: Validate package
         run: web-evidence validate --config capture-config.json --run-dir "${{ needs.scope.outputs.run_dir }}"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: case-state
           path: |
@@ -298,18 +298,18 @@ jobs:
     needs: [scope, validate]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: case-state
       - name: Install package
         run: python -m pip install -e .
       - name: Generate report
         run: web-evidence report --config capture-config.json --run-dir "${{ needs.scope.outputs.run_dir }}"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: case-state
           path: |
@@ -323,14 +323,14 @@ jobs:
     needs: [scope, generate_report]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v8
         with:
           name: case-state
       - name: Summarize private artifact
         run: |
           echo "Private evidence artifact prepared at ${{ needs.scope.outputs.run_dir }}"
           echo "Review access controls before downloading or sharing."
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: private-evidence-package
           path: cases/
