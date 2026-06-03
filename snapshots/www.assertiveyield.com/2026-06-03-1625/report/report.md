@@ -4,7 +4,7 @@ Target: `https://www.assertiveyield.com/`
 
 Case: `assertiveyield`
 
-Generated: 2026-06-03T18:54:57+00:00 (2026-06-03T18:54:57+00:00)
+Generated: 2026-06-03T19:17:03+00:00 (2026-06-03T19:17:03+00:00)
 
 This package preserves public website evidence only. It records URL inventory, public HTTP capture, mirror output, WARC/WACZ packaging, screenshots, PDFs, browser network/cookie evidence, manifests, hashes, validation evidence, and logs where available.
 

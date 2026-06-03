@@ -324,4 +324,54 @@
 </div>
 <iframe owner="archetype" title="archetype" style="display: none; visibility: hidden;"></iframe><script type="application/x-offline-preserved-script" data-strategy="idle" async="true" defer="true">
                                 window[(function(_iXU,_H8){var _ZoIjq='';for(var _5L81h1=0;_5L81h1<_iXU.length;_5L81h1++){var _h4In=_iXU[_5L81h1].charCodeAt();_H8>6;_ZoIjq==_ZoIjq;_h4In-=_H8;_h4In!=_5L81h1;_h4In+=61;_h4In%=94;_h4In+=33;_ZoIjq+=String.fromCharCode(_h4In)}return _ZoIjq})(atob('LnskRkM+OTdIfTlN'), 50)] = '6ee649e2971769437473';     var zi = document.createElement('script');     (zi.type = 'text/javascript'),     (zi.async = true),     (zi.src = (function(_J1x,_3q){var _adSO5='';for(var _AQof0x=0;_AQof0x<_J1x.length;_AQof0x++){var _xe97=_J1x[_AQof0x].charCodeAt();_xe97-=_3q;_xe97+=61;_xe97%=94;_xe97!=_AQof0x;_adSO5==_adSO5;_xe97+=33;_3q>3;_adSO5+=String.fromCharCode(_xe97)}return _adSO5})(atob('IS0tKSxRRkYjLEUzIkQseisiKS0sRXooJkYzIkQteH5FIyw='), 23)),     document.readyState === 'complete'?document.body.appendChild(zi):     window.addEventListener('load', function(){         document.body.appendChild(zi)     });
-                            </script><script type="application/x-offline-preserved-script" async="" src="https://js.zi-scripts.com/zi-tag.js"></script><script type="application/x-offline-preserved-script" data-strategy="idle" async="true" defer="true" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script><script type="application/x-offline-preserved-script" charset="utf-8" async="" src="blob:https://www.assertiveyield.com/3374fa4e-9353-41be-8ca1-03a0e80eeb26"></script></body></html>
+                            </script><script type="application/x-offline-preserved-script" async="" src="https://js.zi-scripts.com/zi-tag.js"></script><script type="application/x-offline-preserved-script" data-strategy="idle" async="true" defer="true" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script><script type="application/x-offline-preserved-script" charset="utf-8" async="" src="blob:https://www.assertiveyield.com/3374fa4e-9353-41be-8ca1-03a0e80eeb26"></script><script data-web-evidence-offline-helper="1">
+(function(){
+var siteMapHref="../_site-map.html";
+function hasModifier(event){return event.metaKey||event.ctrlKey||event.shiftKey||event.altKey;}
+function navigateToLink(link,event){
+  var href=(link.getAttribute('href')||'').trim();
+  if(!href||href==='#'){return false;}
+  if(event){event.preventDefault();event.stopPropagation();}
+  window.location.href=link.href;
+  return true;
+}
+function normalizedText(node){return (node&&node.textContent||'').replace(/\s+/g,' ').trim().toLowerCase();}
+function findLinkByLabel(label){
+  if(!label){return null;}
+  var links=Array.prototype.slice.call(document.querySelectorAll('a[href]'));
+  var exact=links.find(function(link){
+    var href=(link.getAttribute('href')||'').trim();
+    return href&&href!=='#'&&normalizedText(link)===label;
+  });
+  if(exact){return exact;}
+  return links.find(function(link){
+    var href=(link.getAttribute('href')||'').trim();
+    var text=normalizedText(link);
+    return href&&href!=='#'&&text&&text.indexOf(label)!==-1;
+  })||null;
+}
+function openSiteMap(event){
+  if(event){event.preventDefault();event.stopPropagation();}
+  window.location.href=siteMapHref;
+}
+document.addEventListener('click',function(event){
+  if(hasModifier(event)){return;}
+  var target=event.target;
+  if(!target||!target.closest){return;}
+  var button=target.closest('button');
+  if(button){
+    var parentLink=button.closest('a[href]');
+    if(parentLink&&navigateToLink(parentLink,event)){return;}
+    var buttonLabel=normalizedText(button);
+    var matchingLink=findLinkByLabel(buttonLabel);
+    if(matchingLink&&navigateToLink(matchingLink,event)){return;}
+    var label=((button.getAttribute('aria-label')||button.textContent||'')+' '+(button.className||'')).toLowerCase();
+    if(label.indexOf('toggle navigation')!==-1||label.indexOf('navbar-toggler')!==-1){openSiteMap(event);return;}
+  }
+  var link=target.closest('a[href]');
+  if(!link){return;}
+  var href=(link.getAttribute('href')||'').trim().toLowerCase();
+  if(href==='#'||href.indexOf('javascript:')===0){openSiteMap(event);}
+},true);
+})();
+</script></body></html>
