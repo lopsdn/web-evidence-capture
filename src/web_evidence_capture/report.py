@@ -77,6 +77,10 @@ If that file does not show useful content, open:
 
 `open-static-mirror.html`
 
+For self-contained individual page exports, open:
+
+`singlefile-index.html`
+
 The rendered mirror reflects browser-observed HTML from the workflow runner. The static mirror reflects public HTTP HTML with executable scripts disabled for offline review.
 
 ## Download The Complete Snapshot

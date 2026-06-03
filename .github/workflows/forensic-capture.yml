@@ -351,6 +351,7 @@ jobs:
             --log-failed \
             > "${ACTION_LOG_DIR}/failed.log" || true
           python - <<'PY'
+          import html
           import json
           import os
           import re
@@ -508,6 +509,29 @@ jobs:
 
           rendered_exists = (snapshot_dir / "artifacts" / "rendered-mirror" / "index.html").exists()
           static_exists = (snapshot_dir / "artifacts" / "mirror" / "index.html").exists()
+          singlefile_result_path = snapshot_dir / "manifest" / "singlefile-result.json"
+          try:
+              singlefile_results = json.loads(singlefile_result_path.read_text(encoding="utf-8"))
+          except (FileNotFoundError, json.JSONDecodeError):
+              singlefile_results = []
+          singlefile_links = []
+          for item in singlefile_results:
+              output = item.get("output") or ""
+              if output and item.get("exists"):
+                  singlefile_links.append((item.get("url") or output, f"singlefile/{Path(output).name}"))
+          singlefile_index = "\n".join(
+              [
+                  "<!doctype html>",
+                  '<meta charset="utf-8">',
+                  "<title>SingleFile Captures</title>",
+                  "<h1>SingleFile Captures</h1>",
+                  "<p>These pages are self-contained HTML exports when SingleFile succeeded. They are listed separately from mirror navigation.</p>",
+                  "<ol>",
+                  *[f'<li><a href="{html.escape(path)}">{html.escape(url)}</a></li>' for url, path in singlefile_links],
+                  "</ol>",
+                  "",
+              ]
+          )
           browse_readme = "\n".join(
               [
                   "# Captured Website HTML",
@@ -521,9 +545,11 @@ jobs:
                   "1. Unzip this file.",
                   "2. Open `open-rendered-mirror.html` in a browser.",
                   "3. If the rendered mirror is unavailable or not useful, open `open-static-mirror.html`.",
+                  "4. Open `singlefile-index.html` for self-contained SingleFile pages when available.",
                   "",
                   "The rendered mirror reflects browser-observed HTML from the GitHub-hosted runner.",
                   "The static mirror reflects public HTTP HTML with executable scripts disabled for offline review.",
+                  "SingleFile pages are usually the easiest individual pages to open offline, but they are listed one page at a time.",
                   "",
                   f"This ZIP is for navigation and review. For the complete evidence package, use `{site}-{run_stamp}.zip` or the expanded snapshot folder.",
                   "",
@@ -553,9 +579,19 @@ jobs:
               archive.writestr("README.md", browse_readme)
               archive.writestr("open-rendered-mirror.html", rendered_launcher)
               archive.writestr("open-static-mirror.html", static_launcher)
+              archive.writestr("singlefile-index.html", singlefile_index)
               archive.writestr(
                   "availability.json",
-                  json.dumps({"rendered_mirror_index": rendered_exists, "static_mirror_index": static_exists}, indent=2, sort_keys=True) + "\n",
+                  json.dumps(
+                      {
+                          "rendered_mirror_index": rendered_exists,
+                          "singlefile_pages": len(singlefile_links),
+                          "static_mirror_index": static_exists,
+                      },
+                      indent=2,
+                      sort_keys=True,
+                  )
+                  + "\n",
               )
               add_tree(archive, snapshot_dir / "artifacts" / "rendered-mirror", "rendered-mirror")
               add_tree(archive, snapshot_dir / "artifacts" / "mirror", "static-mirror")

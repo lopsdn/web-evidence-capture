@@ -84,7 +84,7 @@ Inside a snapshot:
 
 - Open `START-HERE.md` first.
 - Open `report/report.md` for the complete report.
-- Download `<site>-<run>-website-html.zip` to browse captured HTML locally.
+- Download `<site>-<run>-website-html.zip` to browse captured HTML locally; open `open-rendered-mirror.html`, `open-static-mirror.html`, or `singlefile-index.html`.
 - Download `<site>-<run>.zip` for the complete evidence package.
 
 ## Limitations
