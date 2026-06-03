@@ -1,0 +1,2580 @@
+{
+  "checks": {
+    "accounts_created": false,
+    "authentication_attempted": false,
+    "forms_submitted": false,
+    "hashed_file_count": 778,
+    "mirror_body_sample": "Consent Details [#IABV2SETTINGS#] About This website uses cookies We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine",
+    "mirror_index_exists": true,
+    "mirror_meaningful_body_exists": true,
+    "mirror_meaningful_body_source": "rendered",
+    "missing_render_artifacts_count": 0,
+    "pdf_count": 124,
+    "render_failures_count": 0,
+    "render_result_count": 124,
+    "rendered_mirror_index_exists": true,
+    "retry_count": 1,
+    "screenshots_count": 124,
+    "sensitive_findings_count": 504,
+    "wacz_exists": true,
+    "wacz_invalid_passed_pages_count": 0,
+    "wacz_pages_detected": 124,
+    "wacz_pages_input_count": 124,
+    "wacz_validate_exit_code": 0,
+    "warc_exists": true
+  },
+  "completed_local": "2026-06-03T17:46:22+00:00",
+  "completed_utc": "2026-06-03T17:46:22+00:00",
+  "failures": [
+    "sensitive_patterns_detected"
+  ],
+  "missing_render_artifacts": [],
+  "render_retries": [
+    {
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.assertiveyield.com/ailayouts/\", waiting until \"networkidle\"\n",
+          "resolved": false,
+          "timestamp_local": "2026-06-03T16:35:09+00:00",
+          "wait_until": "networkidle"
+        },
+        {
+          "attempt": 2,
+          "error": "",
+          "resolved": true,
+          "timestamp_local": "2026-06-03T16:36:09+00:00",
+          "wait_until": "load"
+        }
+      ],
+      "resolved": true,
+      "url": "https://www.assertiveyield.com/ailayouts/"
+    }
+  ],
+  "sensitive_findings": [
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.json",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    },
+    {
+      "path": "cases/assertiveyield/runs/2026-06-03-1625/artifacts/privacy/network-events.jsonl",
+      "sample": "Bear...7473",
+      "type": "bearer_token"
+    }
+  ],
+  "status": "failed_validation",
+  "warnings": [
+    "render_retries_recorded"
+  ]
+}

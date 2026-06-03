@@ -1,0 +1,1 @@
+{"failures": ["sensitive_patterns_detected"], "message": "complete", "status": "failed_validation", "step": "validate", "timestamp_local": "2026-06-03T17:46:23+00:00", "timestamp_utc": "2026-06-03T17:46:23+00:00", "warnings": ["render_retries_recorded"]}

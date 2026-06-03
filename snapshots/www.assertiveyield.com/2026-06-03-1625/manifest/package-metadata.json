@@ -11,6 +11,8 @@
     "www.assertiveyield.com"
   ],
   "case_slug": "assertiveyield",
+  "completed_local": "2026-06-03T17:46:23+00:00",
+  "completed_utc": "2026-06-03T17:46:23+00:00",
   "config": {
     "allowed_domains": [
       "assertiveyield.com",
@@ -48,6 +50,6 @@
   },
   "created_local": "2026-06-03T16:25:56+00:00",
   "created_utc": "2026-06-03T16:25:56+00:00",
-  "status": "initialized",
+  "status": "failed_validation",
   "target_url": "https://www.assertiveyield.com/"
 }

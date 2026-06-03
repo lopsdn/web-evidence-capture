@@ -6,8 +6,8 @@
   },
   {
     "path": "SNAPSHOT-STATUS.md",
-    "sha256": "2edec7aa8b297a9c3f02f2e674383e6da84acc1d2adfa2f38e461c6c31f4de65",
-    "size_bytes": 588
+    "sha256": "7d03ce102365d6e2a234fb9311d5280f57b8b0ecd4fd5e54b9aab05406116668",
+    "size_bytes": 596
   },
   {
     "path": "START-HERE.md",
@@ -3865,6 +3865,11 @@
     "size_bytes": 29160
   },
   {
+    "path": "logs/validate.jsonl",
+    "sha256": "393347f1470d084d35d451a303da58e7948908cca2857883eb9e5af37daf8b81",
+    "size_bytes": 255
+  },
+  {
     "path": "manifest/README.md",
     "sha256": "f9279ff64e6400082a05cd836c498db7ad2230ec8964045f7d1209f6891d11fa",
     "size_bytes": 134
@@ -3881,8 +3886,8 @@
   },
   {
     "path": "manifest/package-metadata.json",
-    "sha256": "b7c6de05ecfc70cc1cecd5c699214da46a28ef79c2e1542dba54736d60e1ffed",
-    "size_bytes": 1441
+    "sha256": "1994e8cbab22ef94ea99247e2dd7630d84bff42763dd3dc0cd83c5e1c62e7f02",
+    "size_bytes": 1545
   },
   {
     "path": "manifest/privacy-result.json",
@@ -3901,13 +3906,18 @@
   },
   {
     "path": "manifest/snapshot-status.json",
-    "sha256": "2c633508daeeea71ace6e1ff7962d623449e9907a4de946bb9a8a7f4852db17f",
-    "size_bytes": 444
+    "sha256": "bf8d9779b38452513eab77fa1044f1bfeb60db0ea77a2f22815fd958fe3ad0fa",
+    "size_bytes": 455
   },
   {
     "path": "manifest/url-inventory.json",
     "sha256": "f40773d8d3d87132cb8d5f9c75b26a6fd2539cbb8e58f751ad894746a89cc8b5",
     "size_bytes": 62918
+  },
+  {
+    "path": "manifest/validation.json",
+    "sha256": "6cbe43e4401f337a7608c77562255f0a07e1b0d0f3108b67a8791e4ac4837f85",
+    "size_bytes": 87960
   },
   {
     "path": "manifest/wacz-pages.json",
@@ -3928,5 +3938,10 @@
     "path": "validation/README.md",
     "sha256": "ab5d79fc82a3119ed898b8d7ef5af4f8f9c13ff4971295a2d8aa3e9e5a616179",
     "size_bytes": 120
+  },
+  {
+    "path": "validation/validation.json",
+    "sha256": "6cbe43e4401f337a7608c77562255f0a07e1b0d0f3108b67a8791e4ac4837f85",
+    "size_bytes": 87960
   }
 ]
