@@ -10,7 +10,7 @@ Run folder:
 
 Validation status:
 
-`failed_validation`
+`completed_with_warnings`
 
 ## What To Open First
 

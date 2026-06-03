@@ -6,9 +6,9 @@ Case slug: `assertiveyield`
 
 Run directory: `2026-06-03-1625`
 
-Generated UTC: `2026-06-03T17:49:16+00:00`
+Generated UTC: `2026-06-03T18:23:53+00:00`
 
-Validation status: `failed_validation`
+Validation status: `completed_with_warnings`
 
 This package is technical preservation support, not legal advice. It preserves public website evidence collected by an automated, source-available workflow. Repository visibility controls who can inspect the source, workflow definition, and committed outputs.
 

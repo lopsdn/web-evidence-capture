@@ -7,7 +7,7 @@
   "rendered_pages": 124,
   "skipped": 6,
   "target_url": "https://www.assertiveyield.com/",
-  "validation_status": "failed_validation",
+  "validation_status": "completed_with_warnings",
   "wacz_exists": true,
   "wacz_pages_detected": 124,
   "warc_exists": true

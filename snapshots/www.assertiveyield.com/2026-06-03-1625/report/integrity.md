@@ -7,7 +7,7 @@ Hash manifest:
 
 Validation:
 
-- Status: `failed_validation`
+- Status: `completed_with_warnings`
 - WARC exists: `True`
 - WACZ exists: `True`
 - WACZ validate exit code: `0`

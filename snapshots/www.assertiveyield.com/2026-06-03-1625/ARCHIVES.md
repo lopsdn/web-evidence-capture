@@ -6,7 +6,7 @@ The expanded snapshot directory is committed to Git. Large ZIP archives may be s
 
 | Archive | Size bytes | SHA-256 | Committed in this snapshot | External path |
 | --- | ---: | --- | --- | --- |
-| `www.assertiveyield.com-2026-06-03-1625.zip` | 1484077866 | `375385addee94d359ef5888dabe19aa72a433902fce0a15f9f9df76a2b9ca45c` | `no` | `snapshot-archives/www.assertiveyield.com/2026-06-03-1625/www.assertiveyield.com-2026-06-03-1625.zip` |
-| `www.assertiveyield.com-2026-06-03-1625-website-html.zip` | 424326838 | `9682a3a71328c08b6a96efaf25d93f1dc0bc22bd4bd6f3809a49266cd53c58c0` | `no` | `snapshot-archives/www.assertiveyield.com/2026-06-03-1625/www.assertiveyield.com-2026-06-03-1625-website-html.zip` |
+| `www.assertiveyield.com-2026-06-03-1625.zip` | 1484078057 | `ba110128229937d2c9a885b31d0399354740685ddf029670f1529f33800b527a` | `no` | `snapshot-archives/www.assertiveyield.com/2026-06-03-1625/www.assertiveyield.com-2026-06-03-1625.zip` |
+| `www.assertiveyield.com-2026-06-03-1625-website-html.zip` | 424326838 | `1a7bd1975120f5a8be746af9808eacc20ef8df07d54e341fdf21bf1b19cdfa2b` | `no` | `snapshot-archives/www.assertiveyield.com/2026-06-03-1625/www.assertiveyield.com-2026-06-03-1625-website-html.zip` |
 
 If an external path is listed, the workflow uploads that file from `snapshot-archives/` as a workflow artifact and, when configured, as a release asset. Use the SHA-256 values above to verify downloaded archives.

@@ -3,7 +3,7 @@
     "accounts_created": false,
     "authentication_attempted": false,
     "forms_submitted": false,
-    "hashed_file_count": 778,
+    "hashed_file_count": 815,
     "mirror_body_sample": "Consent Details [#IABV2SETTINGS#] About This website uses cookies We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine",
     "mirror_index_exists": true,
     "mirror_meaningful_body_exists": true,
@@ -23,11 +23,9 @@
     "wacz_validate_exit_code": 0,
     "warc_exists": true
   },
-  "completed_local": "2026-06-03T17:46:22+00:00",
-  "completed_utc": "2026-06-03T17:46:22+00:00",
-  "failures": [
-    "sensitive_patterns_detected"
-  ],
+  "completed_local": "2026-06-03T18:23:51+00:00",
+  "completed_utc": "2026-06-03T18:23:51+00:00",
+  "failures": [],
   "missing_render_artifacts": [],
   "render_retries": [
     {
@@ -2573,8 +2571,9 @@
       "type": "bearer_token"
     }
   ],
-  "status": "failed_validation",
+  "status": "completed_with_warnings",
   "warnings": [
+    "private_sensitive_patterns_recorded",
     "render_retries_recorded"
   ]
 }
