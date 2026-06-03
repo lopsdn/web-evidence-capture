@@ -36,7 +36,14 @@ jobs:
       - name: Install package
         run: python -m pip install -e .
       - name: Download captured evidence artifact
-        run: gh run download "${SOURCE_RUN_ID}" --repo "${GITHUB_REPOSITORY}" --name private-evidence-package
+        run: |
+          mkdir -p downloaded-private-evidence cases
+          gh run download "${SOURCE_RUN_ID}" --repo "${GITHUB_REPOSITORY}" --name private-evidence-package --dir downloaded-private-evidence
+          if [ -d downloaded-private-evidence/cases ]; then
+            cp -a downloaded-private-evidence/cases/. cases/
+          else
+            cp -a downloaded-private-evidence/. cases/
+          fi
         env:
           GH_TOKEN: ${{ github.token }}
           SOURCE_RUN_ID: ${{ inputs.source_run_id }}
