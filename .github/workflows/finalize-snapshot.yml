@@ -51,6 +51,12 @@ jobs:
         run: cp "${RUN_DIR}/manifest/capture-config.json" capture-config.json
         env:
           RUN_DIR: ${{ inputs.run_dir }}
+      - name: Revalidate and regenerate report
+        run: |
+          bin/web-evidence validate --config capture-config.json --run-dir "${RUN_DIR}"
+          bin/web-evidence report --config capture-config.json --run-dir "${RUN_DIR}"
+        env:
+          RUN_DIR: ${{ inputs.run_dir }}
       - name: Commit final snapshot
         run: bin/publish-snapshot final "${RUN_DIR}" --final
         env:
