@@ -5,12 +5,13 @@
     "inventory",
     "capture",
     "render",
-    "privacy_inspection"
+    "privacy_inspection",
+    "singlefile"
   ],
   "final": false,
   "run": "2026-06-03-1625",
   "snapshot_dir": "snapshots/www.assertiveyield.com/2026-06-03-1625",
-  "stage": "privacy_inspection",
+  "stage": "singlefile",
   "target_url": "https://www.assertiveyield.com/",
-  "updated_utc": "2026-06-03T17:04:08+00:00"
+  "updated_utc": "2026-06-03T17:36:15+00:00"
 }
