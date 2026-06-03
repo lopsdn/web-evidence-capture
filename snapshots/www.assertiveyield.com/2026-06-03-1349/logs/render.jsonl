@@ -1,6 +1,0 @@
-{"cookie_choice": "deny", "message": "start", "step": "render", "timestamp_local": "2026-06-03T13:51:27+00:00", "timestamp_utc": "2026-06-03T13:51:27+00:00", "urls": 3}
-{"attempt": 1, "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.assertiveyield.com/\", waiting until \"networkidle\"\n", "message": "attempt_failed", "step": "render", "timestamp_local": "2026-06-03T13:52:27+00:00", "timestamp_utc": "2026-06-03T13:52:27+00:00", "url": "https://www.assertiveyield.com/", "wait_until": "networkidle"}
-{"error": "", "message": "rendered", "status": "200", "step": "render", "timestamp_local": "2026-06-03T13:52:33+00:00", "timestamp_utc": "2026-06-03T13:52:33+00:00", "url": "https://www.assertiveyield.com/"}
-{"error": "", "message": "rendered", "status": "200", "step": "render", "timestamp_local": "2026-06-03T13:52:39+00:00", "timestamp_utc": "2026-06-03T13:52:39+00:00", "url": "https://www.assertiveyield.com/about-us/"}
-{"error": "", "message": "rendered", "status": "200", "step": "render", "timestamp_local": "2026-06-03T13:52:43+00:00", "timestamp_utc": "2026-06-03T13:52:43+00:00", "url": "https://www.assertiveyield.com/ailayouts/"}
-{"message": "complete", "rendered": 3, "retries": 1, "step": "render", "timestamp_local": "2026-06-03T13:52:43+00:00", "timestamp_utc": "2026-06-03T13:52:43+00:00"}

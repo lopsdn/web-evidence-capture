@@ -1,1 +1,0 @@
-{"failures": [], "message": "complete", "status": "completed_with_warnings", "step": "validate", "timestamp_local": "2026-06-03T13:56:56+00:00", "timestamp_utc": "2026-06-03T13:56:56+00:00", "warnings": ["wacz_zero_pages_detected", "render_retries_recorded"]}

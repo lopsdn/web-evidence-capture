@@ -1,5 +1,0 @@
-{"available": true, "message": "start", "step": "singlefile", "timestamp_local": "2026-06-03T13:54:35+00:00", "timestamp_utc": "2026-06-03T13:54:35+00:00", "urls": 3}
-{"index": 1, "message": "export", "step": "singlefile", "timestamp_local": "2026-06-03T13:54:35+00:00", "timestamp_utc": "2026-06-03T13:54:35+00:00", "url": "https://www.assertiveyield.com/"}
-{"index": 2, "message": "export", "step": "singlefile", "timestamp_local": "2026-06-03T13:54:45+00:00", "timestamp_utc": "2026-06-03T13:54:45+00:00", "url": "https://www.assertiveyield.com/about-us/"}
-{"index": 3, "message": "export", "step": "singlefile", "timestamp_local": "2026-06-03T13:55:01+00:00", "timestamp_utc": "2026-06-03T13:55:01+00:00", "url": "https://www.assertiveyield.com/ailayouts/"}
-{"message": "complete", "outputs": 1, "step": "singlefile", "timestamp_local": "2026-06-03T13:55:29+00:00", "timestamp_utc": "2026-06-03T13:55:29+00:00"}
