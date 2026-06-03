@@ -56,7 +56,7 @@ GitHub Actions snapshots are committed to:
 snapshots/<site>/<YYYY-MM-DD-HHMM>/
 ```
 
-Each committed snapshot includes `START-HERE.md`, README files, reports, manifests, validation, hashes, logs, preserved artifacts, GitHub Actions run metadata/logs when available, a ZIP archive of the full snapshot, and a smaller website HTML ZIP for local browsing.
+Each committed snapshot includes `START-HERE.md`, README files, reports, manifests, validation, hashes, logs, preserved artifacts, and GitHub Actions run metadata/logs when available. Final runs also generate a ZIP archive of the full snapshot and a smaller website HTML ZIP for local browsing. If either ZIP is too large for GitHub's per-file Git limit, the ZIP is not committed; `ARCHIVES.md` and `manifest/snapshot-archives.json` record its SHA-256, size, and external artifact/release path.
 
 Workflow snapshots are committed progressively. While a run is still executing, open `SNAPSHOT-STATUS.md` to see the latest completed job. The complete ZIP archives are created only by the final publishing job.
 
@@ -91,6 +91,7 @@ Inside a snapshot:
 - Open `report/report.md` for the complete report.
 - Download `<site>-<run>-website-html.zip` to browse captured HTML locally; open `open-rendered-mirror.html`, `open-static-mirror.html`, or `singlefile-index.html`.
 - Download `<site>-<run>.zip` for the complete evidence package.
+- If those ZIP files are not present in the committed folder, open `ARCHIVES.md`; large ZIPs are published outside the Git tree because GitHub rejects individual Git files above 100 MB.
 
 ## Limitations
 

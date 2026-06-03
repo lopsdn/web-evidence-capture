@@ -553,3 +553,30 @@ jobs:
           include-hidden-files: true
       - name: Commit final snapshot
         run: bin/publish-snapshot final "${{ needs.scope.outputs.run_dir }}" --final
+      - uses: actions/upload-artifact@v7
+        with:
+          name: snapshot-archives
+          path: snapshot-archives/
+          retention-days: 30
+          include-hidden-files: true
+          if-no-files-found: ignore
+      - name: Publish snapshot archive release assets
+        run: |
+          if [ ! -d snapshot-archives ] || ! find snapshot-archives -type f -print -quit | grep -q .; then
+            echo "No external snapshot archives to publish."
+            exit 0
+          fi
+          CASE_SLUG="$(basename "$(dirname "$(dirname "${RUN_DIR}")")")"
+          RUN_STAMP="$(basename "${RUN_DIR}")"
+          TAG="snapshot-${CASE_SLUG}-${RUN_STAMP}"
+          TITLE="Snapshot ${CASE_SLUG} ${RUN_STAMP}"
+          NOTES="Archive assets for ${RUN_DIR}. The expanded snapshot is committed under snapshots/ and records SHA-256 values in manifest/snapshot-archives.json."
+          mapfile -d '' FILES < <(find snapshot-archives -type f -print0)
+          if gh release view "${TAG}" --repo "${GITHUB_REPOSITORY}" >/dev/null 2>&1; then
+            gh release upload "${TAG}" "${FILES[@]}" --repo "${GITHUB_REPOSITORY}" --clobber
+          else
+            gh release create "${TAG}" "${FILES[@]}" --repo "${GITHUB_REPOSITORY}" --title "${TITLE}" --notes "${NOTES}"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_DIR: ${{ needs.scope.outputs.run_dir }}

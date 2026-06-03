@@ -1,0 +1,77 @@
+name: Finalize Snapshot
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: Workflow run ID that produced the private-evidence-package artifact
+        required: true
+        type: string
+      run_dir:
+        description: Run directory inside the downloaded cases tree
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  actions: read
+
+env:
+  PYTHONUNBUFFERED: "1"
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Prepare repository branch
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - name: Install package
+        run: python -m pip install -e .
+      - name: Download captured evidence artifact
+        run: gh run download "${SOURCE_RUN_ID}" --repo "${GITHUB_REPOSITORY}" --name private-evidence-package
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+      - name: Restore capture config
+        run: cp "${RUN_DIR}/manifest/capture-config.json" capture-config.json
+        env:
+          RUN_DIR: ${{ inputs.run_dir }}
+      - name: Commit final snapshot
+        run: bin/publish-snapshot final "${RUN_DIR}" --final
+        env:
+          RUN_DIR: ${{ inputs.run_dir }}
+      - uses: actions/upload-artifact@v7
+        with:
+          name: snapshot-archives
+          path: snapshot-archives/
+          retention-days: 30
+          include-hidden-files: true
+          if-no-files-found: ignore
+      - name: Publish snapshot archive release assets
+        run: |
+          if [ ! -d snapshot-archives ] || ! find snapshot-archives -type f -print -quit | grep -q .; then
+            echo "No external snapshot archives to publish."
+            exit 0
+          fi
+          CASE_SLUG="$(basename "$(dirname "$(dirname "${RUN_DIR}")")")"
+          RUN_STAMP="$(basename "${RUN_DIR}")"
+          TAG="snapshot-${CASE_SLUG}-${RUN_STAMP}"
+          TITLE="Snapshot ${CASE_SLUG} ${RUN_STAMP}"
+          NOTES="Archive assets for ${RUN_DIR}. The expanded snapshot is committed under snapshots/ and records SHA-256 values in manifest/snapshot-archives.json."
+          mapfile -d '' FILES < <(find snapshot-archives -type f -print0)
+          if gh release view "${TAG}" --repo "${GITHUB_REPOSITORY}" >/dev/null 2>&1; then
+            gh release upload "${TAG}" "${FILES[@]}" --repo "${GITHUB_REPOSITORY}" --clobber
+          else
+            gh release create "${TAG}" "${FILES[@]}" --repo "${GITHUB_REPOSITORY}" --title "${TITLE}" --notes "${NOTES}"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_DIR: ${{ inputs.run_dir }}

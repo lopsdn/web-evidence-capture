@@ -49,7 +49,7 @@ class SnapshotTests(unittest.TestCase):
         self.assertNotIn("hashes/files.sha256", paths)
         self.assertEqual((snapshot_dir.parent / "latest.txt").read_text(encoding="utf-8"), "2026-01-01-1200\n")
 
-    def test_final_snapshot_creates_archives(self):
+    def add_html_artifacts(self):
         mirror = self.run_dir / "artifacts" / "mirror"
         rendered = self.run_dir / "artifacts" / "rendered-mirror"
         singlefile = self.run_dir / "artifacts" / "singlefile"
@@ -71,6 +71,9 @@ class SnapshotTests(unittest.TestCase):
             ),
             encoding="utf-8",
         )
+
+    def test_final_snapshot_creates_archives(self):
+        self.add_html_artifacts()
         result = publish_snapshot(self.config, self.run_dir, "final", final=True)
         snapshot_dir = Path(result["snapshot_dir"])
         full_zip = snapshot_dir / "www.example.org-2026-01-01-1200.zip"
@@ -90,6 +93,31 @@ class SnapshotTests(unittest.TestCase):
         archives = json.loads((snapshot_dir / "manifest" / "snapshot-archives.json").read_text(encoding="utf-8"))
         self.assertEqual(archives["complete_snapshot_zip"], full_zip.name)
         self.assertEqual(archives["website_html_zip"], website_zip.name)
+        self.assertTrue(archives["complete_snapshot_zip_committed_to_snapshot"])
+        self.assertTrue(archives["website_html_zip_committed_to_snapshot"])
+
+    def test_large_final_archives_move_outside_git_snapshot(self):
+        self.add_html_artifacts()
+        result = publish_snapshot(self.config, self.run_dir, "final", final=True, max_git_archive_bytes=1)
+        snapshot_dir = Path(result["snapshot_dir"])
+        full_zip_name = "www.example.org-2026-01-01-1200.zip"
+        website_zip_name = "www.example.org-2026-01-01-1200-website-html.zip"
+        self.assertFalse((snapshot_dir / full_zip_name).exists())
+        self.assertFalse((snapshot_dir / website_zip_name).exists())
+        external_dir = Path("snapshot-archives/www.example.org/2026-01-01-1200")
+        self.assertTrue((external_dir / full_zip_name).exists())
+        self.assertTrue((external_dir / website_zip_name).exists())
+        self.assertTrue((snapshot_dir / "ARCHIVES.md").exists())
+        start_here = (snapshot_dir / "START-HERE.md").read_text(encoding="utf-8")
+        self.assertIn("Archive Download Details", start_here)
+        archives = json.loads((snapshot_dir / "manifest" / "snapshot-archives.json").read_text(encoding="utf-8"))
+        self.assertFalse(archives["complete_snapshot_zip_committed_to_snapshot"])
+        self.assertFalse(archives["website_html_zip_committed_to_snapshot"])
+        self.assertIn("snapshot-archives/www.example.org/2026-01-01-1200", archives["complete_snapshot_zip_external_path"])
+        manifest = json.loads((snapshot_dir / "manifest" / "file-manifest.json").read_text(encoding="utf-8"))
+        paths = {row["path"] for row in manifest}
+        self.assertNotIn(full_zip_name, paths)
+        self.assertNotIn(website_zip_name, paths)
 
 
 if __name__ == "__main__":

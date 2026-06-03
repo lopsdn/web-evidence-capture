@@ -26,6 +26,9 @@ STAGE_ORDER = [
     "final",
 ]
 
+GITHUB_GIT_FILE_LIMIT_BYTES = 100 * 1024 * 1024
+DEFAULT_ARCHIVE_COMMIT_LIMIT_BYTES = 95 * 1024 * 1024
+
 
 def site_slug(target_url: str, fallback: str) -> str:
     host = urlparse(target_url).netloc.lower() or fallback
@@ -294,28 +297,139 @@ def create_full_archive(snapshot_dir: Path, site: str, run_stamp: str) -> Path:
     return archive_path
 
 
-def write_archive_manifest(snapshot_dir: Path, archive_path: Path, website_archive_path: Path) -> None:
-    archive_hash = sha256_file(archive_path)
-    website_archive_hash = sha256_file(website_archive_path)
+def external_archive_dir(site: str, run_stamp: str) -> Path:
+    return Path("snapshot-archives") / site / run_stamp
+
+
+def archive_record(path: Path, external_dir: Path, max_git_archive_bytes: int) -> Dict[str, object]:
+    digest = sha256_file(path)
+    size = path.stat().st_size
+    record: Dict[str, object] = {
+        "filename": path.name,
+        "sha256": digest,
+        "size_bytes": size,
+        "committed_to_snapshot": True,
+        "snapshot_path": path.name,
+        "external_path": "",
+        "git_omission_reason": "",
+    }
+    if size > max_git_archive_bytes:
+        external_dir.mkdir(parents=True, exist_ok=True)
+        external_path = external_dir / path.name
+        if external_path.exists():
+            external_path.unlink()
+        shutil.move(str(path), str(external_path))
+        record.update(
+            {
+                "committed_to_snapshot": False,
+                "snapshot_path": "",
+                "external_path": external_path.as_posix(),
+                "git_omission_reason": (
+                    f"Archive is larger than the configured Git commit threshold "
+                    f"({max_git_archive_bytes} bytes) and GitHub rejects individual Git files above "
+                    f"{GITHUB_GIT_FILE_LIMIT_BYTES} bytes."
+                ),
+            }
+        )
+    return record
+
+
+def write_archive_notes(snapshot_dir: Path, archive_details: Dict[str, Dict[str, object]]) -> None:
+    lines = [
+        "# Snapshot Archives",
+        "",
+        "This file explains where the generated ZIP archives are stored.",
+        "",
+        "The expanded snapshot directory is committed to Git. Large ZIP archives may be stored outside the Git tree because GitHub rejects individual Git files above 100 MB.",
+        "",
+        "| Archive | Size bytes | SHA-256 | Committed in this snapshot | External path |",
+        "| --- | ---: | --- | --- | --- |",
+    ]
+    for key in ["complete_snapshot_zip", "website_html_zip"]:
+        item = archive_details[key]
+        lines.append(
+            "| "
+            + " | ".join(
+                [
+                    f"`{item['filename']}`",
+                    str(item["size_bytes"]),
+                    f"`{item['sha256']}`",
+                    "`yes`" if item["committed_to_snapshot"] else "`no`",
+                    f"`{item['external_path']}`" if item["external_path"] else "",
+                ]
+            )
+            + " |"
+        )
+    lines.extend(
+        [
+            "",
+            "If an external path is listed, the workflow uploads that file from `snapshot-archives/` as a workflow artifact and, when configured, as a release asset. Use the SHA-256 values above to verify downloaded archives.",
+            "",
+        ]
+    )
+    (snapshot_dir / "ARCHIVES.md").write_text("\n".join(lines), encoding="utf-8")
+    start_here = snapshot_dir / "START-HERE.md"
+    if start_here.exists():
+        text = start_here.read_text(encoding="utf-8")
+        marker = "## Archive Download Details"
+        if marker not in text:
+            text = text.rstrip() + "\n\n" + marker + "\n\nOpen `ARCHIVES.md` for archive sizes, SHA-256 values, and external download paths when ZIP files are too large to commit to Git.\n"
+            start_here.write_text(text, encoding="utf-8")
+
+
+def write_archive_manifest(
+    snapshot_dir: Path,
+    archive_path: Path,
+    website_archive_path: Path,
+    site: str,
+    run_stamp: str,
+    max_git_archive_bytes: int,
+) -> Dict[str, Dict[str, object]]:
+    external_dir = external_archive_dir(site, run_stamp)
+    archive_details = {
+        "complete_snapshot_zip": archive_record(archive_path, external_dir, max_git_archive_bytes),
+        "website_html_zip": archive_record(website_archive_path, external_dir, max_git_archive_bytes),
+    }
     archive_hash_path = snapshot_dir / "hashes" / "snapshot-archive.sha256"
     archive_hash_path.parent.mkdir(parents=True, exist_ok=True)
     archive_hash_path.write_text(
-        f"{archive_hash}  {archive_path.name}\n{website_archive_hash}  {website_archive_path.name}\n",
+        (
+            f"{archive_details['complete_snapshot_zip']['sha256']}  {archive_details['complete_snapshot_zip']['filename']}\n"
+            f"{archive_details['website_html_zip']['sha256']}  {archive_details['website_html_zip']['filename']}\n"
+        ),
         encoding="utf-8",
     )
     write_json(
         snapshot_dir / "manifest" / "snapshot-archives.json",
         {
-            "complete_snapshot_zip": archive_path.name,
-            "complete_snapshot_zip_sha256": archive_hash,
-            "website_html_zip": website_archive_path.name,
-            "website_html_zip_sha256": website_archive_hash,
+            "archives": archive_details,
+            "complete_snapshot_zip": archive_details["complete_snapshot_zip"]["filename"],
+            "complete_snapshot_zip_committed_to_snapshot": archive_details["complete_snapshot_zip"]["committed_to_snapshot"],
+            "complete_snapshot_zip_external_path": archive_details["complete_snapshot_zip"]["external_path"],
+            "complete_snapshot_zip_sha256": archive_details["complete_snapshot_zip"]["sha256"],
+            "complete_snapshot_zip_size_bytes": archive_details["complete_snapshot_zip"]["size_bytes"],
+            "git_file_size_limit_bytes": GITHUB_GIT_FILE_LIMIT_BYTES,
+            "large_archive_commit_threshold_bytes": max_git_archive_bytes,
+            "large_archive_policy": "Archives larger than the configured threshold are moved to snapshot-archives/ and are not committed to Git.",
+            "website_html_zip": archive_details["website_html_zip"]["filename"],
+            "website_html_zip_committed_to_snapshot": archive_details["website_html_zip"]["committed_to_snapshot"],
+            "website_html_zip_external_path": archive_details["website_html_zip"]["external_path"],
             "website_html_zip_note": "Smaller package for browsing captured HTML locally.",
+            "website_html_zip_sha256": archive_details["website_html_zip"]["sha256"],
+            "website_html_zip_size_bytes": archive_details["website_html_zip"]["size_bytes"],
         },
     )
+    write_archive_notes(snapshot_dir, archive_details)
+    return archive_details
 
 
-def publish_snapshot(config: CaptureConfig, run_dir: Path, stage: str, final: bool = False) -> Dict[str, object]:
+def publish_snapshot(
+    config: CaptureConfig,
+    run_dir: Path,
+    stage: str,
+    final: bool = False,
+    max_git_archive_bytes: int = DEFAULT_ARCHIVE_COMMIT_LIMIT_BYTES,
+) -> Dict[str, object]:
     snapshot_dir, site, run_stamp = snapshot_root_for_run(config, run_dir)
     snapshot_dir.parent.mkdir(parents=True, exist_ok=True)
     if snapshot_dir.exists():
@@ -329,10 +443,17 @@ def publish_snapshot(config: CaptureConfig, run_dir: Path, stage: str, final: bo
         website_archive_path = create_website_archive(snapshot_dir, config, site, run_stamp)
         write_hashes(snapshot_dir)
         archive_path = create_full_archive(snapshot_dir, site, run_stamp)
-        write_archive_manifest(snapshot_dir, archive_path, website_archive_path)
+        archive_details = write_archive_manifest(
+            snapshot_dir,
+            archive_path,
+            website_archive_path,
+            site,
+            run_stamp,
+            max_git_archive_bytes,
+        )
         archive_paths = {
-            "complete_snapshot_zip": archive_path.relative_to(snapshot_dir).as_posix(),
-            "website_html_zip": website_archive_path.relative_to(snapshot_dir).as_posix(),
+            key: str(value.get("snapshot_path") or value.get("external_path") or value.get("filename"))
+            for key, value in archive_details.items()
         }
     rows = write_hashes(snapshot_dir)
     return {
