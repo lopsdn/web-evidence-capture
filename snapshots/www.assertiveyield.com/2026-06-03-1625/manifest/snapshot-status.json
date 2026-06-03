@@ -7,12 +7,13 @@
     "render",
     "privacy_inspection",
     "singlefile",
-    "package_wacz"
+    "package_wacz",
+    "hash_manifest"
   ],
   "final": false,
   "run": "2026-06-03-1625",
   "snapshot_dir": "snapshots/www.assertiveyield.com/2026-06-03-1625",
-  "stage": "package_wacz",
+  "stage": "hash_manifest",
   "target_url": "https://www.assertiveyield.com/",
-  "updated_utc": "2026-06-03T17:40:06+00:00"
+  "updated_utc": "2026-06-03T17:43:56+00:00"
 }

@@ -6,8 +6,8 @@
   },
   {
     "path": "SNAPSHOT-STATUS.md",
-    "sha256": "98564a29bfe86dacb341194957aef8cfbd694e81c62fd23ffcb5ec0b191d111d",
-    "size_bytes": 569
+    "sha256": "2edec7aa8b297a9c3f02f2e674383e6da84acc1d2adfa2f38e461c6c31f4de65",
+    "size_bytes": 588
   },
   {
     "path": "START-HERE.md",
@@ -3901,8 +3901,8 @@
   },
   {
     "path": "manifest/snapshot-status.json",
-    "sha256": "8f5d19a270b9516f2557c021032542b5ec0d7eb7a9413768958ef7e76a7686ef",
-    "size_bytes": 422
+    "sha256": "2c633508daeeea71ace6e1ff7962d623449e9907a4de946bb9a8a7f4852db17f",
+    "size_bytes": 444
   },
   {
     "path": "manifest/url-inventory.json",
