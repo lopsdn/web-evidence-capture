@@ -2,9 +2,9 @@
 
 Status: `partial`
 
-Completed stage: `capture`
+Completed stage: `render`
 
-Updated UTC: `2026-06-03T16:33:30+00:00`
+Updated UTC: `2026-06-03T16:47:41+00:00`
 
 Target URL: `https://www.assertiveyield.com/`
 
@@ -19,5 +19,6 @@ Archive ZIP files are created only by the final publishing job.
 - `scope`
 - `inventory`
 - `capture`
+- `render`
 
 Folders from later stages can be absent or incomplete until the workflow reaches those stages.

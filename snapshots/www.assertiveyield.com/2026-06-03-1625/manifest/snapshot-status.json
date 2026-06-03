@@ -3,12 +3,13 @@
   "completed_stages": [
     "scope",
     "inventory",
-    "capture"
+    "capture",
+    "render"
   ],
   "final": false,
   "run": "2026-06-03-1625",
   "snapshot_dir": "snapshots/www.assertiveyield.com/2026-06-03-1625",
-  "stage": "capture",
+  "stage": "render",
   "target_url": "https://www.assertiveyield.com/",
-  "updated_utc": "2026-06-03T16:33:30+00:00"
+  "updated_utc": "2026-06-03T16:47:41+00:00"
 }
