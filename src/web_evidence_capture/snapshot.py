@@ -87,6 +87,75 @@ def not_captured_page_path(mirror_root: Path, url: str) -> Path:
     return mirror_root / "_not-captured" / f"{digest}.html"
 
 
+def offline_navigation_helper(site_map_href: str) -> str:
+    site_map_json = json.dumps(site_map_href)
+    return "\n".join(
+        [
+            '<script data-web-evidence-offline-helper="1">',
+            "(function(){",
+            f"var siteMapHref={site_map_json};",
+            "function hasModifier(event){return event.metaKey||event.ctrlKey||event.shiftKey||event.altKey;}",
+            "function navigateToLink(link,event){",
+            "  var href=(link.getAttribute('href')||'').trim();",
+            "  if(!href||href==='#'){return false;}",
+            "  if(event){event.preventDefault();event.stopPropagation();}",
+            "  window.location.href=link.href;",
+            "  return true;",
+            "}",
+            "function normalizedText(node){return (node&&node.textContent||'').replace(/\\s+/g,' ').trim().toLowerCase();}",
+            "function findLinkByLabel(label){",
+            "  if(!label){return null;}",
+            "  var links=Array.prototype.slice.call(document.querySelectorAll('a[href]'));",
+            "  var exact=links.find(function(link){",
+            "    var href=(link.getAttribute('href')||'').trim();",
+            "    return href&&href!=='#'&&normalizedText(link)===label;",
+            "  });",
+            "  if(exact){return exact;}",
+            "  return links.find(function(link){",
+            "    var href=(link.getAttribute('href')||'').trim();",
+            "    var text=normalizedText(link);",
+            "    return href&&href!=='#'&&text&&text.indexOf(label)!==-1;",
+            "  })||null;",
+            "}",
+            "function openSiteMap(event){",
+            "  if(event){event.preventDefault();event.stopPropagation();}",
+            "  window.location.href=siteMapHref;",
+            "}",
+            "document.addEventListener('click',function(event){",
+            "  if(hasModifier(event)){return;}",
+            "  var target=event.target;",
+            "  if(!target||!target.closest){return;}",
+            "  var button=target.closest('button');",
+            "  if(button){",
+            "    var parentLink=button.closest('a[href]');",
+            "    if(parentLink&&navigateToLink(parentLink,event)){return;}",
+            "    var buttonLabel=normalizedText(button);",
+            "    var matchingLink=findLinkByLabel(buttonLabel);",
+            "    if(matchingLink&&navigateToLink(matchingLink,event)){return;}",
+            "    var label=((button.getAttribute('aria-label')||button.textContent||'')+' '+(button.className||'')).toLowerCase();",
+            "    if(label.indexOf('toggle navigation')!==-1||label.indexOf('navbar-toggler')!==-1){openSiteMap(event);return;}",
+            "  }",
+            "  var link=target.closest('a[href]');",
+            "  if(!link){return;}",
+            "  var href=(link.getAttribute('href')||'').trim().toLowerCase();",
+            "  if(href==='#'||href.indexOf('javascript:')===0){openSiteMap(event);}",
+            "},true);",
+            "})();",
+            "</script>",
+        ]
+    )
+
+
+def inject_offline_navigation_helper(text: str, site_map_href: str) -> str:
+    if 'data-web-evidence-offline-helper="1"' in text:
+        return text
+    helper = offline_navigation_helper(site_map_href)
+    body_match = re.search(r"</body\s*>", text, flags=re.I)
+    if body_match:
+        return text[: body_match.start()] + helper + text[body_match.start() :]
+    return text + "\n" + helper + "\n"
+
+
 def rewrite_anchor_links_for_offline(
     text: str,
     current_path: Path,
@@ -198,6 +267,10 @@ def prepare_offline_navigation(snapshot_dir: Path, config: CaptureConfig) -> Dic
             current_url = local_url_for_page(mirror_root, page_path, config.target_url)
             text = page_path.read_text(encoding="utf-8", errors="ignore")
             rewritten = rewrite_anchor_links_for_offline(text, page_path, current_url, mirror_root, config, placeholders)
+            rewritten = inject_offline_navigation_helper(
+                rewritten,
+                relative_link(page_path, mirror_root / "_site-map.html"),
+            )
             if rewritten != text:
                 page_path.write_text(rewritten, encoding="utf-8", errors="replace")
         for target_path, url in sorted(placeholders.items(), key=lambda item: item[0].as_posix()):
@@ -399,6 +472,7 @@ def create_website_archive(snapshot_dir: Path, config: CaptureConfig, site: str,
             '<a href="singlefile-index.html"><strong>Open SingleFile index</strong><br>Self-contained individual page exports when available.</a>',
             "</div>",
             "<p>Same-domain links inside the rendered mirror are rewritten to local files when the target page was captured. Links to same-domain pages that were not captured open a local explanation page instead of a blank browser page.</p>",
+            "<p>Dropdowns, hamburger controls, and buttons that depend on the original site's runtime scripts are given an offline fallback to the site map or to their enclosing link when one is present.</p>",
             "",
         ]
     )
@@ -426,6 +500,7 @@ def create_website_archive(snapshot_dir: Path, config: CaptureConfig, site: str,
             "2. Open `index.html` in a browser.",
             "3. From there, open the rendered mirror, the offline site map, the static mirror, or SingleFile exports.",
             "4. If a menu, dropdown, or scripted control does not work offline, open `site-map.html` to choose a captured page from a static list.",
+            "5. In the rendered mirror, offline helper logic routes dropdown toggles and navigation buttons to the site map or to their enclosing captured link when possible.",
             "",
             "The rendered mirror reflects browser-observed HTML from the GitHub-hosted runner.",
             "The static mirror reflects public HTTP HTML with executable scripts disabled for offline review.",

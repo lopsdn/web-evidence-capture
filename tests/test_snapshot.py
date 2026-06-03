@@ -58,7 +58,16 @@ class SnapshotTests(unittest.TestCase):
         singlefile.mkdir(parents=True)
         (mirror / "index.html").write_text("<h1>Static</h1>", encoding="utf-8")
         (rendered / "index.html").write_text(
-            '<h1>Rendered</h1><a href="/about-us/">About</a><a href="/missing/">Missing</a><a href="https://external.example/">External</a>',
+            (
+                '<h1>Rendered</h1>'
+                '<a href="/about-us/">About</a>'
+                '<a href="/missing/">Missing</a>'
+                '<a href="https://external.example/">External</a>'
+                '<a class="dropdown-toggle" href="#">Menu</a>'
+                '<button aria-label="Toggle navigation"></button>'
+                '<a href="/about-us/"><button>About button</button></a>'
+                '<a href="/about-us/">Plain CTA</a><button>Plain CTA</button>'
+            ),
             encoding="utf-8",
         )
         (rendered / "about-us").mkdir()
@@ -123,6 +132,10 @@ class SnapshotTests(unittest.TestCase):
         self.assertIn('href="about-us/index.html"', rendered_index)
         self.assertIn('href="_not-captured/', rendered_index)
         self.assertIn('href="https://external.example/"', rendered_index)
+        self.assertIn('data-web-evidence-offline-helper="1"', rendered_index)
+        self.assertIn("button.closest('a[href]')", rendered_index)
+        self.assertIn("findLinkByLabel(buttonLabel)", rendered_index)
+        self.assertIn("openSiteMap(event)", rendered_index)
         archives = json.loads((snapshot_dir / "manifest" / "snapshot-archives.json").read_text(encoding="utf-8"))
         self.assertEqual(archives["complete_snapshot_zip"], full_zip.name)
         self.assertEqual(archives["website_html_zip"], website_zip.name)
