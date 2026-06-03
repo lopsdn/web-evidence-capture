@@ -23,9 +23,17 @@ def validate_run(config: CaptureConfig, run_dir: Path, write_hash_manifest: bool
     wacz = read_json(run_dir / "manifest" / "wacz-result.json", {}) or {}
     metadata = read_json(run_dir / "manifest" / "package-metadata.json", {}) or {}
     mirror_index = run_dir / "artifacts" / "mirror" / "index.html"
+    rendered_mirror_index = run_dir / "artifacts" / "rendered-mirror" / "index.html"
     mirror_text = ""
+    mirror_source = ""
     if mirror_index.exists():
         mirror_text = extract_visible_text_from_html(mirror_index.read_text(encoding="utf-8", errors="ignore"))
+        mirror_source = "static"
+    if len(mirror_text.strip()) < config.min_mirror_body_chars and rendered_mirror_index.exists():
+        rendered_text = extract_visible_text_from_html(rendered_mirror_index.read_text(encoding="utf-8", errors="ignore"))
+        if len(rendered_text.strip()) > len(mirror_text.strip()):
+            mirror_text = rendered_text
+            mirror_source = "rendered"
     screenshots = list((run_dir / "artifacts" / "screenshots").glob("*.png"))
     pdfs = list((run_dir / "artifacts" / "pdf").glob("*.pdf"))
     missing_render_artifacts = []
@@ -42,7 +50,9 @@ def validate_run(config: CaptureConfig, run_dir: Path, write_hash_manifest: bool
     sensitive_findings = scan_tree(run_dir)
     checks = {
         "mirror_index_exists": mirror_index.exists(),
+        "rendered_mirror_index_exists": rendered_mirror_index.exists(),
         "mirror_meaningful_body_exists": len(mirror_text.strip()) >= config.min_mirror_body_chars,
+        "mirror_meaningful_body_source": mirror_source,
         "mirror_body_sample": mirror_text[:300],
         "warc_exists": warc_path.exists() if capture.get("warc_path") else False,
         "wacz_exists": wacz_path.exists() if wacz.get("wacz_path") else False,

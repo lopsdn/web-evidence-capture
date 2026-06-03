@@ -39,7 +39,19 @@ class ValidationTests(unittest.TestCase):
             result = validate_run(config, root)
             self.assertIn("mirror_body_empty_or_too_short", result["failures"])
 
+    def test_rendered_mirror_can_satisfy_meaningful_text(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.make_run(root)
+            (root / "artifacts" / "mirror" / "index.html").write_text("<html><body></body></html>", encoding="utf-8")
+            (root / "artifacts" / "rendered-mirror").mkdir(parents=True, exist_ok=True)
+            body = " ".join(["rendered public page body text"] * 10)
+            (root / "artifacts" / "rendered-mirror" / "index.html").write_text(f"<html><body>{body}</body></html>", encoding="utf-8")
+            config = config_from_dict({"target_url": "https://example.org/", "case_slug": "example"})
+            result = validate_run(config, root)
+            self.assertNotIn("mirror_body_empty_or_too_short", result["failures"])
+            self.assertEqual(result["checks"]["mirror_meaningful_body_source"], "rendered")
+
 
 if __name__ == "__main__":
     unittest.main()
-

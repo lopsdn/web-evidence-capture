@@ -3,7 +3,7 @@ from typing import Dict, List
 
 from .config import CaptureConfig
 from .logging_utils import local_now, log_event, read_json, utc_now, write_json
-from .mirror import normalize_url
+from .mirror import disable_executable_scripts, local_page_path, normalize_url
 
 
 COOKIE_DENY_SELECTORS = [
@@ -64,8 +64,10 @@ def run_render(config: CaptureConfig, run_dir: Path) -> List[Dict[str, object]]:
 
     screenshot_root = run_dir / "artifacts" / "screenshots"
     pdf_root = run_dir / "artifacts" / "pdf"
+    rendered_mirror_root = run_dir / "artifacts" / "rendered-mirror"
     screenshot_root.mkdir(parents=True, exist_ok=True)
     pdf_root.mkdir(parents=True, exist_ok=True)
+    rendered_mirror_root.mkdir(parents=True, exist_ok=True)
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True, args=["--disable-dev-shm-usage"])
         context = browser.new_context(viewport={"width": 1440, "height": 1000}, user_agent=config.user_agent)
@@ -75,8 +77,19 @@ def run_render(config: CaptureConfig, run_dir: Path) -> List[Dict[str, object]]:
             slug = f"{index:03d}-{Path(normalize_url(url, config.target_url) or url).name or 'homepage'}"
             screenshot = screenshot_root / f"{slug}.png"
             pdf = pdf_root / f"{slug}.pdf"
+            rendered_html = local_page_path(rendered_mirror_root, url)
             attempts = []
-            record = {"url": url, "final_url": "", "title": "", "status": "", "screenshot": screenshot.relative_to(run_dir).as_posix(), "pdf": pdf.relative_to(run_dir).as_posix(), "attempts": attempts, "error": ""}
+            record = {
+                "url": url,
+                "final_url": "",
+                "title": "",
+                "status": "",
+                "screenshot": screenshot.relative_to(run_dir).as_posix(),
+                "pdf": pdf.relative_to(run_dir).as_posix(),
+                "rendered_html": rendered_html.relative_to(run_dir).as_posix(),
+                "attempts": attempts,
+                "error": "",
+            }
             wait_modes = ["networkidle"] + ["load"] * config.render_retries
             for attempt_index, wait_until in enumerate(wait_modes, start=1):
                 attempt = {"attempt": attempt_index, "wait_until": wait_until, "timestamp_local": local_now(), "resolved": False, "error": ""}
@@ -91,6 +104,12 @@ def run_render(config: CaptureConfig, run_dir: Path) -> List[Dict[str, object]]:
                     record["status"] = str(response.status if response else "")
                     page.screenshot(path=str(screenshot), full_page=True, type="png")
                     page.pdf(path=str(pdf), format="A4", print_background=True)
+                    rendered_html.parent.mkdir(parents=True, exist_ok=True)
+                    rendered_html.write_text(disable_executable_scripts(page.content()), encoding="utf-8", errors="replace")
+                    if normalize_url(page.url, config.target_url).rstrip("/") == normalize_url(config.target_url, config.target_url).rstrip("/"):
+                        index_path = rendered_mirror_root / "index.html"
+                        if rendered_html != index_path:
+                            index_path.write_text(rendered_html.read_text(encoding="utf-8", errors="ignore"), encoding="utf-8", errors="replace")
                     attempt["resolved"] = True
                     attempts.append(attempt)
                     record["error"] = ""
@@ -107,4 +126,3 @@ def run_render(config: CaptureConfig, run_dir: Path) -> List[Dict[str, object]]:
     write_json(run_dir / "manifest" / "render-result.json", results)
     log_event(run_dir, "render", "complete", rendered=len(results), retries=sum(len(item["attempts"]) - 1 for item in results if item.get("attempts")))
     return results
-
