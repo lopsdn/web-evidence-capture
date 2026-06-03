@@ -1,5 +1,5 @@
 {
-  "archives_created": false,
+  "archives_created": true,
   "completed_stages": [
     "scope",
     "inventory",
@@ -10,12 +10,13 @@
     "package_wacz",
     "hash_manifest",
     "validate",
-    "generate_report"
+    "generate_report",
+    "final"
   ],
-  "final": false,
+  "final": true,
   "run": "2026-06-03-1625",
   "snapshot_dir": "snapshots/www.assertiveyield.com/2026-06-03-1625",
-  "stage": "generate_report",
+  "stage": "final",
   "target_url": "https://www.assertiveyield.com/",
-  "updated_utc": "2026-06-03T17:49:19+00:00"
+  "updated_utc": "2026-06-03T18:16:51+00:00"
 }

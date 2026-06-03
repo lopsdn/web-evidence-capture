@@ -1,10 +1,10 @@
 # Snapshot Status
 
-Status: `partial`
+Status: `final`
 
-Completed stage: `generate_report`
+Completed stage: `final`
 
-Updated UTC: `2026-06-03T17:49:19+00:00`
+Updated UTC: `2026-06-03T18:16:51+00:00`
 
 Target URL: `https://www.assertiveyield.com/`
 
@@ -12,7 +12,7 @@ Target URL: `https://www.assertiveyield.com/`
 
 Open `START-HERE.md` when present. Open `report/report.md` after the report stage has completed.
 
-Archive ZIP files are created only by the final publishing job.
+The complete snapshot ZIP and website HTML ZIP have been generated.
 
 ## Completed Stages
 
@@ -26,5 +26,6 @@ Archive ZIP files are created only by the final publishing job.
 - `hash_manifest`
 - `validate`
 - `generate_report`
+- `final`
 
 Folders from later stages can be absent or incomplete until the workflow reaches those stages.

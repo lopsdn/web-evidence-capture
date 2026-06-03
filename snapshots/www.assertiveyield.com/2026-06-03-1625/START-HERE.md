@@ -57,3 +57,7 @@ It contains the report, manifests, validation, hashes, logs, WARC/WACZ files, sc
 - `artifacts/`: captured website evidence.
 
 This is technical preservation support, not legal advice. Captured material can include copyrighted content, personal data, tracking metadata, or third-party content.
+
+## Archive Download Details
+
+Open `ARCHIVES.md` for archive sizes, SHA-256 values, and external download paths when ZIP files are too large to commit to Git.

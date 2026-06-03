@@ -1,18 +1,23 @@
 [
   {
+    "path": "ARCHIVES.md",
+    "sha256": "a8d1a95fb657e537e5d625663b8c0f92dfa034e94f3cd9cffae8e7dac6505b7c",
+    "size_bytes": 1088
+  },
+  {
     "path": "README.md",
     "sha256": "f82fd7df28b091cc7b2b1e6942594114b33b39a59ed1b3d78be1a90b6f9ef01d",
     "size_bytes": 1218
   },
   {
     "path": "SNAPSHOT-STATUS.md",
-    "sha256": "4f609dd7c77ce8002d63a42caeab3a2f6aed70e8f0ed386d03c4afef914876fa",
-    "size_bytes": 623
+    "sha256": "63cb62419e37efa091ce502e27b7290c6ddb34ae2e6cdaeccbe4cc44c6f58d7d",
+    "size_bytes": 625
   },
   {
     "path": "START-HERE.md",
-    "sha256": "66fd4f9870d76a0db9b2286e41575a079a4503f2a14f0531010eb5c801c06307",
-    "size_bytes": 1821
+    "sha256": "5242bd8f5f8903afab458d018754365fc166c83a5a4f2f9a030cfbbc35808e43",
+    "size_bytes": 1980
   },
   {
     "path": "artifacts/README.md",
@@ -3255,6 +3260,11 @@
     "size_bytes": 214
   },
   {
+    "path": "hashes/snapshot-archive.sha256",
+    "sha256": "1018c27bbe37d5bbf79de4050f64a85b732d00c89c68d82a32289f9aa332ca45",
+    "size_bytes": 231
+  },
+  {
     "path": "logs/README.md",
     "sha256": "b5d09dc489f5480457e52ea2e1e19e473cdf03542d3de6e244655b9624f0fcb3",
     "size_bytes": 379
@@ -3266,8 +3276,38 @@
   },
   {
     "path": "logs/github-actions/README.md",
-    "sha256": "01667ef916e48d3be45ce68fb5de942a2dbfa22be43d992417234a2da0753f2e",
-    "size_bytes": 427
+    "sha256": "22684a93098a68919d5fb7bd9746880895f6aec462ae2befbab9c0afb52afd8c",
+    "size_bytes": 346
+  },
+  {
+    "path": "logs/github-actions/failed.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/github-actions/job-log-index.json",
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "size_bytes": 3
+  },
+  {
+    "path": "logs/github-actions/jobs.json",
+    "sha256": "e30eae6736192f494970d8f7bc4d8e4ea85978e5ddc977948b1924e3fd737b8d",
+    "size_bytes": 24937
+  },
+  {
+    "path": "logs/github-actions/run-metadata.json",
+    "sha256": "cee34018046aed467c82e81852b3642714e2dd9e30c8a7d7770b5f2a93d88206",
+    "size_bytes": 292
+  },
+  {
+    "path": "logs/github-actions/run.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/github-actions/summary.md",
+    "sha256": "063992c3c82ec6803cd0578723d45e10f616dde30db2521d59d59c25def1e3d6",
+    "size_bytes": 2228
   },
   {
     "path": "logs/inventory.jsonl",
@@ -3975,9 +4015,14 @@
     "size_bytes": 41098
   },
   {
+    "path": "manifest/snapshot-archives.json",
+    "sha256": "7fc26de378e95ec61f75d09e3545d7b5d4a82c48b5fbb7facdb9d07633bb083a",
+    "size_bytes": 2363
+  },
+  {
     "path": "manifest/snapshot-status.json",
-    "sha256": "cc32a95db40d89a380ed3e7990656d604b3217c99e82ab61bc919e2f41721c95",
-    "size_bytes": 485
+    "sha256": "1ece97d979b2672b69b3f85676c92688044ece1415e080ac958f96751a442fa1",
+    "size_bytes": 486
   },
   {
     "path": "manifest/url-inventory.json",
