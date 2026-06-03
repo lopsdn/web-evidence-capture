@@ -1,0 +1,2365 @@
+[
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:26:42+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "cookie_choice_result": {
+      "button_clicked": "#CybotCookiebotDialogBodyButtonDecline",
+      "choice": "deny",
+      "error": "",
+      "timestamp_local": "2026-06-03T14:26:59+00:00",
+      "timestamp_utc": "2026-06-03T14:26:59+00:00"
+    },
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/",
+    "pdf": "artifacts/pdf/001-www.assertiveyield.com.pdf",
+    "rendered_html": "artifacts/rendered-mirror/index.html",
+    "screenshot": "artifacts/screenshots/001-www.assertiveyield.com.png",
+    "status": "200",
+    "title": "Assertive Yield - Publishers Next-Gen Tech Platform",
+    "url": "https://www.assertiveyield.com/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:27:03+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/about-us/",
+    "pdf": "artifacts/pdf/002-about-us.pdf",
+    "rendered_html": "artifacts/rendered-mirror/about-us/index.html",
+    "screenshot": "artifacts/screenshots/002-about-us.png",
+    "status": "200",
+    "title": "About Us",
+    "url": "https://www.assertiveyield.com/about-us/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:27:08+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/ailayouts/",
+    "pdf": "artifacts/pdf/003-ailayouts.pdf",
+    "rendered_html": "artifacts/rendered-mirror/ailayouts/index.html",
+    "screenshot": "artifacts/screenshots/003-ailayouts.png",
+    "status": "200",
+    "title": "AI Layouts",
+    "url": "https://www.assertiveyield.com/ailayouts/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:27:16+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/all-revenue-source/",
+    "pdf": "artifacts/pdf/004-all-revenue-source.pdf",
+    "rendered_html": "artifacts/rendered-mirror/all-revenue-source/index.html",
+    "screenshot": "artifacts/screenshots/004-all-revenue-source.png",
+    "status": "200",
+    "title": "All Revenue Sources in real-time",
+    "url": "https://www.assertiveyield.com/all-revenue-source/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:27:47+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/apps-and-integrations/",
+    "pdf": "artifacts/pdf/005-apps-and-integrations.pdf",
+    "rendered_html": "artifacts/rendered-mirror/apps-and-integrations/index.html",
+    "screenshot": "artifacts/screenshots/005-apps-and-integrations.png",
+    "status": "200",
+    "title": "Apps and Integrations",
+    "url": "https://www.assertiveyield.com/apps-and-integrations/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:27:52+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/ay-glossary/",
+    "pdf": "artifacts/pdf/006-ay-glossary.pdf",
+    "rendered_html": "artifacts/rendered-mirror/ay-glossary/index.html",
+    "screenshot": "artifacts/screenshots/006-ay-glossary.png",
+    "status": "200",
+    "title": "Ay Glossary",
+    "url": "https://www.assertiveyield.com/ay-glossary/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:27:56+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/ay_prebidserver/",
+    "pdf": "artifacts/pdf/007-ay_prebidserver.pdf",
+    "rendered_html": "artifacts/rendered-mirror/ay_prebidserver/index.html",
+    "screenshot": "artifacts/screenshots/007-ay_prebidserver.png",
+    "status": "200",
+    "title": "AY Prebid Server",
+    "url": "https://www.assertiveyield.com/ay_prebidserver/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:28:01+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/",
+    "pdf": "artifacts/pdf/008-blog.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/index.html",
+    "screenshot": "artifacts/screenshots/008-blog.png",
+    "status": "200",
+    "title": "Blog",
+    "url": "https://www.assertiveyield.com/blog/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:28:08+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog//product-updates-q1-2024/",
+    "pdf": "artifacts/pdf/009-product-updates-q1-2024.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/product-updates-q1-2024/index.html",
+    "screenshot": "artifacts/screenshots/009-product-updates-q1-2024.png",
+    "status": "200",
+    "title": "Assertive Yield Updates: AI Layouts, Cookie Deprecation Reports, and more!",
+    "url": "https://www.assertiveyield.com/blog/product-updates-q1-2024/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:28:14+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/Ultimate-Solution-to-AMP-Frustrations/",
+    "pdf": "artifacts/pdf/010-ultimate-solution-to-amp-frustrations.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/ultimate-solution-to-amp-frustrations/index.html",
+    "screenshot": "artifacts/screenshots/010-ultimate-solution-to-amp-frustrations.png",
+    "status": "200",
+    "title": "What challenges do Publishers face in optimizing their page loading speed with AMP?",
+    "url": "https://www.assertiveyield.com/blog/ultimate-solution-to-amp-frustrations/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:28:19+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/WHAT-IS-COST-PER-MILLE/",
+    "pdf": "artifacts/pdf/011-what-is-cost-per-mille.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/what-is-cost-per-mille/index.html",
+    "screenshot": "artifacts/screenshots/011-what-is-cost-per-mille.png",
+    "status": "200",
+    "title": "What is Cost per Mille (CPM) in Digital Advertising?",
+    "url": "https://www.assertiveyield.com/blog/what-is-cost-per-mille/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:28:25+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/What-is-viewability/",
+    "pdf": "artifacts/pdf/012-what-is-viewability.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/what-is-viewability/index.html",
+    "screenshot": "artifacts/screenshots/012-what-is-viewability.png",
+    "status": "200",
+    "title": "What is Viewability and How to Optimize the Viewability Meric as a Publisher?",
+    "url": "https://www.assertiveyield.com/blog/what-is-viewability/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:28:30+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/ab-testing-publishers/",
+    "pdf": "artifacts/pdf/013-ab-testing-publishers.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/ab-testing-publishers/index.html",
+    "screenshot": "artifacts/screenshots/013-ab-testing-publishers.png",
+    "status": "200",
+    "title": "A/B testing for publishers: 6 ideas and best practices",
+    "url": "https://www.assertiveyield.com/blog/ab-testing-publishers/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:28:35+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/abn-testing/",
+    "pdf": "artifacts/pdf/014-abn-testing.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/abn-testing/index.html",
+    "screenshot": "artifacts/screenshots/014-abn-testing.png",
+    "status": "200",
+    "title": "What Is A/B/n Testing? 7 Reasons A/B/n Testing will boost your performance",
+    "url": "https://www.assertiveyield.com/blog/abn-testing/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:28:40+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/ai-programmatic-advertising/",
+    "pdf": "artifacts/pdf/015-ai-programmatic-advertising.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/ai-programmatic-advertising/index.html",
+    "screenshot": "artifacts/screenshots/015-ai-programmatic-advertising.png",
+    "status": "200",
+    "title": "AI in programmatic advertising: top trends and use cases",
+    "url": "https://www.assertiveyield.com/blog/ai-programmatic-advertising/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:28:45+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/all/",
+    "pdf": "artifacts/pdf/016-all.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/all/index.html",
+    "screenshot": "artifacts/screenshots/016-all.png",
+    "status": "200",
+    "title": "All Posts",
+    "url": "https://www.assertiveyield.com/blog/all/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:28:53+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/alternatives-to-third-party-cookies/",
+    "pdf": "artifacts/pdf/017-alternatives-to-third-party-cookies.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/alternatives-to-third-party-cookies/index.html",
+    "screenshot": "artifacts/screenshots/017-alternatives-to-third-party-cookies.png",
+    "status": "200",
+    "title": "Cookieless Browsers: New & Effective Alternatives",
+    "url": "https://www.assertiveyield.com/blog/alternatives-to-third-party-cookies/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:28:59+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue/",
+    "pdf": "artifacts/pdf/018-analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue/index.html",
+    "screenshot": "artifacts/screenshots/018-analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue.png",
+    "status": "200",
+    "title": "How to Analyze Core Web Vitals [CWV] As A Publisher",
+    "url": "https://www.assertiveyield.com/blog/analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:29:05+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/analyzing-optimizing-your-impression-revenue-per-mille-rpm/",
+    "pdf": "artifacts/pdf/019-analyzing-optimizing-your-impression-revenue-per-mille-rpm.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/analyzing-optimizing-your-impression-revenue-per-mille-rpm/index.html",
+    "screenshot": "artifacts/screenshots/019-analyzing-optimizing-your-impression-revenue-per-mille-rpm.png",
+    "status": "200",
+    "title": "How Can Publishers Analyze & Optimize Impression Revenue Per Mille [RPM] ?",
+    "url": "https://www.assertiveyield.com/blog/analyzing-optimizing-your-impression-revenue-per-mille-rpm/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:29:10+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/ay-industry-insight-second-quarter-report-yield-management-in-programmatic/",
+    "pdf": "artifacts/pdf/020-ay-industry-insight-second-quarter-report-yield-management-in-programmatic.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/ay-industry-insight-second-quarter-report-yield-management-in-programmatic/index.html",
+    "screenshot": "artifacts/screenshots/020-ay-industry-insight-second-quarter-report-yield-management-in-programmatic.png",
+    "status": "200",
+    "title": "AY Industry Insights Second Quarter Report: Yield Management In Programmatic",
+    "url": "https://www.assertiveyield.com/blog/ay-industry-insight-second-quarter-report-yield-management-in-programmatic/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:29:16+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue/",
+    "pdf": "artifacts/pdf/021-ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue/index.html",
+    "screenshot": "artifacts/screenshots/021-ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue.png",
+    "status": "200",
+    "title": "AY Industry Insights Report 2025: Global Programmatic & Ad Revenue Trends",
+    "url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:29:22+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-q2%E2%80%9925-publisher-trends-in-global-programmatic-ad-revenue/",
+    "pdf": "artifacts/pdf/022-ay-industry-insights-report-q2%E2%80%9925-publisher-trends-in-global-programmatic-ad-revenue.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/ay-industry-insights-report-q2’25-publisher-trends-in-global-programmatic-ad-revenue/index.html",
+    "screenshot": "artifacts/screenshots/022-ay-industry-insights-report-q2%E2%80%9925-publisher-trends-in-global-programmatic-ad-revenue.png",
+    "status": "200",
+    "title": "The AY Industry Insights Report for Q2 2025 is Out!",
+    "url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-q2%E2%80%9925-publisher-trends-in-global-programmatic-ad-revenue/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:29:28+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/ay-product-updates-in-h1%E2%80%9924-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more/",
+    "pdf": "artifacts/pdf/023-ay-product-updates-in-h1%E2%80%9924-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/ay-product-updates-in-h1’24-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more/index.html",
+    "screenshot": "artifacts/screenshots/023-ay-product-updates-in-h1%E2%80%9924-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more.png",
+    "status": "200",
+    "title": "Assertive Yield Releases New Products Features in H1'24: Prebid Server, INP, Cookie Deprecation",
+    "url": "https://www.assertiveyield.com/blog/ay-product-updates-in-h1%E2%80%9924-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:29:35+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/beyond-predictions-how-publishers-should-actually-focus-heading-into-2026/",
+    "pdf": "artifacts/pdf/024-beyond-predictions-how-publishers-should-actually-focus-heading-into-2026.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/beyond-predictions-how-publishers-should-actually-focus-heading-into-2026/index.html",
+    "screenshot": "artifacts/screenshots/024-beyond-predictions-how-publishers-should-actually-focus-heading-into-2026.png",
+    "status": "200",
+    "title": "What Publishers Should Focus on in 2026 Beyond Predictions",
+    "url": "https://www.assertiveyield.com/blog/beyond-predictions-how-publishers-should-actually-focus-heading-into-2026/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:29:40+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/bid-shading/",
+    "pdf": "artifacts/pdf/025-bid-shading.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/bid-shading/index.html",
+    "screenshot": "artifacts/screenshots/025-bid-shading.png",
+    "status": "200",
+    "title": "Bid Shading in programmatic advertising: all you need to know",
+    "url": "https://www.assertiveyield.com/blog/bid-shading/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:29:45+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/boosting-your-ad-revenue-per-mille-ad-rpm-in-2025/",
+    "pdf": "artifacts/pdf/026-boosting-your-ad-revenue-per-mille-ad-rpm-in-2025.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/boosting-your-ad-revenue-per-mille-ad-rpm-in-2025/index.html",
+    "screenshot": "artifacts/screenshots/026-boosting-your-ad-revenue-per-mille-ad-rpm-in-2025.png",
+    "status": "200",
+    "title": "What is Ad Revenue per Mille (Ad RPM) and How to Boost it?",
+    "url": "https://www.assertiveyield.com/blog/boosting-your-ad-revenue-per-mille-ad-rpm-in-2025/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:29:50+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/confirmed-click-penalty/",
+    "pdf": "artifacts/pdf/027-confirmed-click-penalty.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/confirmed-click-penalty/index.html",
+    "screenshot": "artifacts/screenshots/027-confirmed-click-penalty.png",
+    "status": "200",
+    "title": "Confirmed Click Penalty: What is it and how to avoid it in programmatic?",
+    "url": "https://www.assertiveyield.com/blog/confirmed-click-penalty/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:29:55+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/cookieless-tracking-publishers/",
+    "pdf": "artifacts/pdf/028-cookieless-tracking-publishers.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/cookieless-tracking-publishers/index.html",
+    "screenshot": "artifacts/screenshots/028-cookieless-tracking-publishers.png",
+    "status": "200",
+    "title": "Cookieless Tracking: What are the Impacts of the Topics API on Publishers?",
+    "url": "https://www.assertiveyield.com/blog/cookieless-tracking-publishers/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:30:01+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/demand-path-optimization-empowering-publishers-for-profitable-paths/",
+    "pdf": "artifacts/pdf/029-demand-path-optimization-empowering-publishers-for-profitable-paths.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/demand-path-optimization-empowering-publishers-for-profitable-paths/index.html",
+    "screenshot": "artifacts/screenshots/029-demand-path-optimization-empowering-publishers-for-profitable-paths.png",
+    "status": "200",
+    "title": "How can publishers overcome Demand Path Optimization Challenges?",
+    "url": "https://www.assertiveyield.com/blog/demand-path-optimization-empowering-publishers-for-profitable-paths/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:30:06+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/dynamic-flooring-programmatic/",
+    "pdf": "artifacts/pdf/030-dynamic-flooring-programmatic.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/dynamic-flooring-programmatic/index.html",
+    "screenshot": "artifacts/screenshots/030-dynamic-flooring-programmatic.png",
+    "status": "200",
+    "title": "Dynamic flooring: how to manage floor pricing as a publisher?",
+    "url": "https://www.assertiveyield.com/blog/dynamic-flooring-programmatic/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:30:12+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape/",
+    "pdf": "artifacts/pdf/031-exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape/index.html",
+    "screenshot": "artifacts/screenshots/031-exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape.png",
+    "status": "200",
+    "title": "Data Analytics: Top 7 Trends Publishers Should Track in 2024",
+    "url": "https://www.assertiveyield.com/blog/exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:30:18+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher/",
+    "pdf": "artifacts/pdf/032-getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher/index.html",
+    "screenshot": "artifacts/screenshots/032-getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher.png",
+    "status": "200",
+    "title": "How to Get the Most Out of Your Pageview RPM Metric as a Digital Publisher",
+    "url": "https://www.assertiveyield.com/blog/getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:30:23+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do/",
+    "pdf": "artifacts/pdf/033-google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do/index.html",
+    "screenshot": "artifacts/screenshots/033-google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do.png",
+    "status": "200",
+    "title": "Top 3 Action Points to Avoid Back-button Hijacking Penalty from Google",
+    "url": "https://www.assertiveyield.com/blog/google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:30:27+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/google-optimize-alternatives/",
+    "pdf": "artifacts/pdf/034-google-optimize-alternatives.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/google-optimize-alternatives/index.html",
+    "screenshot": "artifacts/screenshots/034-google-optimize-alternatives.png",
+    "status": "200",
+    "title": "Google Optimize Alternatives: The best A/B Testing Solutions",
+    "url": "https://www.assertiveyield.com/blog/google-optimize-alternatives/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:30:33+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/green-advertising-what-are-publishers-and-ssps-roles/",
+    "pdf": "artifacts/pdf/035-green-advertising-what-are-publishers-and-ssps-roles.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/green-advertising-what-are-publishers-and-ssps-roles/index.html",
+    "screenshot": "artifacts/screenshots/035-green-advertising-what-are-publishers-and-ssps-roles.png",
+    "status": "200",
+    "title": "Sustainable Programmatic Supply Path",
+    "url": "https://www.assertiveyield.com/blog/green-advertising-what-are-publishers-and-ssps-roles/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:30:38+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/green-programmatic-advertising-explained/",
+    "pdf": "artifacts/pdf/036-green-programmatic-advertising-explained.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/green-programmatic-advertising-explained/index.html",
+    "screenshot": "artifacts/screenshots/036-green-programmatic-advertising-explained.png",
+    "status": "200",
+    "title": "green programmatic",
+    "url": "https://www.assertiveyield.com/blog/green-programmatic-advertising-explained/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:30:44+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/h2%E2%80%9924-ay-product-updates-new-features-and-improvements/",
+    "pdf": "artifacts/pdf/037-h2%E2%80%9924-ay-product-updates-new-features-and-improvements.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/h2’24-ay-product-updates-new-features-and-improvements/index.html",
+    "screenshot": "artifacts/screenshots/037-h2%E2%80%9924-ay-product-updates-new-features-and-improvements.png",
+    "status": "200",
+    "title": "Assertive Yield Releases New Product Updates",
+    "url": "https://www.assertiveyield.com/blog/h2%E2%80%9924-ay-product-updates-new-features-and-improvements/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:30:49+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/header-bidding/",
+    "pdf": "artifacts/pdf/038-header-bidding.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/header-bidding/index.html",
+    "screenshot": "artifacts/screenshots/038-header-bidding.png",
+    "status": "200",
+    "title": "Header Bidding: what is it, how it work and best wrappers",
+    "url": "https://www.assertiveyield.com/blog/header-bidding/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:30:54+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025/",
+    "pdf": "artifacts/pdf/039-how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025/index.html",
+    "screenshot": "artifacts/screenshots/039-how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025.png",
+    "status": "200",
+    "title": "What is RPM [Revenue Per Mille] in Programmatic?",
+    "url": "https://www.assertiveyield.com/blog/how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:00+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/how-publishers-should-prepare-their-ad-stack-for-black-friday/",
+    "pdf": "artifacts/pdf/040-how-publishers-should-prepare-their-ad-stack-for-black-friday.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/how-publishers-should-prepare-their-ad-stack-for-black-friday/index.html",
+    "screenshot": "artifacts/screenshots/040-how-publishers-should-prepare-their-ad-stack-for-black-friday.png",
+    "status": "200",
+    "title": "Smart Black Friday Tips From Ad Tech Experts",
+    "url": "https://www.assertiveyield.com/blog/how-publishers-should-prepare-their-ad-stack-for-black-friday/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:05+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/how-ssps-can-overcome-ad-spending-slowdown/",
+    "pdf": "artifacts/pdf/041-how-ssps-can-overcome-ad-spending-slowdown.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/how-ssps-can-overcome-ad-spending-slowdown/index.html",
+    "screenshot": "artifacts/screenshots/041-how-ssps-can-overcome-ad-spending-slowdown.png",
+    "status": "200",
+    "title": "Overcoming Ad Spending Slowdown as an SSP",
+    "url": "https://www.assertiveyield.com/blog/how-ssps-can-overcome-ad-spending-slowdown/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:10+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers/",
+    "pdf": "artifacts/pdf/042-how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers/index.html",
+    "screenshot": "artifacts/screenshots/042-how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers.png",
+    "status": "200",
+    "title": "A checklist for Publishers to choose the right Adtech solution",
+    "url": "https://www.assertiveyield.com/blog/how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:15+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/implications-of-a-cookieless-world-publishers/",
+    "pdf": "artifacts/pdf/043-implications-of-a-cookieless-world-publishers.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/implications-of-a-cookieless-world-publishers/index.html",
+    "screenshot": "artifacts/screenshots/043-implications-of-a-cookieless-world-publishers.png",
+    "status": "200",
+    "title": "What are the impacts of cookie depreciation for publishers?",
+    "url": "https://www.assertiveyield.com/blog/implications-of-a-cookieless-world-publishers/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:20+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue/",
+    "pdf": "artifacts/pdf/044-leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue/index.html",
+    "screenshot": "artifacts/screenshots/044-leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue.png",
+    "status": "200",
+    "title": "How to Leverage Advanced Prebid Analytics to Boost Programmatic Revenue",
+    "url": "https://www.assertiveyield.com/blog/leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:26+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/",
+    "pdf": "artifacts/pdf/045-maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/index.html",
+    "screenshot": "artifacts/screenshots/045-maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization.png",
+    "status": "200",
+    "title": "11 Metrics Publishers Shoud Track for UX and Ad Monetization",
+    "url": "https://www.assertiveyield.com/blog/maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:32+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers/",
+    "pdf": "artifacts/pdf/046-maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers/index.html",
+    "screenshot": "artifacts/screenshots/046-maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers.png",
+    "status": "200",
+    "title": "The Strategic Role of Pages per Session (PPS) for Publishers",
+    "url": "https://www.assertiveyield.com/blog/maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:37+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/microsoft-xandr-prebid-cache-deprecation-a-publisher%E2%80%99s-guide-to-a-safe-migration/",
+    "pdf": "artifacts/pdf/047-microsoft-xandr-prebid-cache-deprecation-a-publisher%E2%80%99s-guide-to-a-safe-migration.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/microsoft-xandr-prebid-cache-deprecation-a-publisher’s-guide-to-a-safe-migration/index.html",
+    "screenshot": "artifacts/screenshots/047-microsoft-xandr-prebid-cache-deprecation-a-publisher%E2%80%99s-guide-to-a-safe-migration.png",
+    "status": "200",
+    "title": "Microsoft/Xandr Prebid Cache Deprecation: Publisher Migration Guide | Assertive Yield",
+    "url": "https://www.assertiveyield.com/blog/microsoft-xandr-prebid-cache-deprecation-a-publisher%E2%80%99s-guide-to-a-safe-migration/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:41+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/navigating-the-future-of-programmatic-advertising-in-2024/",
+    "pdf": "artifacts/pdf/048-navigating-the-future-of-programmatic-advertising-in-2024.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/navigating-the-future-of-programmatic-advertising-in-2024/index.html",
+    "screenshot": "artifacts/screenshots/048-navigating-the-future-of-programmatic-advertising-in-2024.png",
+    "status": "200",
+    "title": "The Challenges Publishers Face in Programmatic Advertising with Solutions",
+    "url": "https://www.assertiveyield.com/blog/navigating-the-future-of-programmatic-advertising-in-2024/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:47+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/new-ay-product-updates-h1-2023/",
+    "pdf": "artifacts/pdf/049-new-ay-product-updates-h1-2023.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/new-ay-product-updates-h1-2023/index.html",
+    "screenshot": "artifacts/screenshots/049-new-ay-product-updates-h1-2023.png",
+    "status": "200",
+    "title": "Assertive Yield New Product Updates - H1 2023!",
+    "url": "https://www.assertiveyield.com/blog/new-ay-product-updates-h1-2023/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:52+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/optimal-adstack-for-publishers/",
+    "pdf": "artifacts/pdf/050-optimal-adstack-for-publishers.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/optimal-adstack-for-publishers/index.html",
+    "screenshot": "artifacts/screenshots/050-optimal-adstack-for-publishers.png",
+    "status": "200",
+    "title": "How can publishers create the optimal ad stack?",
+    "url": "https://www.assertiveyield.com/blog/optimal-adstack-for-publishers/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:31:57+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/optimize-your-monetization-strategy-with-ay-industry-insight/",
+    "pdf": "artifacts/pdf/051-optimize-your-monetization-strategy-with-ay-industry-insight.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/optimize-your-monetization-strategy-with-ay-industry-insight/index.html",
+    "screenshot": "artifacts/screenshots/051-optimize-your-monetization-strategy-with-ay-industry-insight.png",
+    "status": "200",
+    "title": "Programmatic Benchmark for Publishers",
+    "url": "https://www.assertiveyield.com/blog/optimize-your-monetization-strategy-with-ay-industry-insight/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:32:02+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers/",
+    "pdf": "artifacts/pdf/052-optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers/index.html",
+    "screenshot": "artifacts/screenshots/052-optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers.png",
+    "status": "200",
+    "title": "How can Publishers Optimize Session Revenue Per Mille to Drive More Revenue?",
+    "url": "https://www.assertiveyield.com/blog/optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:32:09+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/programmatic-insights/",
+    "pdf": "artifacts/pdf/053-programmatic-insights.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/programmatic-insights/index.html",
+    "screenshot": "artifacts/screenshots/053-programmatic-insights.png",
+    "status": "200",
+    "title": "Programmatic Insights: Publisher Trends for 2024",
+    "url": "https://www.assertiveyield.com/blog/programmatic-insights/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:32:15+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/publisher-metrics/",
+    "pdf": "artifacts/pdf/054-publisher-metrics.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/publisher-metrics/index.html",
+    "screenshot": "artifacts/screenshots/054-publisher-metrics.png",
+    "status": "200",
+    "title": "Ad Viewability: what is its importance for publishers and how to optimize it",
+    "url": "https://www.assertiveyield.com/blog/publisher-metrics/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:32:20+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/publisher-monetization-challenges/",
+    "pdf": "artifacts/pdf/055-publisher-monetization-challenges.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/publisher-monetization-challenges/index.html",
+    "screenshot": "artifacts/screenshots/055-publisher-monetization-challenges.png",
+    "status": "200",
+    "title": "Boosting RPM: Challenges Publishers Should Overcome in A/B Testing",
+    "url": "https://www.assertiveyield.com/blog/publisher-monetization-challenges/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:32:26+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue/",
+    "pdf": "artifacts/pdf/056-q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue/index.html",
+    "screenshot": "artifacts/screenshots/056-q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue.png",
+    "status": "200",
+    "title": "What does the AY Q2'24 Industry Insights Report for Programmatic Publishers entails?",
+    "url": "https://www.assertiveyield.com/blog/q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:32:31+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/qps-optimization-explained-greener-traffic-lower-costs/",
+    "pdf": "artifacts/pdf/057-qps-optimization-explained-greener-traffic-lower-costs.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/qps-optimization-explained-greener-traffic-lower-costs/index.html",
+    "screenshot": "artifacts/screenshots/057-qps-optimization-explained-greener-traffic-lower-costs.png",
+    "status": "200",
+    "title": "QPS advertising: what is Queries Per Second optimization?",
+    "url": "https://www.assertiveyield.com/blog/qps-optimization-explained-greener-traffic-lower-costs/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:32:36+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site/",
+    "pdf": "artifacts/pdf/058-reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site/index.html",
+    "screenshot": "artifacts/screenshots/058-reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site.png",
+    "status": "200",
+    "title": "How to Reduce Bounce Rate in 2025",
+    "url": "https://www.assertiveyield.com/blog/reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:32:42+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions/",
+    "pdf": "artifacts/pdf/059-shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions/index.html",
+    "screenshot": "artifacts/screenshots/059-shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions.png",
+    "status": "200",
+    "title": "Shaping a Greener Future: Assertive Yield Releases an In-Depth Look at Green Advertising and Scope 3 Emissions",
+    "url": "https://www.assertiveyield.com/blog/shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:32:46+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/tag/ad-revenue-management-tag/",
+    "pdf": "artifacts/pdf/060-ad-revenue-management-tag.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/tag/ad-revenue-management-tag/index.html",
+    "screenshot": "artifacts/screenshots/060-ad-revenue-management-tag.png",
+    "status": "200",
+    "title": "",
+    "url": "https://www.assertiveyield.com/blog/tag/ad-revenue-management-tag/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:32:53+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/tag/ai-optimization-tag/",
+    "pdf": "artifacts/pdf/061-ai-optimization-tag.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/tag/ai-optimization-tag/index.html",
+    "screenshot": "artifacts/screenshots/061-ai-optimization-tag.png",
+    "status": "200",
+    "title": "",
+    "url": "https://www.assertiveyield.com/blog/tag/ai-optimization-tag/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:32:58+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/tag/data-intelligence-tag/",
+    "pdf": "artifacts/pdf/062-data-intelligence-tag.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/tag/data-intelligence-tag/index.html",
+    "screenshot": "artifacts/screenshots/062-data-intelligence-tag.png",
+    "status": "200",
+    "title": "",
+    "url": "https://www.assertiveyield.com/blog/tag/data-intelligence-tag/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:33:05+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/tag/efficiency-&-sustainability-tag/",
+    "pdf": "artifacts/pdf/063-efficiency-&-sustainability-tag.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/tag/efficiency-&-sustainability-tag/index.html",
+    "screenshot": "artifacts/screenshots/063-efficiency-&-sustainability-tag.png",
+    "status": "200",
+    "title": "",
+    "url": "https://www.assertiveyield.com/blog/tag/efficiency-&-sustainability-tag/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:33:10+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/tag/programmatic-trends-tag/",
+    "pdf": "artifacts/pdf/064-programmatic-trends-tag.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/tag/programmatic-trends-tag/index.html",
+    "screenshot": "artifacts/screenshots/064-programmatic-trends-tag.png",
+    "status": "200",
+    "title": "",
+    "url": "https://www.assertiveyield.com/blog/tag/programmatic-trends-tag/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:33:17+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/the-publishing-dynamics-why-90-of-publishers%E2%80%99-inventory-is-hidden-from-demand-partners/",
+    "pdf": "artifacts/pdf/065-the-publishing-dynamics-why-90-of-publishers%E2%80%99-inventory-is-hidden-from-demand-partners.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/the-publishing-dynamics-why-90-of-publishers’-inventory-is-hidden-from-demand-partners/index.html",
+    "screenshot": "artifacts/screenshots/065-the-publishing-dynamics-why-90-of-publishers%E2%80%99-inventory-is-hidden-from-demand-partners.png",
+    "status": "200",
+    "title": "Demand Path Optimization: Publishers’ Inventory is Hidden from Demand Partners",
+    "url": "https://www.assertiveyield.com/blog/the-publishing-dynamics-why-90-of-publishers%E2%80%99-inventory-is-hidden-from-demand-partners/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:33:23+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/top-five-2023-trends-in-programmatic-advertising/",
+    "pdf": "artifacts/pdf/066-top-five-2023-trends-in-programmatic-advertising.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/top-five-2023-trends-in-programmatic-advertising/index.html",
+    "screenshot": "artifacts/screenshots/066-top-five-2023-trends-in-programmatic-advertising.png",
+    "status": "200",
+    "title": "Top Five Trends in Programmatic Advertising",
+    "url": "https://www.assertiveyield.com/blog/top-five-2023-trends-in-programmatic-advertising/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:33:29+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page/",
+    "pdf": "artifacts/pdf/067-tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page/index.html",
+    "screenshot": "artifacts/screenshots/067-tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page.png",
+    "status": "200",
+    "title": "Active Engagement Time vs. Time Spent on Page Metrics",
+    "url": "https://www.assertiveyield.com/blog/tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:33:34+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/unlocking-the-potential-of-a-360%C2%B0-panorama-dashboard-for-publisher-monetization/",
+    "pdf": "artifacts/pdf/068-unlocking-the-potential-of-a-360%C2%B0-panorama-dashboard-for-publisher-monetization.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/unlocking-the-potential-of-a-360°-panorama-dashboard-for-publisher-monetization/index.html",
+    "screenshot": "artifacts/screenshots/068-unlocking-the-potential-of-a-360%C2%B0-panorama-dashboard-for-publisher-monetization.png",
+    "status": "200",
+    "title": "How can Publishers Boost Monetization with 360 Panorama?",
+    "url": "https://www.assertiveyield.com/blog/unlocking-the-potential-of-a-360%C2%B0-panorama-dashboard-for-publisher-monetization/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:33:39+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/what-are-the-challenges-programmatic-ssps-are-facing-in-2023/",
+    "pdf": "artifacts/pdf/069-what-are-the-challenges-programmatic-ssps-are-facing-in-2023.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/what-are-the-challenges-programmatic-ssps-are-facing-in-2023/index.html",
+    "screenshot": "artifacts/screenshots/069-what-are-the-challenges-programmatic-ssps-are-facing-in-2023.png",
+    "status": "200",
+    "title": "Top Trends and Challenges for SSPs in 2025",
+    "url": "https://www.assertiveyield.com/blog/what-are-the-challenges-programmatic-ssps-are-facing-in-2023/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:33:45+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/what-is-click-through-rate/",
+    "pdf": "artifacts/pdf/070-what-is-click-through-rate.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/what-is-click-through-rate/index.html",
+    "screenshot": "artifacts/screenshots/070-what-is-click-through-rate.png",
+    "status": "200",
+    "title": "What is Click-Through Rate (CTR) and how to optimize it?",
+    "url": "https://www.assertiveyield.com/blog/what-is-click-through-rate/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:33:50+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/what-is-inp/",
+    "pdf": "artifacts/pdf/071-what-is-inp.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/what-is-inp/index.html",
+    "screenshot": "artifacts/screenshots/071-what-is-inp.png",
+    "status": "200",
+    "title": "What is INP and How can Publishers Measure and Optimize?",
+    "url": "https://www.assertiveyield.com/blog/what-is-inp/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:33:56+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/blog/why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now/",
+    "pdf": "artifacts/pdf/072-why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now.pdf",
+    "rendered_html": "artifacts/rendered-mirror/blog/why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now/index.html",
+    "screenshot": "artifacts/screenshots/072-why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now.png",
+    "status": "200",
+    "title": "Why You Should as a Publishers Invest in AI-Powered Prebid Server Technologies Now",
+    "url": "https://www.assertiveyield.com/blog/why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:34:01+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/by-company-type-publishers/",
+    "pdf": "artifacts/pdf/073-by-company-type-publishers.pdf",
+    "rendered_html": "artifacts/rendered-mirror/by-company-type-publishers/index.html",
+    "screenshot": "artifacts/screenshots/073-by-company-type-publishers.png",
+    "status": "200",
+    "title": "by company type",
+    "url": "https://www.assertiveyield.com/by-company-type-publishers/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:34:06+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/by-company-type-ssp/",
+    "pdf": "artifacts/pdf/074-by-company-type-ssp.pdf",
+    "rendered_html": "artifacts/rendered-mirror/by-company-type-ssp/index.html",
+    "screenshot": "artifacts/screenshots/074-by-company-type-ssp.png",
+    "status": "200",
+    "title": "by company type ssp",
+    "url": "https://www.assertiveyield.com/by-company-type-ssp/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:34:12+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/by-team-type-ad-operations-yield/",
+    "pdf": "artifacts/pdf/075-by-team-type-ad-operations-yield.pdf",
+    "rendered_html": "artifacts/rendered-mirror/by-team-type-ad-operations-yield/index.html",
+    "screenshot": "artifacts/screenshots/075-by-team-type-ad-operations-yield.png",
+    "status": "200",
+    "title": "by team type ad operations yield",
+    "url": "https://www.assertiveyield.com/by-team-type-ad-operations-yield/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:34:22+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/by-team-type-audience-development/",
+    "pdf": "artifacts/pdf/076-by-team-type-audience-development.pdf",
+    "rendered_html": "artifacts/rendered-mirror/by-team-type-audience-development/index.html",
+    "screenshot": "artifacts/screenshots/076-by-team-type-audience-development.png",
+    "status": "200",
+    "title": "By Team Type Audience Development",
+    "url": "https://www.assertiveyield.com/by-team-type-audience-development/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:34:31+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/by-team-type-management-finance/",
+    "pdf": "artifacts/pdf/077-by-team-type-management-finance.pdf",
+    "rendered_html": "artifacts/rendered-mirror/by-team-type-management-finance/index.html",
+    "screenshot": "artifacts/screenshots/077-by-team-type-management-finance.png",
+    "status": "200",
+    "title": "By Team Type Management Finance",
+    "url": "https://www.assertiveyield.com/by-team-type-management-finance/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:34:39+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/by-team-type-media-buying/",
+    "pdf": "artifacts/pdf/078-by-team-type-media-buying.pdf",
+    "rendered_html": "artifacts/rendered-mirror/by-team-type-media-buying/index.html",
+    "screenshot": "artifacts/screenshots/078-by-team-type-media-buying.png",
+    "status": "200",
+    "title": "By Team Type Media Buying",
+    "url": "https://www.assertiveyield.com/by-team-type-media-buying/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:34:48+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/by-team-type-product-teams/",
+    "pdf": "artifacts/pdf/079-by-team-type-product-teams.pdf",
+    "rendered_html": "artifacts/rendered-mirror/by-team-type-product-teams/index.html",
+    "screenshot": "artifacts/screenshots/079-by-team-type-product-teams.png",
+    "status": "200",
+    "title": "By Team Type Product Teams",
+    "url": "https://www.assertiveyield.com/by-team-type-product-teams/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:34:56+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/by-team-type-sales/",
+    "pdf": "artifacts/pdf/080-by-team-type-sales.pdf",
+    "rendered_html": "artifacts/rendered-mirror/by-team-type-sales/index.html",
+    "screenshot": "artifacts/screenshots/080-by-team-type-sales.png",
+    "status": "200",
+    "title": "By Team Type Sales",
+    "url": "https://www.assertiveyield.com/by-team-type-sales/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:05+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/career-success/",
+    "pdf": "artifacts/pdf/081-career-success.pdf",
+    "rendered_html": "artifacts/rendered-mirror/career-success/index.html",
+    "screenshot": "artifacts/screenshots/081-career-success.png",
+    "status": "200",
+    "title": "career-success-application",
+    "url": "https://www.assertiveyield.com/career-success/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:09+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/careers/",
+    "pdf": "artifacts/pdf/082-careers.pdf",
+    "rendered_html": "artifacts/rendered-mirror/careers/index.html",
+    "screenshot": "artifacts/screenshots/082-careers.png",
+    "status": "200",
+    "title": "Careers",
+    "url": "https://www.assertiveyield.com/careers/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:16+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/careers/backend-engineer-golang/",
+    "pdf": "artifacts/pdf/083-backend-engineer-golang.pdf",
+    "rendered_html": "artifacts/rendered-mirror/careers/backend-engineer-golang/index.html",
+    "screenshot": "artifacts/screenshots/083-backend-engineer-golang.png",
+    "status": "200",
+    "title": "Backend Engineer (Golang)",
+    "url": "https://www.assertiveyield.com/careers/backend-engineer-golang/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:20+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/careers/sales-engineer-publisher-ad-tech/",
+    "pdf": "artifacts/pdf/084-sales-engineer-publisher-ad-tech.pdf",
+    "rendered_html": "artifacts/rendered-mirror/careers/sales-engineer-publisher-ad-tech/index.html",
+    "screenshot": "artifacts/screenshots/084-sales-engineer-publisher-ad-tech.png",
+    "status": "200",
+    "title": "Sales Engineer (Publisher Ad Tech) EMEA",
+    "url": "https://www.assertiveyield.com/careers/sales-engineer-publisher-ad-tech/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:23+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/careers/sales-executive-amer/",
+    "pdf": "artifacts/pdf/085-sales-executive-amer.pdf",
+    "rendered_html": "artifacts/rendered-mirror/careers/sales-executive-amer/index.html",
+    "screenshot": "artifacts/screenshots/085-sales-executive-amer.png",
+    "status": "200",
+    "title": "Sales Executive - AMER",
+    "url": "https://www.assertiveyield.com/careers/sales-executive-amer/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:27+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/careers/senior-devops-engineer/",
+    "pdf": "artifacts/pdf/086-senior-devops-engineer.pdf",
+    "rendered_html": "artifacts/rendered-mirror/careers/senior-devops-engineer/index.html",
+    "screenshot": "artifacts/screenshots/086-senior-devops-engineer.png",
+    "status": "200",
+    "title": "Senior DevOps Engineer",
+    "url": "https://www.assertiveyield.com/careers/senior-devops-engineer/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:31+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/contact-us/",
+    "pdf": "artifacts/pdf/087-contact-us.pdf",
+    "rendered_html": "artifacts/rendered-mirror/contact-us/index.html",
+    "screenshot": "artifacts/screenshots/087-contact-us.png",
+    "status": "200",
+    "title": "Contact Us",
+    "url": "https://www.assertiveyield.com/contact-us/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:36+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/dashboards/",
+    "pdf": "artifacts/pdf/088-dashboards.pdf",
+    "rendered_html": "artifacts/rendered-mirror/dashboards/index.html",
+    "screenshot": "artifacts/screenshots/088-dashboards.png",
+    "status": "200",
+    "title": "Monitoring",
+    "url": "https://www.assertiveyield.com/dashboards/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:41+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/ebooks/all/",
+    "pdf": "artifacts/pdf/089-all.pdf",
+    "rendered_html": "artifacts/rendered-mirror/ebooks/all/index.html",
+    "screenshot": "artifacts/screenshots/089-all.png",
+    "status": "200",
+    "title": "All Reports",
+    "url": "https://www.assertiveyield.com/ebooks/all/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:47+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/help-center/",
+    "pdf": "artifacts/pdf/090-help-center.pdf",
+    "rendered_html": "artifacts/rendered-mirror/help-center/index.html",
+    "screenshot": "artifacts/screenshots/090-help-center.png",
+    "status": "200",
+    "title": "Help Center",
+    "url": "https://www.assertiveyield.com/help-center/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:51+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/help-center/academy/",
+    "pdf": "artifacts/pdf/091-academy.pdf",
+    "rendered_html": "artifacts/rendered-mirror/help-center/academy/index.html",
+    "screenshot": "artifacts/screenshots/091-academy.png",
+    "status": "200",
+    "title": "Academy",
+    "url": "https://www.assertiveyield.com/help-center/academy/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:35:56+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/help-center/ay-glossary/",
+    "pdf": "artifacts/pdf/092-ay-glossary.pdf",
+    "rendered_html": "artifacts/rendered-mirror/help-center/ay-glossary/index.html",
+    "screenshot": "artifacts/screenshots/092-ay-glossary.png",
+    "status": "200",
+    "title": "Ay Glossary",
+    "url": "https://www.assertiveyield.com/help-center/ay-glossary/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:36:03+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/help-center/ay-support/",
+    "pdf": "artifacts/pdf/093-ay-support.pdf",
+    "rendered_html": "artifacts/rendered-mirror/help-center/ay-support/index.html",
+    "screenshot": "artifacts/screenshots/093-ay-support.png",
+    "status": "200",
+    "title": "Support",
+    "url": "https://www.assertiveyield.com/help-center/ay-support/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:36:10+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/hits/all/",
+    "pdf": "artifacts/pdf/094-all.pdf",
+    "rendered_html": "artifacts/rendered-mirror/hits/all/index.html",
+    "screenshot": "artifacts/screenshots/094-all.png",
+    "status": "200",
+    "title": "Hits",
+    "url": "https://www.assertiveyield.com/hits/all/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:36:18+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/industry-insights/",
+    "pdf": "artifacts/pdf/095-industry-insights.pdf",
+    "rendered_html": "artifacts/rendered-mirror/industry-insights/index.html",
+    "screenshot": "artifacts/screenshots/095-industry-insights.png",
+    "status": "200",
+    "title": "Industry Insights",
+    "url": "https://www.assertiveyield.com/industry-insights/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:36:23+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/news/all/",
+    "pdf": "artifacts/pdf/096-all.pdf",
+    "rendered_html": "artifacts/rendered-mirror/news/all/index.html",
+    "screenshot": "artifacts/screenshots/096-all.png",
+    "status": "200",
+    "title": "AY in the News",
+    "url": "https://www.assertiveyield.com/news/all/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:36:31+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/podcasts/all/",
+    "pdf": "artifacts/pdf/097-all.pdf",
+    "rendered_html": "artifacts/rendered-mirror/podcasts/all/index.html",
+    "screenshot": "artifacts/screenshots/097-all.png",
+    "status": "200",
+    "title": "Podcasts",
+    "url": "https://www.assertiveyield.com/podcasts/all/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:36:38+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/pricing-update/",
+    "pdf": "artifacts/pdf/098-pricing-update.pdf",
+    "rendered_html": "artifacts/rendered-mirror/pricing-update/index.html",
+    "screenshot": "artifacts/screenshots/098-pricing-update.png",
+    "status": "200",
+    "title": "Pricing-update",
+    "url": "https://www.assertiveyield.com/pricing-update/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:36:43+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/pricing/",
+    "pdf": "artifacts/pdf/099-pricing.pdf",
+    "rendered_html": "artifacts/rendered-mirror/pricing/index.html",
+    "screenshot": "artifacts/screenshots/099-pricing.png",
+    "status": "200",
+    "title": "",
+    "url": "https://www.assertiveyield.com/pricing/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:36:47+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/product-updates/all/",
+    "pdf": "artifacts/pdf/100-all.pdf",
+    "rendered_html": "artifacts/rendered-mirror/product-updates/all/index.html",
+    "screenshot": "artifacts/screenshots/100-all.png",
+    "status": "200",
+    "title": "Product Updates",
+    "url": "https://www.assertiveyield.com/product-updates/all/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:36:51+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/real-time-alerts/",
+    "pdf": "artifacts/pdf/101-real-time-alerts.pdf",
+    "rendered_html": "artifacts/rendered-mirror/real-time-alerts/index.html",
+    "screenshot": "artifacts/screenshots/101-real-time-alerts.png",
+    "status": "200",
+    "title": "Real-Time Alerts",
+    "url": "https://www.assertiveyield.com/real-time-alerts/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:36:56+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/slice-and-dice/",
+    "pdf": "artifacts/pdf/102-slice-and-dice.pdf",
+    "rendered_html": "artifacts/rendered-mirror/slice-and-dice/index.html",
+    "screenshot": "artifacts/screenshots/102-slice-and-dice.png",
+    "status": "200",
+    "title": "Slice and Dice",
+    "url": "https://www.assertiveyield.com/slice-and-dice/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:37:04+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/soc2-request/",
+    "pdf": "artifacts/pdf/103-soc2-request.pdf",
+    "rendered_html": "artifacts/rendered-mirror/soc2-request/index.html",
+    "screenshot": "artifacts/screenshots/103-soc2-request.png",
+    "status": "200",
+    "title": "",
+    "url": "https://www.assertiveyield.com/soc2-request/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:37:08+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/",
+    "pdf": "artifacts/pdf/104-success-stories.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/index.html",
+    "screenshot": "artifacts/screenshots/104-success-stories.png",
+    "status": "200",
+    "title": "Success Stories",
+    "url": "https://www.assertiveyield.com/success-stories/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:37:21+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/9gag/",
+    "pdf": "artifacts/pdf/105-9gag.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/9gag/index.html",
+    "screenshot": "artifacts/screenshots/105-9gag.png",
+    "status": "200",
+    "title": "9GAG",
+    "url": "https://www.assertiveyield.com/success-stories/9gag/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:37:27+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/apartment-therapy/",
+    "pdf": "artifacts/pdf/106-apartment-therapy.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/apartment-therapy/index.html",
+    "screenshot": "artifacts/screenshots/106-apartment-therapy.png",
+    "status": "200",
+    "title": "Apartment Therapy",
+    "url": "https://www.assertiveyield.com/success-stories/apartment-therapy/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:37:31+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/bauer-media-group/",
+    "pdf": "artifacts/pdf/107-bauer-media-group.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/bauer-media-group/index.html",
+    "screenshot": "artifacts/screenshots/107-bauer-media-group.png",
+    "status": "200",
+    "title": "Bauer Media",
+    "url": "https://www.assertiveyield.com/success-stories/bauer-media-group/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:37:36+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/boons/",
+    "pdf": "artifacts/pdf/108-boons.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/boons/index.html",
+    "screenshot": "artifacts/screenshots/108-boons.png",
+    "status": "200",
+    "title": "Boons Media",
+    "url": "https://www.assertiveyield.com/success-stories/boons/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:37:42+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/cambium-media/",
+    "pdf": "artifacts/pdf/109-cambium-media.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/cambium-media/index.html",
+    "screenshot": "artifacts/screenshots/109-cambium-media.png",
+    "status": "200",
+    "title": "Cambium Media",
+    "url": "https://www.assertiveyield.com/success-stories/cambium-media/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:37:47+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/connatix/",
+    "pdf": "artifacts/pdf/110-connatix.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/connatix/index.html",
+    "screenshot": "artifacts/screenshots/110-connatix.png",
+    "status": "200",
+    "title": "Connatix",
+    "url": "https://www.assertiveyield.com/success-stories/connatix/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:37:52+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/gumgum-inc/",
+    "pdf": "artifacts/pdf/111-gumgum-inc.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/gumgum-inc/index.html",
+    "screenshot": "artifacts/screenshots/111-gumgum-inc.png",
+    "status": "200",
+    "title": "GumGum Inc",
+    "url": "https://www.assertiveyield.com/success-stories/gumgum-inc/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:37:57+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/hitopic/",
+    "pdf": "artifacts/pdf/112-hitopic.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/hitopic/index.html",
+    "screenshot": "artifacts/screenshots/112-hitopic.png",
+    "status": "200",
+    "title": "Hitopic",
+    "url": "https://www.assertiveyield.com/success-stories/hitopic/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:38:02+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/krone/",
+    "pdf": "artifacts/pdf/113-krone.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/krone/index.html",
+    "screenshot": "artifacts/screenshots/113-krone.png",
+    "status": "200",
+    "title": "Krone",
+    "url": "https://www.assertiveyield.com/success-stories/krone/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:38:08+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/kurier-media-house/",
+    "pdf": "artifacts/pdf/114-kurier-media-house.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/kurier-media-house/index.html",
+    "screenshot": "artifacts/screenshots/114-kurier-media-house.png",
+    "status": "200",
+    "title": "Kurier Media House",
+    "url": "https://www.assertiveyield.com/success-stories/kurier-media-house/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:38:14+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/nativo/",
+    "pdf": "artifacts/pdf/115-nativo.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/nativo/index.html",
+    "screenshot": "artifacts/screenshots/115-nativo.png",
+    "status": "200",
+    "title": "Nativo",
+    "url": "https://www.assertiveyield.com/success-stories/nativo/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:38:19+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/shinez/",
+    "pdf": "artifacts/pdf/116-shinez.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/shinez/index.html",
+    "screenshot": "artifacts/screenshots/116-shinez.png",
+    "status": "200",
+    "title": "Shinez",
+    "url": "https://www.assertiveyield.com/success-stories/shinez/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:38:24+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/success-stories/world-history-encyclopedia/",
+    "pdf": "artifacts/pdf/117-world-history-encyclopedia.pdf",
+    "rendered_html": "artifacts/rendered-mirror/success-stories/world-history-encyclopedia/index.html",
+    "screenshot": "artifacts/screenshots/117-world-history-encyclopedia.png",
+    "status": "200",
+    "title": "World History Encyclopedia",
+    "url": "https://www.assertiveyield.com/success-stories/world-history-encyclopedia/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:38:30+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/traffic-acquisition/",
+    "pdf": "artifacts/pdf/118-traffic-acquisition.pdf",
+    "rendered_html": "artifacts/rendered-mirror/traffic-acquisition/index.html",
+    "screenshot": "artifacts/screenshots/118-traffic-acquisition.png",
+    "status": "200",
+    "title": "Traffic Acquisition",
+    "url": "https://www.assertiveyield.com/traffic-acquisition/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:38:35+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/traffic-shaping-for-publishers/",
+    "pdf": "artifacts/pdf/119-traffic-shaping-for-publishers.pdf",
+    "rendered_html": "artifacts/rendered-mirror/traffic-shaping-for-publishers/index.html",
+    "screenshot": "artifacts/screenshots/119-traffic-shaping-for-publishers.png",
+    "status": "200",
+    "title": "Traffic Shaping for Publishers",
+    "url": "https://www.assertiveyield.com/traffic-shaping-for-publishers/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:38:40+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/traffic-shaping/",
+    "pdf": "artifacts/pdf/120-traffic-shaping.pdf",
+    "rendered_html": "artifacts/rendered-mirror/traffic-shaping/index.html",
+    "screenshot": "artifacts/screenshots/120-traffic-shaping.png",
+    "status": "200",
+    "title": "Traffic Shaping - Assertive Yield",
+    "url": "https://www.assertiveyield.com/traffic-shaping/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:38:46+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/videos/all/",
+    "pdf": "artifacts/pdf/121-all.pdf",
+    "rendered_html": "artifacts/rendered-mirror/videos/all/index.html",
+    "screenshot": "artifacts/screenshots/121-all.png",
+    "status": "200",
+    "title": "All Videos",
+    "url": "https://www.assertiveyield.com/videos/all/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:38:52+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/yield-intelligence/",
+    "pdf": "artifacts/pdf/122-yield-intelligence.pdf",
+    "rendered_html": "artifacts/rendered-mirror/yield-intelligence/index.html",
+    "screenshot": "artifacts/screenshots/122-yield-intelligence.png",
+    "status": "200",
+    "title": "Yield Intelligence - Assertive Yield",
+    "url": "https://www.assertiveyield.com/yield-intelligence/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:38:57+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/yield-manager/",
+    "pdf": "artifacts/pdf/123-yield-manager.pdf",
+    "rendered_html": "artifacts/rendered-mirror/yield-manager/index.html",
+    "screenshot": "artifacts/screenshots/123-yield-manager.png",
+    "status": "200",
+    "title": "Yield Manager - Assertive Yield",
+    "url": "https://www.assertiveyield.com/yield-manager/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T14:39:05+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/yield-optimizer/",
+    "pdf": "artifacts/pdf/124-yield-optimizer.pdf",
+    "rendered_html": "artifacts/rendered-mirror/yield-optimizer/index.html",
+    "screenshot": "artifacts/screenshots/124-yield-optimizer.png",
+    "status": "200",
+    "title": "Yield Optimizer - Assertive Yield",
+    "url": "https://www.assertiveyield.com/yield-optimizer/"
+  }
+]

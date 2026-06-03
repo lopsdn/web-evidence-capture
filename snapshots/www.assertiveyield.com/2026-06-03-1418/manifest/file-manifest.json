@@ -1,0 +1,3832 @@
+[
+  {
+    "path": "artifacts/control/robots.txt",
+    "sha256": "2129749146f50ecc29b95a08409cabe2a3fdf6555e948d5205b9e8f42c0688ff",
+    "size_bytes": 355
+  },
+  {
+    "path": "artifacts/control/sitemap-001.xml",
+    "sha256": "b2a3a0e8e81f6a46336b86b0471777ba7ed467a1a9d176ac647ff031119d1f94",
+    "size_bytes": 193
+  },
+  {
+    "path": "artifacts/control/sitemap-002.xml",
+    "sha256": "12caee475a1737f2373c83145073b3a6ccfc1884ef46b380b62d61f8113c64b3",
+    "size_bytes": 19284
+  },
+  {
+    "path": "artifacts/mirror/about-us/index.html",
+    "sha256": "a69afdba83d00bf26b96c709725b09c95c48c6d57fceb0c945fd571d97628de6",
+    "size_bytes": 533292
+  },
+  {
+    "path": "artifacts/mirror/ailayouts/index.html",
+    "sha256": "4a2afc14491fad362a1a915e2b5e9ee17ddc521a0b87dfd9843bd1d4d5843948",
+    "size_bytes": 534094
+  },
+  {
+    "path": "artifacts/mirror/all-revenue-source/index.html",
+    "sha256": "3be4d5d8ad44e14f8e41e5857ea1901aabc67ee87ded04f0a362df2be55c8c87",
+    "size_bytes": 533450
+  },
+  {
+    "path": "artifacts/mirror/apps-and-integrations/index.html",
+    "sha256": "257d043a951747c3d82b4a82c4ee2466ff998acca725f28826f84da19bba00a4",
+    "size_bytes": 534162
+  },
+  {
+    "path": "artifacts/mirror/ay-glossary/index.html",
+    "sha256": "f12cbdeda7c3583044b343a78b129cd3a9e02a98017e52001d312f487eee1311",
+    "size_bytes": 533322
+  },
+  {
+    "path": "artifacts/mirror/ay_prebidserver/index.html",
+    "sha256": "3e107c449e78563c0f9b599ffdc6022ec00f0c42b85a23410d45211535533241",
+    "size_bytes": 533163
+  },
+  {
+    "path": "artifacts/mirror/blog/ab-testing-publishers/index.html",
+    "sha256": "ef70767dc3fff82258b2925a20c55c935fa5740d5be1a81e6aff89415042d2dc",
+    "size_bytes": 531496
+  },
+  {
+    "path": "artifacts/mirror/blog/abn-testing/index.html",
+    "sha256": "ae75989fc23729c0059286dbe35d437529e1df35275644fdfc95e1da4b1cbb04",
+    "size_bytes": 531743
+  },
+  {
+    "path": "artifacts/mirror/blog/ai-programmatic-advertising/index.html",
+    "sha256": "d89c3b07bc4211f623dc93b9679fed76929f951b0d3238aab109f2ba8476336f",
+    "size_bytes": 531536
+  },
+  {
+    "path": "artifacts/mirror/blog/all/index.html",
+    "sha256": "e4e13a7d81283ca224a7967c27f481b929ef3a69f3004d4175572e2bf1e11d74",
+    "size_bytes": 529424
+  },
+  {
+    "path": "artifacts/mirror/blog/alternatives-to-third-party-cookies/index.html",
+    "sha256": "86e174a13118c60bc5425d4f0e73b1ecf7a3097177a6318a5f44b4c437b346f8",
+    "size_bytes": 531970
+  },
+  {
+    "path": "artifacts/mirror/blog/analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue/index.html",
+    "sha256": "fdbef39c5cfb522fb416dbfcdbec5a7a045158b1317e4909839b1cef36364bad",
+    "size_bytes": 532600
+  },
+  {
+    "path": "artifacts/mirror/blog/analyzing-optimizing-your-impression-revenue-per-mille-rpm/index.html",
+    "sha256": "80540df1f4107b33ab7752fd8088f6f898e258b7ed829f7d28ebda032c1e3347",
+    "size_bytes": 531691
+  },
+  {
+    "path": "artifacts/mirror/blog/ay-industry-insight-second-quarter-report-yield-management-in-programmatic/index.html",
+    "sha256": "2642a45f7f6821808e3d4a02afe08aa745b455ad01c2d7f2ce00be4cceeed2ad",
+    "size_bytes": 532550
+  },
+  {
+    "path": "artifacts/mirror/blog/ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue/index.html",
+    "sha256": "7cec3f352a68161553bf1eca1c376c338b86191264043ecbe187a9f1e605214d",
+    "size_bytes": 531913
+  },
+  {
+    "path": "artifacts/mirror/blog/ay-industry-insights-report-q2’25-publisher-trends-in-global-programmatic-ad-revenue/index.html",
+    "sha256": "f923cec7d224933f8b28b29dc6ffc04e1f7adcdb258045cc9692378d6bf0857d",
+    "size_bytes": 531816
+  },
+  {
+    "path": "artifacts/mirror/blog/ay-product-updates-in-h1’24-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more/index.html",
+    "sha256": "9ac61b38bd96c02455eb96a8a7e0a5dd97caf1de2dea70daaebd7581d7d4c03e",
+    "size_bytes": 532768
+  },
+  {
+    "path": "artifacts/mirror/blog/beyond-predictions-how-publishers-should-actually-focus-heading-into-2026/index.html",
+    "sha256": "9d4318f80f27a2a3f6b0d809b52ca35129d91c768b1c41434dfdf949f2b0013f",
+    "size_bytes": 532252
+  },
+  {
+    "path": "artifacts/mirror/blog/bid-shading/index.html",
+    "sha256": "77152f61d5361e92841810913ce931e8605a8379fea37e5e88d938a161c67bfc",
+    "size_bytes": 531557
+  },
+  {
+    "path": "artifacts/mirror/blog/boosting-your-ad-revenue-per-mille-ad-rpm-in-2025/index.html",
+    "sha256": "14aba542a696ace467e46a6b1f70b987b882c654a3880a598c213bb56420e626",
+    "size_bytes": 532003
+  },
+  {
+    "path": "artifacts/mirror/blog/confirmed-click-penalty/index.html",
+    "sha256": "b3c635d94dbfcd818a36530bedaf071f2be9716fbdc6393e91fe6518873338e9",
+    "size_bytes": 531532
+  },
+  {
+    "path": "artifacts/mirror/blog/cookieless-tracking-publishers/index.html",
+    "sha256": "82254a6bdeb504f0e1fe855c9b7eac365e2332a650cbb7539414386298d7845a",
+    "size_bytes": 531758
+  },
+  {
+    "path": "artifacts/mirror/blog/demand-path-optimization-empowering-publishers-for-profitable-paths/index.html",
+    "sha256": "a244c4141f18821301b8a48fb1684d901c899934eab067d8572da80aedee180f",
+    "size_bytes": 531867
+  },
+  {
+    "path": "artifacts/mirror/blog/dynamic-flooring-programmatic/index.html",
+    "sha256": "b34d7986d8ae5d8aa900aaa6ee25283e5ac8bf541575894fef799be6e8e401d8",
+    "size_bytes": 531667
+  },
+  {
+    "path": "artifacts/mirror/blog/exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape/index.html",
+    "sha256": "fb8fb2c20bc9e6ce126deb9d93bf93fdb3f2512d8914eaac5cf198426229760f",
+    "size_bytes": 532071
+  },
+  {
+    "path": "artifacts/mirror/blog/getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher/index.html",
+    "sha256": "2c1d18bff1d7314e7d912515381fea7ecf4ecb4b332a2a2d4880b6ddb81dc305",
+    "size_bytes": 531951
+  },
+  {
+    "path": "artifacts/mirror/blog/google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do/index.html",
+    "sha256": "d95ab4274878cbba20563e1451cd745a5452595eb99a95cbd5da9f3c23037c6a",
+    "size_bytes": 531938
+  },
+  {
+    "path": "artifacts/mirror/blog/google-optimize-alternatives/index.html",
+    "sha256": "31c813968c2f7ebe5544549792a02f31fedab274145987f7f7f43722005311cd",
+    "size_bytes": 531617
+  },
+  {
+    "path": "artifacts/mirror/blog/green-advertising-what-are-publishers-and-ssps-roles/index.html",
+    "sha256": "3e93dd09579b1feff6d926073b446729f11ffd2c0bb2d7a03a3c6bd240f4830d",
+    "size_bytes": 531207
+  },
+  {
+    "path": "artifacts/mirror/blog/green-programmatic-advertising-explained/index.html",
+    "sha256": "afc8aef000ce530e75656c311fdcde6fbe7f9d3342dda97c9f82b5a23c63003c",
+    "size_bytes": 531784
+  },
+  {
+    "path": "artifacts/mirror/blog/h2’24-ay-product-updates-new-features-and-improvements/index.html",
+    "sha256": "523fa06027c3995d29742da0b17224daa21b95a0a13b27d844e233ed6f2ecf37",
+    "size_bytes": 531676
+  },
+  {
+    "path": "artifacts/mirror/blog/header-bidding/index.html",
+    "sha256": "664f4691c609d7b4e845dc4785f8dad2f6f0defe16873e4da23380f097407556",
+    "size_bytes": 531572
+  },
+  {
+    "path": "artifacts/mirror/blog/how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025/index.html",
+    "sha256": "5c72b3ea72bb47d4004d73113206f6c6a541c89844573a29d5637a10b531a935",
+    "size_bytes": 532046
+  },
+  {
+    "path": "artifacts/mirror/blog/how-publishers-should-prepare-their-ad-stack-for-black-friday/index.html",
+    "sha256": "1d88cab46be9426ef92331b1c42bffeac16183b62bcace18be358b7354b368cc",
+    "size_bytes": 532435
+  },
+  {
+    "path": "artifacts/mirror/blog/how-ssps-can-overcome-ad-spending-slowdown/index.html",
+    "sha256": "67c443edea84c3a0451ba0454545cea9e2c8975273405095ad1e89e63db43bc0",
+    "size_bytes": 531831
+  },
+  {
+    "path": "artifacts/mirror/blog/how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers/index.html",
+    "sha256": "c69f20fbeb3d048998415116ed56f91cc73434ee008e2facc5fd9438186cf53f",
+    "size_bytes": 532093
+  },
+  {
+    "path": "artifacts/mirror/blog/implications-of-a-cookieless-world-publishers/index.html",
+    "sha256": "06d938e8a95c6f9d7284ac4e6828e7de4a3f5c6843a3f675ec6723798e5909a6",
+    "size_bytes": 531828
+  },
+  {
+    "path": "artifacts/mirror/blog/index.html",
+    "sha256": "0797905480d4eae3712b60c91a95ebaef7a1c5299235e9a78e9b08336564c610",
+    "size_bytes": 533521
+  },
+  {
+    "path": "artifacts/mirror/blog/leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue/index.html",
+    "sha256": "bf4f3a1211c26cc54ee4b6fda627b044689f8761bafbb92ac88ad92a13952a6f",
+    "size_bytes": 532267
+  },
+  {
+    "path": "artifacts/mirror/blog/maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/index.html",
+    "sha256": "079f4622e511819a2ba580efed58e096fa4344e2f1467d3ca9ef5d2b683094a3",
+    "size_bytes": 531669
+  },
+  {
+    "path": "artifacts/mirror/blog/maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers/index.html",
+    "sha256": "f23ee9b188c563947b839046093b8e43dbca8f3bb809a97ecfacd821f56ba7e2",
+    "size_bytes": 531898
+  },
+  {
+    "path": "artifacts/mirror/blog/microsoft-xandr-prebid-cache-deprecation-a-publisher’s-guide-to-a-safe-migration/index.html",
+    "sha256": "b91e46f0cccd47c22aedd95117fa15cd4616da3bb3b87826f5afe4899b639a52",
+    "size_bytes": 531578
+  },
+  {
+    "path": "artifacts/mirror/blog/navigating-the-future-of-programmatic-advertising-in-2024/index.html",
+    "sha256": "cedd5dd771c19af584ecc8e29cec5f61666df17f810653ed60ce94f270c8064c",
+    "size_bytes": 532123
+  },
+  {
+    "path": "artifacts/mirror/blog/new-ay-product-updates-h1-2023/index.html",
+    "sha256": "af60409e7ba86834d4eaa3c547351b7c2b737604ba1972a9d1b05ca6355d45ba",
+    "size_bytes": 531566
+  },
+  {
+    "path": "artifacts/mirror/blog/optimal-adstack-for-publishers/index.html",
+    "sha256": "99f921afee0b2139ebe49865f1c7f5dbc247ccecbfb2510520170d80cb8023af",
+    "size_bytes": 531518
+  },
+  {
+    "path": "artifacts/mirror/blog/optimize-your-monetization-strategy-with-ay-industry-insight/index.html",
+    "sha256": "5d0438e732f2a5f3c7725ddae60f0b2a710cddd1bb962d4bf3d3a03aac6bc970",
+    "size_bytes": 531255
+  },
+  {
+    "path": "artifacts/mirror/blog/optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers/index.html",
+    "sha256": "52e98b6065eade2477a2cbebfe66f330c4f55c2d540191a4c0ad6086537fa624",
+    "size_bytes": 532109
+  },
+  {
+    "path": "artifacts/mirror/blog/product-updates-q1-2024/index.html",
+    "sha256": "033b8f62a2352d13103e4653bbff2c531354192faf4e1e807ca9811003247b41",
+    "size_bytes": 531933
+  },
+  {
+    "path": "artifacts/mirror/blog/programmatic-insights/index.html",
+    "sha256": "96db1f0bbf5b310286a114eb28ecf21295c47185d8060ecf9486b51efc802dc7",
+    "size_bytes": 531434
+  },
+  {
+    "path": "artifacts/mirror/blog/publisher-metrics/index.html",
+    "sha256": "e9e9ced920f0bcf9b18339b06840c0ae3bf821c4b6d73df5132abaa844dae753",
+    "size_bytes": 531972
+  },
+  {
+    "path": "artifacts/mirror/blog/publisher-monetization-challenges/index.html",
+    "sha256": "f155dcb86d36eb0233cbbaea818f2084f5ff39739d145e05f278c04c9a925e66",
+    "size_bytes": 532270
+  },
+  {
+    "path": "artifacts/mirror/blog/q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue/index.html",
+    "sha256": "63f9c4eb6e0d713362d3e9a309cf7dee224ab098f49abb0a69be61e60c798b1d",
+    "size_bytes": 531998
+  },
+  {
+    "path": "artifacts/mirror/blog/qps-optimization-explained-greener-traffic-lower-costs/index.html",
+    "sha256": "d3b9ca717efbf39dfd9ed9b59f3885985cb7d93e71ad738e7d8c9c67f7aec3d4",
+    "size_bytes": 531543
+  },
+  {
+    "path": "artifacts/mirror/blog/reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site/index.html",
+    "sha256": "082bd790788291f51107e1cc75bc65d487e45d12c3543e0432e853179fda0f12",
+    "size_bytes": 532299
+  },
+  {
+    "path": "artifacts/mirror/blog/shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions/index.html",
+    "sha256": "293289ada0ccdd40466e0cb36f90cb06dd984df2e59a9648a1029dd6e7b5975e",
+    "size_bytes": 532389
+  },
+  {
+    "path": "artifacts/mirror/blog/tag/ad-revenue-management-tag/index.html",
+    "sha256": "0468642ce23b5386a200a63f7100b51a4f7a55d838a9d043c1593839fc26c4b6",
+    "size_bytes": 527158
+  },
+  {
+    "path": "artifacts/mirror/blog/tag/ai-optimization-tag/index.html",
+    "sha256": "c0dc43ea04d32a0199d490a1ba1f66f7f65b078053cf3b055e725d9768fd0706",
+    "size_bytes": 527152
+  },
+  {
+    "path": "artifacts/mirror/blog/tag/data-intelligence-tag/index.html",
+    "sha256": "d0b10f215a8d40de76d305cccaded53c5f30dbc417df9d8d670fbf0c8c2a0e01",
+    "size_bytes": 527154
+  },
+  {
+    "path": "artifacts/mirror/blog/tag/efficiency-&-sustainability-tag/index.html",
+    "sha256": "226492897993c001234c8e5a15673f0c22b58efea6ddca22fce8f726df3cf5cd",
+    "size_bytes": 527164
+  },
+  {
+    "path": "artifacts/mirror/blog/tag/programmatic-trends-tag/index.html",
+    "sha256": "7aad018defd502d257f1cf3b38b811bdf96663d45f22f219fcbfa104b46cdd4c",
+    "size_bytes": 527156
+  },
+  {
+    "path": "artifacts/mirror/blog/the-publishing-dynamics-why-90-of-publishers’-inventory-is-hidden-from-demand-partners/index.html",
+    "sha256": "c13ef8c076697120ce020a4267887b6bebeb8d39de4f80b5ced1b31f1516e94d",
+    "size_bytes": 532378
+  },
+  {
+    "path": "artifacts/mirror/blog/top-five-2023-trends-in-programmatic-advertising/index.html",
+    "sha256": "3c560e8d91e0baccc8e27fa184200e153cff576511629786d3f50d9288b502a8",
+    "size_bytes": 531963
+  },
+  {
+    "path": "artifacts/mirror/blog/tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page/index.html",
+    "sha256": "7cbf9eae1f9b620b07f87c9380b16f978915e090e34a67edb85744ec25ad5664",
+    "size_bytes": 531947
+  },
+  {
+    "path": "artifacts/mirror/blog/ultimate-solution-to-amp-frustrations/index.html",
+    "sha256": "0227effff5d2e9bdf520597914e8bf53ec5bcf52eaa5c4d576ff888419c2a3ae",
+    "size_bytes": 532167
+  },
+  {
+    "path": "artifacts/mirror/blog/unlocking-the-potential-of-a-360°-panorama-dashboard-for-publisher-monetization/index.html",
+    "sha256": "8a72aa3c42b4745523d1dacb6263e86c9c858bc9a0d1c7f9b9cd770c2b199fed",
+    "size_bytes": 532248
+  },
+  {
+    "path": "artifacts/mirror/blog/what-are-the-challenges-programmatic-ssps-are-facing-in-2023/index.html",
+    "sha256": "314e0c4d4fd733dfcc129f31612697736d0c9ba15c9c46f08e78fbaefb0421aa",
+    "size_bytes": 532070
+  },
+  {
+    "path": "artifacts/mirror/blog/what-is-click-through-rate/index.html",
+    "sha256": "55e91c656bf1657aca48c743f523b04c8d7f22df03f3f184e287999363ee0389",
+    "size_bytes": 532162
+  },
+  {
+    "path": "artifacts/mirror/blog/what-is-cost-per-mille/index.html",
+    "sha256": "7308bab15323bd4331ab1f3c992e2d717675b798b6993d5011e5ec1796e48132",
+    "size_bytes": 531457
+  },
+  {
+    "path": "artifacts/mirror/blog/what-is-inp/index.html",
+    "sha256": "ae6a738c695ab77686d6f59c32d32271db62cc056347d19d85cc1341a54e280b",
+    "size_bytes": 531443
+  },
+  {
+    "path": "artifacts/mirror/blog/what-is-viewability/index.html",
+    "sha256": "0ea1e39f933cfe37b483451757674bc627ddac6c0e3ae780ace8a68e1cb0bf94",
+    "size_bytes": 532139
+  },
+  {
+    "path": "artifacts/mirror/blog/why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now/index.html",
+    "sha256": "3fd64f65e4b332da203e976d37f504ab11049b0680d27b87f26d83b7d0080dce",
+    "size_bytes": 532167
+  },
+  {
+    "path": "artifacts/mirror/by-company-type-publishers/index.html",
+    "sha256": "ab8570c2979477334ee1f944d2ecfbda06fa4f5752bb2cfb83a165c1fe1e5ceb",
+    "size_bytes": 533593
+  },
+  {
+    "path": "artifacts/mirror/by-company-type-ssp/index.html",
+    "sha256": "25c33637c04b1aa0cbd29d7235039dbab7f08effcf4d7f44ce9628651185eddc",
+    "size_bytes": 533578
+  },
+  {
+    "path": "artifacts/mirror/by-team-type-ad-operations-yield/index.html",
+    "sha256": "3c870d6ba06a4390574b01a1e213e5ee63890b5456039423d393a17b4bd76de2",
+    "size_bytes": 533708
+  },
+  {
+    "path": "artifacts/mirror/by-team-type-audience-development/index.html",
+    "sha256": "75d7dc87620ceeeae2619e948e998bb92fd9790066450350fa91656a3a201a2a",
+    "size_bytes": 533718
+  },
+  {
+    "path": "artifacts/mirror/by-team-type-management-finance/index.html",
+    "sha256": "03ed339cbf5fe181952a5d5242c829bdd9a17930f323cf2db8047e96d237a9d1",
+    "size_bytes": 533698
+  },
+  {
+    "path": "artifacts/mirror/by-team-type-media-buying/index.html",
+    "sha256": "b453163b1c761038359dc76c282f98b8cfe5e61935447106fd985b32fba35e21",
+    "size_bytes": 533638
+  },
+  {
+    "path": "artifacts/mirror/by-team-type-product-teams/index.html",
+    "sha256": "ed9acc0bb6ea84b8b979574b0a82fd773c62c60a803adf50838dbf350e5ac3da",
+    "size_bytes": 533648
+  },
+  {
+    "path": "artifacts/mirror/by-team-type-sales/index.html",
+    "sha256": "574a385dd448fc57c59600b6f5b0f08a872b2845a23fbc26d6ae9757d3d740e9",
+    "size_bytes": 533568
+  },
+  {
+    "path": "artifacts/mirror/career-success/index.html",
+    "sha256": "13640b39283d10a0e3913ca009492a9ec9e63bbe305e3d30bdda4ec9a07cb9b6",
+    "size_bytes": 533417
+  },
+  {
+    "path": "artifacts/mirror/careers/backend-engineer-golang/index.html",
+    "sha256": "445b7985f25a07be95931a8fcefb8b21c005bb3eca8ede51c2843374886817a3",
+    "size_bytes": 530313
+  },
+  {
+    "path": "artifacts/mirror/careers/index.html",
+    "sha256": "a6697d49933558c01929e4c7c36440f4fcdd72388846cb42db7bceb00384080d",
+    "size_bytes": 533470
+  },
+  {
+    "path": "artifacts/mirror/careers/sales-engineer-publisher-ad-tech/index.html",
+    "sha256": "14dfb65d46159bbe9d0df8723215c33d13f54b446419338098e92c433a7b34f8",
+    "size_bytes": 530410
+  },
+  {
+    "path": "artifacts/mirror/careers/sales-executive-amer/index.html",
+    "sha256": "59aef0463f3bf34c5541ddf6a96ba37161b17c54cdec18ba5da97f7c793a575d",
+    "size_bytes": 530289
+  },
+  {
+    "path": "artifacts/mirror/careers/senior-devops-engineer/index.html",
+    "sha256": "0dce70c096dc8c86042b91701704a2ed26f10c97d58a01c37e7100c6381774c9",
+    "size_bytes": 530107
+  },
+  {
+    "path": "artifacts/mirror/contact-us/index.html",
+    "sha256": "b1f468876f8a204ec2cad8d480591ee0b51d327476fb05036803acda298d3e00",
+    "size_bytes": 533680
+  },
+  {
+    "path": "artifacts/mirror/dashboards/index.html",
+    "sha256": "d7ba4f6b8b5e227577fc2f7fe05b28f050464cec1ab0a351339592c9a3ad2e91",
+    "size_bytes": 533720
+  },
+  {
+    "path": "artifacts/mirror/ebooks/all/index.html",
+    "sha256": "ec7b0fb106f3436d6e024a990bae6e134984f0e529802c6601721b19b686e81e",
+    "size_bytes": 533445
+  },
+  {
+    "path": "artifacts/mirror/help-center/academy/index.html",
+    "sha256": "dfee2963c274b04f63aa40214da90d535957dc47d8dbd641c6c234e1814255a6",
+    "size_bytes": 533569
+  },
+  {
+    "path": "artifacts/mirror/help-center/ay-glossary/index.html",
+    "sha256": "af2b590494f64eef0bb643f688ca116e017d31e1aebfec6d578b81c14712335f",
+    "size_bytes": 534776
+  },
+  {
+    "path": "artifacts/mirror/help-center/ay-support/index.html",
+    "sha256": "fa59a93e80f7b34600346dafef77c6a90a57fc7c077e72b25fa2e621e99deaa2",
+    "size_bytes": 533584
+  },
+  {
+    "path": "artifacts/mirror/help-center/index.html",
+    "sha256": "c5097e45d96da2ae76b9146266d97cc83effeeabf1e05dc14410fd3ee3c61553",
+    "size_bytes": 533322
+  },
+  {
+    "path": "artifacts/mirror/hits/all/index.html",
+    "sha256": "ebfe092396bfb8f758ad5c86a36c2971a0118144ff8c13d208608a9fcc5811cb",
+    "size_bytes": 533475
+  },
+  {
+    "path": "artifacts/mirror/index.html",
+    "sha256": "aabb38d457dd9f6197d8d2b36e83161f514ad1fbb329424519a3fe7f81a8eb7e",
+    "size_bytes": 534073
+  },
+  {
+    "path": "artifacts/mirror/industry-insights/index.html",
+    "sha256": "52b19e425d5ee53f6922a8210856cdf99654c975dff511d426a90efb58de3a99",
+    "size_bytes": 533714
+  },
+  {
+    "path": "artifacts/mirror/news/all/index.html",
+    "sha256": "582802db24d8d7befcc14e365fb93bc8596f2d85dfe7a3a30f2dc2a52a9936ad",
+    "size_bytes": 533400
+  },
+  {
+    "path": "artifacts/mirror/podcasts/all/index.html",
+    "sha256": "ac6dcc77ddb2b9e0522a617c50d66dd0c5e77a2d6b207458e266590c90fd905c",
+    "size_bytes": 532159
+  },
+  {
+    "path": "artifacts/mirror/pricing/index.html",
+    "sha256": "1d8154149aed6da655139dcd66502299a2c7cf0f27733bae3d964a0cf1271a56",
+    "size_bytes": 527053
+  },
+  {
+    "path": "artifacts/mirror/pricing-update/index.html",
+    "sha256": "9708196e4820c6b842d1ac0a084363159a15208102d60aabe853f5f888d136f5",
+    "size_bytes": 533528
+  },
+  {
+    "path": "artifacts/mirror/product-updates/all/index.html",
+    "sha256": "620a5c74cbf5cbed2714c7287b1beb306cec5f9e19fe23a722ef50696496282f",
+    "size_bytes": 533574
+  },
+  {
+    "path": "artifacts/mirror/real-time-alerts/index.html",
+    "sha256": "21b48ca5e0caf0774b07715d0991047ddd349ecf6a0f9cfa126d4fef0fdf0edc",
+    "size_bytes": 533572
+  },
+  {
+    "path": "artifacts/mirror/slice-and-dice/index.html",
+    "sha256": "ff2c510ffce3ff02e7449a7c3d679aed5627a327fbda492123b882015996eb6a",
+    "size_bytes": 533492
+  },
+  {
+    "path": "artifacts/mirror/soc2-request/index.html",
+    "sha256": "5e8381acafbeb2f86d132262fc443c38ad3b4db7dd1e8a4e6ae0947f4a6213b4",
+    "size_bytes": 527058
+  },
+  {
+    "path": "artifacts/mirror/success-stories/9gag/index.html",
+    "sha256": "06c64799997641218077ab94f020ceb02ea14d6a259d70f7e95d29cb38f954ed",
+    "size_bytes": 530917
+  },
+  {
+    "path": "artifacts/mirror/success-stories/apartment-therapy/index.html",
+    "sha256": "3d3f7051465db75ba17f9277425f55e6ecd906b2c67a2b9498c8d98dfc0c7f57",
+    "size_bytes": 531151
+  },
+  {
+    "path": "artifacts/mirror/success-stories/bauer-media-group/index.html",
+    "sha256": "1edd08ac5417d3867af01fc220e78f743cc7deeb6f1a97079b5f18310b079b90",
+    "size_bytes": 530913
+  },
+  {
+    "path": "artifacts/mirror/success-stories/boons/index.html",
+    "sha256": "2920a24e433e32d7d6776b62dd7b98c85085b4d7d63e4c53771667f20fb740ec",
+    "size_bytes": 530841
+  },
+  {
+    "path": "artifacts/mirror/success-stories/cambium-media/index.html",
+    "sha256": "1eb7b15024c7f1bbf61e444bc48f3d7c684fa127166b65677c137e02ad261569",
+    "size_bytes": 531004
+  },
+  {
+    "path": "artifacts/mirror/success-stories/connatix/index.html",
+    "sha256": "8f9f75e35db1e34178dbe2a23380ea33a34d8bded223e5a3899cb187156adc23",
+    "size_bytes": 530852
+  },
+  {
+    "path": "artifacts/mirror/success-stories/gumgum-inc/index.html",
+    "sha256": "4043f4002bed6e82c6edfecdfdecf66646cbc54ba680c5d79da237b1106df76a",
+    "size_bytes": 530822
+  },
+  {
+    "path": "artifacts/mirror/success-stories/hitopic/index.html",
+    "sha256": "6d36a20aa8502473cc363158041f4e3824631f3c869891703c76d2bc2ff46720",
+    "size_bytes": 530850
+  },
+  {
+    "path": "artifacts/mirror/success-stories/index.html",
+    "sha256": "ea0779099f8e84b50ed451848d78e83731fa14b692929afaba93a03a5fa0baa5",
+    "size_bytes": 532962
+  },
+  {
+    "path": "artifacts/mirror/success-stories/krone/index.html",
+    "sha256": "622bceeecf4fde493ec855c91544cc55021f8aa314c2287ef9548aac34ae1593",
+    "size_bytes": 530872
+  },
+  {
+    "path": "artifacts/mirror/success-stories/kurier-media-house/index.html",
+    "sha256": "22d0369dd19cfe0d4f926cc08c47467cec4459cdb1e7502eb1a9f76349a57a92",
+    "size_bytes": 530982
+  },
+  {
+    "path": "artifacts/mirror/success-stories/nativo/index.html",
+    "sha256": "ef850d3dc5e0417a2db831e0315700275fc701cd73aa6184f53719a20081a908",
+    "size_bytes": 530912
+  },
+  {
+    "path": "artifacts/mirror/success-stories/shinez/index.html",
+    "sha256": "45e2ec8d1c9a98c8e62873d87769a5b3ff9ac2ee8a2cc9b49e36891bf5c42fa9",
+    "size_bytes": 530798
+  },
+  {
+    "path": "artifacts/mirror/success-stories/world-history-encyclopedia/index.html",
+    "sha256": "a8e767bf8f0c851158bc0dd06f0d997ee5e689931e28b96c5084943ea2578082",
+    "size_bytes": 531098
+  },
+  {
+    "path": "artifacts/mirror/traffic-acquisition/index.html",
+    "sha256": "9939f985bd1c7578971612fac3f59fbb88843a8c317a698dca7b23e2c08a7616",
+    "size_bytes": 533578
+  },
+  {
+    "path": "artifacts/mirror/traffic-shaping/index.html",
+    "sha256": "d16d0945b96329dca493fc0d3657f76ca2630ad4d14e21376964d652df35706e",
+    "size_bytes": 533464
+  },
+  {
+    "path": "artifacts/mirror/traffic-shaping-for-publishers/index.html",
+    "sha256": "ce4251748653129285c67bac4a65d2403f0be344631e3ab46260c9a6ff051090",
+    "size_bytes": 532952
+  },
+  {
+    "path": "artifacts/mirror/videos/all/index.html",
+    "sha256": "ef56a9debdb73fbf426e35a30ac2286ab220ca16a1847c57658aa6a6c6b46442",
+    "size_bytes": 533505
+  },
+  {
+    "path": "artifacts/mirror/yield-intelligence/index.html",
+    "sha256": "93cabce9149d8f20218d786666b6224f4f6bc1bd42a00882b30bb81526e33586",
+    "size_bytes": 533674
+  },
+  {
+    "path": "artifacts/mirror/yield-manager/index.html",
+    "sha256": "0757ad62b8251ff53d4e3a89225da3516ba38ab47bdb6c11aeb6ea98715a10b1",
+    "size_bytes": 533599
+  },
+  {
+    "path": "artifacts/mirror/yield-optimizer/index.html",
+    "sha256": "5ff8546011680775e031d7fd01025e7a56516e042ba71aa3e6f2bbadd786f963",
+    "size_bytes": 533588
+  },
+  {
+    "path": "artifacts/pdf/001-www.assertiveyield.com.pdf",
+    "sha256": "7b3298a6ed377942c72a3576bdc30d1010f4a5bb45790e7c7b67f3131210855e",
+    "size_bytes": 1446113
+  },
+  {
+    "path": "artifacts/pdf/002-about-us.pdf",
+    "sha256": "c3e3075bdf315dd5b26b847c171b20580ca1051a9aaceb89e4fc2eefdff550b5",
+    "size_bytes": 784615
+  },
+  {
+    "path": "artifacts/pdf/003-ailayouts.pdf",
+    "sha256": "0d9a85752d94ba5ed2e20667d5d9832f1d83538a27012dbb762575ef658827db",
+    "size_bytes": 797401
+  },
+  {
+    "path": "artifacts/pdf/004-all-revenue-source.pdf",
+    "sha256": "4ea26f1fbcedd6d7f0dea007d88bf8b8a1bc1ee9103a0255ba829436b2a7feb0",
+    "size_bytes": 941195
+  },
+  {
+    "path": "artifacts/pdf/005-apps-and-integrations.pdf",
+    "sha256": "044a8762891ae7ee267b6fcf81acaf4b478a9aa97f1a48f0ae806ab4565d996b",
+    "size_bytes": 1027458
+  },
+  {
+    "path": "artifacts/pdf/006-ay-glossary.pdf",
+    "sha256": "1c606cd087775bc8a36a2dcf6f5e809701d3322fdffbd5a313b0ff5413bae53e",
+    "size_bytes": 99191
+  },
+  {
+    "path": "artifacts/pdf/007-ay_prebidserver.pdf",
+    "sha256": "de7ba018d55537b9903a3a189fb92d9e2698939d4ae80ef6caaa277efed91184",
+    "size_bytes": 627124
+  },
+  {
+    "path": "artifacts/pdf/008-blog.pdf",
+    "sha256": "34a7f366132fbe49fe4a6522cccf2af872b8682640b876f6ffba01e5393fdadf",
+    "size_bytes": 12270299
+  },
+  {
+    "path": "artifacts/pdf/009-product-updates-q1-2024.pdf",
+    "sha256": "75de7f04ff200271024c383f1d1d88d71aa29ba8ea663cffec9dd275bbdd6cb9",
+    "size_bytes": 1804592
+  },
+  {
+    "path": "artifacts/pdf/010-ultimate-solution-to-amp-frustrations.pdf",
+    "sha256": "b0c3e2287af8385e961c6847e310a71bcb998e34e6cb06209b7db92cf02e3923",
+    "size_bytes": 3372785
+  },
+  {
+    "path": "artifacts/pdf/011-what-is-cost-per-mille.pdf",
+    "sha256": "d0f6b7065b657140cc2045850f8b0d2555cf13f772867590d503463a48f564f0",
+    "size_bytes": 2671717
+  },
+  {
+    "path": "artifacts/pdf/012-what-is-viewability.pdf",
+    "sha256": "9e2aca32638249877f3d3e67cd94ac1208e50b9bf9f21d2562dd2fb94b4a0165",
+    "size_bytes": 2454226
+  },
+  {
+    "path": "artifacts/pdf/013-ab-testing-publishers.pdf",
+    "sha256": "6cb867641edeed8d1aea8706ad1b809e0e4f37bcf95413659bc5d359cd1660d9",
+    "size_bytes": 2834508
+  },
+  {
+    "path": "artifacts/pdf/014-abn-testing.pdf",
+    "sha256": "9fbf9a959ef44f1721866c7b9831e15903b2ea542abfc178c30d9246ef477b3f",
+    "size_bytes": 3947104
+  },
+  {
+    "path": "artifacts/pdf/015-ai-programmatic-advertising.pdf",
+    "sha256": "369670e23206f6cc00b8838681dbc4c52297220c276ab3e79d4beed5d0adb53d",
+    "size_bytes": 2454073
+  },
+  {
+    "path": "artifacts/pdf/016-all.pdf",
+    "sha256": "8469f616a33544d3f7611a0c25d518059c0f31a1c6ec9c612156a7ef4de8df69",
+    "size_bytes": 15179589
+  },
+  {
+    "path": "artifacts/pdf/017-alternatives-to-third-party-cookies.pdf",
+    "sha256": "8cfa6dd1a64a293fba7e5db5f30536d087c846dedc1ee21dc84814992794d267",
+    "size_bytes": 3504807
+  },
+  {
+    "path": "artifacts/pdf/018-analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue.pdf",
+    "sha256": "ea8b019f755a76f5ed13b6a3cc38a146cbb0df9ce457ac32d84ee23db96fede7",
+    "size_bytes": 2305547
+  },
+  {
+    "path": "artifacts/pdf/019-analyzing-optimizing-your-impression-revenue-per-mille-rpm.pdf",
+    "sha256": "39a2548d9085ba7c35189b0bc79bd1ec773f983450417f4565bb3daf3a1028bf",
+    "size_bytes": 1364057
+  },
+  {
+    "path": "artifacts/pdf/020-ay-industry-insight-second-quarter-report-yield-management-in-programmatic.pdf",
+    "sha256": "40a0517e19b89b136d212adf4a4500e99ed6d63ffe9334c4016ca2fc61ce2dbd",
+    "size_bytes": 2828710
+  },
+  {
+    "path": "artifacts/pdf/021-ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue.pdf",
+    "sha256": "1a8177bea10c5182007e662d4acb4c7addb2dd56e27b85cc2791bae5fd69f999",
+    "size_bytes": 3558953
+  },
+  {
+    "path": "artifacts/pdf/022-ay-industry-insights-report-q2%E2%80%9925-publisher-trends-in-global-programmatic-ad-revenue.pdf",
+    "sha256": "3cc0f65d8c0e38c4014449716d745c1e132af3a66b69cdbb9fed2638a2452bb6",
+    "size_bytes": 3743509
+  },
+  {
+    "path": "artifacts/pdf/023-ay-product-updates-in-h1%E2%80%9924-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more.pdf",
+    "sha256": "e5dbbcdb2e263b281eb58560d2228356c61b079c194b8a756f9c5685d01ae010",
+    "size_bytes": 4566451
+  },
+  {
+    "path": "artifacts/pdf/024-beyond-predictions-how-publishers-should-actually-focus-heading-into-2026.pdf",
+    "sha256": "7e4e50fefece5234d227ba694ef80bb29afac335a8c9735fc716a0f24aa3c6df",
+    "size_bytes": 3927807
+  },
+  {
+    "path": "artifacts/pdf/025-bid-shading.pdf",
+    "sha256": "6b0122c549c938f1ef4d552c8d69294957393775871090fcee41238d2cc98762",
+    "size_bytes": 2765080
+  },
+  {
+    "path": "artifacts/pdf/026-boosting-your-ad-revenue-per-mille-ad-rpm-in-2025.pdf",
+    "sha256": "b6ba1efe280ef4a2882b2230f39647773cb18d293fe7b177dd113ba48a927936",
+    "size_bytes": 1421901
+  },
+  {
+    "path": "artifacts/pdf/027-confirmed-click-penalty.pdf",
+    "sha256": "869e34e9555e9d01085209fbdfce27e05aa0b188a36ca9614cfeede88ee0fd5d",
+    "size_bytes": 2038228
+  },
+  {
+    "path": "artifacts/pdf/028-cookieless-tracking-publishers.pdf",
+    "sha256": "6b90e3a5a262408036bc9fee242ac530d8ef7c37c718bb2fa23ecebd81b58be1",
+    "size_bytes": 6652060
+  },
+  {
+    "path": "artifacts/pdf/029-demand-path-optimization-empowering-publishers-for-profitable-paths.pdf",
+    "sha256": "b0926f9a64ddc282781963efa5cfec69e0e775dab008f233aa636ee5ab58f6e7",
+    "size_bytes": 3501945
+  },
+  {
+    "path": "artifacts/pdf/030-dynamic-flooring-programmatic.pdf",
+    "sha256": "c6dd68e7f8598ddb587d055e498c3d709533402f2728fbeec6c1e116cfadfdbe",
+    "size_bytes": 2159566
+  },
+  {
+    "path": "artifacts/pdf/031-exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape.pdf",
+    "sha256": "7d29b89445fe73ca9fa7f85cb28bebd312353a3b5b0c7f9c9538b2fa4b9fcd16",
+    "size_bytes": 4431627
+  },
+  {
+    "path": "artifacts/pdf/032-getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher.pdf",
+    "sha256": "7a14a504c96fd47e1ac72314dd1424023b3da82c3d5459673de19c7e1458babc",
+    "size_bytes": 1460262
+  },
+  {
+    "path": "artifacts/pdf/033-google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do.pdf",
+    "sha256": "25737a5a04b175f0453221fa1e03b183155892bf43cec78813b8748bc233e6e4",
+    "size_bytes": 982417
+  },
+  {
+    "path": "artifacts/pdf/034-google-optimize-alternatives.pdf",
+    "sha256": "54678aec4df169150423c99443d10375dcd15c58078b516221dab5708816363d",
+    "size_bytes": 2798342
+  },
+  {
+    "path": "artifacts/pdf/035-green-advertising-what-are-publishers-and-ssps-roles.pdf",
+    "sha256": "196a71c288361f4f1702c1b8982ebc4288f7bd77afd067ef53100dfa14ec7e9e",
+    "size_bytes": 2539909
+  },
+  {
+    "path": "artifacts/pdf/036-green-programmatic-advertising-explained.pdf",
+    "sha256": "6b46ffb85bdb8c1c792cd01f256d0aa945abb3c7fd0856ccea1d12e874e98978",
+    "size_bytes": 4209249
+  },
+  {
+    "path": "artifacts/pdf/037-h2%E2%80%9924-ay-product-updates-new-features-and-improvements.pdf",
+    "sha256": "1b7130e5010b3d206f33e91cec407381ff33c27358db502fddc2cf22b6586cfa",
+    "size_bytes": 1903226
+  },
+  {
+    "path": "artifacts/pdf/038-header-bidding.pdf",
+    "sha256": "0bf196700b43b9d3599a2558a5fc5d30d920e6dbe0ad8bece06b050468131911",
+    "size_bytes": 2820792
+  },
+  {
+    "path": "artifacts/pdf/039-how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025.pdf",
+    "sha256": "2c6e7e579c682076d042a8f14139326dba412816143720e0162400b9e8949c7e",
+    "size_bytes": 1597129
+  },
+  {
+    "path": "artifacts/pdf/040-how-publishers-should-prepare-their-ad-stack-for-black-friday.pdf",
+    "sha256": "a5632201aa2fd5f46a76a16465d499b990daf28595968e9cc87c74eb121ac8cd",
+    "size_bytes": 1402377
+  },
+  {
+    "path": "artifacts/pdf/041-how-ssps-can-overcome-ad-spending-slowdown.pdf",
+    "sha256": "e807f6b96c84078903c2175aab3523c43078a9d743fb22233139f281fc7993b8",
+    "size_bytes": 2817712
+  },
+  {
+    "path": "artifacts/pdf/042-how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers.pdf",
+    "sha256": "2a54fa53de77c0a6ab8e80d8060bd4c00fe753e8360ccbc112b5e35ee6dc6039",
+    "size_bytes": 4078263
+  },
+  {
+    "path": "artifacts/pdf/043-implications-of-a-cookieless-world-publishers.pdf",
+    "sha256": "9632fc611df7df3969ed224992000902dd3ea6dedd16eb6d3d3552f30e9d90ab",
+    "size_bytes": 3134851
+  },
+  {
+    "path": "artifacts/pdf/044-leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue.pdf",
+    "sha256": "3119b9b009dbe9b986bdc0ec1854be1fa9e233dc35d6dce2b0dc8f4f15141e47",
+    "size_bytes": 2347288
+  },
+  {
+    "path": "artifacts/pdf/045-maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization.pdf",
+    "sha256": "e2eb5f9d722933f0aca8111ec558982bd0d66d8d6421e2906dcdc94e7e196cdd",
+    "size_bytes": 4153943
+  },
+  {
+    "path": "artifacts/pdf/046-maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers.pdf",
+    "sha256": "bd4b65cd112d2bc7b7306e7c262b995f54790a14f66fbdff265f2997e20b836b",
+    "size_bytes": 2119677
+  },
+  {
+    "path": "artifacts/pdf/047-microsoft-xandr-prebid-cache-deprecation-a-publisher%E2%80%99s-guide-to-a-safe-migration.pdf",
+    "sha256": "301958268d6a847a5b5b09c175d74a735d20cd2bcd3470d67768753856f5e041",
+    "size_bytes": 1357737
+  },
+  {
+    "path": "artifacts/pdf/048-navigating-the-future-of-programmatic-advertising-in-2024.pdf",
+    "sha256": "bf23669b21263c6037da016ee89e9226af61505d9622edf531f3a72b99b13232",
+    "size_bytes": 3814115
+  },
+  {
+    "path": "artifacts/pdf/049-new-ay-product-updates-h1-2023.pdf",
+    "sha256": "07ff506ad7ec152114110535bcb134c247f73632fc079e601c449023871e8f81",
+    "size_bytes": 1403510
+  },
+  {
+    "path": "artifacts/pdf/050-optimal-adstack-for-publishers.pdf",
+    "sha256": "9a2886e5f01bf374ae499c0b3c2471cda428822cf1e611b809ac2ca10ef8febd",
+    "size_bytes": 3201419
+  },
+  {
+    "path": "artifacts/pdf/051-optimize-your-monetization-strategy-with-ay-industry-insight.pdf",
+    "sha256": "1bb7b1df06c5b15a69ffcd6cade09a6f28c0014c619f79cfd9f9e8215cc319fb",
+    "size_bytes": 2867922
+  },
+  {
+    "path": "artifacts/pdf/052-optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers.pdf",
+    "sha256": "b9c185bd8d04c3e10681ef3e6783001257b0bc2157ef64002faf7b24008d4fb0",
+    "size_bytes": 1636248
+  },
+  {
+    "path": "artifacts/pdf/053-programmatic-insights.pdf",
+    "sha256": "96b43457cd63e4825aee0d0df11acb6ad6c0634585742a6f6abe83691a8230c3",
+    "size_bytes": 3214102
+  },
+  {
+    "path": "artifacts/pdf/054-publisher-metrics.pdf",
+    "sha256": "0ee6a0b2a4644f44eea3b0a459d9cd62270393f4087cadbb84c7331de00dcf8f",
+    "size_bytes": 3040489
+  },
+  {
+    "path": "artifacts/pdf/055-publisher-monetization-challenges.pdf",
+    "sha256": "def5f7720205303ba049f42c403579577e6e1e5efcc4e7b61f896c882cadd94e",
+    "size_bytes": 2630337
+  },
+  {
+    "path": "artifacts/pdf/056-q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue.pdf",
+    "sha256": "1e52ba4bb0c4e27888906e8436f5da4263678798ed618dd164ba232d6309073e",
+    "size_bytes": 2782594
+  },
+  {
+    "path": "artifacts/pdf/057-qps-optimization-explained-greener-traffic-lower-costs.pdf",
+    "sha256": "38378ee79dd0cb3e3ff1b1b045235a5381f8c3f094ced8c56dd594936bb6f677",
+    "size_bytes": 2826713
+  },
+  {
+    "path": "artifacts/pdf/058-reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site.pdf",
+    "sha256": "6c78c6407b442b41ef24c1c5075ecbc6d6917db2696ff71b35949870cc708d5a",
+    "size_bytes": 2267344
+  },
+  {
+    "path": "artifacts/pdf/059-shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions.pdf",
+    "sha256": "faa0c40028ad9b9a62ed20000b6e22a2ab440b4720c23d8dc16bbd553b9e42ee",
+    "size_bytes": 2023748
+  },
+  {
+    "path": "artifacts/pdf/060-ad-revenue-management-tag.pdf",
+    "sha256": "da2e45013869d96333b121c5949f705299456aca72539b71ea4156c8f67c521e",
+    "size_bytes": 11621648
+  },
+  {
+    "path": "artifacts/pdf/061-ai-optimization-tag.pdf",
+    "sha256": "8da1d5f72c82cc2d32a1360a5028859583a5cd9db013019b9e93d4b22f6b8509",
+    "size_bytes": 8510138
+  },
+  {
+    "path": "artifacts/pdf/062-data-intelligence-tag.pdf",
+    "sha256": "e15adfa41dc246d1eee478955a20b223981260d8bb5bdba7c4d5615e3f556c72",
+    "size_bytes": 9903837
+  },
+  {
+    "path": "artifacts/pdf/063-efficiency-&-sustainability-tag.pdf",
+    "sha256": "ab9c370063ea0db6afac4e66bd239ca8b7b1ee91e0093fe9bb93d91e83131f0e",
+    "size_bytes": 8050280
+  },
+  {
+    "path": "artifacts/pdf/064-programmatic-trends-tag.pdf",
+    "sha256": "7dee766ec89e191b8395a76d36dd96ebb61ecc90e9880f5ac12a77ea3bf2f0b2",
+    "size_bytes": 12619584
+  },
+  {
+    "path": "artifacts/pdf/065-the-publishing-dynamics-why-90-of-publishers%E2%80%99-inventory-is-hidden-from-demand-partners.pdf",
+    "sha256": "d04d2f84ff805e85798583124989b2b8c6c40efea64b0925eab50cd43b72d499",
+    "size_bytes": 2096044
+  },
+  {
+    "path": "artifacts/pdf/066-top-five-2023-trends-in-programmatic-advertising.pdf",
+    "sha256": "bbaf8cc7dc777a29af0eb90ea9c45675c729d900ea69cb56253e6d3b012179ec",
+    "size_bytes": 2521407
+  },
+  {
+    "path": "artifacts/pdf/067-tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page.pdf",
+    "sha256": "af154fa81e233f3bd7ee7f17cff8382e917dac402bb5828922a5dc64c2bb7fee",
+    "size_bytes": 1488539
+  },
+  {
+    "path": "artifacts/pdf/068-unlocking-the-potential-of-a-360%C2%B0-panorama-dashboard-for-publisher-monetization.pdf",
+    "sha256": "0f4fe4d89d6071e143f01faa6e515d38060ac25385721214b52fcc9803d5f11a",
+    "size_bytes": 1469136
+  },
+  {
+    "path": "artifacts/pdf/069-what-are-the-challenges-programmatic-ssps-are-facing-in-2023.pdf",
+    "sha256": "1785f9f1b6432abd4c32988af97146acf9646b41d5ca2b7b60162e17cf329ea8",
+    "size_bytes": 2922295
+  },
+  {
+    "path": "artifacts/pdf/070-what-is-click-through-rate.pdf",
+    "sha256": "9a4000a717f066a1193e3c59873a306d90bf5d65ee48d1b87eff319b6e535a3f",
+    "size_bytes": 2596612
+  },
+  {
+    "path": "artifacts/pdf/071-what-is-inp.pdf",
+    "sha256": "db67c1f8416a470ce819b5d4c0fd9d6fc76c697bed1184d11f6002336b359432",
+    "size_bytes": 3403225
+  },
+  {
+    "path": "artifacts/pdf/072-why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now.pdf",
+    "sha256": "947e83882c78d11310f88cf36f1191aad5f65dbc69af88a7bc03936635425d58",
+    "size_bytes": 3464668
+  },
+  {
+    "path": "artifacts/pdf/073-by-company-type-publishers.pdf",
+    "sha256": "d9613123af6141d69e7f11658d2820972bf88c71e79170cfc13c666ed45e36ad",
+    "size_bytes": 575189
+  },
+  {
+    "path": "artifacts/pdf/074-by-company-type-ssp.pdf",
+    "sha256": "a9553f5d893bc0c5f4ccc14975362d777f4c06fdb63dc62d9a174c8af455fbd5",
+    "size_bytes": 7793717
+  },
+  {
+    "path": "artifacts/pdf/075-by-team-type-ad-operations-yield.pdf",
+    "sha256": "6f03a9d3eb01d90f39288438f98ddaf09c3ddddcec59c6dc7273d0ca0b9ce5df",
+    "size_bytes": 7925467
+  },
+  {
+    "path": "artifacts/pdf/076-by-team-type-audience-development.pdf",
+    "sha256": "dd7c72abb70c6470d5c3c6161e88f5390d8b3074006104937fb00b0eb0b9eba2",
+    "size_bytes": 7795263
+  },
+  {
+    "path": "artifacts/pdf/077-by-team-type-management-finance.pdf",
+    "sha256": "a81d06494bda9aba7f6409a1f8f52c34bfa2a5394ed66941c9b297ce6c57f913",
+    "size_bytes": 7725458
+  },
+  {
+    "path": "artifacts/pdf/078-by-team-type-media-buying.pdf",
+    "sha256": "69741f7633da71bf4f3bc7095a4e3bad3059d34112ee9e93f5eb013c5f4e493b",
+    "size_bytes": 7724647
+  },
+  {
+    "path": "artifacts/pdf/079-by-team-type-product-teams.pdf",
+    "sha256": "26f9bb1f8a090ce252108e928ddd6252a6c82f52c334dcddefcc4928b5a0aa0b",
+    "size_bytes": 7725356
+  },
+  {
+    "path": "artifacts/pdf/080-by-team-type-sales.pdf",
+    "sha256": "de96c9f401a3308bf0bbb685bd3d79f7a0b7df514e93df46b2af6b76e10ebbc0",
+    "size_bytes": 7723959
+  },
+  {
+    "path": "artifacts/pdf/081-career-success.pdf",
+    "sha256": "83c70685ea9303ea6c080abc2a7d38726839d5bd37697e82cfba02bf9dcf79b0",
+    "size_bytes": 263019
+  },
+  {
+    "path": "artifacts/pdf/082-careers.pdf",
+    "sha256": "212baa4d1253f27dd1a37d1e5faa0fe36dd5a670deba30d0c8fc8137041524ca",
+    "size_bytes": 106478
+  },
+  {
+    "path": "artifacts/pdf/083-backend-engineer-golang.pdf",
+    "sha256": "38897bbc4e8f466ec6ce28680046d04a19e2079c000b20aa4ab933d22359afe7",
+    "size_bytes": 175278
+  },
+  {
+    "path": "artifacts/pdf/084-sales-engineer-publisher-ad-tech.pdf",
+    "sha256": "b324f7363d360af64584c22d41e5958e34e7860dab42865a39c9553645715e20",
+    "size_bytes": 135338
+  },
+  {
+    "path": "artifacts/pdf/085-sales-executive-amer.pdf",
+    "sha256": "8b72f7666d89f20e2c81960a37a57ef3262b3031656156163934e6f00d0fcce0",
+    "size_bytes": 138758
+  },
+  {
+    "path": "artifacts/pdf/086-senior-devops-engineer.pdf",
+    "sha256": "2e5f969551c76ebae7da19ed37b9a9c10d9c76f55122cff7612104e8ea4fd3fa",
+    "size_bytes": 131037
+  },
+  {
+    "path": "artifacts/pdf/087-contact-us.pdf",
+    "sha256": "932a41b795062cab52dd6b0191f3190ba3ae55fc660c7e9a5d435893f408653c",
+    "size_bytes": 76635
+  },
+  {
+    "path": "artifacts/pdf/088-dashboards.pdf",
+    "sha256": "a2c48d3c4b888c6d1f25af464ee6df9958dcde20deaec1e95a02130615108321",
+    "size_bytes": 941783
+  },
+  {
+    "path": "artifacts/pdf/089-all.pdf",
+    "sha256": "2f19e3d6d74db087d56b3100259294b72078e7d2fd9c881d0f3796e2e1186a73",
+    "size_bytes": 6285576
+  },
+  {
+    "path": "artifacts/pdf/090-help-center.pdf",
+    "sha256": "b8c4b86891ab7dc8a80558b4e1829b32b4ad856efc49acae2bc1589bd16859fa",
+    "size_bytes": 354821
+  },
+  {
+    "path": "artifacts/pdf/091-academy.pdf",
+    "sha256": "ddd6a32d65a6f759617b76063ffd2c8b01370a9c0ee8986a0fa218af613f7d28",
+    "size_bytes": 4944325
+  },
+  {
+    "path": "artifacts/pdf/092-ay-glossary.pdf",
+    "sha256": "da20e19886d6c3b499ae14ef2fef087709e6cf5c0fc0ab612c9a0f9814f06937",
+    "size_bytes": 1143454
+  },
+  {
+    "path": "artifacts/pdf/093-ay-support.pdf",
+    "sha256": "1e72368a53bae91ec3b16ec661021b1573472305bb951be809bb6d027aceb6db",
+    "size_bytes": 3181425
+  },
+  {
+    "path": "artifacts/pdf/094-all.pdf",
+    "sha256": "281ca8f581b2fd87f52ba88a9cd155ac120e9fed8f47a7958d44408bd6fd37fa",
+    "size_bytes": 21880152
+  },
+  {
+    "path": "artifacts/pdf/095-industry-insights.pdf",
+    "sha256": "5dcd9b55dfec281b36127153431584f4c3b9ac23d532d5d4dec22545dcb0908b",
+    "size_bytes": 929708
+  },
+  {
+    "path": "artifacts/pdf/096-all.pdf",
+    "sha256": "796e6bbf9a8ec89ffc04fa58cd0184dc43f3e5d2649a88eac64c57d26611f611",
+    "size_bytes": 14012079
+  },
+  {
+    "path": "artifacts/pdf/097-all.pdf",
+    "sha256": "237d9a3ca25d570d236b44c08868f9268c8a6615d75492f6a847283359ebfa27",
+    "size_bytes": 624761
+  },
+  {
+    "path": "artifacts/pdf/098-pricing-update.pdf",
+    "sha256": "1a7575f44ae856a833ab079435997053276a6be3e620758f89fca05e1bc7b0d1",
+    "size_bytes": 119645
+  },
+  {
+    "path": "artifacts/pdf/099-pricing.pdf",
+    "sha256": "9a0bdd04b6ebc00cdb9636f2f6151175487a1ff3671addbe7cbb67a21f8f7766",
+    "size_bytes": 83342
+  },
+  {
+    "path": "artifacts/pdf/100-all.pdf",
+    "sha256": "9318641c4280abda4c40613381447e5d6c8a248dffda9aad25a3b34ea1092462",
+    "size_bytes": 1495430
+  },
+  {
+    "path": "artifacts/pdf/101-real-time-alerts.pdf",
+    "sha256": "3a8cc3d95f8e330a11c70f4ce3ec5d2d1034a2998a02ccd1da4f5fb46f5d5fbc",
+    "size_bytes": 1152537
+  },
+  {
+    "path": "artifacts/pdf/102-slice-and-dice.pdf",
+    "sha256": "00d59cfb1cff481d098ee03dbd105a61cea212cb9ffefeec38033029f29882e9",
+    "size_bytes": 6235818
+  },
+  {
+    "path": "artifacts/pdf/103-soc2-request.pdf",
+    "sha256": "d2141e02881f71966aa8933b28610058eb6acd091623f2a177440bffbfee7b4c",
+    "size_bytes": 165477
+  },
+  {
+    "path": "artifacts/pdf/104-success-stories.pdf",
+    "sha256": "d3fa6f3a2fdc24769fb10bd358a92464b066b7ce9740cbeed1faa8944fd3b39b",
+    "size_bytes": 10707223
+  },
+  {
+    "path": "artifacts/pdf/105-9gag.pdf",
+    "sha256": "94ff6f3ead5dca10cadfe9155b03d1cd20b193af091bfc8d5294ba985c093991",
+    "size_bytes": 1882170
+  },
+  {
+    "path": "artifacts/pdf/106-apartment-therapy.pdf",
+    "sha256": "a866851344d6eaba9db1065eac981a3c2ce6af1ec1ce27128164f1aa0da6f0e6",
+    "size_bytes": 1682037
+  },
+  {
+    "path": "artifacts/pdf/107-bauer-media-group.pdf",
+    "sha256": "b1b628111d88cb6841cd3b5b3f4e916edb4b4309aeeefa2c2b5f6289b4d4ceca",
+    "size_bytes": 1687993
+  },
+  {
+    "path": "artifacts/pdf/108-boons.pdf",
+    "sha256": "5e898e2cabad9c0d6c7933e631b040fa55b49e6c45c9c4fc7fc9238eb170f5bf",
+    "size_bytes": 1772670
+  },
+  {
+    "path": "artifacts/pdf/109-cambium-media.pdf",
+    "sha256": "6bda57589a122c785b1f88d8efc3674ea59b2d50dd437ebbd2cc09f75231fa41",
+    "size_bytes": 1882771
+  },
+  {
+    "path": "artifacts/pdf/110-connatix.pdf",
+    "sha256": "1dd3cc6255daaa8b2e98493e7922640db95ec35fd729c02fc7f16e33a0efe4e5",
+    "size_bytes": 1832146
+  },
+  {
+    "path": "artifacts/pdf/111-gumgum-inc.pdf",
+    "sha256": "bf7c64a2fb8a120788b9aa43686c7d89ec013739e3d377af00a42621ff371c93",
+    "size_bytes": 1806213
+  },
+  {
+    "path": "artifacts/pdf/112-hitopic.pdf",
+    "sha256": "749177f22acb66334c82096e2277442b794ef91e5e21344473af65130c6d38f1",
+    "size_bytes": 1621288
+  },
+  {
+    "path": "artifacts/pdf/113-krone.pdf",
+    "sha256": "0821689e5c32cb853540b7c0def8a8ab57afc91ace54a617e54ca933424918ba",
+    "size_bytes": 1855868
+  },
+  {
+    "path": "artifacts/pdf/114-kurier-media-house.pdf",
+    "sha256": "f5ca1893c9f5756f62d33b5cde07026bcbdfc3e6576418c30be8ad4579417d51",
+    "size_bytes": 1847537
+  },
+  {
+    "path": "artifacts/pdf/115-nativo.pdf",
+    "sha256": "755500abc911f80d99eb290d33a4295fd0a08cb0869726f2efd4d07ce233e3d8",
+    "size_bytes": 1832198
+  },
+  {
+    "path": "artifacts/pdf/116-shinez.pdf",
+    "sha256": "bafe0e1ef7536d9ab055492f40b491505e615306d602b325a33788d950b8d939",
+    "size_bytes": 1751541
+  },
+  {
+    "path": "artifacts/pdf/117-world-history-encyclopedia.pdf",
+    "sha256": "d44a28256fa16d7bcff9583e1528a9d68682ce0af09215885dda8fe0fd543758",
+    "size_bytes": 1944677
+  },
+  {
+    "path": "artifacts/pdf/118-traffic-acquisition.pdf",
+    "sha256": "9852a3062ccc6245b182dc39312802b92599dbafa35289bbd4c6987a86ebfc4c",
+    "size_bytes": 512461
+  },
+  {
+    "path": "artifacts/pdf/119-traffic-shaping-for-publishers.pdf",
+    "sha256": "2e98e50e7bb623eb74fb7f62575c93a7fe9ab07f436cf49b3ba540620fab768d",
+    "size_bytes": 1239006
+  },
+  {
+    "path": "artifacts/pdf/120-traffic-shaping.pdf",
+    "sha256": "8b415fac1fc290719eaa4ece13748017196bc62375b77c27f4589637e9b5101d",
+    "size_bytes": 2674009
+  },
+  {
+    "path": "artifacts/pdf/121-all.pdf",
+    "sha256": "b7edf20148cda056784ebea0c15fb3f93ae8520e4c03c33f8e76fae906a9a276",
+    "size_bytes": 5750922
+  },
+  {
+    "path": "artifacts/pdf/122-yield-intelligence.pdf",
+    "sha256": "1a8c85da8f3e766febdd1e7bf857f1e3cadf65b96fc34e1a7d8e48fc5f7c2d91",
+    "size_bytes": 1323985
+  },
+  {
+    "path": "artifacts/pdf/123-yield-manager.pdf",
+    "sha256": "462a610ea9eef7415edad1438c7b8cc4531611eae6893acb9b066bec3aac6bf3",
+    "size_bytes": 860719
+  },
+  {
+    "path": "artifacts/pdf/124-yield-optimizer.pdf",
+    "sha256": "f7cb2f041a27fd88321d9d5455b21f0e5ba3b96af4ac18e0d4fd767d5877a274",
+    "size_bytes": 1293455
+  },
+  {
+    "path": "artifacts/privacy/cookies-after-choice-summary.json",
+    "sha256": "f19fedd2443748902fbf9f680b6f2bfd0c34e1b12a52063f470f5b5e67255cd8",
+    "size_bytes": 4651
+  },
+  {
+    "path": "artifacts/privacy/cookies-before-choice-summary.json",
+    "sha256": "405e1f22bfda753f6e27303de4ea5cf6c0821e49c08869af5ab81d3a7bc4ae84",
+    "size_bytes": 8138
+  },
+  {
+    "path": "artifacts/rendered-mirror/about-us/index.html",
+    "sha256": "2b27d6de996aae0f14ac81edf5b5ccb74394c10e4582c3af94010662aee3330a",
+    "size_bytes": 743144
+  },
+  {
+    "path": "artifacts/rendered-mirror/ailayouts/index.html",
+    "sha256": "9528ce9071b798384fe268cc7ca6498b23c8e0c6af7775e3125db5f5e401c09b",
+    "size_bytes": 681354
+  },
+  {
+    "path": "artifacts/rendered-mirror/all-revenue-source/index.html",
+    "sha256": "a181296bb913ec5006b1c8c70a8899a1643b0f4197f18a22681355b94f585903",
+    "size_bytes": 884979
+  },
+  {
+    "path": "artifacts/rendered-mirror/apps-and-integrations/index.html",
+    "sha256": "30ec76c4c7c350abcc9ec7285df176e26aa8c72e1236b6148c74977d57953e07",
+    "size_bytes": 911611
+  },
+  {
+    "path": "artifacts/rendered-mirror/ay-glossary/index.html",
+    "sha256": "c1f5e16a8ff7cafeb50f5f3627b845438d6f4443650a40cf734a9d929dd08e16",
+    "size_bytes": 665782
+  },
+  {
+    "path": "artifacts/rendered-mirror/ay_prebidserver/index.html",
+    "sha256": "2afb18de707cd8b4ad3cc8dd31a52d199315a4a79c0ec7f5bae7dc8aec800599",
+    "size_bytes": 805295
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/ab-testing-publishers/index.html",
+    "sha256": "cbebc92087ea226880bf9f981960dd40c829ca6830cefda102ecc29369b7f772",
+    "size_bytes": 685554
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/abn-testing/index.html",
+    "sha256": "b54e35ef3d079126132dbaf268e04fb10409f92adef1f76819b304a2f67a2878",
+    "size_bytes": 688794
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/ai-programmatic-advertising/index.html",
+    "sha256": "b9e12159b733577a758d73f40cd123c1544bbf08330253c6b922f6f515aee03f",
+    "size_bytes": 685213
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/all/index.html",
+    "sha256": "d72be98cdfd684c0d83b8bb9968c663d87270fbf63e2d9c757373a44a87c379e",
+    "size_bytes": 870889
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/alternatives-to-third-party-cookies/index.html",
+    "sha256": "fef490bc1d2220dbea6403574237f555fa10ef5913fec86cc68ec5d0fe7f808a",
+    "size_bytes": 697077
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue/index.html",
+    "sha256": "8c6963088d88c4f9e3dfe5665e04754a15e7a2275b0ab29bdb326eef7ba69157",
+    "size_bytes": 686968
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/analyzing-optimizing-your-impression-revenue-per-mille-rpm/index.html",
+    "sha256": "287d7eb63d3ff45d7b995eeed2890c3a385c862722b8ae5f36e66293b594b97b",
+    "size_bytes": 681943
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/ay-industry-insight-second-quarter-report-yield-management-in-programmatic/index.html",
+    "sha256": "df53f916b5513e2a901ff2f2a4bd6541ae9314f5c121ffa50e1ea27f8a06d611",
+    "size_bytes": 684436
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue/index.html",
+    "sha256": "11d886bc6ac2e5b670b0a72d0bd482de8fdb0cc6eb83d95c02225baaead8d4e3",
+    "size_bytes": 683339
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/ay-industry-insights-report-q2’25-publisher-trends-in-global-programmatic-ad-revenue/index.html",
+    "sha256": "c9684a887bf8c9f2d25911b1865fe9c6fd24b542db11a51fe9445d92f373983d",
+    "size_bytes": 680318
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/ay-product-updates-in-h1’24-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more/index.html",
+    "sha256": "2f0d38feeda40d3f628b2ee81a90d97c4875818c76bab9f24adc2a13d46a457d",
+    "size_bytes": 699719
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/beyond-predictions-how-publishers-should-actually-focus-heading-into-2026/index.html",
+    "sha256": "cbaaed568a6f5f4b30b74a89f4a5535e94c51e22c7dc3aa3b1cf8e1a9edfac78",
+    "size_bytes": 677713
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/bid-shading/index.html",
+    "sha256": "3303d0fb4ccf5aec63b4c0800c5a0ca576dfe552f8dc3c14066ad407c370a2d0",
+    "size_bytes": 692033
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/boosting-your-ad-revenue-per-mille-ad-rpm-in-2025/index.html",
+    "sha256": "c97d7be56ac305ee716e80f8332a0b2def16e7977fbd7f6888240a59435eb14a",
+    "size_bytes": 681263
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/confirmed-click-penalty/index.html",
+    "sha256": "d20c3ce33ee05beeefb43b3ca31b71134db717e0573004c519e9cca6f5a9c4c8",
+    "size_bytes": 684533
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/cookieless-tracking-publishers/index.html",
+    "sha256": "aa2dddb4cfebafdf37290292c7cc88995daf727be6b2910097fcd916968b6967",
+    "size_bytes": 683691
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/demand-path-optimization-empowering-publishers-for-profitable-paths/index.html",
+    "sha256": "928cac18799242cd39e63da0e15a590269a250a5255aae6c52b2c8332b07c3e5",
+    "size_bytes": 693700
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/dynamic-flooring-programmatic/index.html",
+    "sha256": "0f5bccd13560203411bbd7bcfc43852a1fe2792e40762822ba3c278905d9743c",
+    "size_bytes": 687518
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape/index.html",
+    "sha256": "7bec3c13fc6ab89876b87430dcc54cf2d85be6001d7426ae22140f7da87e4041",
+    "size_bytes": 684454
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher/index.html",
+    "sha256": "4de478cea22a454198d01208b2c3f7c66e3a3e02ad62f7bbd2bcfa0ad3d329d6",
+    "size_bytes": 680299
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do/index.html",
+    "sha256": "eba58153698f8fb16334022e3b6a33e574f049dfdd64ea7934540533a65e67b0",
+    "size_bytes": 666933
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/google-optimize-alternatives/index.html",
+    "sha256": "929299dd6f9549e0581e558c53a0e7c490217eccdbfda4dd0bdaa070c88e5a34",
+    "size_bytes": 699335
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/green-advertising-what-are-publishers-and-ssps-roles/index.html",
+    "sha256": "be152f11b078c6d8a4e55235ada33d0434b68b86b9b71732ffe101eaf61b6c72",
+    "size_bytes": 683885
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/green-programmatic-advertising-explained/index.html",
+    "sha256": "b54c78fd9bd2830184fcd7d77d7cb4dc661b6cdff44a03b36ec0341e3b85ec49",
+    "size_bytes": 689441
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/h2’24-ay-product-updates-new-features-and-improvements/index.html",
+    "sha256": "69d5f8097157b9705354ad3df17044f69972c9cd4f19dad5ae51fb5409367b9e",
+    "size_bytes": 681041
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/header-bidding/index.html",
+    "sha256": "215a8f6f39a522b3bde8a5162a7e01854c1187712cc50674b954117319b825f0",
+    "size_bytes": 688712
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025/index.html",
+    "sha256": "783d5c0ab93e996d666c14de86d72f56df725f4ca02df1ee8ce566077692ee4b",
+    "size_bytes": 670324
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/how-publishers-should-prepare-their-ad-stack-for-black-friday/index.html",
+    "sha256": "2edc94e37bb619ff53824ce908f1a1dd728e7fccf6fc95c037c140d871507d5a",
+    "size_bytes": 687035
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/how-ssps-can-overcome-ad-spending-slowdown/index.html",
+    "sha256": "e2b947f2063b5260145e426e1204977c3598e641c0b2c811845afca42065ed4c",
+    "size_bytes": 682070
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers/index.html",
+    "sha256": "3bf774856c2d52690aeab26874933f20a1e7172d93d328c0a1118eea1822dd27",
+    "size_bytes": 684927
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/implications-of-a-cookieless-world-publishers/index.html",
+    "sha256": "3feb10737980ab7ae46400c1be48bedc8b1a592ea0d2019f501fe73b8914bffa",
+    "size_bytes": 689830
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/index.html",
+    "sha256": "228f5dd8b1f96bf737f9d46950bbf577da2db4b368fbc4dbf0130061b76f98c8",
+    "size_bytes": 849753
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue/index.html",
+    "sha256": "50083de39d35472e244db42435f7eac9497329d6b9818d89e5943f876f2592a8",
+    "size_bytes": 683063
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/index.html",
+    "sha256": "d10b8c07923047404b9c819f49f229ae242a2aa17d255bcf63d387e5d4c1994b",
+    "size_bytes": 701376
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers/index.html",
+    "sha256": "903e39e216832db3b1f195cf3a42dffd10895c826093e441999284b3f3c87f5a",
+    "size_bytes": 684785
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/microsoft-xandr-prebid-cache-deprecation-a-publisher’s-guide-to-a-safe-migration/index.html",
+    "sha256": "bb1153af9c5f66e895855abc73c492795a5d65f2cc675af0b74bf232c41fa9ca",
+    "size_bytes": 676918
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/navigating-the-future-of-programmatic-advertising-in-2024/index.html",
+    "sha256": "0b6c40460ccc6a6b096d7a10fa0eb326ac840cfa552782c9cbe76a7a035f67be",
+    "size_bytes": 683976
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/new-ay-product-updates-h1-2023/index.html",
+    "sha256": "3ccac30c9df1044af52049e1ba949fcfbc16c467144de4dfe00280a14c94c442",
+    "size_bytes": 683863
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/optimal-adstack-for-publishers/index.html",
+    "sha256": "d0a46e68e861f943da44ec5f4c5215519ff978d5d2abd413cab7eadbb7e5de46",
+    "size_bytes": 696142
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/optimize-your-monetization-strategy-with-ay-industry-insight/index.html",
+    "sha256": "4bb40edec1c7d0ed0c5002b8084c1573d34622a0f702151fd10a0649ae82e781",
+    "size_bytes": 678026
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers/index.html",
+    "sha256": "c56bddb4216b6bf513cc3a7e85cb141f947babee252782855871acb45b4f3fb2",
+    "size_bytes": 682138
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/product-updates-q1-2024/index.html",
+    "sha256": "2b89dee32e5fe2a758acb2614e7858e75b535e2da264814b2f29127d0887113a",
+    "size_bytes": 689272
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/programmatic-insights/index.html",
+    "sha256": "abadd57ab468410b4ba2075d528bcde532ed32b95c0f92d60f08e6c0aae53352",
+    "size_bytes": 680967
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/publisher-metrics/index.html",
+    "sha256": "e878b22d056472dfb844318bc49c046828c63d707c38821c77003ccc961bb2a3",
+    "size_bytes": 697308
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/publisher-monetization-challenges/index.html",
+    "sha256": "bcfcafb436a7aacefa0e695a2d53a5db85e77e8a24178499ae75da878fad5a19",
+    "size_bytes": 694412
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue/index.html",
+    "sha256": "734ecf30c145fd90cd0983faffcfb577f878a5046d6b93aa1ff8039263a6d56f",
+    "size_bytes": 683604
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/qps-optimization-explained-greener-traffic-lower-costs/index.html",
+    "sha256": "9d940dcd9f6d210dd6e7c4449b1493c3d765573623be5b048cea38ffaf9074b4",
+    "size_bytes": 686814
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site/index.html",
+    "sha256": "c978bb28784f3d3efcdde3a4b3f59a43789a3d14fbaa2858b30f6ad02bea247c",
+    "size_bytes": 681732
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions/index.html",
+    "sha256": "8e25523c6136c7b7f5152ab79383c8dbcb4125333ce4e4896f1119d0b8427e1e",
+    "size_bytes": 679793
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/tag/ad-revenue-management-tag/index.html",
+    "sha256": "0d0a41e3c082578bb653c371f7701b466aff6ddbbc2cff0388d317adb0515cb6",
+    "size_bytes": 675945
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/tag/ai-optimization-tag/index.html",
+    "sha256": "2b9d368ab7e81ca39241a05d91c9d7e7505aacd0f42bb4bd19408f7169795505",
+    "size_bytes": 659465
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/tag/data-intelligence-tag/index.html",
+    "sha256": "5f6e3198608f183a3a2e04d0b5fa3f7acbe178abd4511256b30e5bed785218e2",
+    "size_bytes": 710439
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/tag/efficiency-&-sustainability-tag/index.html",
+    "sha256": "7b0379623db2aebfe5b633b2ab4250b5d77f1ceec5d9607e3c165623930c584b",
+    "size_bytes": 670449
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/tag/programmatic-trends-tag/index.html",
+    "sha256": "49b51af59e86c4fc576646d00e812e0ad520308ac176904d7684514deab97b3a",
+    "size_bytes": 689809
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/the-publishing-dynamics-why-90-of-publishers’-inventory-is-hidden-from-demand-partners/index.html",
+    "sha256": "5d65b80edd6d758f0f86d540fed4e5a1d95db015b3768b9d6d8759a4afec2990",
+    "size_bytes": 685420
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/top-five-2023-trends-in-programmatic-advertising/index.html",
+    "sha256": "cec34c96bdc0750147b17cb78db301e15695828d70ddd13a9bbe0b2fad268cdb",
+    "size_bytes": 682004
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page/index.html",
+    "sha256": "8d321cdc605045415c81f41ecf06a4bda8fc7051c9698e709c85c07422fe4b0b",
+    "size_bytes": 684662
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/ultimate-solution-to-amp-frustrations/index.html",
+    "sha256": "4a76f7de4869780022b6f5d298fc04e535e772730a48885d44aa9cd2df27a649",
+    "size_bytes": 694286
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/unlocking-the-potential-of-a-360°-panorama-dashboard-for-publisher-monetization/index.html",
+    "sha256": "e605fce6cc8b5ed0c82fa0f7d1e5566e9974c61e731387842226f485c35967d8",
+    "size_bytes": 679917
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/what-are-the-challenges-programmatic-ssps-are-facing-in-2023/index.html",
+    "sha256": "017acdc3fe7d024e13a5fc5995be0393ad8ba412a0abcc43835848c53d71170c",
+    "size_bytes": 693392
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/what-is-click-through-rate/index.html",
+    "sha256": "878b98947ac43f84a58726723e8cf14b4ca4c64656a350a38ddb89561625a6be",
+    "size_bytes": 682752
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/what-is-cost-per-mille/index.html",
+    "sha256": "79e4ba2c2fa45f0ca5804a70cd0fbd60ea26f2e170bc1d9e8ada9caed5b0d8d0",
+    "size_bytes": 684498
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/what-is-inp/index.html",
+    "sha256": "3fdaa7cd0b05125b88ec29a3bb487acab35dd28fecfab3530dc69a8598d49156",
+    "size_bytes": 689215
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/what-is-viewability/index.html",
+    "sha256": "0f0902b9de2971c51dd67d3b40afc86aa45e19a4c98059a2f2cf66bc8192cabd",
+    "size_bytes": 682338
+  },
+  {
+    "path": "artifacts/rendered-mirror/blog/why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now/index.html",
+    "sha256": "8768e643a6a7f1d90f7dc5ded59a6cb51b6b93688467eeb94a7243de21b907a8",
+    "size_bytes": 684326
+  },
+  {
+    "path": "artifacts/rendered-mirror/by-company-type-publishers/index.html",
+    "sha256": "0c13c871deeba8fa5e73f92d658ddedb2ade1ce6243b7267035d80ce537dbbe5",
+    "size_bytes": 751713
+  },
+  {
+    "path": "artifacts/rendered-mirror/by-company-type-ssp/index.html",
+    "sha256": "985ec6da371a79d7fac74d34817e17a7ddf2982e71b4ecd22826d1b8fdedb6ac",
+    "size_bytes": 732620
+  },
+  {
+    "path": "artifacts/rendered-mirror/by-team-type-ad-operations-yield/index.html",
+    "sha256": "d44d64dcf560e7a962e1d0fddf503f956576677c42377f9ed0965623c823e953",
+    "size_bytes": 745792
+  },
+  {
+    "path": "artifacts/rendered-mirror/by-team-type-audience-development/index.html",
+    "sha256": "516c2dd72f6d531d55d2067b164bf9d798fe2d53189266119b05fd74a6cef83c",
+    "size_bytes": 734973
+  },
+  {
+    "path": "artifacts/rendered-mirror/by-team-type-management-finance/index.html",
+    "sha256": "836bbd2e2964628baa05ad7cfeb3cc9aca1169e9fc5b37de1abdb95538c9aeb3",
+    "size_bytes": 726034
+  },
+  {
+    "path": "artifacts/rendered-mirror/by-team-type-media-buying/index.html",
+    "sha256": "d75243a65a2c9c9721f9c25471a487d93ad6faa72d7e641f1d17c394c3af9c41",
+    "size_bytes": 725298
+  },
+  {
+    "path": "artifacts/rendered-mirror/by-team-type-product-teams/index.html",
+    "sha256": "0f01d17c66513661b6aea2ccb932ba8fcf43ef540862de2202740d4b8e49d632",
+    "size_bytes": 725598
+  },
+  {
+    "path": "artifacts/rendered-mirror/by-team-type-sales/index.html",
+    "sha256": "194da3310c2e1ecd94a23334dcd89f2ca138d5f3084ae5363b33e44202b34514",
+    "size_bytes": 725801
+  },
+  {
+    "path": "artifacts/rendered-mirror/career-success/index.html",
+    "sha256": "15029aa815aeaad3cce7872d345d9a8800a8f39c6954547229a7b3dd2bfd0a31",
+    "size_bytes": 588038
+  },
+  {
+    "path": "artifacts/rendered-mirror/careers/backend-engineer-golang/index.html",
+    "sha256": "26e048f4eb4d3baaa0ed8a1d3eec3219fb285fb99585218315470cd68704fc72",
+    "size_bytes": 655797
+  },
+  {
+    "path": "artifacts/rendered-mirror/careers/index.html",
+    "sha256": "a0c65d569d9c50d5ff5a4b475924c427a0ca463e2055d334f85c81b8fbcfc9fd",
+    "size_bytes": 679625
+  },
+  {
+    "path": "artifacts/rendered-mirror/careers/sales-engineer-publisher-ad-tech/index.html",
+    "sha256": "33bd089c6aff923aa4b43464ca0a8a7af92a9d3c1229446922a9ba8986018c3b",
+    "size_bytes": 656221
+  },
+  {
+    "path": "artifacts/rendered-mirror/careers/sales-executive-amer/index.html",
+    "sha256": "5cb6cd30be50636fbe19f3c1fcc0bb7b3135b274106718adf50697da15e1d53f",
+    "size_bytes": 655085
+  },
+  {
+    "path": "artifacts/rendered-mirror/careers/senior-devops-engineer/index.html",
+    "sha256": "b3a90b8ea7285a0b1ddf20f3b842038a2b38a4933dc028c9e07a1c53a128e224",
+    "size_bytes": 654548
+  },
+  {
+    "path": "artifacts/rendered-mirror/contact-us/index.html",
+    "sha256": "3d10d3053276211e1e6622478b2ad8fd22a092378e7224dba89bb2d4ae0a0822",
+    "size_bytes": 644060
+  },
+  {
+    "path": "artifacts/rendered-mirror/dashboards/index.html",
+    "sha256": "c4613145c6b4cccfe12236d17e1af6986a6bad9bb5810dd852fcec1a68e09c5f",
+    "size_bytes": 881990
+  },
+  {
+    "path": "artifacts/rendered-mirror/ebooks/all/index.html",
+    "sha256": "2532b4266b58c84d239079f2e1105c1e2b485a2e19a2c48b142a712558010e18",
+    "size_bytes": 677963
+  },
+  {
+    "path": "artifacts/rendered-mirror/help-center/academy/index.html",
+    "sha256": "c0a91f46f2ced40060d4059d523fdacee53d945f0f373fbc40fd2d27ed171780",
+    "size_bytes": 784474
+  },
+  {
+    "path": "artifacts/rendered-mirror/help-center/ay-glossary/index.html",
+    "sha256": "fe07da9368b85d326afbae7d6f38ff6f848570087fc5bf3f0bab5e1676a93698",
+    "size_bytes": 665964
+  },
+  {
+    "path": "artifacts/rendered-mirror/help-center/ay-support/index.html",
+    "sha256": "a9c1c9cdfa267938622dbf7bf695be9cf9e643c56caa8de20893e48f8e5ecfef",
+    "size_bytes": 661886
+  },
+  {
+    "path": "artifacts/rendered-mirror/help-center/index.html",
+    "sha256": "1674c600efbc38631cda9952c15cc94d2bf9eba697480137d9473f5bcbfab10e",
+    "size_bytes": 659883
+  },
+  {
+    "path": "artifacts/rendered-mirror/hits/all/index.html",
+    "sha256": "9189eedefb85ae2d81b6abc28c2e4282eda30b01308f17046cd667bfd3be2d0d",
+    "size_bytes": 709084
+  },
+  {
+    "path": "artifacts/rendered-mirror/index.html",
+    "sha256": "edae64776b048ec14ed4e571ef564837ec5a9415d444231ed7605a0d8eb72ed7",
+    "size_bytes": 1284026
+  },
+  {
+    "path": "artifacts/rendered-mirror/industry-insights/index.html",
+    "sha256": "67bff0aca1e694f674a7cb4f08374117f6a63f2f68347fb9e39569f141ba347b",
+    "size_bytes": 881024
+  },
+  {
+    "path": "artifacts/rendered-mirror/news/all/index.html",
+    "sha256": "51216aa068a24200c1d0c1e5b0f042a5009dd15edc472eb38c9b1861f8b18984",
+    "size_bytes": 742818
+  },
+  {
+    "path": "artifacts/rendered-mirror/podcasts/all/index.html",
+    "sha256": "2d87d8720a2090426bb483b8ae95284c4c0a7c39a0cfeb9259d04c09221bc786",
+    "size_bytes": 669796
+  },
+  {
+    "path": "artifacts/rendered-mirror/pricing/index.html",
+    "sha256": "b66350601b292ab95f10034523b6c62c6135111eb77e3012ee1607c59bc875fe",
+    "size_bytes": 576224
+  },
+  {
+    "path": "artifacts/rendered-mirror/pricing-update/index.html",
+    "sha256": "18f7b6a14d69f3dc2a63f43311ddd1ced6b88d591a3f48740978561b5f071127",
+    "size_bytes": 686628
+  },
+  {
+    "path": "artifacts/rendered-mirror/product-updates/all/index.html",
+    "sha256": "7302162733fbb889aed928904e1a24c2f49be9864f1f6e907237ba1237b87f07",
+    "size_bytes": 671552
+  },
+  {
+    "path": "artifacts/rendered-mirror/real-time-alerts/index.html",
+    "sha256": "01ee2cbe72f9a9817662645265c6541824688cd4a41d5dfe8d0d0f486c398480",
+    "size_bytes": 879629
+  },
+  {
+    "path": "artifacts/rendered-mirror/slice-and-dice/index.html",
+    "sha256": "e5d00a5741f81038442fbc7d2db5c85fe839352ae40fba582dc3632259f0732e",
+    "size_bytes": 887869
+  },
+  {
+    "path": "artifacts/rendered-mirror/soc2-request/index.html",
+    "sha256": "55f5e2c4b3ec044f8662e75652cf116fbb5cc00b2a355832fab004232b44e474",
+    "size_bytes": 640685
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/9gag/index.html",
+    "sha256": "0397fbddcc1de3921e55ae2f6694686bd13643894ded574b92ce26a623fa8d2f",
+    "size_bytes": 813494
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/apartment-therapy/index.html",
+    "sha256": "a46a67fe3166ae0cbf51754cf67601c4126f1033e917ac21228d263060bfeb90",
+    "size_bytes": 811513
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/bauer-media-group/index.html",
+    "sha256": "84889c5533902a160638bca8b1a24426c1a31d3454869e398a11c0880cc92950",
+    "size_bytes": 807292
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/boons/index.html",
+    "sha256": "7f2c6456c0ad430679fd51164b108ab3f869b6eed0cda1b2794b9b5c0a36048e",
+    "size_bytes": 810382
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/cambium-media/index.html",
+    "sha256": "ae34e33cc74c380707c3550a357d46d5674dbb93072d50de904e5afcc5d6f1bc",
+    "size_bytes": 810871
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/connatix/index.html",
+    "sha256": "aa981a95be902d59a033a4e777ddc150f7dac61be6d65eef1e26b49057b3ef8f",
+    "size_bytes": 811630
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/gumgum-inc/index.html",
+    "sha256": "ddb64b88e4295882a2fbf909363266ecbc3fc52298ea8964b4cd9742ad3ac9af",
+    "size_bytes": 808718
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/hitopic/index.html",
+    "sha256": "c7fb97184edf0728e70ad756ac9e4dac92671c930b52f3c3db666425a55e015c",
+    "size_bytes": 810778
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/index.html",
+    "sha256": "6c7a776acf397d13e7f2f69964dad5023c5580dd98fb3bc97fbe44dd169a0331",
+    "size_bytes": 706337
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/krone/index.html",
+    "sha256": "b22141043b2cdbcee45cd8e0322f37a6fa58927cc7f0222ee5541d74e242417d",
+    "size_bytes": 811363
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/kurier-media-house/index.html",
+    "sha256": "202f791549a61b2acd2e5a65f47ed57f263ad29967f83adf7eba755f462f5080",
+    "size_bytes": 811405
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/nativo/index.html",
+    "sha256": "86ee5b9a18a173ed53789b198ede309d86ec60c4a1a0aaac7d46a8c96d57f1ff",
+    "size_bytes": 813492
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/shinez/index.html",
+    "sha256": "8b401640cdeb672304dcdc8d701fc70e7f946b52d9511eb97359fd9933ea8052",
+    "size_bytes": 809681
+  },
+  {
+    "path": "artifacts/rendered-mirror/success-stories/world-history-encyclopedia/index.html",
+    "sha256": "3251bdc95ffd3e0a7f25f7a84680bd633fa6cf3690da6c0941e71512c4da12d8",
+    "size_bytes": 814740
+  },
+  {
+    "path": "artifacts/rendered-mirror/traffic-acquisition/index.html",
+    "sha256": "f3766b1abf79b23068a658055db8505a38b85e0ea4b21bcf06ee69454d8acc48",
+    "size_bytes": 868489
+  },
+  {
+    "path": "artifacts/rendered-mirror/traffic-shaping/index.html",
+    "sha256": "d3e8f12dc17c4e94d86044a05ceb1e0d3d2439e53a0988a7a94156e6549e8b00",
+    "size_bytes": 1097858
+  },
+  {
+    "path": "artifacts/rendered-mirror/traffic-shaping-for-publishers/index.html",
+    "sha256": "d4fa96c12debf7a214790f0f12f2d6ffc73e5aa9332ce83e53016125cd1f721e",
+    "size_bytes": 796699
+  },
+  {
+    "path": "artifacts/rendered-mirror/videos/all/index.html",
+    "sha256": "2161847d8900563fcc381d79d60d6eba9a3797ffb1e421190386a564b0d34d96",
+    "size_bytes": 676390
+  },
+  {
+    "path": "artifacts/rendered-mirror/yield-intelligence/index.html",
+    "sha256": "b4ddc869b8da617af4b6d08f44b94661e2e87e93ab41558a2dab59a28987944d",
+    "size_bytes": 704391
+  },
+  {
+    "path": "artifacts/rendered-mirror/yield-manager/index.html",
+    "sha256": "089054d40a3d5e3442cf51dd76c3123392bf6af5c2d37e9a81425ec25282491e",
+    "size_bytes": 967363
+  },
+  {
+    "path": "artifacts/rendered-mirror/yield-optimizer/index.html",
+    "sha256": "53482aa15626c7c050edbb4f25085833a1939f9ee0cef3ea736b1c6929a81720",
+    "size_bytes": 736941
+  },
+  {
+    "path": "artifacts/screenshots/001-www.assertiveyield.com.png",
+    "sha256": "18d93abd6a573f9ff8918e5bc044cd51020c12d7248a244e8c25de5fbeb721b4",
+    "size_bytes": 3479912
+  },
+  {
+    "path": "artifacts/screenshots/002-about-us.png",
+    "sha256": "4ea1600cee8876ce9abdf1c7ed1fc93363c6ab227060d217329047733e36777d",
+    "size_bytes": 1371305
+  },
+  {
+    "path": "artifacts/screenshots/003-ailayouts.png",
+    "sha256": "ab7443b6e2789f8dcb4ce95197bb446792394c36af806da0e38074ac3fa3cb8e",
+    "size_bytes": 940428
+  },
+  {
+    "path": "artifacts/screenshots/004-all-revenue-source.png",
+    "sha256": "8c0b8d2b44d50033bef82271fc284de530fffa6b7f15fc7afe2ed07d68de9bf3",
+    "size_bytes": 655989
+  },
+  {
+    "path": "artifacts/screenshots/005-apps-and-integrations.png",
+    "sha256": "7151d11f2201ceeec11d62bab41ed009ff8c789646394a9cf616c45ef6578ce9",
+    "size_bytes": 1188717
+  },
+  {
+    "path": "artifacts/screenshots/006-ay-glossary.png",
+    "sha256": "3f9ddf7ad6d26c27b13f033930e70f4fa3f1227da065624afb0b93c466081953",
+    "size_bytes": 536896
+  },
+  {
+    "path": "artifacts/screenshots/007-ay_prebidserver.png",
+    "sha256": "e9141354c3609385284ee1feb42cc3a804b9e2d81a375668a18d608f5419e717",
+    "size_bytes": 1028747
+  },
+  {
+    "path": "artifacts/screenshots/008-blog.png",
+    "sha256": "6eea04a141253bbb90f195598d4c1194382c344ebed0830dde9b82fa9ec5d2c0",
+    "size_bytes": 3988595
+  },
+  {
+    "path": "artifacts/screenshots/009-product-updates-q1-2024.png",
+    "sha256": "545859d572e1ffc5654b4f60f2fabadc4898aad253dac28a870069854ed42195",
+    "size_bytes": 2506198
+  },
+  {
+    "path": "artifacts/screenshots/010-ultimate-solution-to-amp-frustrations.png",
+    "sha256": "d35a41ffbac6b1792bf46704fc6bbdacf9863d940eeb188acc1c436f470066f2",
+    "size_bytes": 3020919
+  },
+  {
+    "path": "artifacts/screenshots/011-what-is-cost-per-mille.png",
+    "sha256": "68b269b901810a894601a1a0b9b4e32e234a8874ff4666e2ab409ae42c9b442b",
+    "size_bytes": 2142084
+  },
+  {
+    "path": "artifacts/screenshots/012-what-is-viewability.png",
+    "sha256": "dc675e29321be0742632084419381eccabb9e05896f87b4da3ed4160ddef8342",
+    "size_bytes": 1967885
+  },
+  {
+    "path": "artifacts/screenshots/013-ab-testing-publishers.png",
+    "sha256": "281b2ae92553eb4bd65a03fda98f4182d40c9150571f5ce891c4fe4aeb5bcb5d",
+    "size_bytes": 2101219
+  },
+  {
+    "path": "artifacts/screenshots/014-abn-testing.png",
+    "sha256": "230bd71cf3c78bf3d8b8aa643434cd173b4137fade859ca4aff7e982ae2070b7",
+    "size_bytes": 2169630
+  },
+  {
+    "path": "artifacts/screenshots/015-ai-programmatic-advertising.png",
+    "sha256": "9ab6d062625464e29ca9574f824e54b650f959b10494519d3aa81d244e2af1ce",
+    "size_bytes": 2127913
+  },
+  {
+    "path": "artifacts/screenshots/016-all.png",
+    "sha256": "9b1ab6b1c07336f5dc2e489f49a093e89eefbb5823a1f02c7309fdf51bd8da99",
+    "size_bytes": 3597626
+  },
+  {
+    "path": "artifacts/screenshots/017-alternatives-to-third-party-cookies.png",
+    "sha256": "1236e343ad155ae645edc0f9085dd15bea37312f4ee461f584b614c10a93619d",
+    "size_bytes": 3282906
+  },
+  {
+    "path": "artifacts/screenshots/018-analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue.png",
+    "sha256": "71fe36879545ed73813c2b8aa20f35d906a45d033801069e626d82139060b096",
+    "size_bytes": 2636375
+  },
+  {
+    "path": "artifacts/screenshots/019-analyzing-optimizing-your-impression-revenue-per-mille-rpm.png",
+    "sha256": "18f0f213b59b7f4466c77f97fc6b62aa72e95a49ed4cbddb1f7b613eb15769c3",
+    "size_bytes": 1191143
+  },
+  {
+    "path": "artifacts/screenshots/020-ay-industry-insight-second-quarter-report-yield-management-in-programmatic.png",
+    "sha256": "350552ea60161f2fc711290a5611f65a2d2ebb627aa4f1ad3f3706330de068ff",
+    "size_bytes": 3055803
+  },
+  {
+    "path": "artifacts/screenshots/021-ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue.png",
+    "sha256": "206bc44d5ca030fed47e5ad8349f6305d365f290bc6958004e9619afb5dcb017",
+    "size_bytes": 2785028
+  },
+  {
+    "path": "artifacts/screenshots/022-ay-industry-insights-report-q2%E2%80%9925-publisher-trends-in-global-programmatic-ad-revenue.png",
+    "sha256": "1273ba64b222a66a0bd747046aa2cb3e8329a319fe873e526379f277f60eb64f",
+    "size_bytes": 2136276
+  },
+  {
+    "path": "artifacts/screenshots/023-ay-product-updates-in-h1%E2%80%9924-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more.png",
+    "sha256": "e953fb98efc5edfb2c94ad93bee18b904f813ed6d438ba6ff362c6b8ca0ade67",
+    "size_bytes": 4308347
+  },
+  {
+    "path": "artifacts/screenshots/024-beyond-predictions-how-publishers-should-actually-focus-heading-into-2026.png",
+    "sha256": "2f2edacbb2fa3e3eb324e75e1d3c35af75c0a4a638028b48c2d2e1da63cda448",
+    "size_bytes": 2267578
+  },
+  {
+    "path": "artifacts/screenshots/025-bid-shading.png",
+    "sha256": "e84fbad74c7ef6e1a8d1c201661f3bd1b06109968241680a8807e3d7286f0b6d",
+    "size_bytes": 2581326
+  },
+  {
+    "path": "artifacts/screenshots/026-boosting-your-ad-revenue-per-mille-ad-rpm-in-2025.png",
+    "sha256": "224ae05650d9ca8d9be1f76f6591f74d2542c86d53bb4411e3e86a36cbb77fa5",
+    "size_bytes": 1503910
+  },
+  {
+    "path": "artifacts/screenshots/027-confirmed-click-penalty.png",
+    "sha256": "05618c6c16c9904d040ddc573489479720624c18c0646ef4a3a1d6f27c61a0ff",
+    "size_bytes": 1927759
+  },
+  {
+    "path": "artifacts/screenshots/028-cookieless-tracking-publishers.png",
+    "sha256": "1a6819f262cec4b8e55ed6c5f673ed46e3ebaa63eb74124bdcaf59b6fca30a39",
+    "size_bytes": 3069308
+  },
+  {
+    "path": "artifacts/screenshots/029-demand-path-optimization-empowering-publishers-for-profitable-paths.png",
+    "sha256": "8cf51aa72a660daf2f83d38349ff46e0a75a32cfd0794df01a0ad332c6424df2",
+    "size_bytes": 3126489
+  },
+  {
+    "path": "artifacts/screenshots/030-dynamic-flooring-programmatic.png",
+    "sha256": "0cab283799f76ce926899580efeb29af7206b097c4aae2667ebdca444a410567",
+    "size_bytes": 2218286
+  },
+  {
+    "path": "artifacts/screenshots/031-exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape.png",
+    "sha256": "90d00e765eef5e431cc393535f336dec20468077b412df7a40fde4a07514ea4f",
+    "size_bytes": 2966846
+  },
+  {
+    "path": "artifacts/screenshots/032-getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher.png",
+    "sha256": "fa521ec041c6b10a6e1fea3f9e70b3e9e6f6b6693b4d6889180c03872d772543",
+    "size_bytes": 1521474
+  },
+  {
+    "path": "artifacts/screenshots/033-google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do.png",
+    "sha256": "c44dc312d10196ca1dc968d6997053e884c062bae65dae25cce81cd90454b08c",
+    "size_bytes": 707749
+  },
+  {
+    "path": "artifacts/screenshots/034-google-optimize-alternatives.png",
+    "sha256": "fdbe819ab27bedda4dd7cb40fdccc78201604e7de8d83517651a328d70f38892",
+    "size_bytes": 3640112
+  },
+  {
+    "path": "artifacts/screenshots/035-green-advertising-what-are-publishers-and-ssps-roles.png",
+    "sha256": "0a4242a841d5646c8a947a9e8bb5bc212dac119051fe7df12bc73d8488ec75a6",
+    "size_bytes": 1317752
+  },
+  {
+    "path": "artifacts/screenshots/036-green-programmatic-advertising-explained.png",
+    "sha256": "f09a8245ae7e01828ccb13b141e05235f4f46752ee34c2f0467395d69ee77c4a",
+    "size_bytes": 3775422
+  },
+  {
+    "path": "artifacts/screenshots/037-h2%E2%80%9924-ay-product-updates-new-features-and-improvements.png",
+    "sha256": "6c40612b0c4ce67950644292c009a87fb0ee6f2f8f38b71e08eb78424dac2381",
+    "size_bytes": 1703822
+  },
+  {
+    "path": "artifacts/screenshots/038-header-bidding.png",
+    "sha256": "ca014f6b08ade0e12438324723d1a03d6a395b58dfc4ab6002032fcea88d4537",
+    "size_bytes": 2764802
+  },
+  {
+    "path": "artifacts/screenshots/039-how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025.png",
+    "sha256": "997759f05b2e3f9c51f273994bd63fa5041cb237dc9dac9c8793ccc7da6ce842",
+    "size_bytes": 1732977
+  },
+  {
+    "path": "artifacts/screenshots/040-how-publishers-should-prepare-their-ad-stack-for-black-friday.png",
+    "sha256": "da6b88dc296f0497bd5f6163e1a393e48aed9a46e043fc1f79903480022e07a6",
+    "size_bytes": 1794780
+  },
+  {
+    "path": "artifacts/screenshots/041-how-ssps-can-overcome-ad-spending-slowdown.png",
+    "sha256": "a2ad16ea8e75618c2ae8a53f85775afe520035f6b6ef9983953ad81ca3aa47d8",
+    "size_bytes": 2196182
+  },
+  {
+    "path": "artifacts/screenshots/042-how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers.png",
+    "sha256": "1f9f6a41d99ed54682247cac97c0b258efcc210c75665c24f593c5fee919b58f",
+    "size_bytes": 1314907
+  },
+  {
+    "path": "artifacts/screenshots/043-implications-of-a-cookieless-world-publishers.png",
+    "sha256": "4863e158674e84995d849fb4476013a966a5a26f9fcafb20cb6da785089fc262",
+    "size_bytes": 2252794
+  },
+  {
+    "path": "artifacts/screenshots/044-leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue.png",
+    "sha256": "333ff109e971c4d95957ce4471326c6bad4263905e05decee3ebb131570f991e",
+    "size_bytes": 1964812
+  },
+  {
+    "path": "artifacts/screenshots/045-maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization.png",
+    "sha256": "68bb65355f23bc3bbeb3cbeed18b4dae81eab26d9ba249d5c54c0a5879f55a2d",
+    "size_bytes": 3512701
+  },
+  {
+    "path": "artifacts/screenshots/046-maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers.png",
+    "sha256": "0a711413210b394358ebaf2665fbddf33bd693da7135f15d2858b17a9280378b",
+    "size_bytes": 1533024
+  },
+  {
+    "path": "artifacts/screenshots/047-microsoft-xandr-prebid-cache-deprecation-a-publisher%E2%80%99s-guide-to-a-safe-migration.png",
+    "sha256": "cf7cce53fb86c71fd72e4fb617390ad0213b9480c2016defce703fc20da0a640",
+    "size_bytes": 2126986
+  },
+  {
+    "path": "artifacts/screenshots/048-navigating-the-future-of-programmatic-advertising-in-2024.png",
+    "sha256": "658656d2372f74d889e44408c40d0aa33d5bf6516eb21a6d8f8b79ca695b9a2a",
+    "size_bytes": 3633683
+  },
+  {
+    "path": "artifacts/screenshots/049-new-ay-product-updates-h1-2023.png",
+    "sha256": "d34144a103a1cff79313c7680eaac1c68b8a0596bbd0520ec4c8de0b45243538",
+    "size_bytes": 2021580
+  },
+  {
+    "path": "artifacts/screenshots/050-optimal-adstack-for-publishers.png",
+    "sha256": "630e7577303284adb8c72188f9136954a4cdde4e64de66aced32d6d581fe42b4",
+    "size_bytes": 1788170
+  },
+  {
+    "path": "artifacts/screenshots/051-optimize-your-monetization-strategy-with-ay-industry-insight.png",
+    "sha256": "568771e0297d93283063d4a77e8cb9ed673b78b3bebd876ea4f164ad3fd04b0a",
+    "size_bytes": 1902705
+  },
+  {
+    "path": "artifacts/screenshots/052-optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers.png",
+    "sha256": "cbbbbabd01589c204af19263c03f92b9b658007a2276ffc25c91787966986922",
+    "size_bytes": 1691610
+  },
+  {
+    "path": "artifacts/screenshots/053-programmatic-insights.png",
+    "sha256": "610437a5ed57c857ed9d602de184d736402987e997703663801d87a4745e5a71",
+    "size_bytes": 1130140
+  },
+  {
+    "path": "artifacts/screenshots/054-publisher-metrics.png",
+    "sha256": "2c1ebb6ca1853d99a79ac0187ff9e30a5964923cc17c8d748f87f074ed10cae2",
+    "size_bytes": 3345119
+  },
+  {
+    "path": "artifacts/screenshots/055-publisher-monetization-challenges.png",
+    "sha256": "76a615fbfd60997dd76b6841a264e41152c03d51e50aa552ebc8aa976f03b073",
+    "size_bytes": 3155930
+  },
+  {
+    "path": "artifacts/screenshots/056-q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue.png",
+    "sha256": "d4ddc1dd4aa4def03dc0f1da415fb9c54cf68625d9c71cbbaae31b78541145c3",
+    "size_bytes": 2600752
+  },
+  {
+    "path": "artifacts/screenshots/057-qps-optimization-explained-greener-traffic-lower-costs.png",
+    "sha256": "32c161f0cbb661cd2fc05c6188a5ceddfc279ea453e27311d42f9e6124086ab5",
+    "size_bytes": 2553844
+  },
+  {
+    "path": "artifacts/screenshots/058-reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site.png",
+    "sha256": "1a55573f487dcefd6d455f3f8cee54c58e73081bf0d6db63497af1cdc6f86e6c",
+    "size_bytes": 2402702
+  },
+  {
+    "path": "artifacts/screenshots/059-shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions.png",
+    "sha256": "b941512e45f40f1ec9040da4a6abea7530670f6f9603af74183eb61ecd00751e",
+    "size_bytes": 849609
+  },
+  {
+    "path": "artifacts/screenshots/060-ad-revenue-management-tag.png",
+    "sha256": "b609c89e31425184e814761c5fc9eadca1a9d0bf187453ce72d94c6adfb75dc3",
+    "size_bytes": 2870692
+  },
+  {
+    "path": "artifacts/screenshots/061-ai-optimization-tag.png",
+    "sha256": "a0e78cdf7de6ecee15c94fb7b006617bdd24195f13ae22be5caae34b3468f14f",
+    "size_bytes": 1897816
+  },
+  {
+    "path": "artifacts/screenshots/062-data-intelligence-tag.png",
+    "sha256": "3829ec06b0ff570c65f59c3a93361396ac9a62c0dd51765ef80e8306efb3861f",
+    "size_bytes": 4221000
+  },
+  {
+    "path": "artifacts/screenshots/063-efficiency-&-sustainability-tag.png",
+    "sha256": "d24a0137af878aa94945604b541c8dd36774a49690aa6568223098938efee610",
+    "size_bytes": 2211492
+  },
+  {
+    "path": "artifacts/screenshots/064-programmatic-trends-tag.png",
+    "sha256": "e1e89c6b84e418e4fc8ed0ec15ab683f5c11899f639df6402e84dffe439329ae",
+    "size_bytes": 3669892
+  },
+  {
+    "path": "artifacts/screenshots/065-the-publishing-dynamics-why-90-of-publishers%E2%80%99-inventory-is-hidden-from-demand-partners.png",
+    "sha256": "a08d9322dd62efd95e0e4dc8b75b2c0384c1c902c069f31c93e67ce28317df17",
+    "size_bytes": 2482486
+  },
+  {
+    "path": "artifacts/screenshots/066-top-five-2023-trends-in-programmatic-advertising.png",
+    "sha256": "f2b05836a69743df58bd690fd72a329271b7ef5aa11fb31fab70819b5590db04",
+    "size_bytes": 3082555
+  },
+  {
+    "path": "artifacts/screenshots/067-tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page.png",
+    "sha256": "4b40a9956a4712abbf7b671949d7388252579bc95c13958f6e119db87f7cf077",
+    "size_bytes": 1856331
+  },
+  {
+    "path": "artifacts/screenshots/068-unlocking-the-potential-of-a-360%C2%B0-panorama-dashboard-for-publisher-monetization.png",
+    "sha256": "c2b0e4a97161e5192bf6193ee820033dc260406830f993e373bbd6b97e0810bf",
+    "size_bytes": 1587991
+  },
+  {
+    "path": "artifacts/screenshots/069-what-are-the-challenges-programmatic-ssps-are-facing-in-2023.png",
+    "sha256": "a6cc891baa9d9f4f8cd49e679100b899bed92085bac372429201791b404483ae",
+    "size_bytes": 3057963
+  },
+  {
+    "path": "artifacts/screenshots/070-what-is-click-through-rate.png",
+    "sha256": "db7ae6a553725da14c0a71851739b1df4d081a9658bc0eb7df0c1a8b1cbd6e0f",
+    "size_bytes": 1946850
+  },
+  {
+    "path": "artifacts/screenshots/071-what-is-inp.png",
+    "sha256": "606e5b3a1a798d995601af9a99f17cb538dc71ccc3d0722ad318a6b972e2d3aa",
+    "size_bytes": 2973278
+  },
+  {
+    "path": "artifacts/screenshots/072-why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now.png",
+    "sha256": "2e4485f08a3d234cdbd89172b81144f306e2c3aab440ad887ffe5cfe1c2f310c",
+    "size_bytes": 2677132
+  },
+  {
+    "path": "artifacts/screenshots/073-by-company-type-publishers.png",
+    "sha256": "b78f5712a796e98475c8842ae215ee2399245a7c042c6b18244d6a1ae48bc037",
+    "size_bytes": 1217550
+  },
+  {
+    "path": "artifacts/screenshots/074-by-company-type-ssp.png",
+    "sha256": "6ed717d70139a9a1840a6e9a5ee72a46bb9ca72a72f2bbfff5522e8653fcf108",
+    "size_bytes": 671704
+  },
+  {
+    "path": "artifacts/screenshots/075-by-team-type-ad-operations-yield.png",
+    "sha256": "8d35463ef4b416de9aa548afdafd0091f3020362e8038ef329ec741ba9d28f7f",
+    "size_bytes": 844386
+  },
+  {
+    "path": "artifacts/screenshots/076-by-team-type-audience-development.png",
+    "sha256": "6118cf513f4c2ecaef134f11cf3c1f12019c4eb5cc6722899745bd2b0fe26658",
+    "size_bytes": 690779
+  },
+  {
+    "path": "artifacts/screenshots/077-by-team-type-management-finance.png",
+    "sha256": "53d2843ee30f6541582e65e6c86e307ef8aa48a894411de5223c405697ab66d6",
+    "size_bytes": 553194
+  },
+  {
+    "path": "artifacts/screenshots/078-by-team-type-media-buying.png",
+    "sha256": "73e41894c54cedd93cc328914b646533c07a5bcf50ee67d8179c18ffb01ff671",
+    "size_bytes": 553754
+  },
+  {
+    "path": "artifacts/screenshots/079-by-team-type-product-teams.png",
+    "sha256": "78e097356e7b9938a4785723fd372ac373ef0c81c0676c02b18d8d9f3cde8c6a",
+    "size_bytes": 552762
+  },
+  {
+    "path": "artifacts/screenshots/080-by-team-type-sales.png",
+    "sha256": "29a9063c74a1dbabd5c8e311afe56b83fa78e175b2dce11f3307d010803bcbd1",
+    "size_bytes": 554756
+  },
+  {
+    "path": "artifacts/screenshots/081-career-success.png",
+    "sha256": "12e376c3f74c6d1ab82c993fc3bec8be5187fd7f207bc2cf7049340a2a82973a",
+    "size_bytes": 177313
+  },
+  {
+    "path": "artifacts/screenshots/082-careers.png",
+    "sha256": "edd4def39362a2d6035668e127ecd15a76e6cd2ff8ef64f37b29e6b68fdd43ed",
+    "size_bytes": 272982
+  },
+  {
+    "path": "artifacts/screenshots/083-backend-engineer-golang.png",
+    "sha256": "d1162a463ff88e12a0a5b5b8bba0ac9a2944077baa6b0b4351493d536b6b4af6",
+    "size_bytes": 467165
+  },
+  {
+    "path": "artifacts/screenshots/084-sales-engineer-publisher-ad-tech.png",
+    "sha256": "2c55552b5ba795a18f856354e73e3f2a8c10ce9f0200cd42e9b380593d2791b6",
+    "size_bytes": 558517
+  },
+  {
+    "path": "artifacts/screenshots/085-sales-executive-amer.png",
+    "sha256": "d41f1b9b9648cfa97470c3af7f49547b6b428b867fd3332cfcf4a7653b3d8c0d",
+    "size_bytes": 507499
+  },
+  {
+    "path": "artifacts/screenshots/086-senior-devops-engineer.png",
+    "sha256": "e5ad71d4c211a1e03829e291fd5f80223d15a9f7f60ba1377038190a2bd1f506",
+    "size_bytes": 482628
+  },
+  {
+    "path": "artifacts/screenshots/087-contact-us.png",
+    "sha256": "ad0d41d1ef789aefb5bbbf8ddd68ea8e2539baba2f2ab16fa676cbe892712d95",
+    "size_bytes": 136314
+  },
+  {
+    "path": "artifacts/screenshots/088-dashboards.png",
+    "sha256": "de5367571f407547429b6d880f5cd320e428ea938341be78d2ed1951518b511c",
+    "size_bytes": 1414812
+  },
+  {
+    "path": "artifacts/screenshots/089-all.png",
+    "sha256": "1b31a0da8dd7e733f6003da0a90d669748a3262b027400a2ae829424029d1344",
+    "size_bytes": 2178008
+  },
+  {
+    "path": "artifacts/screenshots/090-help-center.png",
+    "sha256": "f6f17175796163caa833bfca37878b6ccdd76c268793ec22bf091193a300adb0",
+    "size_bytes": 209365
+  },
+  {
+    "path": "artifacts/screenshots/091-academy.png",
+    "sha256": "d6ff8d7f85ce3fbef3116db7c123e339e158f5649a48091278f2ba19676da6bb",
+    "size_bytes": 1666982
+  },
+  {
+    "path": "artifacts/screenshots/092-ay-glossary.png",
+    "sha256": "4bc40f12554b56d9400e56abfe805b8407305826ae075cf790c44ce22f60093e",
+    "size_bytes": 190063
+  },
+  {
+    "path": "artifacts/screenshots/093-ay-support.png",
+    "sha256": "1d15f4654e415b7a3fb44d6c6de7e99337b95e3d626e2295f767b0c40681e0cb",
+    "size_bytes": 535564
+  },
+  {
+    "path": "artifacts/screenshots/094-all.png",
+    "sha256": "c931190dc6356d752312d51abfa3c2672472785421d02b67d0bbb4f303e6c32d",
+    "size_bytes": 3947906
+  },
+  {
+    "path": "artifacts/screenshots/095-industry-insights.png",
+    "sha256": "4cded9901599f8860740d8d72c50651f7d1550fbf842112dfea673867de036d6",
+    "size_bytes": 1471185
+  },
+  {
+    "path": "artifacts/screenshots/096-all.png",
+    "sha256": "09c06c03187fe86298c48937dfa03841a7d5d5b15db6bdd981cd30c2f8d7bc00",
+    "size_bytes": 3305091
+  },
+  {
+    "path": "artifacts/screenshots/097-all.png",
+    "sha256": "2796587997ae5d06bce13aba2a9fa73317ef5429534d6c867266790ce7b5231d",
+    "size_bytes": 1125974
+  },
+  {
+    "path": "artifacts/screenshots/098-pricing-update.png",
+    "sha256": "9073f935ba281edc771415f5bf79d45b3a8e25f4254900dedfbbc2801a4f717d",
+    "size_bytes": 257142
+  },
+  {
+    "path": "artifacts/screenshots/099-pricing.png",
+    "sha256": "a82e4e7b77c9f631a27952514d4e604eb373eecf56b23a6d0039eb363b0a6ddc",
+    "size_bytes": 192507
+  },
+  {
+    "path": "artifacts/screenshots/100-all.png",
+    "sha256": "ed64edd848cff22de1c2295cdc5cef553b9187e01c2cb38cf1e6105d9d97b8ca",
+    "size_bytes": 473240
+  },
+  {
+    "path": "artifacts/screenshots/101-real-time-alerts.png",
+    "sha256": "570f6eb594ee8e2412c38a3f6095896fec7f77a0087a96361b437998004de864",
+    "size_bytes": 1582241
+  },
+  {
+    "path": "artifacts/screenshots/102-slice-and-dice.png",
+    "sha256": "82754373cc4203fb2d2a5899c842c7296789e85d70f73270ce61aab9ea76e944",
+    "size_bytes": 1758077
+  },
+  {
+    "path": "artifacts/screenshots/103-soc2-request.png",
+    "sha256": "1cce9c893827e023cc243cea4bbd4bd5ebbb501ded7dd3cb60ad2a42667b507d",
+    "size_bytes": 163263
+  },
+  {
+    "path": "artifacts/screenshots/104-success-stories.png",
+    "sha256": "0f4e421db30f007343fb585b3a04f6aa64419f6e259b9b0ccca6be37185f96ee",
+    "size_bytes": 2690979
+  },
+  {
+    "path": "artifacts/screenshots/105-9gag.png",
+    "sha256": "b69172ad8da9b69028f032fb40d4e944c1b55807abfe0db9cd48ce4001433ca8",
+    "size_bytes": 2382272
+  },
+  {
+    "path": "artifacts/screenshots/106-apartment-therapy.png",
+    "sha256": "cba05485490d659ebf8fd3a7088947754caa1e3080088928a645e2469efb5663",
+    "size_bytes": 1671480
+  },
+  {
+    "path": "artifacts/screenshots/107-bauer-media-group.png",
+    "sha256": "afc057baae618b311aedfaed4cfe0480fdf539910c060dd9fb45e4ba452b3328",
+    "size_bytes": 1408681
+  },
+  {
+    "path": "artifacts/screenshots/108-boons.png",
+    "sha256": "5d0d494005be4d873ff5a6602fa90b2c9770d4ddc4a778d3ac8cb010d5a9fafb",
+    "size_bytes": 2014601
+  },
+  {
+    "path": "artifacts/screenshots/109-cambium-media.png",
+    "sha256": "7da029d1fe595b4594cdda45627c596e2fbe9a7960c0911cd957b9ca005e00c9",
+    "size_bytes": 1674447
+  },
+  {
+    "path": "artifacts/screenshots/110-connatix.png",
+    "sha256": "2af3ad2a80750c3874a4d17e08da9829183dcabc755f5ee73c4b78a59ce69878",
+    "size_bytes": 2268776
+  },
+  {
+    "path": "artifacts/screenshots/111-gumgum-inc.png",
+    "sha256": "efbb5677682b87d0e0b6207dd725af5ed9c35fb23dc65c0653314d892d09e5ee",
+    "size_bytes": 1987172
+  },
+  {
+    "path": "artifacts/screenshots/112-hitopic.png",
+    "sha256": "467b4bc0c47e4b0a08a0fd55b76911e74e42c0748bfc94f47912ddd069f254ac",
+    "size_bytes": 1695693
+  },
+  {
+    "path": "artifacts/screenshots/113-krone.png",
+    "sha256": "0676c3a0fd7d5fdb15b8e2f41ce8aac371125337aa22ae04d7807cddd42a0207",
+    "size_bytes": 2106299
+  },
+  {
+    "path": "artifacts/screenshots/114-kurier-media-house.png",
+    "sha256": "1875aaa48d63e15616a108ccc35aed03e0f1d952b3554cab7734deba43cbbc1a",
+    "size_bytes": 2272844
+  },
+  {
+    "path": "artifacts/screenshots/115-nativo.png",
+    "sha256": "d0457749701fa0e6ffd76de9588e13fd51ba05cdf717d12c6e8bd9b60c171c83",
+    "size_bytes": 2308647
+  },
+  {
+    "path": "artifacts/screenshots/116-shinez.png",
+    "sha256": "ff8e229a7f1ddd7eacd51dc4cdf5ac1ef375244ee8db447f71ed0c7378cff3af",
+    "size_bytes": 2003015
+  },
+  {
+    "path": "artifacts/screenshots/117-world-history-encyclopedia.png",
+    "sha256": "800fafa34f50dcba9e6e6ef640f065c4c4a41981d7edd215a1928b90962e9693",
+    "size_bytes": 2550027
+  },
+  {
+    "path": "artifacts/screenshots/118-traffic-acquisition.png",
+    "sha256": "789f7161279583db322d6b26d44a2a4b69c3b94d6f4f1c97294834623d86189b",
+    "size_bytes": 1839975
+  },
+  {
+    "path": "artifacts/screenshots/119-traffic-shaping-for-publishers.png",
+    "sha256": "435bf028e88489035959274682b5df5d43b7d85ea380f3a61ea67900f116749a",
+    "size_bytes": 1078233
+  },
+  {
+    "path": "artifacts/screenshots/120-traffic-shaping.png",
+    "sha256": "ce253ec6fd27153d19a2048ebd689cd03d866925e23df690390137414c1e1dfe",
+    "size_bytes": 2213102
+  },
+  {
+    "path": "artifacts/screenshots/121-all.png",
+    "sha256": "bb0f8293c4f238026f0d1ee2a0d24a04a0816e02c7187f6a0ad4628c385c6724",
+    "size_bytes": 1585353
+  },
+  {
+    "path": "artifacts/screenshots/122-yield-intelligence.png",
+    "sha256": "fa4ef3a2a99ee45aa64a351048abbff95bf4e21d1068d5b8d04f1bc5a64519ce",
+    "size_bytes": 1606649
+  },
+  {
+    "path": "artifacts/screenshots/123-yield-manager.png",
+    "sha256": "c56b8fd75a4cbe853ce37d6f5d6b42a86ca46e05071119d8216357bf66aa757d",
+    "size_bytes": 1797898
+  },
+  {
+    "path": "artifacts/screenshots/124-yield-optimizer.png",
+    "sha256": "c2dbffc75b3358fbe59f65aed52d12270c282fa6064c99cd8272608c77443e13",
+    "size_bytes": 1410666
+  },
+  {
+    "path": "artifacts/singlefile/003.singlefile.html",
+    "sha256": "ed6856e6f3f4080542e14f200216de5909ba3e97b2121d46dfc38e0508d8485b",
+    "size_bytes": 6351349
+  },
+  {
+    "path": "artifacts/singlefile/004.singlefile.html",
+    "sha256": "f80eeeaf5b7f5071e5745938746e6bb3dd732af71f428c79486059f03665b246",
+    "size_bytes": 13007494
+  },
+  {
+    "path": "artifacts/singlefile/005.singlefile.html",
+    "sha256": "2f82d415efa97ee3afc13bd0c6b10d9c42bbfc0d06f77e5fa97cabac3326a28d",
+    "size_bytes": 17668731
+  },
+  {
+    "path": "artifacts/singlefile/006.singlefile.html",
+    "sha256": "b63167c28094e0a8ce23be95850a9efffebd921e3342c8f4199f89c17acc461a",
+    "size_bytes": 813320
+  },
+  {
+    "path": "artifacts/singlefile/007.singlefile.html",
+    "sha256": "9107c2e1ed886e1ab76d1146d11151d2d57cfa23647d70b8031d4db1e7d4d08c",
+    "size_bytes": 5217512
+  },
+  {
+    "path": "artifacts/singlefile/008.singlefile.html",
+    "sha256": "1c6f549122047de3f70e554c9c213d812f479d9fc0f25e6a9ad2179267e74cac",
+    "size_bytes": 16342901
+  },
+  {
+    "path": "artifacts/singlefile/009.singlefile.html",
+    "sha256": "2fbd80b5e804fe24c23c0fb3d9183427acf54a0aab1ab65186834f6b2f8e573f",
+    "size_bytes": 7853144
+  },
+  {
+    "path": "artifacts/singlefile/010.singlefile.html",
+    "sha256": "b7d7449c5d614b8585525888148c22824c8b12f89518ce2bb389c27e3960d8bb",
+    "size_bytes": 8369780
+  },
+  {
+    "path": "artifacts/singlefile/011.singlefile.html",
+    "sha256": "54aae9818664b44d33dbb2ca241ea10fd47097e076f211b07640b522e73a100a",
+    "size_bytes": 2337113
+  },
+  {
+    "path": "artifacts/singlefile/012.singlefile.html",
+    "sha256": "0500ced58e5367efeca4d94a44aefaeb6edfcb9765d19002df9fb847a5cab183",
+    "size_bytes": 1961372
+  },
+  {
+    "path": "artifacts/singlefile/013.singlefile.html",
+    "sha256": "c986f07b4ee872071ff4406a2c0dd2e1a8114423e12c935b9be7f237fae6549f",
+    "size_bytes": 1767204
+  },
+  {
+    "path": "artifacts/singlefile/014.singlefile.html",
+    "sha256": "31e8e3576aebb513adf8f233bf77d16e3992c17e18f9fa6b0356c6d82a334bad",
+    "size_bytes": 1966309
+  },
+  {
+    "path": "artifacts/singlefile/015.singlefile.html",
+    "sha256": "210ccce5d30a24d3f600cf163bcceb570e5fe06ac683b2fc9cd464eecf72c222",
+    "size_bytes": 7288124
+  },
+  {
+    "path": "artifacts/singlefile/016.singlefile.html",
+    "sha256": "cf8793ff776dc413e4b385a8d8f5e3aa0bfea206c6799366c1d5a4ec495d909a",
+    "size_bytes": 13619645
+  },
+  {
+    "path": "artifacts/singlefile/017.singlefile.html",
+    "sha256": "0c38e7d8d7dc13d18668d41a5a9206da0bf86dd8e84b0fd8bb33444484d47189",
+    "size_bytes": 2410897
+  },
+  {
+    "path": "artifacts/singlefile/018.singlefile.html",
+    "sha256": "222851e5c49b84eb31cbfb25798b4bd0fcf4dc9f42fae724a157241ef0c91507",
+    "size_bytes": 2584823
+  },
+  {
+    "path": "artifacts/singlefile/019.singlefile.html",
+    "sha256": "9632ba870c9f0381edde7d2f1f6e89c4f6481415043b81e4611562c1651abfb1",
+    "size_bytes": 1628661
+  },
+  {
+    "path": "artifacts/singlefile/020.singlefile.html",
+    "sha256": "559178fafd5cd3670e9c251ae606e6422e37e73e5b4046274741adc941f1b1cc",
+    "size_bytes": 8531954
+  },
+  {
+    "path": "artifacts/singlefile/021.singlefile.html",
+    "sha256": "a701960f340aa43e5d5fab82bdd30a7b81a1fa4b2d6c3af450c40ba7bb2281cd",
+    "size_bytes": 8719016
+  },
+  {
+    "path": "artifacts/singlefile/022.singlefile.html",
+    "sha256": "9a6be11a71b4f305d4f78f8bed2f4b5189caf9972e24de61d05c863e548b5e36",
+    "size_bytes": 8822910
+  },
+  {
+    "path": "artifacts/singlefile/023.singlefile.html",
+    "sha256": "9a20f6b77338e181f28dafd98a652035fc15c2ef5189a90745c47c4b3bd36866",
+    "size_bytes": 31283376
+  },
+  {
+    "path": "artifacts/singlefile/024.singlefile.html",
+    "sha256": "e3f00c7a89c1acdd3123eecff266ebbf50b587fc077d5e68ba49220cbe314324",
+    "size_bytes": 7279957
+  },
+  {
+    "path": "artifacts/singlefile/025.singlefile.html",
+    "sha256": "f5fcf4a7c05d661cb22d04c63d427faf017b7410c544758fff5375afa567e3b7",
+    "size_bytes": 1902914
+  },
+  {
+    "path": "artifacts/singlefile/026.singlefile.html",
+    "sha256": "037b735a1ca69d5650b4f52ca3b5f68e3528ab111fe22b7b196674e7296d7cb8",
+    "size_bytes": 1694631
+  },
+  {
+    "path": "artifacts/singlefile/027.singlefile.html",
+    "sha256": "4c69b5a9d4b97056d75196751f53b92fb20e044b7fa863df4c975a1af884b3c6",
+    "size_bytes": 2161361
+  },
+  {
+    "path": "artifacts/singlefile/028.singlefile.html",
+    "sha256": "2ba9570e4405a24cd592098106bff59f47b35c3825c1675ca4b4bd9fc8e95ccc",
+    "size_bytes": 7874264
+  },
+  {
+    "path": "artifacts/singlefile/029.singlefile.html",
+    "sha256": "3015b32287a5ec9724cb1c601624f7d0c528dce9440195c51e5e446a5afa09d3",
+    "size_bytes": 1965889
+  },
+  {
+    "path": "artifacts/singlefile/030.singlefile.html",
+    "sha256": "80672fb1713cc1d8725ebafcb83389630599d04d56e24541229b4940b6fbb822",
+    "size_bytes": 2381694
+  },
+  {
+    "path": "artifacts/singlefile/031.singlefile.html",
+    "sha256": "e5cd081366e7b57870e093dad6ccc5f9a0f23daea9ef59bdcdc01406d2cb8076",
+    "size_bytes": 17493990
+  },
+  {
+    "path": "artifacts/singlefile/032.singlefile.html",
+    "sha256": "177b0eebc2497b164a517b51c0ce43eec8911b7be9b38260a630bdb3c717f8f0",
+    "size_bytes": 1704286
+  },
+  {
+    "path": "artifacts/singlefile/033.singlefile.html",
+    "sha256": "ade2e7727f13d1f973e6ddc32b3da134a4de53e48f1bdc69e6b1912ae8666ede",
+    "size_bytes": 733019
+  },
+  {
+    "path": "artifacts/singlefile/034.singlefile.html",
+    "sha256": "a4d879f8889e9fa912725f1b8ad4b830ab818d1b345734ec711f79f5ea09e259",
+    "size_bytes": 2415900
+  },
+  {
+    "path": "artifacts/singlefile/035.singlefile.html",
+    "sha256": "b2b0fa2e9163bceb991b3abc07bbc2d4c799990cc16d1e6bd8d8d7dc6a5a692f",
+    "size_bytes": 2197795
+  },
+  {
+    "path": "artifacts/singlefile/036.singlefile.html",
+    "sha256": "74484668ba7131f0343e82b5221b0bed4c7816426c2b168195b5e4df273f2d02",
+    "size_bytes": 3170549
+  },
+  {
+    "path": "artifacts/singlefile/037.singlefile.html",
+    "sha256": "896326fdb59d9f4244e63737382accbf3c0bf37c050ebdd80728237419559800",
+    "size_bytes": 1869986
+  },
+  {
+    "path": "artifacts/singlefile/038.singlefile.html",
+    "sha256": "e0257ca17249126feef04c82264c3be2238f02e240ee07e2e7157ad6ccadf86d",
+    "size_bytes": 2382697
+  },
+  {
+    "path": "artifacts/singlefile/039.singlefile.html",
+    "sha256": "c1563a7414d1361755652645aa1ea2687402cce1809504f482f04a68c5b11b80",
+    "size_bytes": 1315627
+  },
+  {
+    "path": "artifacts/singlefile/040.singlefile.html",
+    "sha256": "caa695543aa379f4128c48e8b92b3287b0169619bcece18dcebbc4a863d4b91a",
+    "size_bytes": 7673110
+  },
+  {
+    "path": "artifacts/singlefile/041.singlefile.html",
+    "sha256": "c970177bcfca36f6a7d9d45d3887dbf44af05d467df063aab36dd8ba38836328",
+    "size_bytes": 2371399
+  },
+  {
+    "path": "artifacts/singlefile/042.singlefile.html",
+    "sha256": "f0d9c3e601e806863f573a04e1d0d79499e515e44515ee01b6c14dba10711d97",
+    "size_bytes": 3084700
+  },
+  {
+    "path": "artifacts/singlefile/043.singlefile.html",
+    "sha256": "993afef55f2c01977846e1a920643ffb24da1ac3ba78d29d4719bdf03dab0636",
+    "size_bytes": 1900660
+  },
+  {
+    "path": "artifacts/singlefile/044.singlefile.html",
+    "sha256": "8c163d24e776149e59f7ba2659c918e8abc3a3db9b14f788e1efe978d181d4d9",
+    "size_bytes": 2360698
+  },
+  {
+    "path": "artifacts/singlefile/045.singlefile.html",
+    "sha256": "7e78a4f599e572050b60e2af2e504cba54b510ab5387446c018b1faeb27c6530",
+    "size_bytes": 3529729
+  },
+  {
+    "path": "artifacts/singlefile/046.singlefile.html",
+    "sha256": "016d55c994727caad72acc399441b9f04a5c8b372ca0ac1252d52e19b738231d",
+    "size_bytes": 1871200
+  },
+  {
+    "path": "artifacts/singlefile/047.singlefile.html",
+    "sha256": "f6a443a06a627723bfbc35a1eb9215dc370b980b8b651c51156b04d47a431b27",
+    "size_bytes": 7776285
+  },
+  {
+    "path": "artifacts/singlefile/048.singlefile.html",
+    "sha256": "c229d0522c8fa0f0195ca40cfb650b6f7c2f2564901423fee80ae2fe8fdc8947",
+    "size_bytes": 13552623
+  },
+  {
+    "path": "artifacts/singlefile/049.singlefile.html",
+    "sha256": "36140b12cd0ff28c256477aae554ea6e1a818765bd5380c5438a2d4a31de36f3",
+    "size_bytes": 7440705
+  },
+  {
+    "path": "artifacts/singlefile/050.singlefile.html",
+    "sha256": "cff399e7256f18db10498c90dae4459d0b132a0367de6112ed783f1f68621b57",
+    "size_bytes": 2079841
+  },
+  {
+    "path": "artifacts/singlefile/051.singlefile.html",
+    "sha256": "87be6580e58b59e7d0069ee823c39ae310e827afab63bc028a05c38ad6f95cda",
+    "size_bytes": 2191622
+  },
+  {
+    "path": "artifacts/singlefile/052.singlefile.html",
+    "sha256": "bbc28916804e222617f7809003c7980b5d877b903ad9fbc610ba98ae129810e1",
+    "size_bytes": 1849989
+  },
+  {
+    "path": "artifacts/singlefile/053.singlefile.html",
+    "sha256": "a0ff6e647cbeb6011e5911a153bacc2be35a1696e208a590bcb4c13adc4f6f0c",
+    "size_bytes": 7762786
+  },
+  {
+    "path": "artifacts/singlefile/054.singlefile.html",
+    "sha256": "973c7ce84dd3ebbe3a6897adb89c4b6656e692d3fec148fc22856ac50f13f576",
+    "size_bytes": 2357584
+  },
+  {
+    "path": "artifacts/singlefile/055.singlefile.html",
+    "sha256": "7a6b5c77bb707019d759050a342844dbfb66f17c0504f439dbdaa4622a1fdfe3",
+    "size_bytes": 1752697
+  },
+  {
+    "path": "artifacts/singlefile/056.singlefile.html",
+    "sha256": "b46ec25f1376db3b716628ff38f61fc46cbdbeeda699868552984a8472b1ec6d",
+    "size_bytes": 8214725
+  },
+  {
+    "path": "artifacts/singlefile/057.singlefile.html",
+    "sha256": "394596185140341a3e40c363c546f177cd9ad974e71417757b86584595b4bdf4",
+    "size_bytes": 2345041
+  },
+  {
+    "path": "artifacts/singlefile/058.singlefile.html",
+    "sha256": "c983ca02d859dbf05793c80b1507c34acb5429f73cf36281878f9a3da1560630",
+    "size_bytes": 2310478
+  },
+  {
+    "path": "artifacts/singlefile/059.singlefile.html",
+    "sha256": "624e543ebc7222ca7ae91d7330c04b1885ceebebe37d5d8f4b9060333187c55e",
+    "size_bytes": 1936053
+  },
+  {
+    "path": "artifacts/singlefile/060.singlefile.html",
+    "sha256": "f35cd15fdf7314e5ae566cd60723a16fdb13d0e6764cbac858e945bbb4953187",
+    "size_bytes": 1912915
+  },
+  {
+    "path": "artifacts/singlefile/061.singlefile.html",
+    "sha256": "4f9ef364720024379e6a0f267a4d09b32f09d4c7ac98123af1870a823c99d9a2",
+    "size_bytes": 1886872
+  },
+  {
+    "path": "artifacts/singlefile/062.singlefile.html",
+    "sha256": "20be546eb27b0ce720abb202cd3064cdc93effb396194a79a7482a2731322216",
+    "size_bytes": 2687544
+  },
+  {
+    "path": "artifacts/singlefile/063.singlefile.html",
+    "sha256": "32fe10595ea753c8915bc1ebb4b5135fbe58eef28edb309ad524b123107732e3",
+    "size_bytes": 1773806
+  },
+  {
+    "path": "artifacts/singlefile/064.singlefile.html",
+    "sha256": "351fd6b46dffcfa2f682fe61adee5bbf5d563edc1b30cac8b508ab1303fab812",
+    "size_bytes": 8067263
+  },
+  {
+    "path": "artifacts/singlefile/065.singlefile.html",
+    "sha256": "75628c8de5da959d89255d31b73677f86052d691f4b2a4adfcd421dacd96b7c7",
+    "size_bytes": 15749071
+  },
+  {
+    "path": "artifacts/singlefile/066.singlefile.html",
+    "sha256": "09a539ae584240357698128a4dd79054463ca82fe2ec97b3081fe7db8ccbf5e7",
+    "size_bytes": 8151740
+  },
+  {
+    "path": "artifacts/singlefile/067.singlefile.html",
+    "sha256": "2f7ef0e262e08508affeeef5bea3205935e7e996e69b0ffc185fc0686feb7666",
+    "size_bytes": 1828122
+  },
+  {
+    "path": "artifacts/singlefile/068.singlefile.html",
+    "sha256": "253033d384126f4047e19a79d6a56c95e1e04211f206ca419924548047d7e576",
+    "size_bytes": 1832559
+  },
+  {
+    "path": "artifacts/singlefile/069.singlefile.html",
+    "sha256": "5ceb1183ed4ac61ae3a1dbcb95751f84111319eff50bd0cb70917d1cfdc3209d",
+    "size_bytes": 3012940
+  },
+  {
+    "path": "artifacts/singlefile/070.singlefile.html",
+    "sha256": "5df18910c809cc18c534a6cf1efc1a6452f42aa6739d6efd17cc014cf03f8d79",
+    "size_bytes": 2079929
+  },
+  {
+    "path": "artifacts/singlefile/071.singlefile.html",
+    "sha256": "3fe2c1128137fa2dce544ad714b58b76ef643f0c0cdfb550afc4f0f5b335641f",
+    "size_bytes": 2368947
+  },
+  {
+    "path": "artifacts/singlefile/072.singlefile.html",
+    "sha256": "c4f5cc2d72186be8e1f6a3c25bdf5e030aebb0368d9f6b9cc7c90ddd5b7fe949",
+    "size_bytes": 3083486
+  },
+  {
+    "path": "artifacts/singlefile/073.singlefile.html",
+    "sha256": "34528077af87cbe819ea8addd4208021f3abdea72c36c717927d699a6882374e",
+    "size_bytes": 5325733
+  },
+  {
+    "path": "artifacts/singlefile/074.singlefile.html",
+    "sha256": "84e00a2b6d8e3b5c04bb7aac9992dc3e99c1c60308451f42421da95f0f6b42a1",
+    "size_bytes": 5107082
+  },
+  {
+    "path": "artifacts/singlefile/075.singlefile.html",
+    "sha256": "3009048b8699f1f74653756882e24710ed37a9c717d2b3bb3d1a62f4e41b49ec",
+    "size_bytes": 5430284
+  },
+  {
+    "path": "artifacts/singlefile/076.singlefile.html",
+    "sha256": "4f7144dfeac6251ee14165689a13e5d56bbf8afc8a7335257fbb0a25a853fc4e",
+    "size_bytes": 5047563
+  },
+  {
+    "path": "artifacts/singlefile/077.singlefile.html",
+    "sha256": "f3b2bb3969b921059d455b2061e2df777c52c2baed46de3392bc64979370160e",
+    "size_bytes": 2218923
+  },
+  {
+    "path": "artifacts/singlefile/078.singlefile.html",
+    "sha256": "795d3da80d369a84c8010d8093b92263a2dffa8f5cbbb96c3258abc080d68149",
+    "size_bytes": 2218363
+  },
+  {
+    "path": "artifacts/singlefile/079.singlefile.html",
+    "sha256": "b6120ebfd72acadce1864cc925c73171942a9e6b483fca5d91b027ad8565eb0c",
+    "size_bytes": 2218573
+  },
+  {
+    "path": "artifacts/singlefile/080.singlefile.html",
+    "sha256": "7906f2c5439f4bc806dd3530751a3d6c83774d85a71b8988fb7c66ff092e9a95",
+    "size_bytes": 2218686
+  },
+  {
+    "path": "artifacts/singlefile/081.singlefile.html",
+    "sha256": "8e2bea288bbb3c85f757e7618d622f9c95c7bd9af4364c74a4d51129e0664caa",
+    "size_bytes": 519638
+  },
+  {
+    "path": "artifacts/singlefile/082.singlefile.html",
+    "sha256": "a0ac0d7e69fe8e46a50c62528b9317931fa99e0093193638d7e713d1f65ebb47",
+    "size_bytes": 608084
+  },
+  {
+    "path": "artifacts/singlefile/083.singlefile.html",
+    "sha256": "d083b8a163d09d49167445072cc396f29aa21ad13e578458b852ab4e0854f231",
+    "size_bytes": 552681
+  },
+  {
+    "path": "artifacts/singlefile/084.singlefile.html",
+    "sha256": "7229519ea22dbba51aa9756407cb8d5a2e289391ae91d7553c0f49fcef89f0a8",
+    "size_bytes": 553095
+  },
+  {
+    "path": "artifacts/singlefile/085.singlefile.html",
+    "sha256": "5404d33657865b0407c699f7a6367f74d5b6886f02668fc4c0f33c2d68c9284d",
+    "size_bytes": 551959
+  },
+  {
+    "path": "artifacts/singlefile/086.singlefile.html",
+    "sha256": "4cbdf0fb40a6057244fb8fe3d1214b11315caae1b946ce9d1d55fefee6370b58",
+    "size_bytes": 551395
+  },
+  {
+    "path": "artifacts/singlefile/087.singlefile.html",
+    "sha256": "9b8f9fe38526d5fc66d741aa4450d0730e532d0c22dc66b7ee19e9a66ac59804",
+    "size_bytes": 562215
+  },
+  {
+    "path": "artifacts/singlefile/088.singlefile.html",
+    "sha256": "d9b9d8e4e78918cdf53b116ff45abcd308744751ebdf0cd5eddbd89a25085642",
+    "size_bytes": 12907188
+  },
+  {
+    "path": "artifacts/singlefile/089.singlefile.html",
+    "sha256": "d297e51ed808077160cb53f30f92d44280f12ce2f719f16aeed5447094b1228a",
+    "size_bytes": 1981634
+  },
+  {
+    "path": "artifacts/singlefile/090.singlefile.html",
+    "sha256": "8f86810d51a415f2214775cbed7f2f5fa0b0388bae9c6fe6f18e0d416a9a3dad",
+    "size_bytes": 589805
+  },
+  {
+    "path": "artifacts/singlefile/091.singlefile.html",
+    "sha256": "8af6cf6a17d14194ccf37052d77220260365d81d9fc1861b1596b29fe539ade8",
+    "size_bytes": 1689375
+  },
+  {
+    "path": "artifacts/singlefile/092.singlefile.html",
+    "sha256": "d70e0f947e92a3cff01195671edd3876072187d3def9ed59481eb47237aa0540",
+    "size_bytes": 605854
+  },
+  {
+    "path": "artifacts/singlefile/093.singlefile.html",
+    "sha256": "eca7020a470757440da7b4e153f7fa49261bc8de14985a1c5abb466f75c459c9",
+    "size_bytes": 648263
+  },
+  {
+    "path": "artifacts/singlefile/094.singlefile.html",
+    "sha256": "0cc0ded740b2ad9f8bd2b398288cb4025bbec4a6a91eb929b6fa0f1c08b21a32",
+    "size_bytes": 4771779
+  },
+  {
+    "path": "artifacts/singlefile/095.singlefile.html",
+    "sha256": "9605f01920133512b1cce01ed1a0e6222ab3be861612d53eb99c85bf89d9a566",
+    "size_bytes": 12906400
+  },
+  {
+    "path": "artifacts/singlefile/096.singlefile.html",
+    "sha256": "37c71e3fd16a1b103a282d29bb42d33409953bae69b0ea2771c9eca0aa3beea3",
+    "size_bytes": 4720674
+  },
+  {
+    "path": "artifacts/singlefile/097.singlefile.html",
+    "sha256": "d145ec55a0945528d507e1e23b8a4fd322e2dd029d5641733c6a9c3cac0557bb",
+    "size_bytes": 1167376
+  },
+  {
+    "path": "artifacts/singlefile/098.singlefile.html",
+    "sha256": "2828b129c6e1c516ca33f6d534c92591ef25d701a25bea2a7de712b9d0b353cf",
+    "size_bytes": 590215
+  },
+  {
+    "path": "artifacts/singlefile/099.singlefile.html",
+    "sha256": "f0cc2d296ab6c7b2420fb5ffd15720d5f8f46baf40fc4ec8c77d179e4a002dc9",
+    "size_bytes": 847145
+  },
+  {
+    "path": "artifacts/singlefile/100.singlefile.html",
+    "sha256": "4cc60a8effefd563ac29c949e114e9cad07dc140e30c755be96afffb8a767ab2",
+    "size_bytes": 1024492
+  },
+  {
+    "path": "artifacts/singlefile/101.singlefile.html",
+    "sha256": "5f90449bfb42678d15f2b1e097f6e5ad9d7840725927b941aefe551b4a0e47d7",
+    "size_bytes": 13433008
+  },
+  {
+    "path": "artifacts/singlefile/102.singlefile.html",
+    "sha256": "fcdac7bd659707dd6d87ed57bd5a3808d87e8636dbfa58cd0dc66da114a5dd66",
+    "size_bytes": 13918555
+  },
+  {
+    "path": "artifacts/singlefile/103.singlefile.html",
+    "sha256": "7b2d7fb869e6b1a71aedd1425bdcb8098158b9778cd57abf5dd6f5a9d42c6a22",
+    "size_bytes": 484695
+  },
+  {
+    "path": "artifacts/singlefile/104.singlefile.html",
+    "sha256": "bc95aa6756a43cb51afacffc9fb66a843f7a5193d3796bea71df9da16f102b15",
+    "size_bytes": 3073400
+  },
+  {
+    "path": "artifacts/singlefile/105.singlefile.html",
+    "sha256": "14a48dfc4df93c13d0b0ed88e48eca6a65669777a107f660d47636cc18dcb99e",
+    "size_bytes": 2336218
+  },
+  {
+    "path": "artifacts/singlefile/106.singlefile.html",
+    "sha256": "fd9ff59aeab6ede18b31e6069e43c5cf05efa0deed3b3fc7e685c256481e3f74",
+    "size_bytes": 2353371
+  },
+  {
+    "path": "artifacts/singlefile/107.singlefile.html",
+    "sha256": "dc250ffab7aa4c31d5389ec4420a05ea7fef628a2389452ee7973c2184ba635f",
+    "size_bytes": 2367040
+  },
+  {
+    "path": "artifacts/singlefile/108.singlefile.html",
+    "sha256": "431523898207ef7137b28809fa39606929837f2bf244406171fbe8c540171c9e",
+    "size_bytes": 2319836
+  },
+  {
+    "path": "artifacts/singlefile/109.singlefile.html",
+    "sha256": "ad59273959de795fd8fb68a4ae651275edfd2e897daa402996383694d2c0e41e",
+    "size_bytes": 2352689
+  },
+  {
+    "path": "artifacts/singlefile/110.singlefile.html",
+    "sha256": "a60fd50103668b4b2edbbf2b4f6979deb7014d603e6440c8da2b728f1753d479",
+    "size_bytes": 2355718
+  },
+  {
+    "path": "artifacts/singlefile/111.singlefile.html",
+    "sha256": "8499faa31f32acb8c3816f3c3bf59c2d7cc403d51df3b2309a735e5b589991cc",
+    "size_bytes": 2320254
+  },
+  {
+    "path": "artifacts/singlefile/112.singlefile.html",
+    "sha256": "ff29eeb8782a4e26dee1c94c08e03d840ccc05e1d8c5c92bafff1b2102daf04b",
+    "size_bytes": 2322660
+  },
+  {
+    "path": "artifacts/singlefile/113.singlefile.html",
+    "sha256": "3b95b243c9715297b2bc7ca046047190cd2c0d936f01c9d91eba3607b623bacc",
+    "size_bytes": 2330031
+  },
+  {
+    "path": "artifacts/singlefile/114.singlefile.html",
+    "sha256": "a0fd0dc473e959dc63bab62f80f1f6027af0067f944b722d8da1cf8c602ccddb",
+    "size_bytes": 2325564
+  },
+  {
+    "path": "artifacts/singlefile/115.singlefile.html",
+    "sha256": "4302f918a11efe4db1eebced25e0117ced73fbcee626f42dbe4debda6f3dbef7",
+    "size_bytes": 2331380
+  },
+  {
+    "path": "artifacts/singlefile/116.singlefile.html",
+    "sha256": "2edf1eb08584c3c8eb308245ccb996f50afadff26c79d5e0da8f66aa5a910326",
+    "size_bytes": 2316409
+  },
+  {
+    "path": "artifacts/singlefile/117.singlefile.html",
+    "sha256": "3ee24232efa417650e6a3a7fcc5f9ab12299eddc1a4b764b3acf6c97ec1c8f9c",
+    "size_bytes": 2495715
+  },
+  {
+    "path": "artifacts/singlefile/118.singlefile.html",
+    "sha256": "618307ac73cc96c55d80b161b69d5a8a065b6f0b288a2226bed08ea44a4cee44",
+    "size_bytes": 16852529
+  },
+  {
+    "path": "artifacts/singlefile/119.singlefile.html",
+    "sha256": "a2a9b79c02c110e690c8038893c0434a4a4224b8e63b3a7983236c3ff7b69c25",
+    "size_bytes": 7521971
+  },
+  {
+    "path": "artifacts/singlefile/120.singlefile.html",
+    "sha256": "3b40bbd6fabe2e143b81de0cf6520de5e01054fd4d0e26903d751644fe3b63fa",
+    "size_bytes": 16384273
+  },
+  {
+    "path": "artifacts/singlefile/121.singlefile.html",
+    "sha256": "b9025352619d389a3bf99a3e2b8844016fe9550fba7718685fa76a0f30de723a",
+    "size_bytes": 1690019
+  },
+  {
+    "path": "artifacts/singlefile/122.singlefile.html",
+    "sha256": "30339b7cf4b2ff0b0739c1e9c269ea31baefe672f936275bb4eabb9ee9d5ede8",
+    "size_bytes": 1791438
+  },
+  {
+    "path": "artifacts/singlefile/123.singlefile.html",
+    "sha256": "f8397a29eba8bf6b6a2487906ce2f59c4e3cc6800904e9984b01759604f56d80",
+    "size_bytes": 4370078
+  },
+  {
+    "path": "artifacts/singlefile/124.singlefile.html",
+    "sha256": "629d4fa779868bb8942b0ee3773e34178325b8bd7530c5eb765348c6e2762bb0",
+    "size_bytes": 4189144
+  },
+  {
+    "path": "artifacts/wacz/assertiveyield-full-site.wacz",
+    "sha256": "51e8294a81205f3f3ba8301266fc5304404208db9b407947b9a1b65b62f2a058",
+    "size_bytes": 10712423
+  },
+  {
+    "path": "artifacts/warc/assertiveyield-full-site.warc.gz",
+    "sha256": "72f63b252b9cecbd679a118e4c1ac9b8f39355b1dd233cf87d566ef34b7d1a7c",
+    "size_bytes": 10697373
+  },
+  {
+    "path": "logs/capture.jsonl",
+    "sha256": "68b8e5e7117b26b6054dfff916b50659050e5115aa634fca8292450cc03a2c01",
+    "size_bytes": 32017
+  },
+  {
+    "path": "logs/inventory.jsonl",
+    "sha256": "6958df3f0dd0432d6097878134d357f7d7ce873705bdf9b3eed5555d7371fe42",
+    "size_bytes": 33820
+  },
+  {
+    "path": "logs/package_wacz.jsonl",
+    "sha256": "c1b694af0b581889a6e80fc8a6215ba2238d29ffb4ccec105632146136e67f1f",
+    "size_bytes": 434
+  },
+  {
+    "path": "logs/package_wacz.log",
+    "sha256": "a0469aaad79ddbf74f9edce69d7cbaaa0fa2df2393d54a9da519f8766676c0c8",
+    "size_bytes": 259
+  },
+  {
+    "path": "logs/privacy.jsonl",
+    "sha256": "3f4bab1039034ec89bfb59e931f2a824a17a4048d691bbc030cc2488f8f34fef",
+    "size_bytes": 358
+  },
+  {
+    "path": "logs/render.jsonl",
+    "sha256": "c98078d39b400eaef71cbef980051daf3f2b7e256a8cdf68b74ef23f6bea4d3b",
+    "size_bytes": 31017
+  },
+  {
+    "path": "logs/singlefile-001.log",
+    "sha256": "7e373d52a474778a31a72638c2bb91e7103961f36990b659f23410d497b439c8",
+    "size_bytes": 78
+  },
+  {
+    "path": "logs/singlefile-002.log",
+    "sha256": "326798ae0cc9aa2f42b160a7b0cb1c7da7593b6f3c7418315441d4d6dcf45a7a",
+    "size_bytes": 87
+  },
+  {
+    "path": "logs/singlefile-003.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-004.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-005.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-006.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-007.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-008.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-009.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-010.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-011.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-012.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-013.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-014.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-015.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-016.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-017.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-018.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-019.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-020.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-021.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-022.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-023.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-024.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-025.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-026.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-027.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-028.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-029.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-030.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-031.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-032.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-033.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-034.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-035.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-036.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-037.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-038.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-039.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-040.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-041.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-042.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-043.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-044.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-045.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-046.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-047.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-048.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-049.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-050.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-051.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-052.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-053.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-054.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-055.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-056.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-057.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-058.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-059.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-060.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-061.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-062.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-063.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-064.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-065.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-066.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-067.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-068.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-069.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-070.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-071.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-072.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-073.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-074.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-075.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-076.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-077.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-078.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-079.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-080.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-081.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-082.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-083.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-084.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-085.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-086.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-087.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-088.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-089.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-090.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-091.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-092.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-093.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-094.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-095.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-096.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-097.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-098.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-099.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-100.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-101.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-102.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-103.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-104.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-105.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-106.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-107.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-108.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-109.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-110.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-111.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-112.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-113.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-114.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-115.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-116.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-117.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-118.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-119.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-120.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-121.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-122.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-123.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile-124.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "logs/singlefile.jsonl",
+    "sha256": "07a6831a2d069aef0b1ae4f21ca4bfb364674ec5aea96000e3960b204e910efb",
+    "size_bytes": 29160
+  },
+  {
+    "path": "manifest/capture-config.json",
+    "sha256": "22ae260779245a0affab19ab836b55649b8c57f38049480eea5b37bcdbe4b7ac",
+    "size_bytes": 226
+  },
+  {
+    "path": "manifest/capture-result.json",
+    "sha256": "ae7b73696408927c8e9c058fe15c6681734b720a412765ed8a45e1a1e1fc1aa5",
+    "size_bytes": 117896
+  },
+  {
+    "path": "manifest/package-metadata.json",
+    "sha256": "d4e8cfb41a96e32761733a12b8945e328e184af1ba56b001ac510bf67254aeac",
+    "size_bytes": 1461
+  },
+  {
+    "path": "manifest/privacy-result.json",
+    "sha256": "0fd08f4c509b435e1a34840ee33c20d5f5ffba55970bfc0cf86b9c5b2dc8ba39",
+    "size_bytes": 4964
+  },
+  {
+    "path": "manifest/render-result.json",
+    "sha256": "ceee3b244869e842a30411792397a63afa7bd3e90d6301d76b359259a4637cd1",
+    "size_bytes": 91312
+  },
+  {
+    "path": "manifest/singlefile-result.json",
+    "sha256": "41dccc7b1b5788cebfc6295a88c8e9870d026acfad9dd489d8f43760cd999644",
+    "size_bytes": 41099
+  },
+  {
+    "path": "manifest/url-inventory.json",
+    "sha256": "1da5b05ae7266dd8ab9f6bbaca483c90208e9f499924bd2fdd184d1eee3b4f14",
+    "size_bytes": 62918
+  },
+  {
+    "path": "manifest/validation.json",
+    "sha256": "27821ddf7e41d264cdfc7be78f7988823243f12d44364bb3c33454d833d0f815",
+    "size_bytes": 1238
+  },
+  {
+    "path": "manifest/wacz-result.json",
+    "sha256": "6428ee1cfc94b5470c7bf1206b830b0335eab98f965b1661a606432337843166",
+    "size_bytes": 457
+  },
+  {
+    "path": "validation/validation.json",
+    "sha256": "27821ddf7e41d264cdfc7be78f7988823243f12d44364bb3c33454d833d0f815",
+    "size_bytes": 1238
+  }
+]

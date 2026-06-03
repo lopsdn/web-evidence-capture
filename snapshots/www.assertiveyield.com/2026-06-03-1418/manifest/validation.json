@@ -1,0 +1,34 @@
+{
+  "checks": {
+    "accounts_created": false,
+    "authentication_attempted": false,
+    "forms_submitted": false,
+    "hashed_file_count": 766,
+    "mirror_body_sample": "Consent Details [#IABV2SETTINGS#] About This website uses cookies We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine",
+    "mirror_index_exists": true,
+    "mirror_meaningful_body_exists": true,
+    "mirror_meaningful_body_source": "rendered",
+    "missing_render_artifacts_count": 0,
+    "pdf_count": 124,
+    "render_failures_count": 0,
+    "render_result_count": 124,
+    "rendered_mirror_index_exists": true,
+    "retry_count": 0,
+    "screenshots_count": 124,
+    "sensitive_findings_count": 0,
+    "wacz_exists": true,
+    "wacz_pages_detected": 0,
+    "wacz_validate_exit_code": 0,
+    "warc_exists": true
+  },
+  "completed_local": "2026-06-03T15:17:58+00:00",
+  "completed_utc": "2026-06-03T15:17:58+00:00",
+  "failures": [],
+  "missing_render_artifacts": [],
+  "render_retries": [],
+  "sensitive_findings": [],
+  "status": "completed_with_warnings",
+  "warnings": [
+    "wacz_zero_pages_detected"
+  ]
+}

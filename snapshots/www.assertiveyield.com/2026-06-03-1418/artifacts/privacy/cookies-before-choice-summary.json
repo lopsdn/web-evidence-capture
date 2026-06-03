@@ -1,0 +1,402 @@
+[
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780499449,
+    "httpOnly": false,
+    "name": "builderSessionId",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 32
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1812033650,
+    "httpOnly": false,
+    "name": "ajs_anonymous_id",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 36
+  },
+  {
+    "domain": ".www.assertiveyield.com",
+    "expires": 1812033650,
+    "httpOnly": false,
+    "name": "_zitok",
+    "path": "/",
+    "sameSite": "Strict",
+    "secure": true,
+    "value_length": 30
+  },
+  {
+    "domain": "www.clarity.ms",
+    "expires": 1812033650.454899,
+    "httpOnly": true,
+    "name": "CLID",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 50
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780584050,
+    "httpOnly": false,
+    "name": "_gid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 27
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780497710,
+    "httpOnly": false,
+    "name": "_gat_gtag_UA_114303038_2",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 1
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1788273650,
+    "httpOnly": false,
+    "name": "_rdt_uuid",
+    "path": "/",
+    "sameSite": "Strict",
+    "secure": true,
+    "value_length": 50
+  },
+  {
+    "domain": ".zoominfo.com",
+    "expires": -1,
+    "httpOnly": true,
+    "name": "_cfuvid",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 114
+  },
+  {
+    "domain": ".hs-scripts.com",
+    "expires": 1780499450.705325,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 198
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1815057650.737868,
+    "httpOnly": false,
+    "name": "_ga_9SWN00NJJW",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 45
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1815057650.738572,
+    "httpOnly": false,
+    "name": "_ga",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 27
+  },
+  {
+    "domain": ".bing.com",
+    "expires": 1814193650.836856,
+    "httpOnly": false,
+    "name": "MUID",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 32
+  },
+  {
+    "domain": ".c.bing.com",
+    "expires": 1781102450.836945,
+    "httpOnly": false,
+    "name": "MR",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 1
+  },
+  {
+    "domain": ".c.bing.com",
+    "expires": 1814193650.836973,
+    "httpOnly": false,
+    "name": "SRM_B",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 32
+  },
+  {
+    "domain": ".c.clarity.ms",
+    "expires": -1,
+    "httpOnly": false,
+    "name": "SM",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 1
+  },
+  {
+    "domain": ".clarity.ms",
+    "expires": 1814193650.894859,
+    "httpOnly": false,
+    "name": "MUID",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 32
+  },
+  {
+    "domain": ".c.clarity.ms",
+    "expires": 1781102450.894901,
+    "httpOnly": false,
+    "name": "MR",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 1
+  },
+  {
+    "domain": ".c.clarity.ms",
+    "expires": 1780498250.894921,
+    "httpOnly": false,
+    "name": "ANONCHK",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 1
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1812033650,
+    "httpOnly": false,
+    "name": "_clck",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 28
+  },
+  {
+    "domain": ".hs-banner.com",
+    "expires": 1780499451.052082,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 197
+  },
+  {
+    "domain": ".usemessages.com",
+    "expires": 1780499451.073986,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 199
+  },
+  {
+    "domain": ".hs-analytics.net",
+    "expires": 1780499451.084485,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 199
+  },
+  {
+    "domain": ".hsadspixel.net",
+    "expires": 1780499451.092752,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 199
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780584051,
+    "httpOnly": false,
+    "name": "_clsk",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 55
+  },
+  {
+    "domain": ".yandex.ru",
+    "expires": 1815057651.117381,
+    "httpOnly": false,
+    "name": "bh",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 136
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1796049651,
+    "httpOnly": false,
+    "name": "__hstc",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 86
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1796049651,
+    "httpOnly": false,
+    "name": "hubspotutk",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 32
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": -1,
+    "httpOnly": false,
+    "name": "__hssrc",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 1
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780499451,
+    "httpOnly": false,
+    "name": "__hssc",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 25
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1812033651,
+    "httpOnly": false,
+    "name": "_ym_uid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 19
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1812033651,
+    "httpOnly": false,
+    "name": "_ym_d",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 10
+  },
+  {
+    "domain": ".hubspot.com",
+    "expires": 1780499451.597403,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 199
+  },
+  {
+    "domain": ".yandex.com",
+    "expires": 1815057651,
+    "httpOnly": false,
+    "name": "bh",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 136
+  },
+  {
+    "domain": ".mc.yandex.com",
+    "expires": 1780498251,
+    "httpOnly": false,
+    "name": "sync_cookie_csrf",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 14
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780569651,
+    "httpOnly": false,
+    "name": "_ym_isad",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 1
+  },
+  {
+    "domain": ".mc.yandex.ru",
+    "expires": 1780498251,
+    "httpOnly": false,
+    "name": "sync_cookie_csrf",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 13
+  },
+  {
+    "domain": ".hsforms.com",
+    "expires": 1780499451.85973,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 199
+  },
+  {
+    "domain": ".mc.yandex.com",
+    "expires": 1780498252,
+    "httpOnly": false,
+    "name": "sync_cookie_csrf_secondary",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 13
+  },
+  {
+    "domain": ".mc.yandex.ru",
+    "expires": 1780498252,
+    "httpOnly": false,
+    "name": "sync_cookie_csrf_secondary",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value_length": 13
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780499452,
+    "httpOnly": false,
+    "name": "_ym_visorc",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value_length": 1
+  }
+]
