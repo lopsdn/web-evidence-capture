@@ -1,0 +1,14 @@
+{
+  "combined_report": "report/report.md",
+  "generated_local": "2026-06-03T13:57:28+00:00",
+  "generated_utc": "2026-06-03T13:57:28+00:00",
+  "report_files": {
+    "anomalies-retries.md": "report/anomalies-retries.md",
+    "capture-report.md": "report/capture-report.md",
+    "executive-summary.md": "report/executive-summary.md",
+    "integrity.md": "report/integrity.md",
+    "limitations.md": "report/limitations.md",
+    "methodology.md": "report/methodology.md",
+    "privacy-summary.md": "report/privacy-summary.md"
+  }
+}

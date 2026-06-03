@@ -1,0 +1,5 @@
+{"downloads": 0, "message": "start", "step": "capture", "timestamp_local": "2026-06-03T13:50:22+00:00", "timestamp_utc": "2026-06-03T13:50:22+00:00", "urls": 3}
+{"message": "fetched", "source": "inventory", "status": 200, "step": "capture", "timestamp_local": "2026-06-03T13:50:22+00:00", "timestamp_utc": "2026-06-03T13:50:22+00:00", "url": "https://www.assertiveyield.com/"}
+{"message": "fetched", "source": "inventory", "status": 200, "step": "capture", "timestamp_local": "2026-06-03T13:50:24+00:00", "timestamp_utc": "2026-06-03T13:50:24+00:00", "url": "https://www.assertiveyield.com/about-us/"}
+{"message": "fetched", "source": "inventory", "status": 200, "step": "capture", "timestamp_local": "2026-06-03T13:50:25+00:00", "timestamp_utc": "2026-06-03T13:50:25+00:00", "url": "https://www.assertiveyield.com/ailayouts/"}
+{"downloads": 0, "failures": 0, "message": "complete", "pages": 3, "step": "capture", "timestamp_local": "2026-06-03T13:50:25+00:00", "timestamp_utc": "2026-06-03T13:50:25+00:00"}

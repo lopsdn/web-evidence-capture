@@ -1,0 +1,15 @@
+{
+  "completed_local": "2026-06-03T13:56:00+00:00",
+  "completed_utc": "2026-06-03T13:56:00+00:00",
+  "create_exit_code": 0,
+  "log": "logs/package_wacz.log",
+  "pages_detected": 0,
+  "validate_exit_code": 0,
+  "wacz_exists": true,
+  "wacz_path": "artifacts/wacz/assertiveyield-snapshot.wacz",
+  "warc_path": "artifacts/warc/assertiveyield-snapshot.warc.gz",
+  "warnings": [
+    "wacz_valid_but_zero_pages_detected"
+  ],
+  "zero_pages_policy": "warning"
+}

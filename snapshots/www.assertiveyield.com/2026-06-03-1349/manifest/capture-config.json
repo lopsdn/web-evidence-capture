@@ -1,0 +1,10 @@
+{
+  "allowed_domains": [
+    "www.assertiveyield.com",
+    "assertiveyield.com"
+  ],
+  "case_slug": "assertiveyield-snapshot",
+  "cookie_choice": "deny",
+  "max_pages": 3,
+  "target_url": "https://www.assertiveyield.com/"
+}

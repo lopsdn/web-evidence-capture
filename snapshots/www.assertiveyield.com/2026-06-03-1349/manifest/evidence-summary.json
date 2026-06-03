@@ -1,0 +1,14 @@
+{
+  "captured_pages": 3,
+  "downloads": 0,
+  "failures": 0,
+  "inventory_url_count": 3,
+  "render_retries": 1,
+  "rendered_pages": 3,
+  "skipped": 6,
+  "target_url": "https://www.assertiveyield.com/",
+  "validation_status": "completed_with_warnings",
+  "wacz_exists": true,
+  "wacz_pages_detected": 0,
+  "warc_exists": true
+}

@@ -1,0 +1,9 @@
+{"message": "start", "step": "inventory", "target_url": "https://www.assertiveyield.com/", "timestamp_local": "2026-06-03T13:49:47+00:00", "timestamp_utc": "2026-06-03T13:49:47+00:00"}
+{"message": "fetched", "source": "robots", "status": 200, "step": "inventory", "timestamp_local": "2026-06-03T13:49:48+00:00", "timestamp_utc": "2026-06-03T13:49:48+00:00", "url": "https://www.assertiveyield.com/robots.txt"}
+{"message": "fetched", "source": "sitemap", "status": 200, "step": "inventory", "timestamp_local": "2026-06-03T13:49:49+00:00", "timestamp_utc": "2026-06-03T13:49:49+00:00", "url": "https://www.assertiveyield.com/sitemap-index.xml"}
+{"message": "fetched", "source": "sitemap", "status": 200, "step": "inventory", "timestamp_local": "2026-06-03T13:49:50+00:00", "timestamp_utc": "2026-06-03T13:49:50+00:00", "url": "https://www.assertiveyield.com/sitemap-0.xml"}
+{"message": "fetched", "source": "sitemap", "status": 404, "step": "inventory", "timestamp_local": "2026-06-03T13:49:51+00:00", "timestamp_utc": "2026-06-03T13:49:51+00:00", "url": "https://www.assertiveyield.com/sitemap.xml"}
+{"message": "fetched", "source": "link_discovery", "status": 200, "step": "inventory", "timestamp_local": "2026-06-03T13:49:52+00:00", "timestamp_utc": "2026-06-03T13:49:52+00:00", "url": "https://www.assertiveyield.com/"}
+{"message": "fetched", "source": "link_discovery", "status": 200, "step": "inventory", "timestamp_local": "2026-06-03T13:49:54+00:00", "timestamp_utc": "2026-06-03T13:49:54+00:00", "url": "https://www.assertiveyield.com/about-us/"}
+{"message": "fetched", "source": "link_discovery", "status": 200, "step": "inventory", "timestamp_local": "2026-06-03T13:49:55+00:00", "timestamp_utc": "2026-06-03T13:49:55+00:00", "url": "https://www.assertiveyield.com/ailayouts/"}
+{"failures": 0, "message": "complete", "skipped": 6, "step": "inventory", "timestamp_local": "2026-06-03T13:49:55+00:00", "timestamp_utc": "2026-06-03T13:49:55+00:00", "urls": 3}

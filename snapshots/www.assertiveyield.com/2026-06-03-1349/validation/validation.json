@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "accounts_created": false,
+    "authentication_attempted": false,
+    "forms_submitted": false,
+    "hashed_file_count": 40,
+    "mirror_body_sample": "Consent Details [#IABV2SETTINGS#] About This website uses cookies We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine",
+    "mirror_index_exists": true,
+    "mirror_meaningful_body_exists": true,
+    "mirror_meaningful_body_source": "rendered",
+    "missing_render_artifacts_count": 0,
+    "pdf_count": 3,
+    "render_failures_count": 0,
+    "render_result_count": 3,
+    "rendered_mirror_index_exists": true,
+    "retry_count": 1,
+    "screenshots_count": 3,
+    "sensitive_findings_count": 0,
+    "wacz_exists": true,
+    "wacz_pages_detected": 0,
+    "wacz_validate_exit_code": 0,
+    "warc_exists": true
+  },
+  "completed_local": "2026-06-03T13:56:56+00:00",
+  "completed_utc": "2026-06-03T13:56:56+00:00",
+  "failures": [],
+  "missing_render_artifacts": [],
+  "render_retries": [
+    {
+      "attempts": [
+        {
+          "attempt": 1,
+          "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.assertiveyield.com/\", waiting until \"networkidle\"\n",
+          "resolved": false,
+          "timestamp_local": "2026-06-03T13:51:27+00:00",
+          "wait_until": "networkidle"
+        },
+        {
+          "attempt": 2,
+          "error": "",
+          "resolved": true,
+          "timestamp_local": "2026-06-03T13:52:27+00:00",
+          "wait_until": "load"
+        }
+      ],
+      "resolved": true,
+      "url": "https://www.assertiveyield.com/"
+    }
+  ],
+  "sensitive_findings": [],
+  "status": "completed_with_warnings",
+  "warnings": [
+    "wacz_zero_pages_detected",
+    "render_retries_recorded"
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "access_policy": {
+    "accounts_created": false,
+    "authentication_attempted": false,
+    "forms_submitted": false,
+    "public_only": true
+  },
+  "allowed_domains": [
+    "assertiveyield.com",
+    "www.assertiveyield.com"
+  ],
+  "completed_local": "2026-06-03T13:49:55+00:00",
+  "completed_utc": "2026-06-03T13:49:55+00:00",
+  "download_urls": [],
+  "external_urls_observed": [],
+  "failures": [],
+  "fetched": [
+    {
+      "content_type": "text/plain; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/robots.txt",
+      "source": "robots",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:49:48+00:00",
+      "timestamp_utc": "2026-06-03T13:49:48+00:00",
+      "url": "https://www.assertiveyield.com/robots.txt"
+    },
+    {
+      "content_type": "application/xml",
+      "final_url": "https://www.assertiveyield.com/sitemap-index.xml",
+      "source": "sitemap",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:49:49+00:00",
+      "timestamp_utc": "2026-06-03T13:49:49+00:00",
+      "url": "https://www.assertiveyield.com/sitemap-index.xml"
+    },
+    {
+      "content_type": "application/xml",
+      "final_url": "https://www.assertiveyield.com/sitemap-0.xml",
+      "source": "sitemap",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:49:50+00:00",
+      "timestamp_utc": "2026-06-03T13:49:50+00:00",
+      "url": "https://www.assertiveyield.com/sitemap-0.xml"
+    },
+    {
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.assertiveyield.com/sitemap.xml",
+      "source": "sitemap",
+      "status": 404,
+      "timestamp_local": "2026-06-03T13:49:51+00:00",
+      "timestamp_utc": "2026-06-03T13:49:51+00:00",
+      "url": "https://www.assertiveyield.com/sitemap.xml"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/",
+      "source": "link_discovery",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:49:52+00:00",
+      "timestamp_utc": "2026-06-03T13:49:52+00:00",
+      "url": "https://www.assertiveyield.com/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/about-us/",
+      "source": "link_discovery",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:49:54+00:00",
+      "timestamp_utc": "2026-06-03T13:49:54+00:00",
+      "url": "https://www.assertiveyield.com/about-us/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/ailayouts/",
+      "source": "link_discovery",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:49:55+00:00",
+      "timestamp_utc": "2026-06-03T13:49:55+00:00",
+      "url": "https://www.assertiveyield.com/ailayouts/"
+    }
+  ],
+  "skipped": [
+    {
+      "reason": "private_or_form_like_path",
+      "source": "sitemap",
+      "timestamp_utc": "2026-06-03T13:49:50+00:00",
+      "url": "https://www.assertiveyield.com/apply/"
+    },
+    {
+      "reason": "private_or_form_like_path",
+      "source": "sitemap",
+      "timestamp_utc": "2026-06-03T13:49:50+00:00",
+      "url": "https://www.assertiveyield.com/apply/backend-engineer-golang/"
+    },
+    {
+      "reason": "private_or_form_like_path",
+      "source": "sitemap",
+      "timestamp_utc": "2026-06-03T13:49:50+00:00",
+      "url": "https://www.assertiveyield.com/apply/sales-engineer-publisher-ad-tech/"
+    },
+    {
+      "reason": "private_or_form_like_path",
+      "source": "sitemap",
+      "timestamp_utc": "2026-06-03T13:49:50+00:00",
+      "url": "https://www.assertiveyield.com/apply/senior-devops-engineer/"
+    },
+    {
+      "reason": "private_or_form_like_path",
+      "source": "sitemap",
+      "timestamp_utc": "2026-06-03T13:49:50+00:00",
+      "url": "https://www.assertiveyield.com/apply/sales-executive-amer/"
+    },
+    {
+      "reason": "private_or_form_like_path",
+      "source": "sitemap",
+      "timestamp_utc": "2026-06-03T13:49:50+00:00",
+      "url": "https://www.assertiveyield.com/schedule-meeting/"
+    }
+  ],
+  "target_url": "https://www.assertiveyield.com/",
+  "urls": [
+    "https://www.assertiveyield.com/",
+    "https://www.assertiveyield.com/about-us/",
+    "https://www.assertiveyield.com/ailayouts/"
+  ]
+}

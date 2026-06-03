@@ -1,0 +1,80 @@
+{
+  "access_policy": {
+    "accounts_created": false,
+    "authentication_attempted": false,
+    "forms_submitted": false,
+    "public_only": true
+  },
+  "captured_pages": [
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/",
+      "local_path": "artifacts/mirror/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:50:22+00:00",
+      "timestamp_utc": "2026-06-03T13:50:22+00:00",
+      "title": "Assertive Yield - Publishers Next-Gen Tech Platform",
+      "url": "https://www.assertiveyield.com/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/about-us/",
+      "local_path": "artifacts/mirror/about-us/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:50:24+00:00",
+      "timestamp_utc": "2026-06-03T13:50:24+00:00",
+      "title": "About Us",
+      "url": "https://www.assertiveyield.com/about-us/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/ailayouts/",
+      "local_path": "artifacts/mirror/ailayouts/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:50:25+00:00",
+      "timestamp_utc": "2026-06-03T13:50:25+00:00",
+      "title": "AI Layouts",
+      "url": "https://www.assertiveyield.com/ailayouts/",
+      "visible_text_length": 0
+    }
+  ],
+  "completed_local": "2026-06-03T13:50:25+00:00",
+  "completed_utc": "2026-06-03T13:50:25+00:00",
+  "downloads": [],
+  "failures": [],
+  "fetched": [
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:50:22+00:00",
+      "timestamp_utc": "2026-06-03T13:50:22+00:00",
+      "url": "https://www.assertiveyield.com/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/about-us/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:50:24+00:00",
+      "timestamp_utc": "2026-06-03T13:50:24+00:00",
+      "url": "https://www.assertiveyield.com/about-us/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/ailayouts/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T13:50:25+00:00",
+      "timestamp_utc": "2026-06-03T13:50:25+00:00",
+      "url": "https://www.assertiveyield.com/ailayouts/"
+    }
+  ],
+  "forms_observed_not_submitted": [],
+  "skipped": [],
+  "target_url": "https://www.assertiveyield.com/",
+  "warc_path": "artifacts/warc/assertiveyield-snapshot.warc.gz"
+}

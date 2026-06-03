@@ -1,0 +1,29 @@
+[
+  {
+    "exists": false,
+    "exit_code": 0,
+    "log": "logs/singlefile-001.log",
+    "output": "artifacts/singlefile/001.singlefile.html",
+    "timestamp_local": "2026-06-03T13:54:45+00:00",
+    "timestamp_utc": "2026-06-03T13:54:45+00:00",
+    "url": "https://www.assertiveyield.com/"
+  },
+  {
+    "exists": false,
+    "exit_code": 0,
+    "log": "logs/singlefile-002.log",
+    "output": "artifacts/singlefile/002.singlefile.html",
+    "timestamp_local": "2026-06-03T13:55:01+00:00",
+    "timestamp_utc": "2026-06-03T13:55:01+00:00",
+    "url": "https://www.assertiveyield.com/about-us/"
+  },
+  {
+    "exists": true,
+    "exit_code": 0,
+    "log": "logs/singlefile-003.log",
+    "output": "artifacts/singlefile/003.singlefile.html",
+    "timestamp_local": "2026-06-03T13:55:29+00:00",
+    "timestamp_utc": "2026-06-03T13:55:29+00:00",
+    "url": "https://www.assertiveyield.com/ailayouts/"
+  }
+]

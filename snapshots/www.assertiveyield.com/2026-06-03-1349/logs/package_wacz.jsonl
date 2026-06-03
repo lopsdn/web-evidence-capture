@@ -1,0 +1,2 @@
+{"message": "start", "step": "package_wacz", "timestamp_local": "2026-06-03T13:55:59+00:00", "timestamp_utc": "2026-06-03T13:55:59+00:00", "warc_path": "artifacts/warc/assertiveyield-snapshot.warc.gz"}
+{"exists": true, "message": "complete", "pages_detected": 0, "step": "package_wacz", "timestamp_local": "2026-06-03T13:56:00+00:00", "timestamp_utc": "2026-06-03T13:56:00+00:00", "warnings": ["wacz_valid_but_zero_pages_detected"]}

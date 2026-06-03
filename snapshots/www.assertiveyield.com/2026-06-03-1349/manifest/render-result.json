@@ -1,0 +1,73 @@
+[
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "Page.goto: Timeout 60000ms exceeded.\nCall log:\n  - navigating to \"https://www.assertiveyield.com/\", waiting until \"networkidle\"\n",
+        "resolved": false,
+        "timestamp_local": "2026-06-03T13:51:27+00:00",
+        "wait_until": "networkidle"
+      },
+      {
+        "attempt": 2,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T13:52:27+00:00",
+        "wait_until": "load"
+      }
+    ],
+    "cookie_choice_result": {
+      "button_clicked": "#CybotCookiebotDialogBodyButtonDecline",
+      "choice": "deny",
+      "error": "",
+      "timestamp_local": "2026-06-03T13:52:29+00:00",
+      "timestamp_utc": "2026-06-03T13:52:29+00:00"
+    },
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/",
+    "pdf": "artifacts/pdf/001-www.assertiveyield.com.pdf",
+    "rendered_html": "artifacts/rendered-mirror/index.html",
+    "screenshot": "artifacts/screenshots/001-www.assertiveyield.com.png",
+    "status": "200",
+    "title": "Assertive Yield - Publishers Next-Gen Tech Platform",
+    "url": "https://www.assertiveyield.com/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T13:52:33+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/about-us/",
+    "pdf": "artifacts/pdf/002-about-us.pdf",
+    "rendered_html": "artifacts/rendered-mirror/about-us/index.html",
+    "screenshot": "artifacts/screenshots/002-about-us.png",
+    "status": "200",
+    "title": "About Us",
+    "url": "https://www.assertiveyield.com/about-us/"
+  },
+  {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": "",
+        "resolved": true,
+        "timestamp_local": "2026-06-03T13:52:39+00:00",
+        "wait_until": "networkidle"
+      }
+    ],
+    "error": "",
+    "final_url": "https://www.assertiveyield.com/ailayouts/",
+    "pdf": "artifacts/pdf/003-ailayouts.pdf",
+    "rendered_html": "artifacts/rendered-mirror/ailayouts/index.html",
+    "screenshot": "artifacts/screenshots/003-ailayouts.png",
+    "status": "200",
+    "title": "AI Layouts",
+    "url": "https://www.assertiveyield.com/ailayouts/"
+  }
+]
