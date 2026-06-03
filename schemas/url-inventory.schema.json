@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "URL Inventory",
+  "type": "object",
+  "required": ["target_url", "allowed_domains", "urls", "access_policy"],
+  "properties": {
+    "target_url": { "type": "string" },
+    "allowed_domains": { "type": "array", "items": { "type": "string" } },
+    "urls": { "type": "array", "items": { "type": "string" } },
+    "download_urls": { "type": "array", "items": { "type": "string" } },
+    "external_urls_observed": { "type": "array", "items": { "type": "string" } },
+    "skipped": { "type": "array" },
+    "failures": { "type": "array" },
+    "access_policy": { "type": "object" }
+  },
+  "additionalProperties": true
+}
+

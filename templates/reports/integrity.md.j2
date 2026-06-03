@@ -1,0 +1,18 @@
+# Integrity
+
+Hash manifest:
+
+- `manifest/file-manifest.json`
+- `hashes/files.sha256`
+
+Validation:
+
+- Status: `{{ validation.status | default("not_run") }}`
+- WARC exists: `{{ validation.checks.warc_exists if validation.checks is defined else "unknown" }}`
+- WACZ exists: `{{ validation.checks.wacz_exists if validation.checks is defined else "unknown" }}`
+- WACZ validate exit code: `{{ validation.checks.wacz_validate_exit_code if validation.checks is defined else "unknown" }}`
+- WACZ pages detected: `{{ validation.checks.wacz_pages_detected if validation.checks is defined else "unknown" }}`
+- Mirror meaningful body exists: `{{ validation.checks.mirror_meaningful_body_exists if validation.checks is defined else "unknown" }}`
+
+Generated hash files exclude `hashes/files.sha256` and `manifest/file-manifest.json` from their own hash calculation.
+

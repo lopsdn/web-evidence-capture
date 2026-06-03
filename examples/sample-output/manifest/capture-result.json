@@ -1,0 +1,24 @@
+{
+  "access_policy": {
+    "accounts_created": false,
+    "authentication_attempted": false,
+    "forms_submitted": false,
+    "public_only": true
+  },
+  "captured_pages": [
+    {
+      "final_url": "https://example.org/",
+      "local_path": "artifacts/mirror/index.html",
+      "status": 200,
+      "title": "Example Domain",
+      "url": "https://example.org/"
+    }
+  ],
+  "downloads": [],
+  "failures": [],
+  "forms_observed_not_submitted": [],
+  "skipped": [],
+  "target_url": "https://example.org/",
+  "warc_path": "artifacts/warc/example-org.warc.gz"
+}
+

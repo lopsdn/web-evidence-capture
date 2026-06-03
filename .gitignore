@@ -1,0 +1,32 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Runtime evidence is private by default. Commit intentionally reviewed case
+# outputs only after removing the matching ignore rule for that path.
+cases/*/runs/
+cases/*/latest
+
+# Large/raw preservation artifacts should not enter source control casually.
+*.warc
+*.warc.gz
+*.wacz
+*.har
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.pdf
+*.singlefile.html
+network-requests.jsonl
+cookies-*.json
+storage-*.json
+

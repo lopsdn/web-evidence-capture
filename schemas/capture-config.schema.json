@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Capture Config",
+  "type": "object",
+  "required": ["target_url", "case_slug"],
+  "properties": {
+    "target_url": { "type": "string", "format": "uri" },
+    "case_slug": { "type": "string", "pattern": "^[A-Za-z0-9._-]+$" },
+    "allowed_domains": { "type": "array", "items": { "type": "string" } },
+    "max_pages": { "type": "integer", "minimum": 1 },
+    "cookie_choice": { "type": "string", "enum": ["none", "deny"] },
+    "request_delay_seconds": { "type": "number", "minimum": 0 },
+    "request_timeout_seconds": { "type": "integer", "minimum": 1 },
+    "dry_run": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}
+

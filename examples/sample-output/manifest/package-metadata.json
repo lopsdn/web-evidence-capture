@@ -1,0 +1,8 @@
+{
+  "allowed_domains": ["example.org", "www.example.org"],
+  "case_slug": "example-org",
+  "created_utc": "2026-06-03T00:00:00+00:00",
+  "status": "completed_validated",
+  "target_url": "https://example.org/"
+}
+

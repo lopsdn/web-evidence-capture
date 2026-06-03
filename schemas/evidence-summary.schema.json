@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Evidence Summary",
+  "type": "object",
+  "required": ["inventory_url_count", "captured_pages", "rendered_pages", "validation_status"],
+  "properties": {
+    "target_url": { "type": ["string", "null"] },
+    "inventory_url_count": { "type": "integer", "minimum": 0 },
+    "captured_pages": { "type": "integer", "minimum": 0 },
+    "downloads": { "type": "integer", "minimum": 0 },
+    "skipped": { "type": "integer", "minimum": 0 },
+    "failures": { "type": "integer", "minimum": 0 },
+    "rendered_pages": { "type": "integer", "minimum": 0 },
+    "render_retries": { "type": "integer", "minimum": 0 },
+    "warc_exists": { "type": "boolean" },
+    "wacz_exists": { "type": "boolean" },
+    "wacz_pages_detected": { "type": ["integer", "null"] },
+    "validation_status": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}
+

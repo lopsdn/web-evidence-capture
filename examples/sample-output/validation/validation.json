@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "accounts_created": false,
+    "authentication_attempted": false,
+    "forms_submitted": false,
+    "mirror_meaningful_body_exists": true,
+    "sensitive_findings_count": 0,
+    "warc_exists": true,
+    "wacz_exists": true,
+    "wacz_pages_detected": 1,
+    "wacz_validate_exit_code": 0
+  },
+  "failures": [],
+  "render_retries": [],
+  "sensitive_findings": [],
+  "status": "completed_validated",
+  "warnings": []
+}
+

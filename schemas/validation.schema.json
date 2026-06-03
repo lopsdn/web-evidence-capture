@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Validation",
+  "type": "object",
+  "required": ["status", "checks", "warnings", "failures"],
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": ["completed_validated", "completed_with_warnings", "failed_validation"]
+    },
+    "checks": { "type": "object" },
+    "warnings": { "type": "array", "items": { "type": "string" } },
+    "failures": { "type": "array", "items": { "type": "string" } },
+    "render_retries": { "type": "array" },
+    "sensitive_findings": { "type": "array" }
+  },
+  "additionalProperties": true
+}
+

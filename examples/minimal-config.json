@@ -1,0 +1,10 @@
+{
+  "target_url": "https://example.org/",
+  "case_slug": "example-org",
+  "allowed_domains": ["example.org", "www.example.org"],
+  "max_pages": 3,
+  "cookie_choice": "none",
+  "request_delay_seconds": 1.0,
+  "request_timeout_seconds": 30
+}
+

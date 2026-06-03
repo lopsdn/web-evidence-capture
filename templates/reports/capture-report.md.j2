@@ -1,0 +1,26 @@
+# Capture Report
+
+## Scope
+
+- Target URL: `{{ config.target_url }}`
+- Allowed domains: `{% for domain in config.allowed_domains %}{{ domain }}{% if not loop.last %}, {% endif %}{% endfor %}`
+- Max pages: `{{ config.max_pages }}`
+- Cookie choice: `{{ config.cookie_choice }}`
+
+## Captured Pages
+
+{% if capture.captured_pages %}
+{% for page in capture.captured_pages %}
+- `{{ page.status }}` {{ page.final_url }}{% if page.title %} - {{ page.title }}{% endif %}; mirror: `{{ page.local_path }}`
+{% endfor %}
+{% else %}
+- No captured pages recorded.
+{% endif %}
+
+## Failures And Skips
+
+- Inventory failures: `{{ inventory.failures | length if inventory.failures is defined else 0 }}`
+- Capture failures: `{{ capture.failures | length if capture.failures is defined else 0 }}`
+- Inventory skips: `{{ inventory.skipped | length if inventory.skipped is defined else 0 }}`
+- Capture skips: `{{ capture.skipped | length if capture.skipped is defined else 0 }}`
+

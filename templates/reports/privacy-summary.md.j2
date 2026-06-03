@@ -1,0 +1,18 @@
+# Privacy Summary
+
+The privacy inspector records summary metadata by default.
+
+- Cookies before choice: `{{ privacy.cookies_before_choice_count | default("not_run") }}`
+- Cookies after choice: `{{ privacy.cookies_after_choice_count | default("not_run") }}`
+- Network events observed: `{{ privacy.network_event_count | default("not_run") }}`
+
+Cookie values and raw request bodies are not written by default.
+
+{% if privacy.domains_observed %}
+## Domains Observed
+
+{% for domain, count in privacy.domains_observed.items() %}
+- `{{ domain }}`: {{ count }}
+{% endfor %}
+{% endif %}
+

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Capture Result",
+  "type": "object",
+  "required": ["target_url", "captured_pages", "downloads", "access_policy"],
+  "properties": {
+    "target_url": { "type": "string" },
+    "warc_path": { "type": "string" },
+    "captured_pages": { "type": "array" },
+    "downloads": { "type": "array" },
+    "fetched": { "type": "array" },
+    "skipped": { "type": "array" },
+    "failures": { "type": "array" },
+    "forms_observed_not_submitted": { "type": "array" },
+    "access_policy": { "type": "object" }
+  },
+  "additionalProperties": true
+}
+

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Render Result",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["url", "attempts", "error"],
+    "properties": {
+      "url": { "type": "string" },
+      "final_url": { "type": "string" },
+      "status": { "type": "string" },
+      "screenshot": { "type": "string" },
+      "pdf": { "type": "string" },
+      "attempts": { "type": "array" },
+      "error": { "type": "string" }
+    },
+    "additionalProperties": true
+  }
+}
+

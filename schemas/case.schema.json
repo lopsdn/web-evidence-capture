@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Case",
+  "type": "object",
+  "required": ["case_slug", "target_url", "created_utc", "status"],
+  "properties": {
+    "case_slug": { "type": "string", "minLength": 1 },
+    "target_url": { "type": "string", "format": "uri" },
+    "allowed_domains": { "type": "array", "items": { "type": "string" } },
+    "created_utc": { "type": "string" },
+    "status": {
+      "type": "string",
+      "enum": ["initialized", "completed_validated", "completed_with_warnings", "failed_validation"]
+    }
+  },
+  "additionalProperties": true
+}
+

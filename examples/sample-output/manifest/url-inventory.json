@@ -1,0 +1,16 @@
+{
+  "access_policy": {
+    "accounts_created": false,
+    "authentication_attempted": false,
+    "forms_submitted": false,
+    "public_only": true
+  },
+  "allowed_domains": ["example.org", "www.example.org"],
+  "download_urls": [],
+  "external_urls_observed": ["https://www.iana.org/domains/example"],
+  "failures": [],
+  "skipped": [],
+  "target_url": "https://example.org/",
+  "urls": ["https://example.org/"]
+}
+

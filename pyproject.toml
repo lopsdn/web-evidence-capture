@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "web-evidence-capture"
+version = "0.1.0"
+description = "Reusable public-web evidence capture and preservation tooling."
+requires-python = ">=3.9"
+authors = [{ name = "Daniel Lopes" }]
+license = { text = "MIT" }
+dependencies = [
+  "jinja2>=3.1",
+  "jsonschema>=4.0",
+  "playwright>=1.40",
+  "PyYAML>=6.0",
+  "requests>=2.31",
+  "warcio>=1.7",
+  "wacz>=0.5",
+]
+
+[project.scripts]
+web-evidence = "web_evidence_capture.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
