@@ -6,7 +6,7 @@ Case: `{{ config.case_slug }}`
 
 Generated: {{ generated_local }} ({{ generated_utc }})
 
-This package preserves public website evidence only. It records URL inventory, public HTTP capture, mirror output, WARC/WACZ packaging, screenshots, PDFs, privacy summaries, manifests, hashes, validation evidence, and logs where available.
+This package preserves public website evidence only. It records URL inventory, public HTTP capture, mirror output, WARC/WACZ packaging, screenshots, PDFs, browser network/cookie evidence, manifests, hashes, validation evidence, and logs where available.
 
 Validation status: `{{ validation.status | default("not_run") }}`
 
@@ -19,4 +19,3 @@ Counts:
 - WACZ pages detected: `{{ summary.wacz_pages_detected }}`
 
 No authentication was attempted, no accounts were created, and no forms were submitted.
-

@@ -326,9 +326,137 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
       - uses: actions/download-artifact@v8
         with:
           name: case-state
+      - name: Install package
+        run: python -m pip install -e .
+      - name: Persist GitHub Actions logs
+        run: |
+          ACTION_LOG_DIR="${RUN_DIR}/logs/github-actions"
+          mkdir -p "${ACTION_LOG_DIR}"
+          gh run view "${GITHUB_RUN_ID}" --repo "${GITHUB_REPOSITORY}" \
+            --json status,conclusion,createdAt,updatedAt,event,headBranch,headSha,url \
+            > "${ACTION_LOG_DIR}/run-metadata.json"
+          gh run view "${GITHUB_RUN_ID}" --repo "${GITHUB_REPOSITORY}" \
+            --json jobs \
+            > "${ACTION_LOG_DIR}/jobs.json"
+          gh run view "${GITHUB_RUN_ID}" --repo "${GITHUB_REPOSITORY}" \
+            --log \
+            > "${ACTION_LOG_DIR}/run.log" || true
+          gh run view "${GITHUB_RUN_ID}" --repo "${GITHUB_REPOSITORY}" \
+            --log-failed \
+            > "${ACTION_LOG_DIR}/failed.log" || true
+          python - <<'PY'
+          import json
+          import os
+          import re
+          from collections import defaultdict
+          from pathlib import Path
+
+          action_log_dir = Path(os.environ["ACTION_LOG_DIR"])
+          action_log_dir.mkdir(parents=True, exist_ok=True)
+
+          def load_json(path, default):
+              try:
+                  return json.loads(path.read_text(encoding="utf-8"))
+              except (FileNotFoundError, json.JSONDecodeError):
+                  return default
+
+          def safe_name(value):
+              return re.sub(r"[^a-zA-Z0-9._-]+", "-", value).strip("-") or "job"
+
+          metadata = load_json(action_log_dir / "run-metadata.json", {})
+          jobs_payload = load_json(action_log_dir / "jobs.json", {})
+          jobs = jobs_payload.get("jobs", []) if isinstance(jobs_payload, dict) else []
+          run_log = action_log_dir / "run.log"
+          raw_lines = run_log.read_text(encoding="utf-8", errors="replace").splitlines() if run_log.exists() else []
+          grouped = defaultdict(list)
+          for line in raw_lines:
+              job_name = line.split("\t", 1)[0] if "\t" in line else "unattributed"
+              grouped[job_name].append(line)
+
+          jobs_dir = action_log_dir / "jobs"
+          jobs_dir.mkdir(parents=True, exist_ok=True)
+          index = []
+          for job_name, lines in sorted(grouped.items()):
+              job_path = jobs_dir / f"{safe_name(job_name)}.log"
+              job_path.write_text("\n".join(lines) + ("\n" if lines else ""), encoding="utf-8")
+              index.append({"job": job_name, "path": job_path.relative_to(action_log_dir).as_posix(), "lines": len(lines)})
+          (action_log_dir / "job-log-index.json").write_text(json.dumps(index, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+          summary_lines = [
+              "# GitHub Actions Run Log Summary",
+              "",
+              "This folder preserves workflow metadata and text logs inside the committed snapshot because native workflow logs may expire or be deleted.",
+              "",
+              f"Run URL: {metadata.get('url', '')}",
+              f"Run status: `{metadata.get('status', '')}`",
+              f"Run conclusion at capture time: `{metadata.get('conclusion', '')}`",
+              f"Event: `{metadata.get('event', '')}`",
+              f"Head branch: `{metadata.get('headBranch', '')}`",
+              f"Head SHA: `{metadata.get('headSha', '')}`",
+              f"Created at: `{metadata.get('createdAt', '')}`",
+              f"Updated at: `{metadata.get('updatedAt', '')}`",
+              "",
+              "## Jobs",
+              "",
+              "| Job | Status | Conclusion | Started | Completed | Steps | Log lines |",
+              "| --- | --- | --- | --- | --- | ---: | ---: |",
+          ]
+          line_counts = {entry["job"]: entry["lines"] for entry in index}
+          for job in jobs:
+              name = job.get("name", "")
+              steps = job.get("steps") or []
+              summary_lines.append(
+                  "| "
+                  + " | ".join(
+                      [
+                          name,
+                          f"`{job.get('status', '')}`",
+                          f"`{job.get('conclusion', '')}`",
+                          f"`{job.get('startedAt', '')}`",
+                          f"`{job.get('completedAt', '')}`",
+                          str(len(steps)),
+                          str(line_counts.get(name, 0)),
+                      ]
+                  )
+                  + " |"
+              )
+          if not jobs:
+              summary_lines.append("| n/a |  |  |  |  | 0 | 0 |")
+          summary_lines.extend(
+              [
+                  "",
+                  "## Files",
+                  "",
+                  "- `run-metadata.json`: workflow run metadata.",
+                  "- `jobs.json`: job and step metadata returned by the workflow API.",
+                  "- `run.log`: raw text log returned by the workflow API.",
+                  "- `failed.log`: failed-step log excerpt returned by the workflow API, when any.",
+                  "- `jobs/*.log`: raw log lines split by job name.",
+                  "- `job-log-index.json`: machine-readable index of split job logs.",
+                  "",
+                  "The final snapshot commit step may not include its own last lines because the log is captured while the job is still running.",
+              ]
+          )
+          (action_log_dir / "summary.md").write_text("\n".join(summary_lines) + "\n", encoding="utf-8")
+          (action_log_dir / "README.md").write_text(
+              "# GitHub Actions Logs\n\n"
+              "Start with `summary.md`. This folder preserves workflow metadata, raw logs, failed-step excerpts, and per-job log files inside the snapshot.\n\n"
+              "Forensic value: these files connect the committed snapshot to the exact workflow run and runner execution that produced it. Native workflow logs are not treated as durable storage.\n",
+              encoding="utf-8",
+          )
+          PY
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_DIR: ${{ needs.scope.outputs.run_dir }}
+          ACTION_LOG_DIR: ${{ needs.scope.outputs.run_dir }}/logs/github-actions
+      - name: Refresh hashes after workflow log capture
+        run: web-evidence hash --config capture-config.json --run-dir "${{ needs.scope.outputs.run_dir }}"
       - name: Summarize private artifact
         run: |
           echo "Private evidence artifact prepared at ${{ needs.scope.outputs.run_dir }}"
@@ -346,6 +474,8 @@ jobs:
           import os
           import re
           import shutil
+          import zipfile
+          from hashlib import sha256
           from pathlib import Path
           from urllib.parse import urlparse
 
@@ -363,6 +493,125 @@ jobs:
           shutil.copytree(run_dir, snapshot_dir)
           pointer = snapshot_dir.parent / "latest.txt"
           pointer.write_text(f"{run_stamp}\n", encoding="utf-8")
+
+          website_archive_path = snapshot_dir / f"{site}-{run_stamp}-website-html.zip"
+
+          def add_tree(archive, source, prefix):
+              if not source.exists():
+                  return 0
+              count = 0
+              for file_path in sorted(source.rglob("*")):
+                  if file_path.is_file():
+                      archive.write(file_path, f"{prefix}/{file_path.relative_to(source).as_posix()}")
+                      count += 1
+              return count
+
+          rendered_exists = (snapshot_dir / "artifacts" / "rendered-mirror" / "index.html").exists()
+          static_exists = (snapshot_dir / "artifacts" / "mirror" / "index.html").exists()
+          browse_readme = "\n".join(
+              [
+                  "# Captured Website HTML",
+                  "",
+                  "This ZIP contains only the local HTML browsing portion of the snapshot for:",
+                  "",
+                  target_url,
+                  "",
+                  "## What To Open",
+                  "",
+                  "1. Unzip this file.",
+                  "2. Open `open-rendered-mirror.html` in a browser.",
+                  "3. If the rendered mirror is unavailable or not useful, open `open-static-mirror.html`.",
+                  "",
+                  "The rendered mirror reflects browser-observed HTML from the GitHub-hosted runner.",
+                  "The static mirror reflects public HTTP HTML with executable scripts disabled for offline review.",
+                  "",
+                  f"This ZIP is for navigation and review. For the complete evidence package, use `{site}-{run_stamp}.zip` or the expanded snapshot folder.",
+                  "",
+              ]
+          )
+          rendered_launcher = "\n".join(
+              [
+                  "<!doctype html>",
+                  '<meta charset="utf-8">',
+                  "<title>Open Rendered Mirror</title>",
+                  '<meta http-equiv="refresh" content="0; url=rendered-mirror/index.html">',
+                  '<p>Open <a href="rendered-mirror/index.html">rendered-mirror/index.html</a>.</p>',
+                  "",
+              ]
+          )
+          static_launcher = "\n".join(
+              [
+                  "<!doctype html>",
+                  '<meta charset="utf-8">',
+                  "<title>Open Static Mirror</title>",
+                  '<meta http-equiv="refresh" content="0; url=static-mirror/index.html">',
+                  '<p>Open <a href="static-mirror/index.html">static-mirror/index.html</a>.</p>',
+                  "",
+              ]
+          )
+          with zipfile.ZipFile(website_archive_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
+              archive.writestr("README.md", browse_readme)
+              archive.writestr("open-rendered-mirror.html", rendered_launcher)
+              archive.writestr("open-static-mirror.html", static_launcher)
+              archive.writestr(
+                  "availability.json",
+                  json.dumps({"rendered_mirror_index": rendered_exists, "static_mirror_index": static_exists}, indent=2, sort_keys=True) + "\n",
+              )
+              add_tree(archive, snapshot_dir / "artifacts" / "rendered-mirror", "rendered-mirror")
+              add_tree(archive, snapshot_dir / "artifacts" / "mirror", "static-mirror")
+              add_tree(archive, snapshot_dir / "artifacts" / "singlefile", "singlefile")
+
+          archive_path = snapshot_dir / f"{site}-{run_stamp}.zip"
+          with zipfile.ZipFile(archive_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
+              for file_path in sorted(snapshot_dir.rglob("*")):
+                  if file_path == archive_path or not file_path.is_file():
+                      continue
+                  archive.write(file_path, file_path.relative_to(snapshot_dir).as_posix())
+
+          def file_sha256(path):
+              digest = sha256()
+              with path.open("rb") as handle:
+                  for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+                      digest.update(chunk)
+              return digest.hexdigest()
+
+          archive_hash = file_sha256(archive_path)
+          website_archive_hash = file_sha256(website_archive_path)
+          archive_hash_path = snapshot_dir / "hashes" / "snapshot-archive.sha256"
+          archive_hash_path.parent.mkdir(parents=True, exist_ok=True)
+          archive_hash_path.write_text(
+              f"{archive_hash}  {archive_path.name}\n{website_archive_hash}  {website_archive_path.name}\n",
+              encoding="utf-8",
+          )
+          (snapshot_dir / "manifest" / "snapshot-archives.json").write_text(
+              json.dumps(
+                  {
+                      "complete_snapshot_zip": archive_path.name,
+                      "complete_snapshot_zip_sha256": archive_hash,
+                      "website_html_zip": website_archive_path.name,
+                      "website_html_zip_sha256": website_archive_hash,
+                      "website_html_zip_note": "Smaller package for browsing captured HTML locally.",
+                  },
+                  indent=2,
+                  sort_keys=True,
+              )
+              + "\n",
+              encoding="utf-8",
+          )
+
+          excluded = {"hashes/files.sha256", "manifest/file-manifest.json"}
+          rows = []
+          for file_path in sorted(snapshot_dir.rglob("*")):
+              if not file_path.is_file():
+                  continue
+              rel = file_path.relative_to(snapshot_dir).as_posix()
+              if rel in excluded:
+                  continue
+              rows.append({"path": rel, "size_bytes": file_path.stat().st_size, "sha256": file_sha256(file_path)})
+          (snapshot_dir / "manifest" / "file-manifest.json").write_text(json.dumps(rows, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+          with (snapshot_dir / "hashes" / "files.sha256").open("w", encoding="utf-8") as handle:
+              for row in rows:
+                  handle.write(f"{row['sha256']}  {row['path']}\n")
           print(f"snapshot_dir={snapshot_dir}")
           PY
 

@@ -1,12 +1,12 @@
-# Privacy Summary
+# Browser Network And Cookie Evidence
 
-The privacy inspector records summary metadata by default.
+This section summarizes browser-observed evidence from the public runner session.
 
 - Cookies before choice: `{{ privacy.cookies_before_choice_count | default("not_run") }}`
 - Cookies after choice: `{{ privacy.cookies_after_choice_count | default("not_run") }}`
 - Network events observed: `{{ privacy.network_event_count | default("not_run") }}`
 
-Cookie values and raw request bodies are not written by default.
+Detailed artifacts may include target-site cookie values, storage state, request/response headers, query values, request bodies, console events, and page errors observed during public browsing.
 
 {% if privacy.domains_observed %}
 ## Domains Observed
@@ -15,4 +15,3 @@ Cookie values and raw request bodies are not written by default.
 - `{{ domain }}`: {{ count }}
 {% endfor %}
 {% endif %}
-
