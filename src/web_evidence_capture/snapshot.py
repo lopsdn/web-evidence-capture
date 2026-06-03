@@ -5,11 +5,12 @@ import shutil
 import zipfile
 from pathlib import Path
 from typing import Dict, List, Tuple
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 from .config import CaptureConfig
 from .hashing import sha256_file, write_hashes
 from .logging_utils import utc_now, write_json
+from .mirror import is_download_url, local_page_path, normalize_url, relative_link, same_domain
 
 
 STAGE_ORDER = [
@@ -51,6 +52,162 @@ def read_json_file(path: Path, default):
         return json.loads(path.read_text(encoding="utf-8"))
     except (FileNotFoundError, json.JSONDecodeError):
         return default
+
+
+def local_url_for_page(mirror_root: Path, page_path: Path, target_url: str) -> str:
+    relative = page_path.relative_to(mirror_root)
+    if relative.name == "index.html":
+        parent = relative.parent.as_posix()
+        path = "/" if parent == "." else f"/{parent}/"
+    else:
+        path = f"/{relative.as_posix()}"
+    return urljoin(target_url, path)
+
+
+def not_captured_page(url: str, sitemap_link: str) -> str:
+    return "\n".join(
+        [
+            "<!doctype html>",
+            '<meta charset="utf-8">',
+            "<title>Page Not Captured</title>",
+            '<style>body{font-family:system-ui,sans-serif;max-width:760px;margin:48px auto;padding:0 24px;line-height:1.55;color:#1f2937}code{word-break:break-all;background:#f3f4f6;padding:2px 4px;border-radius:4px}a{color:#1d4ed8}</style>',
+            "<h1>Page Not Captured</h1>",
+            "<p>This link points to a same-domain URL that was not present in the captured mirror for this run.</p>",
+            f"<p>Original URL: <code>{html.escape(url)}</code></p>",
+            "<p>The page may have been outside the discovered inventory, skipped by capture policy, generated only by client-side code, or unavailable during capture.</p>",
+            f'<p><a href="{html.escape(sitemap_link)}">Return to the offline site map</a></p>',
+            "",
+        ]
+    )
+
+
+def rewrite_anchor_links_for_offline(
+    text: str,
+    current_path: Path,
+    current_url: str,
+    mirror_root: Path,
+    config: CaptureConfig,
+    placeholders: Dict[Path, str],
+) -> str:
+    def rewrite(match: re.Match) -> str:
+        prefix = match.group("prefix")
+        quote_char = match.group("quote")
+        href = match.group("href")
+        stripped = href.strip()
+        if not stripped or stripped.startswith("#"):
+            return match.group(0)
+        absolute = normalize_url(stripped, current_url)
+        if not absolute:
+            return match.group(0)
+        if not same_domain(absolute, config.allowed_domains) or is_download_url(absolute):
+            return match.group(0)
+        target_path = local_page_path(mirror_root, absolute)
+        if not target_path.exists():
+            placeholders.setdefault(target_path, absolute)
+        return f"{prefix}{quote_char}{relative_link(current_path, target_path)}{quote_char}"
+
+    for tag in ("a", "area"):
+        pattern = re.compile(
+            rf"(?P<prefix><{tag}\b[^>]*?\bhref\s*=\s*)(?P<quote>['\"])(?P<href>.*?)(?P=quote)",
+            flags=re.I | re.S,
+        )
+        text = pattern.sub(rewrite, text)
+    return text
+
+
+def mirror_records(snapshot_dir: Path, mirror_name: str) -> List[Tuple[str, str, str]]:
+    records: List[Tuple[str, str, str]] = []
+    if mirror_name == "rendered-mirror":
+        results = read_json_file(snapshot_dir / "manifest" / "render-result.json", [])
+        for item in results if isinstance(results, list) else []:
+            rendered_html = item.get("rendered_html") or ""
+            url = item.get("final_url") or item.get("url") or ""
+            title = item.get("title") or url
+            prefix = "artifacts/rendered-mirror/"
+            if rendered_html.startswith(prefix) and url:
+                records.append((url, rendered_html[len(prefix) :], title))
+    else:
+        capture = read_json_file(snapshot_dir / "manifest" / "capture-result.json", {}) or {}
+        for item in capture.get("captured_pages", []) if isinstance(capture, dict) else []:
+            local_path = item.get("local_path") or ""
+            url = item.get("final_url") or item.get("url") or ""
+            title = item.get("title") or url
+            prefix = "artifacts/mirror/"
+            if local_path.startswith(prefix) and url:
+                records.append((url, local_path[len(prefix) :], title))
+    seen = set()
+    deduped = []
+    for url, path, title in records:
+        key = (url, path)
+        if key not in seen:
+            seen.add(key)
+            deduped.append((url, path, title))
+    return sorted(deduped, key=lambda item: item[0])
+
+
+def write_offline_site_map(mirror_root: Path, records: List[Tuple[str, str, str]], title: str) -> None:
+    if not mirror_root.exists():
+        return
+    items = []
+    for url, path, page_title in records:
+        target = mirror_root / path
+        href = relative_link(mirror_root / "_site-map.html", target) if target.exists() else html.escape(path)
+        label = page_title or url
+        items.append(
+            f'<li><a href="{html.escape(href)}">{html.escape(label)}</a><br><code>{html.escape(url)}</code></li>'
+        )
+    if not items:
+        items.append("<li>No captured pages were listed for this mirror.</li>")
+    site_map = "\n".join(
+        [
+            "<!doctype html>",
+            '<meta charset="utf-8">',
+            f"<title>{html.escape(title)}</title>",
+            '<style>body{font-family:system-ui,sans-serif;max-width:980px;margin:40px auto;padding:0 24px;line-height:1.5;color:#111827}li{margin:0 0 12px}code{font-size:.9em;color:#4b5563;word-break:break-all}a{color:#1d4ed8}</style>',
+            f"<h1>{html.escape(title)}</h1>",
+            "<p>This static site map lists captured pages without relying on the original site's JavaScript menus, dropdowns, or search widgets.</p>",
+            '<p><a href="index.html">Open mirror home page</a></p>',
+            "<ol>",
+            *items,
+            "</ol>",
+            "",
+        ]
+    )
+    (mirror_root / "_site-map.html").write_text(site_map, encoding="utf-8")
+
+
+def prepare_offline_navigation(snapshot_dir: Path, config: CaptureConfig) -> Dict[str, object]:
+    summary: Dict[str, object] = {"mirrors": {}}
+    for mirror_name, title in [("rendered-mirror", "Rendered Mirror Site Map"), ("mirror", "Static Mirror Site Map")]:
+        mirror_root = snapshot_dir / "artifacts" / mirror_name
+        if not mirror_root.exists():
+            continue
+        records = mirror_records(snapshot_dir, mirror_name)
+        write_offline_site_map(mirror_root, records, title)
+        placeholders: Dict[Path, str] = {}
+        for page_path in sorted(mirror_root.rglob("*.html")):
+            if page_path.name == "_site-map.html":
+                continue
+            current_url = local_url_for_page(mirror_root, page_path, config.target_url)
+            text = page_path.read_text(encoding="utf-8", errors="ignore")
+            rewritten = rewrite_anchor_links_for_offline(text, page_path, current_url, mirror_root, config, placeholders)
+            if rewritten != text:
+                page_path.write_text(rewritten, encoding="utf-8", errors="replace")
+        for target_path, url in sorted(placeholders.items(), key=lambda item: item[0].as_posix()):
+            if target_path.exists():
+                continue
+            target_path.parent.mkdir(parents=True, exist_ok=True)
+            target_path.write_text(
+                not_captured_page(url, relative_link(target_path, mirror_root / "_site-map.html")),
+                encoding="utf-8",
+            )
+        summary["mirrors"][mirror_name] = {
+            "captured_pages_listed": len(records),
+            "placeholder_pages_created": len(placeholders),
+            "site_map": f"artifacts/{mirror_name}/_site-map.html",
+        }
+    write_json(snapshot_dir / "manifest" / "offline-navigation.json", summary)
+    return summary
 
 
 def completed_stages(stage: str) -> List[str]:
@@ -220,6 +377,34 @@ def create_website_archive(snapshot_dir: Path, config: CaptureConfig, site: str,
             "",
         ]
     )
+    website_index = "\n".join(
+        [
+            "<!doctype html>",
+            '<meta charset="utf-8">',
+            "<title>Captured Website HTML</title>",
+            '<style>body{font-family:system-ui,sans-serif;max-width:820px;margin:48px auto;padding:0 24px;line-height:1.55;color:#111827}.actions{display:grid;gap:12px;margin:24px 0}.actions a{display:block;border:1px solid #d1d5db;border-radius:8px;padding:14px 16px;text-decoration:none;color:#1d4ed8}code{background:#f3f4f6;padding:2px 4px;border-radius:4px}</style>',
+            "<h1>Captured Website HTML</h1>",
+            f"<p>This ZIP contains local browsing files for <code>{html.escape(config.target_url)}</code>.</p>",
+            '<div class="actions">',
+            '<a href="open-rendered-mirror.html"><strong>Open rendered mirror</strong><br>Best first choice for browser-observed pages.</a>',
+            '<a href="site-map.html"><strong>Open offline site map</strong><br>Use this static page list when menus, dropdowns, or scripted controls do not work offline.</a>',
+            '<a href="open-static-mirror.html"><strong>Open static mirror</strong><br>Fallback for server-returned HTML.</a>',
+            '<a href="singlefile-index.html"><strong>Open SingleFile index</strong><br>Self-contained individual page exports when available.</a>',
+            "</div>",
+            "<p>Same-domain links inside the rendered mirror are rewritten to local files when the target page was captured. Links to same-domain pages that were not captured open a local explanation page instead of a blank browser page.</p>",
+            "",
+        ]
+    )
+    sitemap_launcher = "\n".join(
+        [
+            "<!doctype html>",
+            '<meta charset="utf-8">',
+            "<title>Offline Site Map</title>",
+            '<meta http-equiv="refresh" content="0; url=rendered-mirror/_site-map.html">',
+            '<p>Open <a href="rendered-mirror/_site-map.html">rendered-mirror/_site-map.html</a>.</p>',
+            "",
+        ]
+    )
     browse_readme = "\n".join(
         [
             "# Captured Website HTML",
@@ -231,13 +416,14 @@ def create_website_archive(snapshot_dir: Path, config: CaptureConfig, site: str,
             "## What To Open",
             "",
             "1. Unzip this file.",
-            "2. Open `open-rendered-mirror.html` in a browser.",
-            "3. If the rendered mirror is unavailable or not useful, open `open-static-mirror.html`.",
-            "4. Open `singlefile-index.html` for self-contained SingleFile pages when available.",
+            "2. Open `index.html` in a browser.",
+            "3. From there, open the rendered mirror, the offline site map, the static mirror, or SingleFile exports.",
+            "4. If a menu, dropdown, or scripted control does not work offline, open `site-map.html` to choose a captured page from a static list.",
             "",
             "The rendered mirror reflects browser-observed HTML from the GitHub-hosted runner.",
             "The static mirror reflects public HTTP HTML with executable scripts disabled for offline review.",
             "SingleFile pages are usually the easiest individual pages to open offline, but they are listed one page at a time.",
+            "Same-domain links in the rendered mirror are rewritten to local files where the target page was captured.",
             "",
             f"This ZIP is for navigation and review. For the complete evidence package, use `{site}-{run_stamp}.zip` or the expanded snapshot folder.",
             "",
@@ -265,8 +451,10 @@ def create_website_archive(snapshot_dir: Path, config: CaptureConfig, site: str,
     )
     with zipfile.ZipFile(website_archive_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
         archive.writestr("README.md", browse_readme)
+        archive.writestr("index.html", website_index)
         archive.writestr("open-rendered-mirror.html", rendered_launcher)
         archive.writestr("open-static-mirror.html", static_launcher)
+        archive.writestr("site-map.html", sitemap_launcher)
         archive.writestr("singlefile-index.html", singlefile_index)
         archive.writestr(
             "availability.json",
@@ -438,6 +626,7 @@ def publish_snapshot(
     (snapshot_dir.parent / "latest.txt").write_text(f"{run_stamp}\n", encoding="utf-8")
     status = write_status_files(snapshot_dir, config, stage, final)
     write_partial_guides(snapshot_dir, config, site, run_stamp, final)
+    prepare_offline_navigation(snapshot_dir, config)
     archive_paths: Dict[str, str] = {}
     if final:
         website_archive_path = create_website_archive(snapshot_dir, config, site, run_stamp)

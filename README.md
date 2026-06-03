@@ -89,7 +89,7 @@ Inside a snapshot:
 
 - Open `START-HERE.md` first.
 - Open `report/report.md` for the complete report.
-- Download `<site>-<run>-website-html.zip` to browse captured HTML locally; open `open-rendered-mirror.html`, `open-static-mirror.html`, or `singlefile-index.html`.
+- Download `<site>-<run>-website-html.zip` to browse captured HTML locally; unzip it and open `index.html`. Use `site-map.html` when menus, dropdowns, or scripted controls do not work offline.
 - Download `<site>-<run>.zip` for the complete evidence package.
 - If those ZIP files are not present in the committed folder, open `ARCHIVES.md`; large ZIPs are published outside the Git tree because GitHub rejects individual Git files above 100 MB.
 

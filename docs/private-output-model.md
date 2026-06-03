@@ -21,7 +21,7 @@ Each snapshot should include:
 - GitHub Actions run/job metadata and workflow logs when GitHub exposes them during the final job.
 - Raw public-runner browser observations such as cookies, storage state, request/response headers, query values, request bodies, console events, and page errors.
 
-For ordinary review, open `SNAPSHOT-STATUS.md` first if the workflow is still running. Then open `START-HERE.md` and `report/report.md` when they exist. To navigate preserved HTML locally after the final job, download `<site>-<run>-website-html.zip`, unzip it, and open `open-rendered-mirror.html`. If the rendered mirror is unavailable or not useful, open `open-static-mirror.html`. For self-contained individual page exports, open `singlefile-index.html` when available.
+For ordinary review, open `SNAPSHOT-STATUS.md` first if the workflow is still running. Then open `START-HERE.md` and `report/report.md` when they exist. To navigate preserved HTML locally after the final job, download `<site>-<run>-website-html.zip`, unzip it, and open `index.html`. From there, open the rendered mirror, the offline site map, the static mirror, or SingleFile exports. Use `site-map.html` when menus, dropdowns, or scripted controls do not work offline.
 
 If a ZIP is too large to commit, open `ARCHIVES.md`. The snapshot records SHA-256 hashes and external paths under `manifest/snapshot-archives.json`, and the workflow publishes the large ZIPs as workflow artifacts and release assets instead of Git files.
 

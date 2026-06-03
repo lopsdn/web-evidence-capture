@@ -71,9 +71,15 @@ Use this smaller ZIP when you only want to navigate the captured HTML pages:
 
 Download it, unzip it, then open:
 
-`open-rendered-mirror.html`
+`index.html`
 
-If that file does not show useful content, open:
+From there, open the rendered mirror, the offline site map, the static mirror, or SingleFile exports.
+
+If menus, dropdowns, or scripted controls do not work offline, open:
+
+`site-map.html`
+
+If the rendered mirror does not show useful content, open:
 
 `open-static-mirror.html`
 

@@ -57,8 +57,32 @@ class SnapshotTests(unittest.TestCase):
         rendered.mkdir(parents=True)
         singlefile.mkdir(parents=True)
         (mirror / "index.html").write_text("<h1>Static</h1>", encoding="utf-8")
-        (rendered / "index.html").write_text("<h1>Rendered</h1>", encoding="utf-8")
+        (rendered / "index.html").write_text(
+            '<h1>Rendered</h1><a href="/about-us/">About</a><a href="/missing/">Missing</a><a href="https://external.example/">External</a>',
+            encoding="utf-8",
+        )
+        (rendered / "about-us").mkdir()
+        (rendered / "about-us" / "index.html").write_text("<h1>About</h1><a href='/'>Home</a>", encoding="utf-8")
         (singlefile / "001.singlefile.html").write_text("<h1>SingleFile</h1>", encoding="utf-8")
+        (self.run_dir / "manifest" / "render-result.json").write_text(
+            json.dumps(
+                [
+                    {
+                        "url": self.config.target_url,
+                        "final_url": self.config.target_url,
+                        "title": "Home",
+                        "rendered_html": "artifacts/rendered-mirror/index.html",
+                    },
+                    {
+                        "url": "https://www.example.org/about-us/",
+                        "final_url": "https://www.example.org/about-us/",
+                        "title": "About",
+                        "rendered_html": "artifacts/rendered-mirror/about-us/index.html",
+                    },
+                ]
+            ),
+            encoding="utf-8",
+        )
         (self.run_dir / "manifest" / "singlefile-result.json").write_text(
             json.dumps(
                 [
@@ -87,9 +111,17 @@ class SnapshotTests(unittest.TestCase):
         self.assertIn(website_zip.name, full_names)
         with zipfile.ZipFile(website_zip) as archive:
             names = set(archive.namelist())
-        self.assertIn("README.md", names)
-        self.assertIn("open-rendered-mirror.html", names)
-        self.assertIn("rendered-mirror/index.html", names)
+            self.assertIn("README.md", names)
+            self.assertIn("index.html", names)
+            self.assertIn("open-rendered-mirror.html", names)
+            self.assertIn("site-map.html", names)
+            self.assertIn("rendered-mirror/index.html", names)
+            self.assertIn("rendered-mirror/_site-map.html", names)
+            self.assertIn("rendered-mirror/missing/index.html", names)
+            rendered_index = archive.read("rendered-mirror/index.html").decode("utf-8")
+        self.assertIn('href="about-us/index.html"', rendered_index)
+        self.assertIn('href="missing/index.html"', rendered_index)
+        self.assertIn('href="https://external.example/"', rendered_index)
         archives = json.loads((snapshot_dir / "manifest" / "snapshot-archives.json").read_text(encoding="utf-8"))
         self.assertEqual(archives["complete_snapshot_zip"], full_zip.name)
         self.assertEqual(archives["website_html_zip"], website_zip.name)
