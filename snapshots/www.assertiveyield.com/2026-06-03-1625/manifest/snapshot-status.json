@@ -6,12 +6,13 @@
     "capture",
     "render",
     "privacy_inspection",
-    "singlefile"
+    "singlefile",
+    "package_wacz"
   ],
   "final": false,
   "run": "2026-06-03-1625",
   "snapshot_dir": "snapshots/www.assertiveyield.com/2026-06-03-1625",
-  "stage": "singlefile",
+  "stage": "package_wacz",
   "target_url": "https://www.assertiveyield.com/",
-  "updated_utc": "2026-06-03T17:36:15+00:00"
+  "updated_utc": "2026-06-03T17:40:06+00:00"
 }

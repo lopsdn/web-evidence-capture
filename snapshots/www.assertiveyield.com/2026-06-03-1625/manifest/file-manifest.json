@@ -6,8 +6,8 @@
   },
   {
     "path": "SNAPSHOT-STATUS.md",
-    "sha256": "bd53ca48ddad380c1cd6b3c1ddc4bf58977e454ce04edfdf42af220a96cdce89",
-    "size_bytes": 550
+    "sha256": "98564a29bfe86dacb341194957aef8cfbd694e81c62fd23ffcb5ec0b191d111d",
+    "size_bytes": 569
   },
   {
     "path": "START-HERE.md",
@@ -3185,6 +3185,16 @@
     "size_bytes": 4189144
   },
   {
+    "path": "artifacts/wacz/assertiveyield.wacz",
+    "sha256": "490628a2b9bcc82ffd052347b73f10ba2124fd057e685a7a800fa4779e100f08",
+    "size_bytes": 10716075
+  },
+  {
+    "path": "artifacts/wacz/pages.jsonl",
+    "sha256": "9009c55d0d3ce930349a205ee4aa622376a41f644b2b19a89f946fcc1a1453f2",
+    "size_bytes": 19274
+  },
+  {
     "path": "artifacts/warc/assertiveyield.warc.gz",
     "sha256": "0733c4d5020e54277017e8f2ff688ab5faf3be437a103ac41ee74286cbd5fd76",
     "size_bytes": 10696006
@@ -3208,6 +3218,16 @@
     "path": "logs/inventory.jsonl",
     "sha256": "5f467b0f70497d5f4ef034d536c513bfa847d81c37ec8c77fc7fc8361940eb3c",
     "size_bytes": 33820
+  },
+  {
+    "path": "logs/package_wacz.jsonl",
+    "sha256": "8cde1877235f7b433edcb884b842dd5b149a8eda25c3059d29b16de21b7d3b18",
+    "size_bytes": 416
+  },
+  {
+    "path": "logs/package_wacz.log",
+    "sha256": "bba97dd62bc69459b4350bd7b6d6bb040c78d44b6a488d28ccd951fe442eeeac",
+    "size_bytes": 314
   },
   {
     "path": "logs/privacy.jsonl",
@@ -3881,13 +3901,23 @@
   },
   {
     "path": "manifest/snapshot-status.json",
-    "sha256": "5627be9bd765950c9194d2f46494440a111f5db294971d9b80f85d12bb4c0495",
-    "size_bytes": 400
+    "sha256": "8f5d19a270b9516f2557c021032542b5ec0d7eb7a9413768958ef7e76a7686ef",
+    "size_bytes": 422
   },
   {
     "path": "manifest/url-inventory.json",
     "sha256": "f40773d8d3d87132cb8d5f9c75b26a6fd2539cbb8e58f751ad894746a89cc8b5",
     "size_bytes": 62918
+  },
+  {
+    "path": "manifest/wacz-pages.json",
+    "sha256": "f81d9c877f3ee8efa98ecc80f926a11ab96744904fb2d068a61e739d4ddf7942",
+    "size_bytes": 58
+  },
+  {
+    "path": "manifest/wacz-result.json",
+    "sha256": "f007fb8407cf69829e1e6b8b866c7da9424b1ed705ee9e328a850b2074f6d075",
+    "size_bytes": 557
   },
   {
     "path": "report/README.md",

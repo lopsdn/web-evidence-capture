@@ -1,0 +1,17 @@
+{
+  "completed_local": "2026-06-03T17:40:01+00:00",
+  "completed_utc": "2026-06-03T17:40:01+00:00",
+  "create_exit_code": 0,
+  "invalid_passed_pages_count": 0,
+  "log": "logs/package_wacz.log",
+  "pages_detected": 124,
+  "pages_detected_source": "wacz_pages_jsonl",
+  "pages_input_count": 124,
+  "pages_input_path": "artifacts/wacz/pages.jsonl",
+  "validate_exit_code": 0,
+  "wacz_exists": true,
+  "wacz_path": "artifacts/wacz/assertiveyield.wacz",
+  "warc_path": "artifacts/warc/assertiveyield.warc.gz",
+  "warnings": [],
+  "zero_pages_policy": "warning"
+}

@@ -1,0 +1,11 @@
+Validating passed pages.jsonl file
+Reading and Indexing All WARCs
+Writing archives...
+Generating page index from passed pages...
+Header detected in the passed pages.jsonl file
+Generating datapackage.json
+Generating datapackage-digest.json
+
+
+Version detected as 1.1.1
+Validation succeeded, the passed WACZ is valid
