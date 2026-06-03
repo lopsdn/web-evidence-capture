@@ -4,12 +4,13 @@
     "scope",
     "inventory",
     "capture",
-    "render"
+    "render",
+    "privacy_inspection"
   ],
   "final": false,
   "run": "2026-06-03-1625",
   "snapshot_dir": "snapshots/www.assertiveyield.com/2026-06-03-1625",
-  "stage": "render",
+  "stage": "privacy_inspection",
   "target_url": "https://www.assertiveyield.com/",
-  "updated_utc": "2026-06-03T16:47:41+00:00"
+  "updated_utc": "2026-06-03T17:04:08+00:00"
 }

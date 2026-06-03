@@ -1,0 +1,568 @@
+{
+  "cookies": [
+    {
+      "domain": "www.clarity.ms",
+      "expires": 1812041611.783802,
+      "httpOnly": true,
+      "name": "CLID",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "110907e396324caf8deabc0e95a1fc6d.20260603.20270603"
+    },
+    {
+      "domain": ".zoominfo.com",
+      "expires": -1,
+      "httpOnly": true,
+      "name": "_cfuvid",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "MN96PB3Le7jO4vcCsp3ZpD3mHhseZfSjMbe_PMCiVuE-1780505611.9087832-1.0.1.1-6367RvXuJuBl0mqkcUJNOXIXbvbYCtqj3PWsHTc0AQI"
+    },
+    {
+      "domain": ".hs-scripts.com",
+      "expires": 1780507412.030993,
+      "httpOnly": true,
+      "name": "__cf_bm",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "q98saKBChZQLXOoME2TcbY8cXhIqExvkdmrqd9FcLkw-1780505611.9752495-1.0.1.1-zNHDiS22TuphKjQ3Ujg5iiyFo0Vt7U4q0Vg0cvE2bWaYTrJtleGV.pgoRflwdk45aoJlMhSqAX3DpZ59b.1p5_prQMHKQ0iehT.KTYLj7qxVxWJslcWRq823w4dduHho"
+    },
+    {
+      "domain": ".bing.com",
+      "expires": 1814201613.115687,
+      "httpOnly": false,
+      "name": "MUID",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "0E4C6F37F85A62141B34785AF99163B2"
+    },
+    {
+      "domain": ".c.bing.com",
+      "expires": 1781110413.115758,
+      "httpOnly": false,
+      "name": "MR",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "0"
+    },
+    {
+      "domain": ".c.bing.com",
+      "expires": 1814201613.11579,
+      "httpOnly": false,
+      "name": "SRM_B",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "0E4C6F37F85A62141B34785AF99163B2"
+    },
+    {
+      "domain": ".c.clarity.ms",
+      "expires": -1,
+      "httpOnly": false,
+      "name": "SM",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "C"
+    },
+    {
+      "domain": ".clarity.ms",
+      "expires": 1814201612.125488,
+      "httpOnly": false,
+      "name": "MUID",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "0E4C6F37F85A62141B34785AF99163B2"
+    },
+    {
+      "domain": ".c.clarity.ms",
+      "expires": 1781110412.125533,
+      "httpOnly": false,
+      "name": "MR",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "0"
+    },
+    {
+      "domain": ".usemessages.com",
+      "expires": 1780507412.367501,
+      "httpOnly": true,
+      "name": "__cf_bm",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": ".OJzBgevbg2ZZ0iwo.hQdED9vzrwLCkf_BpLLeqm5vc-1780505612.3151143-1.0.1.1-_T38gsDAZgpfry1qaXsate.fchia2.ejmHeMD2nDufH94DQOmSsK1T.DYe3M83grnkZa1mWFoYRsQeBXD3culsrZLBWr4X7hBWKeDg6fY9jMaTl3cJsN2N6oueBQ2pcM"
+    },
+    {
+      "domain": ".hs-banner.com",
+      "expires": 1780507412.422989,
+      "httpOnly": true,
+      "name": "__cf_bm",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "7PGXGN6mbQGN5dooQXOAWTWHVzdHo7gcK.633rCH.2E-1780505612.3126059-1.0.1.1-ZIiiDrsMM51D4LLatuavC4Iavtr7.FWEYwPScOnMqlDfoxwPt5o6T8kxcKh0HIt6n80Umflh.H0o0PQ9OidBdnTRk_lLeYC2Dxw6BgJiApBCXmCbhLdu2_HfaT7g_jGJ"
+    },
+    {
+      "domain": ".hsadspixel.net",
+      "expires": 1780507412.459026,
+      "httpOnly": true,
+      "name": "__cf_bm",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "rwSjbDxNz5vDKGRvO7.lyiJtoLEHby.TeIRijBzP3JU-1780505612.4073527-1.0.1.1-eQthlzWuA8ZfHS3VUHF6CCIqPfS3ZGx2751K3GToYjszhdLG2fQisBp9vPXKz_2XFmiM55QzOK0MqFnwQIETNqBk6gLzrJmHNtZCrJXQcTGS3C3RR8ufIFyniGU_Rb7X"
+    },
+    {
+      "domain": ".hs-analytics.net",
+      "expires": 1780507412.469664,
+      "httpOnly": true,
+      "name": "__cf_bm",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "znEs9tz0M48FrITwPFQkbVzzzi8V0TiqCXIA0CrPS.0-1780505612.335293-1.0.1.1-6UW.4vcQg96j3Xe49W_FAEtWoes1RT.3U2OmlqQLulme5f6XWT0TGCMnUMrIs6_uA_0BqpRX9XYiLg1FD8u17HxGFKfLFVyE.KDnkw2w6mFeo5MvLQd0_H5GdEzHhi.y"
+    },
+    {
+      "domain": ".hubspot.com",
+      "expires": 1780507412.918288,
+      "httpOnly": true,
+      "name": "__cf_bm",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "RSiFeTyvuQkjBkoMVz_w0F84QzuFDgFXZJniVAsEBm4-1780505612.8286226-1.0.1.1-nZ7AjRtzarFLT.UuPFSyG71FDy86GNQKSpp0WKPJZFX04NwhHLWRl9bnkW.jKJprAEZUDr0pHHb3rVa8svuwwrTxP3bRh.x_WQ8hZ1cpgCLGQMVYnKvyyPhPF18FFV7O"
+    },
+    {
+      "domain": ".yandex.ru",
+      "expires": 1815065612.93887,
+      "httpOnly": false,
+      "name": "bh",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "EkIiQ2hyb21pdW0iO3Y9IjE0OCIsICJIZWFkbGVzc0Nocm9tZSI7dj0iMTQ4IiwgIk5vdC9BKUJyYW5kIjt2PSI5OSIqAj8wOgkiV2luZG93cyJgjLiB0QZqCtzK1boPv6zD9QU="
+    },
+    {
+      "domain": ".hsforms.com",
+      "expires": 1780507413.207246,
+      "httpOnly": true,
+      "name": "__cf_bm",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "vYBlEqqCqHrAd05xcTGzaMsSJGw5ZJ06H22zOKMp0lk-1780505613.1275508-1.0.1.1-KynYLSOhWi8r65hC__Sv3V5NnVcCH5Bc99TOPH.bPIdNMhexUHx3weH5_McZsDMYCSIS.ydVn.feHVrtzBQg5DKwAfg7jfjRVayq.tYWK4LF4Wl60Tua61uMwVTf7I11"
+    },
+    {
+      "domain": "www.assertiveyield.com",
+      "expires": 1812041617,
+      "httpOnly": false,
+      "name": "CookieConsent",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": true,
+      "value": "{stamp:%27GzGhtps+2CiTpg/ikhkl/IjLgDf68eKhZQGxa52QOuBnNdaGhbjA7g==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1780505617454%2Cregion:%27us-17%27}"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1780508043,
+      "httpOnly": false,
+      "name": "builderSessionId",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "dbbd43f36c604c7d81133d717c228c5c"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1812042244,
+      "httpOnly": false,
+      "name": "ajs_anonymous_id",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "5ee6b833-f6b3-4071-9bfa-554fa4207823"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1812041621,
+      "httpOnly": false,
+      "name": "_clck",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "9pu9o1%5E2%5Eg6l%5E0%5E2345"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1796058244,
+      "httpOnly": false,
+      "name": "__hstc",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "105112924.1cdeee0aed10de276d8e01ff17e4ea75.1780505621247.1780505621247.1780505621247.1"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1796058244,
+      "httpOnly": false,
+      "name": "hubspotutk",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "1cdeee0aed10de276d8e01ff17e4ea75"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": -1,
+      "httpOnly": false,
+      "name": "__hssrc",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "1"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1812041621,
+      "httpOnly": false,
+      "name": "_ym_uid",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "1780505621302661792"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1812041621,
+      "httpOnly": false,
+      "name": "_ym_d",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "1780505621"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1780577621,
+      "httpOnly": false,
+      "name": "_ym_isad",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "2"
+    },
+    {
+      "domain": ".www.assertiveyield.com",
+      "expires": 1812042244,
+      "httpOnly": false,
+      "name": "_zitok",
+      "path": "/",
+      "sameSite": "Strict",
+      "secure": true,
+      "value": "8d9c583fb881e8d05bd11780505621"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1780508044,
+      "httpOnly": false,
+      "name": "_ym_visorc",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "w"
+    },
+    {
+      "domain": ".lp.assertiveyield.com",
+      "expires": 1780507472.637133,
+      "httpOnly": true,
+      "name": "__cf_bm",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "swUIrlZwC.7dMTh6dj6sM.2kTgXS8a8N_QAAbAMA4dM-1780505672.53058-1.0.1.1-eAs5sPJKejdD1SfoRZf6E1fLZoVz1U9zpjnYdmKyR8Cp8VXwh59bApM5mhN2IEDQ9Z3uk7hDPshd1RWSPGHk3hnp6qbwzuy.nPYm4wwQH_NFTBkN2F79fQuEFTzYdJa2"
+    },
+    {
+      "domain": ".lp.assertiveyield.com",
+      "expires": -1,
+      "httpOnly": true,
+      "name": "_cfuvid",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "rCHIkoPj8UDczDvCQjOGjvx6sQ_oSfFrgMCivQ0VlVU-1780505672.53058-1.0.1.1-Fdbb1feOqEKd7dl4UZ3wm43eZKWQg7ZZI0ucGPb8wDY"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": -1,
+      "httpOnly": true,
+      "name": "YSC",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "yO5asWrbTbU"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": 1796058244.064943,
+      "httpOnly": true,
+      "name": "VISITOR_INFO1_LIVE",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "GBrKLro5Wvk"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": 1796058244.065048,
+      "httpOnly": true,
+      "name": "VISITOR_PRIVACY_METADATA",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "CgJVUxIEGgAgHw%3D%3D"
+    },
+    {
+      "domain": ".hsforms.net",
+      "expires": 1780507759.878394,
+      "httpOnly": true,
+      "name": "__cf_bm",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "p53iksvJhtrxOTH8qKmcKhhSC49SsWLy0BxxugN0mj0-1780505959.8693135-1.0.1.1-lmFlKKZ6frTWvrupza7t23sDyYPyFkwBCMnDnEeuGc91MvICeb4RwUpjD2lT9VyFYAqNqajqk3oExe3vnngj7pcJAhcEHVI463q2CsdspM.uwDR9oIsZ23AZrriSVETd"
+    },
+    {
+      "domain": ".youtube.com",
+      "expires": 1796057811.182387,
+      "httpOnly": true,
+      "name": "__Secure-YNID",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "18.YT=noXjZiXQeXTkLoIYXdHG-YPGJDxqcRIQusgK5F_j6JjAsapnySpl-yESs4ko4phV9pO-2ciosf7jl-DCC9p2xQuhM69ccxdYNgqntX2Olugk8aF7HnyFGTI4JXFbxkUJiuCKvlyMVt7sHmQ3JwjLz9fyVI0pigeVoH088Ert7viP_nYFxiCaA9X4cd-cBIHVUQdk1c_9YbfhPypFeJassR3vK_HgCxsbheVg1SGE7dsmRrFr-q56IMG--5d9HJ7CaJfse4RZwo_b5KJ1hihVh4sVfLJ8CMcM0CMYuRFCYSrviC7iYyrm1y_yWmyq0IQJNZo3Dg0e3NUaOCR3jHrDOA"
+    },
+    {
+      "_crHasCrossSiteAncestor": true,
+      "domain": ".youtube.com",
+      "expires": 1796058016.182484,
+      "httpOnly": true,
+      "name": "__Secure-ROLLOUT_TOKEN",
+      "partitionKey": "https://assertiveyield.com",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "CPD09eGv0qfzSRCT_6ODxeuUAxj4-_DkxeuUAw%3D%3D"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1814583618,
+      "httpOnly": false,
+      "name": "_hp2_id.1423991783",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "%7B%22userId%22%3A%22186826060289678%22%2C%22pageviewId%22%3A%223593362201054220%22%2C%22sessionId%22%3A%221526965322170043%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D"
+    },
+    {
+      "domain": ".linkedin.com",
+      "expires": 1788282019.072048,
+      "httpOnly": false,
+      "name": "li_sugr",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "3451dd75-f31c-40b8-a06d-bf9aee5c7804"
+    },
+    {
+      "domain": ".linkedin.com",
+      "expires": 1812042019.072127,
+      "httpOnly": false,
+      "name": "bcookie",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "\"v=2&d866e912-efba-4ecd-8576-0f7eec4daf6f\""
+    },
+    {
+      "domain": ".linkedin.com",
+      "expires": 1780592418.780302,
+      "httpOnly": false,
+      "name": "lidc",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "\"b=OGST05:s=O:r=O:a=O:p=O:g=3624:u=1:x=1:i=1780506018:t=1780592418:v=2:sig=AQHXUK7xNvdCBtLhaKDTWQGQrjAq-RYL\""
+    },
+    {
+      "domain": ".linkedin.com",
+      "expires": 1780507818.780333,
+      "httpOnly": true,
+      "name": "__cf_bm",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "O1YaDn6MKIxnvl7G.orybD1X0O_DKthM6_p1rmYNcqM-1780506018.6897175-1.0.1.1-y70Iyyr7JZQt0fn8D4Ejte1kLmxDSgkC53uAkzD6IOYUu0Nh3Bx2gYm4tRtF52Fb9x0TPk4bMCvfXj9rvGVJNqMTmoOkuOyOGQro9HChtyw9I0VxxGkpejm2yzrLy4OU"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1780507818,
+      "httpOnly": false,
+      "name": "_hp2_ses_props.1423991783",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "%7B%22ts%22%3A1780506018545%2C%22d%22%3A%22www.assertiveyield.com%22%2C%22h%22%3A%22%2Fpodcasts%2Fall%2F%22%7D"
+    },
+    {
+      "domain": ".linkedin.com",
+      "expires": 1783098018.875703,
+      "httpOnly": false,
+      "name": "UserMatchHistory",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "AQI2iNaTpg3MOgAAAZ6ObcQZYNFOzLfDg_vUZz76Ly8zaBUxt50zu0U7zX3Y8dCMtqO28jusw73uBQ"
+    },
+    {
+      "domain": ".linkedin.com",
+      "expires": 1783098018.875766,
+      "httpOnly": false,
+      "name": "AnalyticsSyncHistory",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "AQLTqUJkqwqCpQAAAZ6ObcQZsM5HI62bZjsjnqiY3jnzyIxaLZIvi5KElLfMcMWX_mCpd3_ODTIJskudZqRF6g"
+    },
+    {
+      "domain": ".www.linkedin.com",
+      "expires": 1812042018.00068,
+      "httpOnly": true,
+      "name": "bscookie",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "\"v=1&2026060317001804594136-3753-4bcd-8e15-deefe47a6e1aAQEFtX8u3lQk82EtjvfvBJxokYaTF8gr\""
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1780592584,
+      "httpOnly": false,
+      "name": "_clsk",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "oihmxu%5E1780506184455%5E119%5E1%5Ei.clarity.ms%2Fcollect"
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1788282244,
+      "httpOnly": false,
+      "name": "_rdt_uuid",
+      "path": "/",
+      "sameSite": "Strict",
+      "secure": true,
+      "value": "1780505621089.05b630eb-f403-49c4-acd1-4f21475a6524"
+    },
+    {
+      "domain": ".yandex.com",
+      "expires": 1815066244,
+      "httpOnly": false,
+      "name": "bh",
+      "path": "/",
+      "sameSite": "None",
+      "secure": true,
+      "value": "EkIiQ2hyb21pdW0iO3Y9IjE0OCIsICJIZWFkbGVzc0Nocm9tZSI7dj0iMTQ4IiwgIk5vdC9BKUJyYW5kIjt2PSI5OSIqAj8wOgkiV2luZG93cyJghL2B0QZqCtzK1boPv6zD9QU="
+    },
+    {
+      "domain": ".assertiveyield.com",
+      "expires": 1780508044,
+      "httpOnly": false,
+      "name": "__hssc",
+      "path": "/",
+      "sameSite": "Lax",
+      "secure": false,
+      "value": "105112924.125.1780505621247"
+    }
+  ],
+  "origins": [
+    {
+      "localStorage": [
+        {
+          "name": "_ym53662045_lastHit",
+          "value": "1780506199354"
+        },
+        {
+          "name": "_ym_retryReqs",
+          "value": "{}"
+        },
+        {
+          "name": "builderVisitorId",
+          "value": "3d005a5dd64c42d8a56b71562626ecd0"
+        },
+        {
+          "name": "_ym_synced",
+          "value": "{\"com\":29675093}"
+        },
+        {
+          "name": "_ym_wv2rf:53662045:0",
+          "value": "1"
+        },
+        {
+          "name": "algolia-client-js-5.35.0-0FHW9168YY",
+          "value": "{}"
+        },
+        {
+          "name": "algoliasearch-client-js",
+          "value": "{}"
+        },
+        {
+          "name": "_ym53662045_lsid",
+          "value": "1413361024623"
+        },
+        {
+          "name": "_ym53662045:0_reqNum",
+          "value": "128"
+        },
+        {
+          "name": "_ym_uid",
+          "value": "\"1780505621302661792\""
+        },
+        {
+          "name": "li_adsId",
+          "value": "0465e95d-3a8c-4470-874b-7475837e3a8d"
+        },
+        {
+          "name": "ajs_anonymous_id",
+          "value": "\"5ee6b833-f6b3-4071-9bfa-554fa4207823\""
+        },
+        {
+          "name": "ajs_user_id",
+          "value": "null"
+        }
+      ],
+      "origin": "https://www.assertiveyield.com"
+    },
+    {
+      "localStorage": [
+        {
+          "name": "ytidb::LAST_RESULT_ENTRY_KEY",
+          "value": "{\"data\":{\"hasSucceededOnce\":true},\"expiration\":1783098244361,\"creation\":1780506244361}"
+        },
+        {
+          "name": "yt-icons-last-purged",
+          "value": "1777654612024"
+        }
+      ],
+      "origin": "https://www.youtube.com"
+    }
+  ]
+}

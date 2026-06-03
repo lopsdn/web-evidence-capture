@@ -1,0 +1,402 @@
+[
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780507410,
+    "httpOnly": false,
+    "name": "builderSessionId",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "1aba55e501b24feb863dfe1bbd0818ff"
+  },
+  {
+    "domain": ".www.assertiveyield.com",
+    "expires": 1812041611,
+    "httpOnly": false,
+    "name": "_zitok",
+    "path": "/",
+    "sameSite": "Strict",
+    "secure": true,
+    "value": "e25c6cc8771b6e2cabba1780505611"
+  },
+  {
+    "domain": "www.clarity.ms",
+    "expires": 1812041611.783802,
+    "httpOnly": true,
+    "name": "CLID",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "110907e396324caf8deabc0e95a1fc6d.20260603.20270603"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1788281611,
+    "httpOnly": false,
+    "name": "_rdt_uuid",
+    "path": "/",
+    "sameSite": "Strict",
+    "secure": true,
+    "value": "1780505611983.5cf7caed-8773-4e65-b720-22d0d3016a65"
+  },
+  {
+    "domain": ".zoominfo.com",
+    "expires": -1,
+    "httpOnly": true,
+    "name": "_cfuvid",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "MN96PB3Le7jO4vcCsp3ZpD3mHhseZfSjMbe_PMCiVuE-1780505611.9087832-1.0.1.1-6367RvXuJuBl0mqkcUJNOXIXbvbYCtqj3PWsHTc0AQI"
+  },
+  {
+    "domain": ".hs-scripts.com",
+    "expires": 1780507412.030993,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "q98saKBChZQLXOoME2TcbY8cXhIqExvkdmrqd9FcLkw-1780505611.9752495-1.0.1.1-zNHDiS22TuphKjQ3Ujg5iiyFo0Vt7U4q0Vg0cvE2bWaYTrJtleGV.pgoRflwdk45aoJlMhSqAX3DpZ59b.1p5_prQMHKQ0iehT.KTYLj7qxVxWJslcWRq823w4dduHho"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1812041612,
+    "httpOnly": false,
+    "name": "ajs_anonymous_id",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "b3c5e337-2c2b-4a85-a893-88bc95635810"
+  },
+  {
+    "domain": ".bing.com",
+    "expires": 1814201613.115687,
+    "httpOnly": false,
+    "name": "MUID",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "0E4C6F37F85A62141B34785AF99163B2"
+  },
+  {
+    "domain": ".c.bing.com",
+    "expires": 1781110413.115758,
+    "httpOnly": false,
+    "name": "MR",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "0"
+  },
+  {
+    "domain": ".c.bing.com",
+    "expires": 1814201613.11579,
+    "httpOnly": false,
+    "name": "SRM_B",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "0E4C6F37F85A62141B34785AF99163B2"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780592012,
+    "httpOnly": false,
+    "name": "_gid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "GA1.2.1614931765.1780505612"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780505672,
+    "httpOnly": false,
+    "name": "_gat_gtag_UA_114303038_2",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1"
+  },
+  {
+    "domain": ".c.clarity.ms",
+    "expires": -1,
+    "httpOnly": false,
+    "name": "SM",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "C"
+  },
+  {
+    "domain": ".clarity.ms",
+    "expires": 1814201612.125488,
+    "httpOnly": false,
+    "name": "MUID",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "0E4C6F37F85A62141B34785AF99163B2"
+  },
+  {
+    "domain": ".c.clarity.ms",
+    "expires": 1781110412.125533,
+    "httpOnly": false,
+    "name": "MR",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "0"
+  },
+  {
+    "domain": ".c.clarity.ms",
+    "expires": 1780506212.12556,
+    "httpOnly": false,
+    "name": "ANONCHK",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "0"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1815065612.19906,
+    "httpOnly": false,
+    "name": "_ga_9SWN00NJJW",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "GS2.1.s1780505612$o1$g0$t1780505612$j60$l0$h0"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1815065612.199609,
+    "httpOnly": false,
+    "name": "_ga",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "GA1.1.1347462510.1780505612"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1812041612,
+    "httpOnly": false,
+    "name": "_clck",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "kfm5si%5E2%5Eg6l%5E0%5E2345"
+  },
+  {
+    "domain": ".usemessages.com",
+    "expires": 1780507412.367501,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": ".OJzBgevbg2ZZ0iwo.hQdED9vzrwLCkf_BpLLeqm5vc-1780505612.3151143-1.0.1.1-_T38gsDAZgpfry1qaXsate.fchia2.ejmHeMD2nDufH94DQOmSsK1T.DYe3M83grnkZa1mWFoYRsQeBXD3culsrZLBWr4X7hBWKeDg6fY9jMaTl3cJsN2N6oueBQ2pcM"
+  },
+  {
+    "domain": ".hs-banner.com",
+    "expires": 1780507412.422989,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "7PGXGN6mbQGN5dooQXOAWTWHVzdHo7gcK.633rCH.2E-1780505612.3126059-1.0.1.1-ZIiiDrsMM51D4LLatuavC4Iavtr7.FWEYwPScOnMqlDfoxwPt5o6T8kxcKh0HIt6n80Umflh.H0o0PQ9OidBdnTRk_lLeYC2Dxw6BgJiApBCXmCbhLdu2_HfaT7g_jGJ"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780592012,
+    "httpOnly": false,
+    "name": "_clsk",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "aew7ss%5E1780505612446%5E1%5E1%5Ei.clarity.ms%2Fcollect"
+  },
+  {
+    "domain": ".hsadspixel.net",
+    "expires": 1780507412.459026,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "rwSjbDxNz5vDKGRvO7.lyiJtoLEHby.TeIRijBzP3JU-1780505612.4073527-1.0.1.1-eQthlzWuA8ZfHS3VUHF6CCIqPfS3ZGx2751K3GToYjszhdLG2fQisBp9vPXKz_2XFmiM55QzOK0MqFnwQIETNqBk6gLzrJmHNtZCrJXQcTGS3C3RR8ufIFyniGU_Rb7X"
+  },
+  {
+    "domain": ".hs-analytics.net",
+    "expires": 1780507412.469664,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "znEs9tz0M48FrITwPFQkbVzzzi8V0TiqCXIA0CrPS.0-1780505612.335293-1.0.1.1-6UW.4vcQg96j3Xe49W_FAEtWoes1RT.3U2OmlqQLulme5f6XWT0TGCMnUMrIs6_uA_0BqpRX9XYiLg1FD8u17HxGFKfLFVyE.KDnkw2w6mFeo5MvLQd0_H5GdEzHhi.y"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1796057612,
+    "httpOnly": false,
+    "name": "__hstc",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "105112924.85a5311aa9dd737aa1f42e5ba54e62f9.1780505612523.1780505612523.1780505612523.1"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1796057612,
+    "httpOnly": false,
+    "name": "hubspotutk",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "85a5311aa9dd737aa1f42e5ba54e62f9"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": -1,
+    "httpOnly": false,
+    "name": "__hssrc",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780507412,
+    "httpOnly": false,
+    "name": "__hssc",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "105112924.1.1780505612524"
+  },
+  {
+    "domain": ".hubspot.com",
+    "expires": 1780507412.918288,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "RSiFeTyvuQkjBkoMVz_w0F84QzuFDgFXZJniVAsEBm4-1780505612.8286226-1.0.1.1-nZ7AjRtzarFLT.UuPFSyG71FDy86GNQKSpp0WKPJZFX04NwhHLWRl9bnkW.jKJprAEZUDr0pHHb3rVa8svuwwrTxP3bRh.x_WQ8hZ1cpgCLGQMVYnKvyyPhPF18FFV7O"
+  },
+  {
+    "domain": ".yandex.ru",
+    "expires": 1815065612.93887,
+    "httpOnly": false,
+    "name": "bh",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "EkIiQ2hyb21pdW0iO3Y9IjE0OCIsICJIZWFkbGVzc0Nocm9tZSI7dj0iMTQ4IiwgIk5vdC9BKUJyYW5kIjt2PSI5OSIqAj8wOgkiV2luZG93cyJgjLiB0QZqCtzK1boPv6zD9QU="
+  },
+  {
+    "domain": ".hsforms.com",
+    "expires": 1780507413.207246,
+    "httpOnly": true,
+    "name": "__cf_bm",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "vYBlEqqCqHrAd05xcTGzaMsSJGw5ZJ06H22zOKMp0lk-1780505613.1275508-1.0.1.1-KynYLSOhWi8r65hC__Sv3V5NnVcCH5Bc99TOPH.bPIdNMhexUHx3weH5_McZsDMYCSIS.ydVn.feHVrtzBQg5DKwAfg7jfjRVayq.tYWK4LF4Wl60Tua61uMwVTf7I11"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1812041613,
+    "httpOnly": false,
+    "name": "_ym_uid",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "178050561326078442"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1812041613,
+    "httpOnly": false,
+    "name": "_ym_d",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "1780505613"
+  },
+  {
+    "domain": ".mc.yandex.com",
+    "expires": 1780506213,
+    "httpOnly": false,
+    "name": "sync_cookie_csrf",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "2435888360fake"
+  },
+  {
+    "domain": ".yandex.com",
+    "expires": 1815065613.395047,
+    "httpOnly": false,
+    "name": "bh",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "EkIiQ2hyb21pdW0iO3Y9IjE0OCIsICJIZWFkbGVzc0Nocm9tZSI7dj0iMTQ4IiwgIk5vdC9BKUJyYW5kIjt2PSI5OSIqAj8wOgkiV2luZG93cyJgjbiB0QZqCtzK1boPv6zD9QU="
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780577613,
+    "httpOnly": false,
+    "name": "_ym_isad",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "2"
+  },
+  {
+    "domain": ".mc.yandex.ru",
+    "expires": 1780506213,
+    "httpOnly": false,
+    "name": "sync_cookie_csrf",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "395387716fake"
+  },
+  {
+    "domain": ".mc.yandex.com",
+    "expires": 1780506214,
+    "httpOnly": false,
+    "name": "sync_cookie_csrf_secondary",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "3272684522fake"
+  },
+  {
+    "domain": ".mc.yandex.ru",
+    "expires": 1780506214,
+    "httpOnly": false,
+    "name": "sync_cookie_csrf_secondary",
+    "path": "/",
+    "sameSite": "None",
+    "secure": true,
+    "value": "943745750fake"
+  },
+  {
+    "domain": ".assertiveyield.com",
+    "expires": 1780507414,
+    "httpOnly": false,
+    "name": "_ym_visorc",
+    "path": "/",
+    "sameSite": "Lax",
+    "secure": false,
+    "value": "w"
+  }
+]
