@@ -1,0 +1,2500 @@
+{
+  "access_policy": {
+    "accounts_created": false,
+    "authentication_attempted": false,
+    "forms_submitted": false,
+    "public_only": true
+  },
+  "captured_pages": [
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/",
+      "local_path": "artifacts/mirror/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:51+00:00",
+      "timestamp_utc": "2026-06-03T16:30:51+00:00",
+      "title": "Assertive Yield - Publishers Next-Gen Tech Platform",
+      "url": "https://www.assertiveyield.com/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/about-us/",
+      "local_path": "artifacts/mirror/about-us/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:53+00:00",
+      "timestamp_utc": "2026-06-03T16:30:53+00:00",
+      "title": "About Us",
+      "url": "https://www.assertiveyield.com/about-us/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/ailayouts/",
+      "local_path": "artifacts/mirror/ailayouts/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:54+00:00",
+      "timestamp_utc": "2026-06-03T16:30:54+00:00",
+      "title": "AI Layouts",
+      "url": "https://www.assertiveyield.com/ailayouts/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/all-revenue-source/",
+      "local_path": "artifacts/mirror/all-revenue-source/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:55+00:00",
+      "timestamp_utc": "2026-06-03T16:30:55+00:00",
+      "title": "All Revenue Sources in real-time",
+      "url": "https://www.assertiveyield.com/all-revenue-source/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/apps-and-integrations/",
+      "local_path": "artifacts/mirror/apps-and-integrations/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:56+00:00",
+      "timestamp_utc": "2026-06-03T16:30:56+00:00",
+      "title": "Apps and Integrations",
+      "url": "https://www.assertiveyield.com/apps-and-integrations/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/ay-glossary/",
+      "local_path": "artifacts/mirror/ay-glossary/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:58+00:00",
+      "timestamp_utc": "2026-06-03T16:30:58+00:00",
+      "title": "Ay Glossary",
+      "url": "https://www.assertiveyield.com/ay-glossary/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/ay_prebidserver/",
+      "local_path": "artifacts/mirror/ay_prebidserver/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:59+00:00",
+      "timestamp_utc": "2026-06-03T16:30:59+00:00",
+      "title": "AY Prebid Server",
+      "url": "https://www.assertiveyield.com/ay_prebidserver/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/",
+      "local_path": "artifacts/mirror/blog/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:00+00:00",
+      "timestamp_utc": "2026-06-03T16:31:00+00:00",
+      "title": "Blog",
+      "url": "https://www.assertiveyield.com/blog/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/product-updates-q1-2024/",
+      "local_path": "artifacts/mirror/blog/product-updates-q1-2024/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:02+00:00",
+      "timestamp_utc": "2026-06-03T16:31:02+00:00",
+      "title": "Assertive Yield Updates: AI Layouts, Cookie Deprecation Reports, and more!",
+      "url": "https://www.assertiveyield.com/blog//product-updates-q1-2024/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ultimate-solution-to-amp-frustrations/",
+      "local_path": "artifacts/mirror/blog/ultimate-solution-to-amp-frustrations/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:03+00:00",
+      "timestamp_utc": "2026-06-03T16:31:03+00:00",
+      "title": "What challenges do Publishers face in optimizing their page loading speed with AMP?",
+      "url": "https://www.assertiveyield.com/blog/Ultimate-Solution-to-AMP-Frustrations/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/what-is-cost-per-mille/",
+      "local_path": "artifacts/mirror/blog/what-is-cost-per-mille/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:05+00:00",
+      "timestamp_utc": "2026-06-03T16:31:05+00:00",
+      "title": "What is Cost per Mille (CPM) in Digital Advertising?",
+      "url": "https://www.assertiveyield.com/blog/WHAT-IS-COST-PER-MILLE/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/what-is-viewability/",
+      "local_path": "artifacts/mirror/blog/what-is-viewability/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:06+00:00",
+      "timestamp_utc": "2026-06-03T16:31:06+00:00",
+      "title": "What is Viewability and How to Optimize the Viewability Meric as a Publisher?",
+      "url": "https://www.assertiveyield.com/blog/What-is-viewability/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ab-testing-publishers/",
+      "local_path": "artifacts/mirror/blog/ab-testing-publishers/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:07+00:00",
+      "timestamp_utc": "2026-06-03T16:31:07+00:00",
+      "title": "A/B testing for publishers: 6 ideas and best practices",
+      "url": "https://www.assertiveyield.com/blog/ab-testing-publishers/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/abn-testing/",
+      "local_path": "artifacts/mirror/blog/abn-testing/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:09+00:00",
+      "timestamp_utc": "2026-06-03T16:31:09+00:00",
+      "title": "What Is A/B/n Testing? 7 Reasons A/B/n Testing will boost your performance",
+      "url": "https://www.assertiveyield.com/blog/abn-testing/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ai-programmatic-advertising/",
+      "local_path": "artifacts/mirror/blog/ai-programmatic-advertising/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:10+00:00",
+      "timestamp_utc": "2026-06-03T16:31:10+00:00",
+      "title": "AI in programmatic advertising: top trends and use cases",
+      "url": "https://www.assertiveyield.com/blog/ai-programmatic-advertising/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/all/",
+      "local_path": "artifacts/mirror/blog/all/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:11+00:00",
+      "timestamp_utc": "2026-06-03T16:31:11+00:00",
+      "title": "All Posts",
+      "url": "https://www.assertiveyield.com/blog/all/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/alternatives-to-third-party-cookies/",
+      "local_path": "artifacts/mirror/blog/alternatives-to-third-party-cookies/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:12+00:00",
+      "timestamp_utc": "2026-06-03T16:31:12+00:00",
+      "title": "Cookieless Browsers: New & Effective Alternatives",
+      "url": "https://www.assertiveyield.com/blog/alternatives-to-third-party-cookies/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue/",
+      "local_path": "artifacts/mirror/blog/analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:14+00:00",
+      "timestamp_utc": "2026-06-03T16:31:14+00:00",
+      "title": "How to Analyze Core Web Vitals [CWV] As A Publisher",
+      "url": "https://www.assertiveyield.com/blog/analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/analyzing-optimizing-your-impression-revenue-per-mille-rpm/",
+      "local_path": "artifacts/mirror/blog/analyzing-optimizing-your-impression-revenue-per-mille-rpm/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:15+00:00",
+      "timestamp_utc": "2026-06-03T16:31:15+00:00",
+      "title": "How Can Publishers Analyze & Optimize Impression Revenue Per Mille [RPM] ?",
+      "url": "https://www.assertiveyield.com/blog/analyzing-optimizing-your-impression-revenue-per-mille-rpm/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ay-industry-insight-second-quarter-report-yield-management-in-programmatic/",
+      "local_path": "artifacts/mirror/blog/ay-industry-insight-second-quarter-report-yield-management-in-programmatic/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:16+00:00",
+      "timestamp_utc": "2026-06-03T16:31:16+00:00",
+      "title": "AY Industry Insights Second Quarter Report: Yield Management In Programmatic",
+      "url": "https://www.assertiveyield.com/blog/ay-industry-insight-second-quarter-report-yield-management-in-programmatic/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue/",
+      "local_path": "artifacts/mirror/blog/ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:18+00:00",
+      "timestamp_utc": "2026-06-03T16:31:18+00:00",
+      "title": "AY Industry Insights Report 2025: Global Programmatic & Ad Revenue Trends",
+      "url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-q2%E2%80%9925-publisher-trends-in-global-programmatic-ad-revenue/",
+      "local_path": "artifacts/mirror/blog/ay-industry-insights-report-q2’25-publisher-trends-in-global-programmatic-ad-revenue/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:19+00:00",
+      "timestamp_utc": "2026-06-03T16:31:19+00:00",
+      "title": "The AY Industry Insights Report for Q2 2025 is Out!",
+      "url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-q2%E2%80%9925-publisher-trends-in-global-programmatic-ad-revenue/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ay-product-updates-in-h1%E2%80%9924-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more/",
+      "local_path": "artifacts/mirror/blog/ay-product-updates-in-h1’24-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:20+00:00",
+      "timestamp_utc": "2026-06-03T16:31:20+00:00",
+      "title": "Assertive Yield Releases New Products Features in H1'24: Prebid Server, INP, Cookie Deprecation",
+      "url": "https://www.assertiveyield.com/blog/ay-product-updates-in-h1%E2%80%9924-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/beyond-predictions-how-publishers-should-actually-focus-heading-into-2026/",
+      "local_path": "artifacts/mirror/blog/beyond-predictions-how-publishers-should-actually-focus-heading-into-2026/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:21+00:00",
+      "timestamp_utc": "2026-06-03T16:31:21+00:00",
+      "title": "What Publishers Should Focus on in 2026 Beyond Predictions",
+      "url": "https://www.assertiveyield.com/blog/beyond-predictions-how-publishers-should-actually-focus-heading-into-2026/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/bid-shading/",
+      "local_path": "artifacts/mirror/blog/bid-shading/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:23+00:00",
+      "timestamp_utc": "2026-06-03T16:31:23+00:00",
+      "title": "Bid Shading in programmatic advertising: all you need to know",
+      "url": "https://www.assertiveyield.com/blog/bid-shading/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/boosting-your-ad-revenue-per-mille-ad-rpm-in-2025/",
+      "local_path": "artifacts/mirror/blog/boosting-your-ad-revenue-per-mille-ad-rpm-in-2025/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:24+00:00",
+      "timestamp_utc": "2026-06-03T16:31:24+00:00",
+      "title": "What is Ad Revenue per Mille (Ad RPM) and How to Boost it?",
+      "url": "https://www.assertiveyield.com/blog/boosting-your-ad-revenue-per-mille-ad-rpm-in-2025/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/confirmed-click-penalty/",
+      "local_path": "artifacts/mirror/blog/confirmed-click-penalty/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:25+00:00",
+      "timestamp_utc": "2026-06-03T16:31:25+00:00",
+      "title": "Confirmed Click Penalty: What is it and how to avoid it in programmatic?",
+      "url": "https://www.assertiveyield.com/blog/confirmed-click-penalty/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/cookieless-tracking-publishers/",
+      "local_path": "artifacts/mirror/blog/cookieless-tracking-publishers/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:26+00:00",
+      "timestamp_utc": "2026-06-03T16:31:26+00:00",
+      "title": "Cookieless Tracking: What are the Impacts of the Topics API on Publishers?",
+      "url": "https://www.assertiveyield.com/blog/cookieless-tracking-publishers/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/demand-path-optimization-empowering-publishers-for-profitable-paths/",
+      "local_path": "artifacts/mirror/blog/demand-path-optimization-empowering-publishers-for-profitable-paths/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:28+00:00",
+      "timestamp_utc": "2026-06-03T16:31:28+00:00",
+      "title": "How can publishers overcome Demand Path Optimization Challenges?",
+      "url": "https://www.assertiveyield.com/blog/demand-path-optimization-empowering-publishers-for-profitable-paths/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/dynamic-flooring-programmatic/",
+      "local_path": "artifacts/mirror/blog/dynamic-flooring-programmatic/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:29+00:00",
+      "timestamp_utc": "2026-06-03T16:31:29+00:00",
+      "title": "Dynamic flooring: how to manage floor pricing as a publisher?",
+      "url": "https://www.assertiveyield.com/blog/dynamic-flooring-programmatic/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape/",
+      "local_path": "artifacts/mirror/blog/exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:30+00:00",
+      "timestamp_utc": "2026-06-03T16:31:30+00:00",
+      "title": "Data Analytics: Top 7 Trends Publishers Should Track in 2024",
+      "url": "https://www.assertiveyield.com/blog/exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher/",
+      "local_path": "artifacts/mirror/blog/getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:32+00:00",
+      "timestamp_utc": "2026-06-03T16:31:32+00:00",
+      "title": "How to Get the Most Out of Your Pageview RPM Metric as a Digital Publisher",
+      "url": "https://www.assertiveyield.com/blog/getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do/",
+      "local_path": "artifacts/mirror/blog/google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:33+00:00",
+      "timestamp_utc": "2026-06-03T16:31:33+00:00",
+      "title": "Top 3 Action Points to Avoid Back-button Hijacking Penalty from Google",
+      "url": "https://www.assertiveyield.com/blog/google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/google-optimize-alternatives/",
+      "local_path": "artifacts/mirror/blog/google-optimize-alternatives/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:34+00:00",
+      "timestamp_utc": "2026-06-03T16:31:34+00:00",
+      "title": "Google Optimize Alternatives: The best A/B Testing Solutions",
+      "url": "https://www.assertiveyield.com/blog/google-optimize-alternatives/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/green-advertising-what-are-publishers-and-ssps-roles/",
+      "local_path": "artifacts/mirror/blog/green-advertising-what-are-publishers-and-ssps-roles/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:35+00:00",
+      "timestamp_utc": "2026-06-03T16:31:35+00:00",
+      "title": "Sustainable Programmatic Supply Path",
+      "url": "https://www.assertiveyield.com/blog/green-advertising-what-are-publishers-and-ssps-roles/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/green-programmatic-advertising-explained/",
+      "local_path": "artifacts/mirror/blog/green-programmatic-advertising-explained/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:37+00:00",
+      "timestamp_utc": "2026-06-03T16:31:37+00:00",
+      "title": "green programmatic",
+      "url": "https://www.assertiveyield.com/blog/green-programmatic-advertising-explained/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/h2%E2%80%9924-ay-product-updates-new-features-and-improvements/",
+      "local_path": "artifacts/mirror/blog/h2’24-ay-product-updates-new-features-and-improvements/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:38+00:00",
+      "timestamp_utc": "2026-06-03T16:31:38+00:00",
+      "title": "Assertive Yield Releases New Product Updates",
+      "url": "https://www.assertiveyield.com/blog/h2%E2%80%9924-ay-product-updates-new-features-and-improvements/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/header-bidding/",
+      "local_path": "artifacts/mirror/blog/header-bidding/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:39+00:00",
+      "timestamp_utc": "2026-06-03T16:31:39+00:00",
+      "title": "Header Bidding: what is it, how it work and best wrappers",
+      "url": "https://www.assertiveyield.com/blog/header-bidding/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025/",
+      "local_path": "artifacts/mirror/blog/how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:41+00:00",
+      "timestamp_utc": "2026-06-03T16:31:41+00:00",
+      "title": "What is RPM [Revenue Per Mille] in Programmatic?",
+      "url": "https://www.assertiveyield.com/blog/how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/how-publishers-should-prepare-their-ad-stack-for-black-friday/",
+      "local_path": "artifacts/mirror/blog/how-publishers-should-prepare-their-ad-stack-for-black-friday/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:42+00:00",
+      "timestamp_utc": "2026-06-03T16:31:42+00:00",
+      "title": "Smart Black Friday Tips From Ad Tech Experts",
+      "url": "https://www.assertiveyield.com/blog/how-publishers-should-prepare-their-ad-stack-for-black-friday/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/how-ssps-can-overcome-ad-spending-slowdown/",
+      "local_path": "artifacts/mirror/blog/how-ssps-can-overcome-ad-spending-slowdown/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:43+00:00",
+      "timestamp_utc": "2026-06-03T16:31:43+00:00",
+      "title": "Overcoming Ad Spending Slowdown as an SSP",
+      "url": "https://www.assertiveyield.com/blog/how-ssps-can-overcome-ad-spending-slowdown/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers/",
+      "local_path": "artifacts/mirror/blog/how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:44+00:00",
+      "timestamp_utc": "2026-06-03T16:31:44+00:00",
+      "title": "A checklist for Publishers to choose the right Adtech solution",
+      "url": "https://www.assertiveyield.com/blog/how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/implications-of-a-cookieless-world-publishers/",
+      "local_path": "artifacts/mirror/blog/implications-of-a-cookieless-world-publishers/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:46+00:00",
+      "timestamp_utc": "2026-06-03T16:31:46+00:00",
+      "title": "What are the impacts of cookie depreciation for publishers?",
+      "url": "https://www.assertiveyield.com/blog/implications-of-a-cookieless-world-publishers/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue/",
+      "local_path": "artifacts/mirror/blog/leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:47+00:00",
+      "timestamp_utc": "2026-06-03T16:31:47+00:00",
+      "title": "How to Leverage Advanced Prebid Analytics to Boost Programmatic Revenue",
+      "url": "https://www.assertiveyield.com/blog/leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/",
+      "local_path": "artifacts/mirror/blog/maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:48+00:00",
+      "timestamp_utc": "2026-06-03T16:31:48+00:00",
+      "title": "11 Metrics Publishers Shoud Track for UX and Ad Monetization",
+      "url": "https://www.assertiveyield.com/blog/maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers/",
+      "local_path": "artifacts/mirror/blog/maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:50+00:00",
+      "timestamp_utc": "2026-06-03T16:31:50+00:00",
+      "title": "The Strategic Role of Pages per Session (PPS) for Publishers",
+      "url": "https://www.assertiveyield.com/blog/maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/microsoft-xandr-prebid-cache-deprecation-a-publisher%E2%80%99s-guide-to-a-safe-migration/",
+      "local_path": "artifacts/mirror/blog/microsoft-xandr-prebid-cache-deprecation-a-publisher’s-guide-to-a-safe-migration/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:51+00:00",
+      "timestamp_utc": "2026-06-03T16:31:51+00:00",
+      "title": "Microsoft/Xandr Prebid Cache Deprecation: Publisher Migration Guide | Assertive Yield",
+      "url": "https://www.assertiveyield.com/blog/microsoft-xandr-prebid-cache-deprecation-a-publisher%E2%80%99s-guide-to-a-safe-migration/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/navigating-the-future-of-programmatic-advertising-in-2024/",
+      "local_path": "artifacts/mirror/blog/navigating-the-future-of-programmatic-advertising-in-2024/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:52+00:00",
+      "timestamp_utc": "2026-06-03T16:31:52+00:00",
+      "title": "The Challenges Publishers Face in Programmatic Advertising with Solutions",
+      "url": "https://www.assertiveyield.com/blog/navigating-the-future-of-programmatic-advertising-in-2024/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/new-ay-product-updates-h1-2023/",
+      "local_path": "artifacts/mirror/blog/new-ay-product-updates-h1-2023/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:53+00:00",
+      "timestamp_utc": "2026-06-03T16:31:53+00:00",
+      "title": "Assertive Yield New Product Updates - H1 2023!",
+      "url": "https://www.assertiveyield.com/blog/new-ay-product-updates-h1-2023/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/optimal-adstack-for-publishers/",
+      "local_path": "artifacts/mirror/blog/optimal-adstack-for-publishers/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:55+00:00",
+      "timestamp_utc": "2026-06-03T16:31:55+00:00",
+      "title": "How can publishers create the optimal ad stack?",
+      "url": "https://www.assertiveyield.com/blog/optimal-adstack-for-publishers/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/optimize-your-monetization-strategy-with-ay-industry-insight/",
+      "local_path": "artifacts/mirror/blog/optimize-your-monetization-strategy-with-ay-industry-insight/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:56+00:00",
+      "timestamp_utc": "2026-06-03T16:31:56+00:00",
+      "title": "Programmatic Benchmark for Publishers",
+      "url": "https://www.assertiveyield.com/blog/optimize-your-monetization-strategy-with-ay-industry-insight/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers/",
+      "local_path": "artifacts/mirror/blog/optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:57+00:00",
+      "timestamp_utc": "2026-06-03T16:31:57+00:00",
+      "title": "How can Publishers Optimize Session Revenue Per Mille to Drive More Revenue?",
+      "url": "https://www.assertiveyield.com/blog/optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/programmatic-insights/",
+      "local_path": "artifacts/mirror/blog/programmatic-insights/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:59+00:00",
+      "timestamp_utc": "2026-06-03T16:31:59+00:00",
+      "title": "Programmatic Insights: Publisher Trends for 2024",
+      "url": "https://www.assertiveyield.com/blog/programmatic-insights/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/publisher-metrics/",
+      "local_path": "artifacts/mirror/blog/publisher-metrics/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:00+00:00",
+      "timestamp_utc": "2026-06-03T16:32:00+00:00",
+      "title": "Ad Viewability: what is its importance for publishers and how to optimize it",
+      "url": "https://www.assertiveyield.com/blog/publisher-metrics/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/publisher-monetization-challenges/",
+      "local_path": "artifacts/mirror/blog/publisher-monetization-challenges/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:01+00:00",
+      "timestamp_utc": "2026-06-03T16:32:01+00:00",
+      "title": "Boosting RPM: Challenges Publishers Should Overcome in A/B Testing",
+      "url": "https://www.assertiveyield.com/blog/publisher-monetization-challenges/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue/",
+      "local_path": "artifacts/mirror/blog/q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:02+00:00",
+      "timestamp_utc": "2026-06-03T16:32:02+00:00",
+      "title": "What does the AY Q2'24 Industry Insights Report for Programmatic Publishers entails?",
+      "url": "https://www.assertiveyield.com/blog/q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/qps-optimization-explained-greener-traffic-lower-costs/",
+      "local_path": "artifacts/mirror/blog/qps-optimization-explained-greener-traffic-lower-costs/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:04+00:00",
+      "timestamp_utc": "2026-06-03T16:32:04+00:00",
+      "title": "QPS advertising: what is Queries Per Second optimization?",
+      "url": "https://www.assertiveyield.com/blog/qps-optimization-explained-greener-traffic-lower-costs/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site/",
+      "local_path": "artifacts/mirror/blog/reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:05+00:00",
+      "timestamp_utc": "2026-06-03T16:32:05+00:00",
+      "title": "How to Reduce Bounce Rate in 2025",
+      "url": "https://www.assertiveyield.com/blog/reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions/",
+      "local_path": "artifacts/mirror/blog/shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:06+00:00",
+      "timestamp_utc": "2026-06-03T16:32:06+00:00",
+      "title": "Shaping a Greener Future: Assertive Yield Releases an In-Depth Look at Green Advertising and Scope 3 Emissions",
+      "url": "https://www.assertiveyield.com/blog/shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tag/ad-revenue-management-tag/",
+      "local_path": "artifacts/mirror/blog/tag/ad-revenue-management-tag/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:07+00:00",
+      "timestamp_utc": "2026-06-03T16:32:07+00:00",
+      "title": "",
+      "url": "https://www.assertiveyield.com/blog/tag/ad-revenue-management-tag/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tag/ai-optimization-tag/",
+      "local_path": "artifacts/mirror/blog/tag/ai-optimization-tag/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:09+00:00",
+      "timestamp_utc": "2026-06-03T16:32:09+00:00",
+      "title": "",
+      "url": "https://www.assertiveyield.com/blog/tag/ai-optimization-tag/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tag/data-intelligence-tag/",
+      "local_path": "artifacts/mirror/blog/tag/data-intelligence-tag/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:10+00:00",
+      "timestamp_utc": "2026-06-03T16:32:10+00:00",
+      "title": "",
+      "url": "https://www.assertiveyield.com/blog/tag/data-intelligence-tag/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tag/efficiency-&-sustainability-tag/",
+      "local_path": "artifacts/mirror/blog/tag/efficiency-&-sustainability-tag/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:11+00:00",
+      "timestamp_utc": "2026-06-03T16:32:11+00:00",
+      "title": "",
+      "url": "https://www.assertiveyield.com/blog/tag/efficiency-&-sustainability-tag/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tag/programmatic-trends-tag/",
+      "local_path": "artifacts/mirror/blog/tag/programmatic-trends-tag/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:13+00:00",
+      "timestamp_utc": "2026-06-03T16:32:13+00:00",
+      "title": "",
+      "url": "https://www.assertiveyield.com/blog/tag/programmatic-trends-tag/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/the-publishing-dynamics-why-90-of-publishers%E2%80%99-inventory-is-hidden-from-demand-partners/",
+      "local_path": "artifacts/mirror/blog/the-publishing-dynamics-why-90-of-publishers’-inventory-is-hidden-from-demand-partners/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:14+00:00",
+      "timestamp_utc": "2026-06-03T16:32:14+00:00",
+      "title": "Demand Path Optimization: Publishers’ Inventory is Hidden from Demand Partners",
+      "url": "https://www.assertiveyield.com/blog/the-publishing-dynamics-why-90-of-publishers%E2%80%99-inventory-is-hidden-from-demand-partners/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/top-five-2023-trends-in-programmatic-advertising/",
+      "local_path": "artifacts/mirror/blog/top-five-2023-trends-in-programmatic-advertising/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:15+00:00",
+      "timestamp_utc": "2026-06-03T16:32:15+00:00",
+      "title": "Top Five Trends in Programmatic Advertising",
+      "url": "https://www.assertiveyield.com/blog/top-five-2023-trends-in-programmatic-advertising/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page/",
+      "local_path": "artifacts/mirror/blog/tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:17+00:00",
+      "timestamp_utc": "2026-06-03T16:32:17+00:00",
+      "title": "Active Engagement Time vs. Time Spent on Page Metrics",
+      "url": "https://www.assertiveyield.com/blog/tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/unlocking-the-potential-of-a-360%C2%B0-panorama-dashboard-for-publisher-monetization/",
+      "local_path": "artifacts/mirror/blog/unlocking-the-potential-of-a-360°-panorama-dashboard-for-publisher-monetization/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:18+00:00",
+      "timestamp_utc": "2026-06-03T16:32:18+00:00",
+      "title": "How can Publishers Boost Monetization with 360 Panorama?",
+      "url": "https://www.assertiveyield.com/blog/unlocking-the-potential-of-a-360%C2%B0-panorama-dashboard-for-publisher-monetization/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/what-are-the-challenges-programmatic-ssps-are-facing-in-2023/",
+      "local_path": "artifacts/mirror/blog/what-are-the-challenges-programmatic-ssps-are-facing-in-2023/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:19+00:00",
+      "timestamp_utc": "2026-06-03T16:32:19+00:00",
+      "title": "Top Trends and Challenges for SSPs in 2025",
+      "url": "https://www.assertiveyield.com/blog/what-are-the-challenges-programmatic-ssps-are-facing-in-2023/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/what-is-click-through-rate/",
+      "local_path": "artifacts/mirror/blog/what-is-click-through-rate/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:20+00:00",
+      "timestamp_utc": "2026-06-03T16:32:20+00:00",
+      "title": "What is Click-Through Rate (CTR) and how to optimize it?",
+      "url": "https://www.assertiveyield.com/blog/what-is-click-through-rate/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/what-is-inp/",
+      "local_path": "artifacts/mirror/blog/what-is-inp/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:22+00:00",
+      "timestamp_utc": "2026-06-03T16:32:22+00:00",
+      "title": "What is INP and How can Publishers Measure and Optimize?",
+      "url": "https://www.assertiveyield.com/blog/what-is-inp/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now/",
+      "local_path": "artifacts/mirror/blog/why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:23+00:00",
+      "timestamp_utc": "2026-06-03T16:32:23+00:00",
+      "title": "Why You Should as a Publishers Invest in AI-Powered Prebid Server Technologies Now",
+      "url": "https://www.assertiveyield.com/blog/why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-company-type-publishers/",
+      "local_path": "artifacts/mirror/by-company-type-publishers/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:24+00:00",
+      "timestamp_utc": "2026-06-03T16:32:24+00:00",
+      "title": "by company type",
+      "url": "https://www.assertiveyield.com/by-company-type-publishers/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-company-type-ssp/",
+      "local_path": "artifacts/mirror/by-company-type-ssp/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:26+00:00",
+      "timestamp_utc": "2026-06-03T16:32:26+00:00",
+      "title": "by company type ssp",
+      "url": "https://www.assertiveyield.com/by-company-type-ssp/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-ad-operations-yield/",
+      "local_path": "artifacts/mirror/by-team-type-ad-operations-yield/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:27+00:00",
+      "timestamp_utc": "2026-06-03T16:32:27+00:00",
+      "title": "by team type ad operations yield",
+      "url": "https://www.assertiveyield.com/by-team-type-ad-operations-yield/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-audience-development/",
+      "local_path": "artifacts/mirror/by-team-type-audience-development/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:28+00:00",
+      "timestamp_utc": "2026-06-03T16:32:28+00:00",
+      "title": "By Team Type Audience Development",
+      "url": "https://www.assertiveyield.com/by-team-type-audience-development/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-management-finance/",
+      "local_path": "artifacts/mirror/by-team-type-management-finance/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:29+00:00",
+      "timestamp_utc": "2026-06-03T16:32:29+00:00",
+      "title": "By Team Type Management Finance",
+      "url": "https://www.assertiveyield.com/by-team-type-management-finance/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-media-buying/",
+      "local_path": "artifacts/mirror/by-team-type-media-buying/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:31+00:00",
+      "timestamp_utc": "2026-06-03T16:32:31+00:00",
+      "title": "By Team Type Media Buying",
+      "url": "https://www.assertiveyield.com/by-team-type-media-buying/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-product-teams/",
+      "local_path": "artifacts/mirror/by-team-type-product-teams/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:32+00:00",
+      "timestamp_utc": "2026-06-03T16:32:32+00:00",
+      "title": "By Team Type Product Teams",
+      "url": "https://www.assertiveyield.com/by-team-type-product-teams/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-sales/",
+      "local_path": "artifacts/mirror/by-team-type-sales/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:33+00:00",
+      "timestamp_utc": "2026-06-03T16:32:33+00:00",
+      "title": "By Team Type Sales",
+      "url": "https://www.assertiveyield.com/by-team-type-sales/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/career-success/",
+      "local_path": "artifacts/mirror/career-success/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:35+00:00",
+      "timestamp_utc": "2026-06-03T16:32:35+00:00",
+      "title": "career-success-application",
+      "url": "https://www.assertiveyield.com/career-success/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/careers/",
+      "local_path": "artifacts/mirror/careers/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:36+00:00",
+      "timestamp_utc": "2026-06-03T16:32:36+00:00",
+      "title": "Careers",
+      "url": "https://www.assertiveyield.com/careers/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/careers/backend-engineer-golang/",
+      "local_path": "artifacts/mirror/careers/backend-engineer-golang/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:37+00:00",
+      "timestamp_utc": "2026-06-03T16:32:37+00:00",
+      "title": "Backend Engineer (Golang)",
+      "url": "https://www.assertiveyield.com/careers/backend-engineer-golang/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/careers/sales-engineer-publisher-ad-tech/",
+      "local_path": "artifacts/mirror/careers/sales-engineer-publisher-ad-tech/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:38+00:00",
+      "timestamp_utc": "2026-06-03T16:32:38+00:00",
+      "title": "Sales Engineer (Publisher Ad Tech) EMEA",
+      "url": "https://www.assertiveyield.com/careers/sales-engineer-publisher-ad-tech/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/careers/sales-executive-amer/",
+      "local_path": "artifacts/mirror/careers/sales-executive-amer/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:40+00:00",
+      "timestamp_utc": "2026-06-03T16:32:40+00:00",
+      "title": "Sales Executive - AMER",
+      "url": "https://www.assertiveyield.com/careers/sales-executive-amer/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/careers/senior-devops-engineer/",
+      "local_path": "artifacts/mirror/careers/senior-devops-engineer/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:41+00:00",
+      "timestamp_utc": "2026-06-03T16:32:41+00:00",
+      "title": "Senior DevOps Engineer",
+      "url": "https://www.assertiveyield.com/careers/senior-devops-engineer/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/contact-us/",
+      "local_path": "artifacts/mirror/contact-us/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:42+00:00",
+      "timestamp_utc": "2026-06-03T16:32:42+00:00",
+      "title": "Contact Us",
+      "url": "https://www.assertiveyield.com/contact-us/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/dashboards/",
+      "local_path": "artifacts/mirror/dashboards/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:44+00:00",
+      "timestamp_utc": "2026-06-03T16:32:44+00:00",
+      "title": "Monitoring",
+      "url": "https://www.assertiveyield.com/dashboards/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/ebooks/all/",
+      "local_path": "artifacts/mirror/ebooks/all/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:45+00:00",
+      "timestamp_utc": "2026-06-03T16:32:45+00:00",
+      "title": "All Reports",
+      "url": "https://www.assertiveyield.com/ebooks/all/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/help-center/",
+      "local_path": "artifacts/mirror/help-center/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:46+00:00",
+      "timestamp_utc": "2026-06-03T16:32:46+00:00",
+      "title": "Help Center",
+      "url": "https://www.assertiveyield.com/help-center/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/help-center/academy/",
+      "local_path": "artifacts/mirror/help-center/academy/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:47+00:00",
+      "timestamp_utc": "2026-06-03T16:32:47+00:00",
+      "title": "Academy",
+      "url": "https://www.assertiveyield.com/help-center/academy/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/help-center/ay-glossary/",
+      "local_path": "artifacts/mirror/help-center/ay-glossary/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:49+00:00",
+      "timestamp_utc": "2026-06-03T16:32:49+00:00",
+      "title": "Ay Glossary",
+      "url": "https://www.assertiveyield.com/help-center/ay-glossary/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/help-center/ay-support/",
+      "local_path": "artifacts/mirror/help-center/ay-support/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:50+00:00",
+      "timestamp_utc": "2026-06-03T16:32:50+00:00",
+      "title": "Support",
+      "url": "https://www.assertiveyield.com/help-center/ay-support/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/hits/all/",
+      "local_path": "artifacts/mirror/hits/all/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:51+00:00",
+      "timestamp_utc": "2026-06-03T16:32:51+00:00",
+      "title": "Hits",
+      "url": "https://www.assertiveyield.com/hits/all/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/industry-insights/",
+      "local_path": "artifacts/mirror/industry-insights/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:53+00:00",
+      "timestamp_utc": "2026-06-03T16:32:53+00:00",
+      "title": "Industry Insights",
+      "url": "https://www.assertiveyield.com/industry-insights/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/news/all/",
+      "local_path": "artifacts/mirror/news/all/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:54+00:00",
+      "timestamp_utc": "2026-06-03T16:32:54+00:00",
+      "title": "AY in the News",
+      "url": "https://www.assertiveyield.com/news/all/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/podcasts/all/",
+      "local_path": "artifacts/mirror/podcasts/all/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:55+00:00",
+      "timestamp_utc": "2026-06-03T16:32:55+00:00",
+      "title": "Podcasts",
+      "url": "https://www.assertiveyield.com/podcasts/all/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/pricing-update/",
+      "local_path": "artifacts/mirror/pricing-update/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:56+00:00",
+      "timestamp_utc": "2026-06-03T16:32:56+00:00",
+      "title": "Pricing-update",
+      "url": "https://www.assertiveyield.com/pricing-update/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/pricing/",
+      "local_path": "artifacts/mirror/pricing/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:58+00:00",
+      "timestamp_utc": "2026-06-03T16:32:58+00:00",
+      "title": "",
+      "url": "https://www.assertiveyield.com/pricing/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/product-updates/all/",
+      "local_path": "artifacts/mirror/product-updates/all/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:59+00:00",
+      "timestamp_utc": "2026-06-03T16:32:59+00:00",
+      "title": "Product Updates",
+      "url": "https://www.assertiveyield.com/product-updates/all/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/real-time-alerts/",
+      "local_path": "artifacts/mirror/real-time-alerts/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:00+00:00",
+      "timestamp_utc": "2026-06-03T16:33:00+00:00",
+      "title": "Real-Time Alerts",
+      "url": "https://www.assertiveyield.com/real-time-alerts/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/slice-and-dice/",
+      "local_path": "artifacts/mirror/slice-and-dice/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:02+00:00",
+      "timestamp_utc": "2026-06-03T16:33:02+00:00",
+      "title": "Slice and Dice",
+      "url": "https://www.assertiveyield.com/slice-and-dice/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/soc2-request/",
+      "local_path": "artifacts/mirror/soc2-request/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:03+00:00",
+      "timestamp_utc": "2026-06-03T16:33:03+00:00",
+      "title": "",
+      "url": "https://www.assertiveyield.com/soc2-request/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/",
+      "local_path": "artifacts/mirror/success-stories/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:04+00:00",
+      "timestamp_utc": "2026-06-03T16:33:04+00:00",
+      "title": "Success Stories",
+      "url": "https://www.assertiveyield.com/success-stories/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/9gag/",
+      "local_path": "artifacts/mirror/success-stories/9gag/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:05+00:00",
+      "timestamp_utc": "2026-06-03T16:33:05+00:00",
+      "title": "9GAG",
+      "url": "https://www.assertiveyield.com/success-stories/9gag/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/apartment-therapy/",
+      "local_path": "artifacts/mirror/success-stories/apartment-therapy/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:07+00:00",
+      "timestamp_utc": "2026-06-03T16:33:07+00:00",
+      "title": "Apartment Therapy",
+      "url": "https://www.assertiveyield.com/success-stories/apartment-therapy/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/bauer-media-group/",
+      "local_path": "artifacts/mirror/success-stories/bauer-media-group/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:08+00:00",
+      "timestamp_utc": "2026-06-03T16:33:08+00:00",
+      "title": "Bauer Media",
+      "url": "https://www.assertiveyield.com/success-stories/bauer-media-group/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/boons/",
+      "local_path": "artifacts/mirror/success-stories/boons/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:09+00:00",
+      "timestamp_utc": "2026-06-03T16:33:09+00:00",
+      "title": "Boons Media",
+      "url": "https://www.assertiveyield.com/success-stories/boons/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/cambium-media/",
+      "local_path": "artifacts/mirror/success-stories/cambium-media/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:11+00:00",
+      "timestamp_utc": "2026-06-03T16:33:11+00:00",
+      "title": "Cambium Media",
+      "url": "https://www.assertiveyield.com/success-stories/cambium-media/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/connatix/",
+      "local_path": "artifacts/mirror/success-stories/connatix/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:12+00:00",
+      "timestamp_utc": "2026-06-03T16:33:12+00:00",
+      "title": "Connatix",
+      "url": "https://www.assertiveyield.com/success-stories/connatix/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/gumgum-inc/",
+      "local_path": "artifacts/mirror/success-stories/gumgum-inc/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:13+00:00",
+      "timestamp_utc": "2026-06-03T16:33:13+00:00",
+      "title": "GumGum Inc",
+      "url": "https://www.assertiveyield.com/success-stories/gumgum-inc/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/hitopic/",
+      "local_path": "artifacts/mirror/success-stories/hitopic/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:14+00:00",
+      "timestamp_utc": "2026-06-03T16:33:14+00:00",
+      "title": "Hitopic",
+      "url": "https://www.assertiveyield.com/success-stories/hitopic/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/krone/",
+      "local_path": "artifacts/mirror/success-stories/krone/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:16+00:00",
+      "timestamp_utc": "2026-06-03T16:33:16+00:00",
+      "title": "Krone",
+      "url": "https://www.assertiveyield.com/success-stories/krone/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/kurier-media-house/",
+      "local_path": "artifacts/mirror/success-stories/kurier-media-house/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:17+00:00",
+      "timestamp_utc": "2026-06-03T16:33:17+00:00",
+      "title": "Kurier Media House",
+      "url": "https://www.assertiveyield.com/success-stories/kurier-media-house/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/nativo/",
+      "local_path": "artifacts/mirror/success-stories/nativo/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:18+00:00",
+      "timestamp_utc": "2026-06-03T16:33:18+00:00",
+      "title": "Nativo",
+      "url": "https://www.assertiveyield.com/success-stories/nativo/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/shinez/",
+      "local_path": "artifacts/mirror/success-stories/shinez/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:20+00:00",
+      "timestamp_utc": "2026-06-03T16:33:20+00:00",
+      "title": "Shinez",
+      "url": "https://www.assertiveyield.com/success-stories/shinez/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/world-history-encyclopedia/",
+      "local_path": "artifacts/mirror/success-stories/world-history-encyclopedia/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:21+00:00",
+      "timestamp_utc": "2026-06-03T16:33:21+00:00",
+      "title": "World History Encyclopedia",
+      "url": "https://www.assertiveyield.com/success-stories/world-history-encyclopedia/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/traffic-acquisition/",
+      "local_path": "artifacts/mirror/traffic-acquisition/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:22+00:00",
+      "timestamp_utc": "2026-06-03T16:33:22+00:00",
+      "title": "Traffic Acquisition",
+      "url": "https://www.assertiveyield.com/traffic-acquisition/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/traffic-shaping-for-publishers/",
+      "local_path": "artifacts/mirror/traffic-shaping-for-publishers/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:23+00:00",
+      "timestamp_utc": "2026-06-03T16:33:23+00:00",
+      "title": "Traffic Shaping for Publishers",
+      "url": "https://www.assertiveyield.com/traffic-shaping-for-publishers/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/traffic-shaping/",
+      "local_path": "artifacts/mirror/traffic-shaping/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:25+00:00",
+      "timestamp_utc": "2026-06-03T16:33:25+00:00",
+      "title": "Traffic Shaping - Assertive Yield",
+      "url": "https://www.assertiveyield.com/traffic-shaping/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/videos/all/",
+      "local_path": "artifacts/mirror/videos/all/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:26+00:00",
+      "timestamp_utc": "2026-06-03T16:33:26+00:00",
+      "title": "All Videos",
+      "url": "https://www.assertiveyield.com/videos/all/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/yield-intelligence/",
+      "local_path": "artifacts/mirror/yield-intelligence/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:27+00:00",
+      "timestamp_utc": "2026-06-03T16:33:27+00:00",
+      "title": "Yield Intelligence - Assertive Yield",
+      "url": "https://www.assertiveyield.com/yield-intelligence/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/yield-manager/",
+      "local_path": "artifacts/mirror/yield-manager/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:28+00:00",
+      "timestamp_utc": "2026-06-03T16:33:28+00:00",
+      "title": "Yield Manager - Assertive Yield",
+      "url": "https://www.assertiveyield.com/yield-manager/",
+      "visible_text_length": 0
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/yield-optimizer/",
+      "local_path": "artifacts/mirror/yield-optimizer/index.html",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:30+00:00",
+      "timestamp_utc": "2026-06-03T16:33:30+00:00",
+      "title": "Yield Optimizer - Assertive Yield",
+      "url": "https://www.assertiveyield.com/yield-optimizer/",
+      "visible_text_length": 0
+    }
+  ],
+  "completed_local": "2026-06-03T16:33:30+00:00",
+  "completed_utc": "2026-06-03T16:33:30+00:00",
+  "downloads": [],
+  "failures": [],
+  "fetched": [
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:51+00:00",
+      "timestamp_utc": "2026-06-03T16:30:51+00:00",
+      "url": "https://www.assertiveyield.com/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/about-us/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:53+00:00",
+      "timestamp_utc": "2026-06-03T16:30:53+00:00",
+      "url": "https://www.assertiveyield.com/about-us/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/ailayouts/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:54+00:00",
+      "timestamp_utc": "2026-06-03T16:30:54+00:00",
+      "url": "https://www.assertiveyield.com/ailayouts/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/all-revenue-source/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:55+00:00",
+      "timestamp_utc": "2026-06-03T16:30:55+00:00",
+      "url": "https://www.assertiveyield.com/all-revenue-source/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/apps-and-integrations/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:56+00:00",
+      "timestamp_utc": "2026-06-03T16:30:56+00:00",
+      "url": "https://www.assertiveyield.com/apps-and-integrations/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/ay-glossary/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:58+00:00",
+      "timestamp_utc": "2026-06-03T16:30:58+00:00",
+      "url": "https://www.assertiveyield.com/ay-glossary/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/ay_prebidserver/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:30:59+00:00",
+      "timestamp_utc": "2026-06-03T16:30:59+00:00",
+      "url": "https://www.assertiveyield.com/ay_prebidserver/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:00+00:00",
+      "timestamp_utc": "2026-06-03T16:31:00+00:00",
+      "url": "https://www.assertiveyield.com/blog/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/product-updates-q1-2024/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:02+00:00",
+      "timestamp_utc": "2026-06-03T16:31:02+00:00",
+      "url": "https://www.assertiveyield.com/blog//product-updates-q1-2024/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ultimate-solution-to-amp-frustrations/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:03+00:00",
+      "timestamp_utc": "2026-06-03T16:31:03+00:00",
+      "url": "https://www.assertiveyield.com/blog/Ultimate-Solution-to-AMP-Frustrations/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/what-is-cost-per-mille/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:05+00:00",
+      "timestamp_utc": "2026-06-03T16:31:05+00:00",
+      "url": "https://www.assertiveyield.com/blog/WHAT-IS-COST-PER-MILLE/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/what-is-viewability/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:06+00:00",
+      "timestamp_utc": "2026-06-03T16:31:06+00:00",
+      "url": "https://www.assertiveyield.com/blog/What-is-viewability/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ab-testing-publishers/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:07+00:00",
+      "timestamp_utc": "2026-06-03T16:31:07+00:00",
+      "url": "https://www.assertiveyield.com/blog/ab-testing-publishers/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/abn-testing/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:09+00:00",
+      "timestamp_utc": "2026-06-03T16:31:09+00:00",
+      "url": "https://www.assertiveyield.com/blog/abn-testing/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ai-programmatic-advertising/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:10+00:00",
+      "timestamp_utc": "2026-06-03T16:31:10+00:00",
+      "url": "https://www.assertiveyield.com/blog/ai-programmatic-advertising/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/all/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:11+00:00",
+      "timestamp_utc": "2026-06-03T16:31:11+00:00",
+      "url": "https://www.assertiveyield.com/blog/all/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/alternatives-to-third-party-cookies/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:12+00:00",
+      "timestamp_utc": "2026-06-03T16:31:12+00:00",
+      "url": "https://www.assertiveyield.com/blog/alternatives-to-third-party-cookies/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:14+00:00",
+      "timestamp_utc": "2026-06-03T16:31:14+00:00",
+      "url": "https://www.assertiveyield.com/blog/analyzing-core-web-vitals-a-publishers-checklist-to-enhancing-ux-revenue/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/analyzing-optimizing-your-impression-revenue-per-mille-rpm/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:15+00:00",
+      "timestamp_utc": "2026-06-03T16:31:15+00:00",
+      "url": "https://www.assertiveyield.com/blog/analyzing-optimizing-your-impression-revenue-per-mille-rpm/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ay-industry-insight-second-quarter-report-yield-management-in-programmatic/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:16+00:00",
+      "timestamp_utc": "2026-06-03T16:31:16+00:00",
+      "url": "https://www.assertiveyield.com/blog/ay-industry-insight-second-quarter-report-yield-management-in-programmatic/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:17+00:00",
+      "timestamp_utc": "2026-06-03T16:31:17+00:00",
+      "url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-2025-publisher-trends-global-programmatic-ad-revenue/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-q2%E2%80%9925-publisher-trends-in-global-programmatic-ad-revenue/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:19+00:00",
+      "timestamp_utc": "2026-06-03T16:31:19+00:00",
+      "url": "https://www.assertiveyield.com/blog/ay-industry-insights-report-q2%E2%80%9925-publisher-trends-in-global-programmatic-ad-revenue/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/ay-product-updates-in-h1%E2%80%9924-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:20+00:00",
+      "timestamp_utc": "2026-06-03T16:31:20+00:00",
+      "url": "https://www.assertiveyield.com/blog/ay-product-updates-in-h1%E2%80%9924-ay-prebid-server-yield-manager-new-version-inp-cookie-deprecation-updates-and-more/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/beyond-predictions-how-publishers-should-actually-focus-heading-into-2026/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:21+00:00",
+      "timestamp_utc": "2026-06-03T16:31:21+00:00",
+      "url": "https://www.assertiveyield.com/blog/beyond-predictions-how-publishers-should-actually-focus-heading-into-2026/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/bid-shading/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:23+00:00",
+      "timestamp_utc": "2026-06-03T16:31:23+00:00",
+      "url": "https://www.assertiveyield.com/blog/bid-shading/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/boosting-your-ad-revenue-per-mille-ad-rpm-in-2025/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:24+00:00",
+      "timestamp_utc": "2026-06-03T16:31:24+00:00",
+      "url": "https://www.assertiveyield.com/blog/boosting-your-ad-revenue-per-mille-ad-rpm-in-2025/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/confirmed-click-penalty/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:25+00:00",
+      "timestamp_utc": "2026-06-03T16:31:25+00:00",
+      "url": "https://www.assertiveyield.com/blog/confirmed-click-penalty/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/cookieless-tracking-publishers/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:26+00:00",
+      "timestamp_utc": "2026-06-03T16:31:26+00:00",
+      "url": "https://www.assertiveyield.com/blog/cookieless-tracking-publishers/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/demand-path-optimization-empowering-publishers-for-profitable-paths/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:28+00:00",
+      "timestamp_utc": "2026-06-03T16:31:28+00:00",
+      "url": "https://www.assertiveyield.com/blog/demand-path-optimization-empowering-publishers-for-profitable-paths/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/dynamic-flooring-programmatic/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:29+00:00",
+      "timestamp_utc": "2026-06-03T16:31:29+00:00",
+      "url": "https://www.assertiveyield.com/blog/dynamic-flooring-programmatic/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:30+00:00",
+      "timestamp_utc": "2026-06-03T16:31:30+00:00",
+      "url": "https://www.assertiveyield.com/blog/exploring-publisher-trends-the-dynamics-in-the-programmatic-advertising-landscape/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:32+00:00",
+      "timestamp_utc": "2026-06-03T16:31:32+00:00",
+      "url": "https://www.assertiveyield.com/blog/getting-the-most-out-of-your-pageview-revenue-per-mille-rpm-as-a-digital-publisher/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:33+00:00",
+      "timestamp_utc": "2026-06-03T16:31:33+00:00",
+      "url": "https://www.assertiveyield.com/blog/google-just-made-back-button-hijacking-a-spam-offense-heres-what-you-need-to-do/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/google-optimize-alternatives/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:34+00:00",
+      "timestamp_utc": "2026-06-03T16:31:34+00:00",
+      "url": "https://www.assertiveyield.com/blog/google-optimize-alternatives/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/green-advertising-what-are-publishers-and-ssps-roles/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:35+00:00",
+      "timestamp_utc": "2026-06-03T16:31:35+00:00",
+      "url": "https://www.assertiveyield.com/blog/green-advertising-what-are-publishers-and-ssps-roles/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/green-programmatic-advertising-explained/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:37+00:00",
+      "timestamp_utc": "2026-06-03T16:31:37+00:00",
+      "url": "https://www.assertiveyield.com/blog/green-programmatic-advertising-explained/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/h2%E2%80%9924-ay-product-updates-new-features-and-improvements/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:38+00:00",
+      "timestamp_utc": "2026-06-03T16:31:38+00:00",
+      "url": "https://www.assertiveyield.com/blog/h2%E2%80%9924-ay-product-updates-new-features-and-improvements/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/header-bidding/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:39+00:00",
+      "timestamp_utc": "2026-06-03T16:31:39+00:00",
+      "url": "https://www.assertiveyield.com/blog/header-bidding/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:41+00:00",
+      "timestamp_utc": "2026-06-03T16:31:41+00:00",
+      "url": "https://www.assertiveyield.com/blog/how-can-publishers-boost-their-revenue-per-mille-rpm-in-2025/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/how-publishers-should-prepare-their-ad-stack-for-black-friday/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:42+00:00",
+      "timestamp_utc": "2026-06-03T16:31:42+00:00",
+      "url": "https://www.assertiveyield.com/blog/how-publishers-should-prepare-their-ad-stack-for-black-friday/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/how-ssps-can-overcome-ad-spending-slowdown/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:43+00:00",
+      "timestamp_utc": "2026-06-03T16:31:43+00:00",
+      "url": "https://www.assertiveyield.com/blog/how-ssps-can-overcome-ad-spending-slowdown/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:44+00:00",
+      "timestamp_utc": "2026-06-03T16:31:44+00:00",
+      "url": "https://www.assertiveyield.com/blog/how-to-choose-the-right-adtech-partner-in-2024-a-comprehensive-checklist-for-publishers/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/implications-of-a-cookieless-world-publishers/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:46+00:00",
+      "timestamp_utc": "2026-06-03T16:31:46+00:00",
+      "url": "https://www.assertiveyield.com/blog/implications-of-a-cookieless-world-publishers/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:47+00:00",
+      "timestamp_utc": "2026-06-03T16:31:47+00:00",
+      "url": "https://www.assertiveyield.com/blog/leveraging-advanced-prebid-analytics-to-boost-programmatic-revenue/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:48+00:00",
+      "timestamp_utc": "2026-06-03T16:31:48+00:00",
+      "url": "https://www.assertiveyield.com/blog/maximizing-publisher-revenue-advanced-kpis-for-optimal-ad-monetization/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:50+00:00",
+      "timestamp_utc": "2026-06-03T16:31:50+00:00",
+      "url": "https://www.assertiveyield.com/blog/maximizing-reader-engagement-the-strategic-role-of-pages-per-session-pps-for-publishers/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/microsoft-xandr-prebid-cache-deprecation-a-publisher%E2%80%99s-guide-to-a-safe-migration/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:51+00:00",
+      "timestamp_utc": "2026-06-03T16:31:51+00:00",
+      "url": "https://www.assertiveyield.com/blog/microsoft-xandr-prebid-cache-deprecation-a-publisher%E2%80%99s-guide-to-a-safe-migration/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/navigating-the-future-of-programmatic-advertising-in-2024/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:52+00:00",
+      "timestamp_utc": "2026-06-03T16:31:52+00:00",
+      "url": "https://www.assertiveyield.com/blog/navigating-the-future-of-programmatic-advertising-in-2024/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/new-ay-product-updates-h1-2023/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:53+00:00",
+      "timestamp_utc": "2026-06-03T16:31:53+00:00",
+      "url": "https://www.assertiveyield.com/blog/new-ay-product-updates-h1-2023/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/optimal-adstack-for-publishers/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:55+00:00",
+      "timestamp_utc": "2026-06-03T16:31:55+00:00",
+      "url": "https://www.assertiveyield.com/blog/optimal-adstack-for-publishers/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/optimize-your-monetization-strategy-with-ay-industry-insight/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:56+00:00",
+      "timestamp_utc": "2026-06-03T16:31:56+00:00",
+      "url": "https://www.assertiveyield.com/blog/optimize-your-monetization-strategy-with-ay-industry-insight/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:57+00:00",
+      "timestamp_utc": "2026-06-03T16:31:57+00:00",
+      "url": "https://www.assertiveyield.com/blog/optimizing-session-revenue-per-mille-rpm-to-drive-more-revenue-for-digital-publishers/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/programmatic-insights/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:31:59+00:00",
+      "timestamp_utc": "2026-06-03T16:31:59+00:00",
+      "url": "https://www.assertiveyield.com/blog/programmatic-insights/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/publisher-metrics/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:00+00:00",
+      "timestamp_utc": "2026-06-03T16:32:00+00:00",
+      "url": "https://www.assertiveyield.com/blog/publisher-metrics/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/publisher-monetization-challenges/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:01+00:00",
+      "timestamp_utc": "2026-06-03T16:32:01+00:00",
+      "url": "https://www.assertiveyield.com/blog/publisher-monetization-challenges/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:02+00:00",
+      "timestamp_utc": "2026-06-03T16:32:02+00:00",
+      "url": "https://www.assertiveyield.com/blog/q224-ay-industry-insights-report-publisher-trends-global-programmatic-ad-revenue/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/qps-optimization-explained-greener-traffic-lower-costs/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:04+00:00",
+      "timestamp_utc": "2026-06-03T16:32:04+00:00",
+      "url": "https://www.assertiveyield.com/blog/qps-optimization-explained-greener-traffic-lower-costs/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:05+00:00",
+      "timestamp_utc": "2026-06-03T16:32:05+00:00",
+      "url": "https://www.assertiveyield.com/blog/reducing-bounce-rates-a-checklist-for-keeping-visitors-engaged-on-your-site/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:06+00:00",
+      "timestamp_utc": "2026-06-03T16:32:06+00:00",
+      "url": "https://www.assertiveyield.com/blog/shaping-a-greener-future-assertive-yield-releases-an-in-depth-look-at-green-advertising-and-scope-3-emissions/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tag/ad-revenue-management-tag/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:07+00:00",
+      "timestamp_utc": "2026-06-03T16:32:07+00:00",
+      "url": "https://www.assertiveyield.com/blog/tag/ad-revenue-management-tag/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tag/ai-optimization-tag/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:09+00:00",
+      "timestamp_utc": "2026-06-03T16:32:09+00:00",
+      "url": "https://www.assertiveyield.com/blog/tag/ai-optimization-tag/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tag/data-intelligence-tag/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:10+00:00",
+      "timestamp_utc": "2026-06-03T16:32:10+00:00",
+      "url": "https://www.assertiveyield.com/blog/tag/data-intelligence-tag/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tag/efficiency-&-sustainability-tag/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:11+00:00",
+      "timestamp_utc": "2026-06-03T16:32:11+00:00",
+      "url": "https://www.assertiveyield.com/blog/tag/efficiency-&-sustainability-tag/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tag/programmatic-trends-tag/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:13+00:00",
+      "timestamp_utc": "2026-06-03T16:32:13+00:00",
+      "url": "https://www.assertiveyield.com/blog/tag/programmatic-trends-tag/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/the-publishing-dynamics-why-90-of-publishers%E2%80%99-inventory-is-hidden-from-demand-partners/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:14+00:00",
+      "timestamp_utc": "2026-06-03T16:32:14+00:00",
+      "url": "https://www.assertiveyield.com/blog/the-publishing-dynamics-why-90-of-publishers%E2%80%99-inventory-is-hidden-from-demand-partners/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/top-five-2023-trends-in-programmatic-advertising/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:15+00:00",
+      "timestamp_utc": "2026-06-03T16:32:15+00:00",
+      "url": "https://www.assertiveyield.com/blog/top-five-2023-trends-in-programmatic-advertising/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:17+00:00",
+      "timestamp_utc": "2026-06-03T16:32:17+00:00",
+      "url": "https://www.assertiveyield.com/blog/tracking-the-metrics-that-matter-active-engagement-time-vs-time-spent-on-page/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/unlocking-the-potential-of-a-360%C2%B0-panorama-dashboard-for-publisher-monetization/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:18+00:00",
+      "timestamp_utc": "2026-06-03T16:32:18+00:00",
+      "url": "https://www.assertiveyield.com/blog/unlocking-the-potential-of-a-360%C2%B0-panorama-dashboard-for-publisher-monetization/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/what-are-the-challenges-programmatic-ssps-are-facing-in-2023/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:19+00:00",
+      "timestamp_utc": "2026-06-03T16:32:19+00:00",
+      "url": "https://www.assertiveyield.com/blog/what-are-the-challenges-programmatic-ssps-are-facing-in-2023/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/what-is-click-through-rate/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:20+00:00",
+      "timestamp_utc": "2026-06-03T16:32:20+00:00",
+      "url": "https://www.assertiveyield.com/blog/what-is-click-through-rate/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/what-is-inp/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:22+00:00",
+      "timestamp_utc": "2026-06-03T16:32:22+00:00",
+      "url": "https://www.assertiveyield.com/blog/what-is-inp/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/blog/why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:23+00:00",
+      "timestamp_utc": "2026-06-03T16:32:23+00:00",
+      "url": "https://www.assertiveyield.com/blog/why-publishers-should-invest-in-ai-powered-prebid-server-technologies-now/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-company-type-publishers/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:24+00:00",
+      "timestamp_utc": "2026-06-03T16:32:24+00:00",
+      "url": "https://www.assertiveyield.com/by-company-type-publishers/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-company-type-ssp/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:26+00:00",
+      "timestamp_utc": "2026-06-03T16:32:26+00:00",
+      "url": "https://www.assertiveyield.com/by-company-type-ssp/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-ad-operations-yield/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:27+00:00",
+      "timestamp_utc": "2026-06-03T16:32:27+00:00",
+      "url": "https://www.assertiveyield.com/by-team-type-ad-operations-yield/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-audience-development/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:28+00:00",
+      "timestamp_utc": "2026-06-03T16:32:28+00:00",
+      "url": "https://www.assertiveyield.com/by-team-type-audience-development/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-management-finance/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:29+00:00",
+      "timestamp_utc": "2026-06-03T16:32:29+00:00",
+      "url": "https://www.assertiveyield.com/by-team-type-management-finance/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-media-buying/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:31+00:00",
+      "timestamp_utc": "2026-06-03T16:32:31+00:00",
+      "url": "https://www.assertiveyield.com/by-team-type-media-buying/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-product-teams/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:32+00:00",
+      "timestamp_utc": "2026-06-03T16:32:32+00:00",
+      "url": "https://www.assertiveyield.com/by-team-type-product-teams/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/by-team-type-sales/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:33+00:00",
+      "timestamp_utc": "2026-06-03T16:32:33+00:00",
+      "url": "https://www.assertiveyield.com/by-team-type-sales/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/career-success/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:35+00:00",
+      "timestamp_utc": "2026-06-03T16:32:35+00:00",
+      "url": "https://www.assertiveyield.com/career-success/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/careers/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:36+00:00",
+      "timestamp_utc": "2026-06-03T16:32:36+00:00",
+      "url": "https://www.assertiveyield.com/careers/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/careers/backend-engineer-golang/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:37+00:00",
+      "timestamp_utc": "2026-06-03T16:32:37+00:00",
+      "url": "https://www.assertiveyield.com/careers/backend-engineer-golang/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/careers/sales-engineer-publisher-ad-tech/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:38+00:00",
+      "timestamp_utc": "2026-06-03T16:32:38+00:00",
+      "url": "https://www.assertiveyield.com/careers/sales-engineer-publisher-ad-tech/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/careers/sales-executive-amer/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:40+00:00",
+      "timestamp_utc": "2026-06-03T16:32:40+00:00",
+      "url": "https://www.assertiveyield.com/careers/sales-executive-amer/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/careers/senior-devops-engineer/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:41+00:00",
+      "timestamp_utc": "2026-06-03T16:32:41+00:00",
+      "url": "https://www.assertiveyield.com/careers/senior-devops-engineer/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/contact-us/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:42+00:00",
+      "timestamp_utc": "2026-06-03T16:32:42+00:00",
+      "url": "https://www.assertiveyield.com/contact-us/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/dashboards/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:44+00:00",
+      "timestamp_utc": "2026-06-03T16:32:44+00:00",
+      "url": "https://www.assertiveyield.com/dashboards/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/ebooks/all/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:45+00:00",
+      "timestamp_utc": "2026-06-03T16:32:45+00:00",
+      "url": "https://www.assertiveyield.com/ebooks/all/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/help-center/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:46+00:00",
+      "timestamp_utc": "2026-06-03T16:32:46+00:00",
+      "url": "https://www.assertiveyield.com/help-center/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/help-center/academy/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:47+00:00",
+      "timestamp_utc": "2026-06-03T16:32:47+00:00",
+      "url": "https://www.assertiveyield.com/help-center/academy/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/help-center/ay-glossary/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:49+00:00",
+      "timestamp_utc": "2026-06-03T16:32:49+00:00",
+      "url": "https://www.assertiveyield.com/help-center/ay-glossary/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/help-center/ay-support/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:50+00:00",
+      "timestamp_utc": "2026-06-03T16:32:50+00:00",
+      "url": "https://www.assertiveyield.com/help-center/ay-support/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/hits/all/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:51+00:00",
+      "timestamp_utc": "2026-06-03T16:32:51+00:00",
+      "url": "https://www.assertiveyield.com/hits/all/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/industry-insights/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:53+00:00",
+      "timestamp_utc": "2026-06-03T16:32:53+00:00",
+      "url": "https://www.assertiveyield.com/industry-insights/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/news/all/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:54+00:00",
+      "timestamp_utc": "2026-06-03T16:32:54+00:00",
+      "url": "https://www.assertiveyield.com/news/all/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/podcasts/all/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:55+00:00",
+      "timestamp_utc": "2026-06-03T16:32:55+00:00",
+      "url": "https://www.assertiveyield.com/podcasts/all/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/pricing-update/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:56+00:00",
+      "timestamp_utc": "2026-06-03T16:32:56+00:00",
+      "url": "https://www.assertiveyield.com/pricing-update/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/pricing/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:58+00:00",
+      "timestamp_utc": "2026-06-03T16:32:58+00:00",
+      "url": "https://www.assertiveyield.com/pricing/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/product-updates/all/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:32:59+00:00",
+      "timestamp_utc": "2026-06-03T16:32:59+00:00",
+      "url": "https://www.assertiveyield.com/product-updates/all/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/real-time-alerts/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:00+00:00",
+      "timestamp_utc": "2026-06-03T16:33:00+00:00",
+      "url": "https://www.assertiveyield.com/real-time-alerts/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/slice-and-dice/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:02+00:00",
+      "timestamp_utc": "2026-06-03T16:33:02+00:00",
+      "url": "https://www.assertiveyield.com/slice-and-dice/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/soc2-request/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:03+00:00",
+      "timestamp_utc": "2026-06-03T16:33:03+00:00",
+      "url": "https://www.assertiveyield.com/soc2-request/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:04+00:00",
+      "timestamp_utc": "2026-06-03T16:33:04+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/9gag/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:05+00:00",
+      "timestamp_utc": "2026-06-03T16:33:05+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/9gag/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/apartment-therapy/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:07+00:00",
+      "timestamp_utc": "2026-06-03T16:33:07+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/apartment-therapy/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/bauer-media-group/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:08+00:00",
+      "timestamp_utc": "2026-06-03T16:33:08+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/bauer-media-group/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/boons/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:09+00:00",
+      "timestamp_utc": "2026-06-03T16:33:09+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/boons/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/cambium-media/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:11+00:00",
+      "timestamp_utc": "2026-06-03T16:33:11+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/cambium-media/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/connatix/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:12+00:00",
+      "timestamp_utc": "2026-06-03T16:33:12+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/connatix/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/gumgum-inc/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:13+00:00",
+      "timestamp_utc": "2026-06-03T16:33:13+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/gumgum-inc/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/hitopic/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:14+00:00",
+      "timestamp_utc": "2026-06-03T16:33:14+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/hitopic/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/krone/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:16+00:00",
+      "timestamp_utc": "2026-06-03T16:33:16+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/krone/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/kurier-media-house/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:17+00:00",
+      "timestamp_utc": "2026-06-03T16:33:17+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/kurier-media-house/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/nativo/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:18+00:00",
+      "timestamp_utc": "2026-06-03T16:33:18+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/nativo/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/shinez/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:20+00:00",
+      "timestamp_utc": "2026-06-03T16:33:20+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/shinez/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/success-stories/world-history-encyclopedia/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:21+00:00",
+      "timestamp_utc": "2026-06-03T16:33:21+00:00",
+      "url": "https://www.assertiveyield.com/success-stories/world-history-encyclopedia/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/traffic-acquisition/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:22+00:00",
+      "timestamp_utc": "2026-06-03T16:33:22+00:00",
+      "url": "https://www.assertiveyield.com/traffic-acquisition/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/traffic-shaping-for-publishers/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:23+00:00",
+      "timestamp_utc": "2026-06-03T16:33:23+00:00",
+      "url": "https://www.assertiveyield.com/traffic-shaping-for-publishers/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/traffic-shaping/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:25+00:00",
+      "timestamp_utc": "2026-06-03T16:33:25+00:00",
+      "url": "https://www.assertiveyield.com/traffic-shaping/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/videos/all/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:26+00:00",
+      "timestamp_utc": "2026-06-03T16:33:26+00:00",
+      "url": "https://www.assertiveyield.com/videos/all/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/yield-intelligence/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:27+00:00",
+      "timestamp_utc": "2026-06-03T16:33:27+00:00",
+      "url": "https://www.assertiveyield.com/yield-intelligence/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/yield-manager/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:28+00:00",
+      "timestamp_utc": "2026-06-03T16:33:28+00:00",
+      "url": "https://www.assertiveyield.com/yield-manager/"
+    },
+    {
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.assertiveyield.com/yield-optimizer/",
+      "source": "inventory",
+      "status": 200,
+      "timestamp_local": "2026-06-03T16:33:30+00:00",
+      "timestamp_utc": "2026-06-03T16:33:30+00:00",
+      "url": "https://www.assertiveyield.com/yield-optimizer/"
+    }
+  ],
+  "forms_observed_not_submitted": [],
+  "skipped": [],
+  "target_url": "https://www.assertiveyield.com/",
+  "warc_path": "artifacts/warc/assertiveyield.warc.gz"
+}
