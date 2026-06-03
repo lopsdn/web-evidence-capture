@@ -2,9 +2,9 @@
 
 Status: `partial`
 
-Completed stage: `validate`
+Completed stage: `generate_report`
 
-Updated UTC: `2026-06-03T17:46:26+00:00`
+Updated UTC: `2026-06-03T17:49:19+00:00`
 
 Target URL: `https://www.assertiveyield.com/`
 
@@ -25,5 +25,6 @@ Archive ZIP files are created only by the final publishing job.
 - `package_wacz`
 - `hash_manifest`
 - `validate`
+- `generate_report`
 
 Folders from later stages can be absent or incomplete until the workflow reaches those stages.

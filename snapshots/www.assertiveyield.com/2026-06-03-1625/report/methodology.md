@@ -1,0 +1,22 @@
+# Methodology
+
+The capture followed a staged public-only process:
+
+1. Scope configuration and case initialization.
+2. Robots and sitemap capture.
+3. Public URL inventory.
+4. Public HTTP capture into mirror and WARC.
+5. Browser rendering for screenshots and PDFs.
+6. Privacy inspection using summary metadata.
+7. SingleFile export when available.
+8. Explicit WACZ page-index generation, WACZ packaging, and validation.
+9. Hash manifest, validation, and report generation.
+
+Access policy:
+
+- Public-only capture: `true`
+- Authentication attempted: `false`
+- Accounts created: `false`
+- Forms submitted: `false`
+
+The static mirror is a review aid. Original HTTP responses are preserved in WARC when WARC capture is available.

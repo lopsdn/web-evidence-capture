@@ -9,12 +9,13 @@
     "singlefile",
     "package_wacz",
     "hash_manifest",
-    "validate"
+    "validate",
+    "generate_report"
   ],
   "final": false,
   "run": "2026-06-03-1625",
   "snapshot_dir": "snapshots/www.assertiveyield.com/2026-06-03-1625",
-  "stage": "validate",
+  "stage": "generate_report",
   "target_url": "https://www.assertiveyield.com/",
-  "updated_utc": "2026-06-03T17:46:26+00:00"
+  "updated_utc": "2026-06-03T17:49:19+00:00"
 }

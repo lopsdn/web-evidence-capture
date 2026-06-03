@@ -1,3 +1,5 @@
 # Hashes
 
-SHA-256 hash lists for the snapshot. The generated hash list and file manifest are excluded from their own calculation.
+SHA-256 hashes for produced files, excluding generated hash lists and file manifests from their own calculation.
+
+Forensic value: hashes allow later integrity checks to detect file changes after capture.
