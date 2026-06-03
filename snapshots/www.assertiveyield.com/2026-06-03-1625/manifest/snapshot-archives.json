@@ -5,8 +5,8 @@
       "external_path": "snapshot-archives/www.assertiveyield.com/2026-06-03-1625/www.assertiveyield.com-2026-06-03-1625.zip",
       "filename": "www.assertiveyield.com-2026-06-03-1625.zip",
       "git_omission_reason": "Archive is larger than the configured Git commit threshold (99614720 bytes) and GitHub rejects individual Git files above 104857600 bytes.",
-      "sha256": "e356189345caf4a6e1ef820dd4dff595b8ee4ced9dd4f15d4902cc24e85f9f36",
-      "size_bytes": 1484154405,
+      "sha256": "958de834e8ca5ebe815d9f4762ff911abc1d0912eefd0a0221155915fcfa396f",
+      "size_bytes": 1484168810,
       "snapshot_path": ""
     },
     "website_html_zip": {
@@ -14,16 +14,16 @@
       "external_path": "snapshot-archives/www.assertiveyield.com/2026-06-03-1625/www.assertiveyield.com-2026-06-03-1625-website-html.zip",
       "filename": "www.assertiveyield.com-2026-06-03-1625-website-html.zip",
       "git_omission_reason": "Archive is larger than the configured Git commit threshold (99614720 bytes) and GitHub rejects individual Git files above 104857600 bytes.",
-      "sha256": "6ef554bc20352c3def942f6221f55ca2ef42c67f4d34e74105a0172edbd4c496",
-      "size_bytes": 424365657,
+      "sha256": "d71de001e5c1baaa54d21172d03ef977e28fe46ae5eb933f2ca689029324355c",
+      "size_bytes": 424372284,
       "snapshot_path": ""
     }
   },
   "complete_snapshot_zip": "www.assertiveyield.com-2026-06-03-1625.zip",
   "complete_snapshot_zip_committed_to_snapshot": false,
   "complete_snapshot_zip_external_path": "snapshot-archives/www.assertiveyield.com/2026-06-03-1625/www.assertiveyield.com-2026-06-03-1625.zip",
-  "complete_snapshot_zip_sha256": "e356189345caf4a6e1ef820dd4dff595b8ee4ced9dd4f15d4902cc24e85f9f36",
-  "complete_snapshot_zip_size_bytes": 1484154405,
+  "complete_snapshot_zip_sha256": "958de834e8ca5ebe815d9f4762ff911abc1d0912eefd0a0221155915fcfa396f",
+  "complete_snapshot_zip_size_bytes": 1484168810,
   "git_file_size_limit_bytes": 104857600,
   "large_archive_commit_threshold_bytes": 99614720,
   "large_archive_policy": "Archives larger than the configured threshold are moved to snapshot-archives/ and are not committed to Git.",
@@ -31,6 +31,6 @@
   "website_html_zip_committed_to_snapshot": false,
   "website_html_zip_external_path": "snapshot-archives/www.assertiveyield.com/2026-06-03-1625/www.assertiveyield.com-2026-06-03-1625-website-html.zip",
   "website_html_zip_note": "Smaller package for browsing captured HTML locally.",
-  "website_html_zip_sha256": "6ef554bc20352c3def942f6221f55ca2ef42c67f4d34e74105a0172edbd4c496",
-  "website_html_zip_size_bytes": 424365657
+  "website_html_zip_sha256": "d71de001e5c1baaa54d21172d03ef977e28fe46ae5eb933f2ca689029324355c",
+  "website_html_zip_size_bytes": 424372284
 }
